@@ -429,7 +429,7 @@ footer p{font-size:.73rem;color:var(--muted);}
     </div>
     <div class="cta-btns">
       <a href="mailto:m.anilaslakci@gmail.com" class="btn-gold"><span>E-posta Gönder</span></a>
-      <a href="/portfolyo/" target="_blank" rel="noopener noreferrer" class="btn-outline">Projeleri Gör</a>
+      <a href="/portfolyo/" class="btn-outline">Projeleri Gör</a>
     </div>
   </div>
 
@@ -555,7 +555,7 @@ footer p{font-size:.73rem;color:var(--muted);}
     <div class="contact-simple reveal">
       <div class="s-tag"><div class="s-tag-line"></div><span>İletişim</span></div>
       <h2 class="s-title">Konuşalım.</h2>
-      <p class="contact-copy">Kariyer fırsatları, proje bazlı çalışmalar veya freelance ihtiyaçlar için bana e-posta üzerinden ulaşabilirsin.</p>
+      <p class="contact-copy">Kariyer fırsatları, proje bazlı çalışmalar veya freelance ihtiyaçlar için bana e-posta veya LinkedIn üzerinden ulaşabilirsin.</p>
       <a href="mailto:m.anilaslakci@gmail.com" class="mail-link">
         <span class="mail-icon"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg></span>
         <span><small>E-posta</small><strong>m.anilaslakci@gmail.com</strong></span>
@@ -847,26 +847,42 @@ function closeIntro(){
   },500);
 }
 
-// Intro açıkken kaydırma, dokunmatik sürükleme ve klavye ile sayfa hareketini engelle.
-document.documentElement.classList.add('intro-locked');
-const blockIntroScroll=e=>{
-  if(!document.body.classList.contains('intro-locked')) return;
-  e.preventDefault();
-};
-window.addEventListener('wheel',blockIntroScroll,{passive:false});
-window.addEventListener('touchmove',blockIntroScroll,{passive:false});
-window.addEventListener('keydown',e=>{
-  if(document.body.classList.contains('intro-locked') && ['ArrowDown','ArrowUp','PageDown','PageUp','Home','End',' '].includes(e.key)){
+// Portfolyodaki “Ana Siteye Dön” bağlantısı ?skipIntro=1 parametresi gönderir.
+// Bu durumda açılış ekranı gösterilmeden ana sayfa doğrudan açılır.
+const skipIntro = new URLSearchParams(window.location.search).get('skipIntro') === '1';
+
+if(skipIntro){
+  document.getElementById('intro').style.display='none';
+  document.getElementById('curtain').style.display='none';
+  document.getElementById('site').classList.add('visible');
+  document.documentElement.classList.remove('intro-locked');
+  document.body.classList.remove('intro-locked');
+  document.body.style.position='';
+  document.body.style.inset='';
+  document.body.style.width='';
+  document.body.style.touchAction='';
+  window.history.replaceState({}, document.title, window.location.pathname + window.location.hash);
+  window.scrollTo(0,0);
+}else{
+  // Intro açıkken kaydırma, dokunmatik sürükleme ve klavye ile sayfa hareketini engelle.
+  document.documentElement.classList.add('intro-locked');
+  const blockIntroScroll=e=>{
+    if(!document.body.classList.contains('intro-locked')) return;
     e.preventDefault();
-  }
-});
+  };
+  window.addEventListener('wheel',blockIntroScroll,{passive:false});
+  window.addEventListener('touchmove',blockIntroScroll,{passive:false});
+  window.addEventListener('keydown',e=>{
+    if(document.body.classList.contains('intro-locked') && ['ArrowDown','ArrowUp','PageDown','PageUp','Home','End',' '].includes(e.key)){
+      e.preventDefault();
+    }
+  });
 
-
-// Açılış ekranı etkileşim bekleyerek ana içeriği kalıcı biçimde gizlemez.
-// Kullanıcı Keşfet butonuna basmazsa açılış 15 saniye görünür ve ardından site otomatik açılır.
-window.setTimeout(()=>{
-  if(document.body.classList.contains('intro-locked')) closeIntro();
-}, 15000);
+  // Kullanıcı Keşfet butonuna basmazsa açılış 15 saniye görünür ve ardından site otomatik açılır.
+  window.setTimeout(()=>{
+    if(document.body.classList.contains('intro-locked')) closeIntro();
+  }, 15000);
+}
 
 // NAV
 window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('sc',scrollY>60));
