@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://anilaslakci.com/sitemap.xml
+Sitemap: https://anilaslakci.com.tr/sitemap.xml
