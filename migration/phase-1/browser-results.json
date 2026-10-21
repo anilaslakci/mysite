@@ -1,0 +1,275 @@
+{
+  "desktop": {
+    "width": 1440,
+    "height": 1000,
+    "screenshotBytesEqual": true
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "screenshotBytesEqual": true
+  },
+  "modals": [
+    {
+      "galleryCount": 3,
+      "id": 1,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 2,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 2,
+      "id": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 2,
+      "id": 4,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 2,
+      "id": 5,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 6,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 7,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 2,
+      "id": 8,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 6,
+      "id": 9,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 7,
+      "id": 10,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 6,
+      "id": 11,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 4,
+      "id": 12,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 13,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 2,
+      "id": 14,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 1,
+      "id": 15,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 16,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 4,
+      "id": 17,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 18,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 19,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 20,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 1,
+      "id": 21,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 1,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 2,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 2,
+      "id": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 2,
+      "id": 4,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 2,
+      "id": 5,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 6,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 7,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 2,
+      "id": 8,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 6,
+      "id": 9,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 7,
+      "id": 10,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 6,
+      "id": 11,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 4,
+      "id": 12,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 13,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 2,
+      "id": 14,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 1,
+      "id": 15,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 16,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 4,
+      "id": 17,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 18,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 19,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 3,
+      "id": 20,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "galleryCount": 1,
+      "id": 21,
+      "lang": "en",
+      "open": true
+    }
+  ],
+  "englishDataAnalysisVisible": 5,
+  "zoomOpenAndImageLoaded": true,
+  "mobileProject21Opened": true,
+  "analyticsBlockedByPreviewCSP": true,
+  "limitations": [
+    "BrowserAct core unavailable: DLL access denied; checked using in-app browser",
+    "External URL availability not tested",
+    "Existing aria-hidden modal defect intentionally preserved"
+  ]
+}
