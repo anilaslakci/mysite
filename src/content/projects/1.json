@@ -3,7 +3,7 @@
   "order": 1,
   "category": "data-analysis",
   "tr": {
-    "title": "Pazaryeri Satış Analiz Aracı",
+    "title": "Pazaryeri Satış Analiz Aracı TEST",
     "summary": "Entegra'dan alınan ham pazaryeri satış verilerini ay, platform ve SKU bazında okunabilir raporlara dönüştüren masaüstü analiz aracı.",
     "intro": "Entegra'dan alınan ham pazaryeri satış verilerini ay, platform ve SKU bazında okunabilir raporlara dönüştüren masaüstü analiz aracı.",
     "problem": "Entegra ERP'den dışa aktarılan pazaryeri satış verileri ham haliyle binlerce satırlık, yorumlanması zor bir tablo olarak geliyor. Ay bazlı, platform bazlı veya ürün bazlı özet çıkarmak manuel olarak saatler sürüyor.",
@@ -22,8 +22,7 @@
       "OpenPyXL"
     ],
     "galleryTitle": "Uygulama İçi Görseller",
-    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
-    "legacyModalTail": ""
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz."
   },
   "en": {
     "title": "Marketplace Sales Analyzer",
@@ -45,8 +44,7 @@
       "OpenPyXL"
     ],
     "galleryTitle": "In-App Screenshots",
-    "galleryIntro": "Click any image to enlarge it.",
-    "legacyModalTail": ""
+    "galleryIntro": "Click any image to enlarge it."
   },
   "gallery": [
     {
@@ -64,6 +62,5 @@
       "altTR": "Pazaryeri Satış Analiz Aracı 3",
       "altEN": "Marketplace Sales Analyzer 3"
     }
-  ],
-  "links": []
+  ]
 }
