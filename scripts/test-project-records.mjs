@@ -16,7 +16,8 @@ check('All 84 card/modal markup round trips preserve content, formatting, techno
   for(const p of records)for(const lang of ['tr','en'])for(const kind of ['card','modal']){
     const html=env.render(`portfolio/${kind}.njk`,{project:p,t:p[lang],lang,category:categories.find(c=>c.key===p.category),portfolio:{words}});
     const expected=source.projects.find(x=>x.id===p.id).translations[lang][kind].html+(kind==='modal'?(p[lang].legacyModalTail||''):'');
-    assert.equal(legacyPortfolioMarkup(html),normalizeMarkup(expected),`${p.id}.${lang}.${kind}`);
+    const historical=html.replace(/ role="dialog" aria-modal="true" aria-labelledby="[^"]+"/g,'').replace(/ aria-label="(?:Close project|Projeyi kapat)"/g,'').replace(/<h2 id="modal-title-[^"]+">/g,'<h2>').replaceAll('src="/assets/','src="../assets/').replace('style="display:flex"',lang==='en'?'style="display:none"':'style="display:flex"');
+    assert.equal(legacyPortfolioMarkup(historical),normalizeMarkup(expected),`${p.id}.${lang}.${kind}`);
   }
 });
 check('All gallery references resolve to original image manifest bytes, including alt translations',()=>{
@@ -46,6 +47,6 @@ check('Duplicate IDs/invalid orders, missing translation, unsafe content and mis
   test=structuredClone(records);test[0].gallery[0].file='/assets/portfolio/missing-image.png';assert.throws(()=>validateProjects(test));
 });
 check('Referenced/shared image deletion guard rejects removal without deleting any file',()=>{const p=records[0],shared=structuredClone(p);shared.id=22;shared.order=22;assert.throws(()=>assertMediaUnused([p,shared],p.gallery[0].file),/1, 22/);});
-check('Project count is server-generated and language JS has no fixed stat1_num',()=>{const html=fs.readFileSync('_site/portfolyo/index.html','utf8');assert(html.includes('<strong id="stat1-num">21</strong>'));const js=fs.readFileSync('src/assets/js/portfolio-1.js','utf8');assert(!js.includes('stat1_num'));assert(js.includes("querySelectorAll('#grid-' + lang + ' .project-card').length"));});
-fs.writeFileSync('migration/phase-6/historical-record-results.json',JSON.stringify({passed:checks.length,failed:0,checks},null,2)+'\n');
+check('Project count is server-generated and language JS has no fixed stat1_num',()=>{const html=fs.readFileSync('_site/portfolyo/index.html','utf8');assert(html.includes('<strong id="stat1-num">21</strong>'));const js=fs.readFileSync('src/assets/js/portfolio-1.js','utf8');assert(!js.includes('stat1_num'));assert(js.includes("document.documentElement.lang"));});
+fs.writeFileSync('migration/phase-7/historical-record-results.json',JSON.stringify({passed:checks.length,failed:0,checks},null,2)+'\n');
 console.log(`${checks.length} project/CMS data checks passed; 84 lossless card/modal comparisons included.`);

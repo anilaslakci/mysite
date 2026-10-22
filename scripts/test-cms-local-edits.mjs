@@ -35,20 +35,20 @@ try{
   const additional=structuredClone(first);additional.id=22;additional.order=22;additional.category='finance';
   additional.links=[{url:'/portfolyo/',labelTR:first.tr.title,labelEN:first.en.title}];put('22.json',additional);
   build(editedOutput);
-  const html=fs.readFileSync(`${editedOutput}/portfolyo/index.html`,'utf8');
+  const html=fs.readFileSync(`${editedOutput}/portfolyo/index.html`,'utf8')+fs.readFileSync(`${editedOutput}/en/portfolio/index.html`,'utf8');
   assert(html.includes('<strong id="stat1-num">22</strong>'));assert.equal((html.match(/data-pid=/g)||[]).length,44);assert.equal((html.match(/id="modal-(?:tr|en)-\d+"/g)||[]).length,44);
   checks.push('Isolated 22nd record produces 44 cards/modals and server counter 22');
   const card=html.match(/<article\b[^>]*data-lang="tr"[^>]*data-pid="1"[\s\S]*?<\/article>/)[0];
   assert(card.includes(edited.tr.title));assert(card.includes('data-category="marketplace"'));assert(card.includes(edited.tr.technologies.at(-1)));
   assert(html.includes(edited.en.intro));checks.push('TR title, EN intro, category and technology edits appear after a real Eleventy build');
-  assert(html.includes('../'+upload));assert.equal(hash(fs.readFileSync(`${editedOutput}/${upload}`)),hash(fs.readFileSync(upload)));checks.push('Locally copied PNG gallery addition is published with exact bytes; this is not a CMS upload test');
+  assert(html.includes('/'+upload));assert.equal(hash(fs.readFileSync(`${editedOutput}/${upload}`)),hash(fs.readFileSync(upload)));checks.push('Locally copied PNG gallery addition is published with exact bytes; this is not a CMS upload test');
   assert(html.includes('href="/portfolyo/"'));checks.push('Optional project links render from structured data');
   fs.writeFileSync(path.join(temp,'1.json'),originals.get('1.json'));fs.unlinkSync(path.join(temp,'22.json'));
   build(restoredOutput);
   const restored=fs.readFileSync(`${restoredOutput}/portfolyo/index.html`);
   assert.equal(hash(restored),hash(fs.readFileSync('_site/portfolyo/index.html')));checks.push('Undo restores the previous generated portfolio byte-for-byte and count 21');
   for(const [name,bytes]of originals)assert.deepEqual(fs.readFileSync(path.join(sourceDir,name)),bytes);assert.equal(fs.readdirSync(sourceDir).length,21);checks.push('Production source records never changed; synthetic record exists only in ignored QA output');
-  fs.writeFileSync('migration/phase-6/local-edit-results.json',JSON.stringify({passed:checks.length,failed:0,editorTested:false,fixtureContent:'Existing project 1 copied temporarily; no invented project or description saved to production records',checks},null,2)+'\n');
+  fs.writeFileSync('migration/phase-7/local-edit-results.json',JSON.stringify({passed:checks.length,failed:0,editorTested:false,fixtureContent:'Existing project 1 copied temporarily; no invented project or description saved to production records',checks},null,2)+'\n');
   console.log(`${checks.length} isolated CMS-style edit/build/undo checks passed; real CMS editor NOT tested.`);
 }finally{
   if(ownsUpload){assert(upload.startsWith('assets/portfolio/qa-upload-'));fs.unlinkSync(upload);}

@@ -1,0 +1,21 @@
+{
+  "passed": 14,
+  "failed": 0,
+  "checks": [
+    "Add projects 22 and 23; unset order appends with deterministic ID tie-break",
+    "Existing order can change independently of ID",
+    "Equal orders retain both records and sort by ID",
+    "Archive removes both translations/modals and counter; unarchive restores",
+    "Delete one project without renumbering or losing remaining modals",
+    "New category from data generates filters and safe default color",
+    "Category label edits propagate; archive hides unused filter; unused category can be deleted",
+    "Deleting a referenced category rejects the build, including archived projects",
+    "Tech, independent translations, gallery ordering and shared media survive a build",
+    "Optional links can be added and removed",
+    "Minimal bilingual project works without optional detail text, tech, gallery or order",
+    "Empty portfolio builds with zero count, no cards/modals or category filters",
+    "Duplicate IDs, bad ID/order/archive, missing translations, unsafe HTML/URLs, bad media/alts fail",
+    "Original source files remain byte-identical to synced CMS baseline"
+  ],
+  "realCmsEditor": false
+}

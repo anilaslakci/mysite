@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html id="html-root" lang="{{ pageLocale | default('tr') }}" data-page-key="portfolio">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2"></script>
+<script src="/assets/js/analytics.js"></script>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title id="page-title">Mustafa Anıl Aşlakcı — Proje Portfolyosu</title>
+<meta content="Mustafa Anıl Aşlakcı'nın e-ticaret, pazaryeri, operasyon otomasyonu, veri analizi ve yazılım projelerinden oluşan proje portfolyosu." name="description"/>
+<meta content="index, follow, max-image-preview:large" name="robots"/>
+<meta content="Mustafa Anıl Aşlakcı" name="author"/>
+<link href="https://anilaslakci.com.tr/portfolyo/" rel="canonical"/>
+<link href="https://anilaslakci.com.tr/" rel="me"/>
+<meta content="profile" property="og:type"/>
+<meta content="tr_TR" property="og:locale"/>
+<meta content="Mustafa Anıl Aşlakcı Proje Portfolyosu" property="og:site_name"/>
+<meta content="Mustafa Anıl Aşlakcı | Proje Portfolyosu" property="og:title"/>
+<meta content="E-ticaret, pazaryeri araçları, operasyon otomasyonu, veri analizi ve yazılım projeleri." property="og:description"/>
+<meta content="https://anilaslakci.com.tr/portfolyo/" property="og:url"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="Mustafa Anıl Aşlakcı | Proje Portfolyosu" name="twitter:title"/>
+<meta content="E-ticaret, otomasyon, veri analizi ve yazılım projeleri." name="twitter:description"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://anilaslakci.com.tr/portfolyo/#profile",
+  "url": "https://anilaslakci.com.tr/portfolyo/",
+  "name": "Mustafa Anıl Aşlakcı Proje Portfolyosu",
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://anilaslakci.com.tr/#website",
+    "url": "https://anilaslakci.com.tr/",
+    "name": "Mustafa Anıl Aşlakcı"
+  },
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://anilaslakci.com.tr/#person",
+    "name": "Mustafa Anıl Aşlakcı",
+    "alternateName": ["Anıl Aşlakcı", "M. Anıl Aşlakcı"],
+    "url": "https://anilaslakci.com.tr/",
+    "jobTitle": "E-Ticaret Uzmanı",
+    "knowsAbout": ["E-Ticaret", "Pazaryeri Yönetimi", "T-Soft", "ERP Entegrasyonu", "Python", "Veri Analizi", "Operasyon Otomasyonu"],
+    "sameAs": [
+      "https://anilaslakci.com.tr/",
+      "https://anilaslakci.com.tr/portfolyo/"
+    ]
+  }
+}
+</script>
+<link href="/assets/portfolio/6bf4bbc5a1b9331a6934f3b19f640fbd230c82bc975b1e4bad412a9d80a9f2ef.png" rel="icon" type="image/png"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&amp;family=DM+Sans:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/assets/css/portfolio-1.css">
+</head>
+<body>
+<header class="header">
+<nav class="nav">
+<a class="brand" href="#"><span id="brand-name">Mustafa Anıl Aşlakcı</span> <span class="sub" id="brand-sub">/ Proje Portfolyosu</span></a>
+<div class="nav-right">
+<a aria-label="Ana siteye dön" class="home-link" href="/?skipIntro=1" id="home-link">
+<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M15 18l-6-6 6-6"></path><path d="M9 12h10"></path></svg>
+<span id="home-link-text">Ana Siteye Dön</span>
+</a>
+<span class="nav-note" id="nav-tag">E-ticaret • Otomasyon • Veri Analizi</span>
+<!--language-switch-->
+</div>
+</nav>
+</header>
+<section class="hero">
+<div class="intro-card">
+<div class="kicker" id="kicker">Proje Portfolyosu</div>
+<h1 id="h1">Seçili Çalışmalar</h1>
+<p id="hero-p">Bu portfolyo; e-ticaret operasyonları, pazaryeri süreçleri, stok takibi, veri analizi ve yazılım geliştirme alanlarında ürettiğim seçili projeleri gösterir. Odak noktam, tekrar eden işleri azaltan, hataları önleyen ve karar almayı hızlandıran pratik çözümler geliştirmek.</p>
+<div class="stats">
+<div class="stat"><strong id="stat1-num">{{ portfolio.projects | length }}</strong><span id="stat1-lbl">Tamamlanan Proje</span></div>
+<div class="stat"><strong id="stat2-num">PyQt5 · Flask · JS</strong><span id="stat2-lbl">Kullanılan Teknolojiler</span></div>
+<div class="stat"><strong id="stat3-num">Uçtan Uca</strong><span id="stat3-lbl">Geliştirme</span></div>
+</div>
+</div>
+</section>
+<main class="wrap">
+<div class="section-title"><h2 id="section-title">Projeler</h2><p id="section-sub">Kartlara tıklayınca detay açılır. Görseller büyütülebilir.</p></div>
+{% set lang = pageLocale | default('tr') %}
+<div class="filters" id="filters-{{ lang }}"><button class="filter-btn active" data-lang="{{ lang }}" onclick="filterProjects('all', this)">{{ portfolio.words[lang].all }}</button>{% for category in portfolio.categories %}<button class="filter-btn" data-lang="{{ lang }}" onclick="filterProjects('{{ category.key }}', this)">{{ category[lang] | escape }}</button>{% endfor %}</div>
+<div class="grid" id="grid-{{ lang }}">{% for project in portfolio.projects %}{% set t = project[lang] %}{% set category = project.categoryInfo %}{% include "portfolio/card.njk" %}{% endfor %}</div>
+</main><div id="modals-{{ lang }}">{% for project in portfolio.projects %}{% set t = project[lang] %}{% set category = project.categoryInfo %}{% include "portfolio/modal.njk" %}{% endfor %}</div>
+<div class="zoom" id="zoom" role="dialog" aria-modal="true" aria-hidden="true" aria-label="{% if pageLocale == 'en' %}Image preview{% else %}Görsel önizleme{% endif %}" onclick="closeZoom()">
+<button id="zoom-close" class="close" aria-label="{% if pageLocale == 'en' %}Close image{% else %}Görseli kapat{% endif %}" onclick="event.stopPropagation();closeZoom()">×</button>
+<img alt="" id="zoom-img"/>
+<div class="zoom-note" id="zoom-note">Kapatmak için görsele ya da boş alana tıkla • ESC</div>
+</div>
+<footer class="footer" id="footer-text">Mustafa Anıl Aşlakcı — Proje Portfolyosu. Görseller uygulama içi ekran görüntülerinden oluşur.</footer>
+<script src="/assets/js/portfolio-1.js"></script>
+</body>
+</html>

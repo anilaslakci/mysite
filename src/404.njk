@@ -1,7 +1,8 @@
 ---
 permalink: /404.html
+is404: true
 ---
-{% extends "blog/base.njk" %}
+{% set view = blog.views[0] %}{% extends "blog/base.njk" %}
 {% block title %}Sayfa bulunamadı | Mustafa Anıl Aşlakcı{% endblock %}
 {% block description %}Aradığınız sayfa bulunamadı. Ana sayfa, blog veya portfolyodan devam edebilirsiniz.{% endblock %}
 {% block canonicalPath %}/404.html{% endblock %}

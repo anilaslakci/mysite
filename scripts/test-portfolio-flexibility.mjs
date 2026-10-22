@@ -18,7 +18,7 @@ const build=(name,fail=false)=>{
   const out=path.join(work,name);
   try {execFileSync(process.execPath,['node_modules/@11ty/eleventy/cmd.cjs',`--output=${out}`],{env:{...process.env,PORTFOLIO_TEST_DIR:dir,PORTFOLIO_CATEGORY_TEST_DIR:cats},stdio:'pipe'});assert(!fail,'Expected build rejection');}
   catch(e){if(fail&&e.status)return '';throw e;}
-  return fs.readFileSync(path.join(out,'portfolyo/index.html'),'utf8');
+  return fs.readFileSync(path.join(out,'portfolyo/index.html'),'utf8')+fs.readFileSync(path.join(out,'en/portfolio/index.html'),'utf8');
 };
 const check=(name,fn)=>{fn();checks.push(name);};
 const load=()=>loadPortfolio({directory:dir,categoryDirectory:cats});
@@ -42,7 +42,7 @@ try {
   check('Tech, independent translations, gallery ordering and shared media survive a build',()=>{p23.tr.title=JSON.parse(original.get('3.json')).tr.title;p23.en.intro=JSON.parse(original.get('4.json')).en.intro;p23.tr.technologies.push('JavaScript');p23.gallery.push({...base.gallery[0]});p23.gallery.reverse();put(p23);const h=build('content-edits');assert(h.includes(p23.tr.title));assert(h.includes(p23.en.intro));const p=load().projects.find(p=>p.id===23);assert.equal(p.gallery.at(-1).file,base.gallery[0].file);assert.throws(()=>assertMediaUnused([p22,p23],base.gallery[0].file),/22, 23/);});
   check('Optional links can be added and removed',()=>{p23.links=[{url:'/portfolyo/',labelTR:base.tr.title,labelEN:base.en.title}];put(p23);assert(build('links').includes(`href="/portfolyo/">${base.tr.title}</a>`));delete p23.links;put(p23);assert(!build('links-removed').includes(`href="/portfolyo/">${base.tr.title}</a>`));});
   check('Minimal bilingual project works without optional detail text, tech, gallery or order',()=>{put({id:24,category:'finance',tr:{title:base.tr.title,summary:base.tr.summary},en:{title:base.en.title,summary:base.en.summary}});count(build('minimal'),23);});
-  check('Empty portfolio builds with zero count, no cards/modals or category filters',()=>{const empty=fs.mkdtempSync(path.join(work,'empty-'));const p=loadPortfolio({directory:empty,categoryDirectory:cats});assert.equal(p.projects.length,0);execFileSync(process.execPath,['node_modules/@11ty/eleventy/cmd.cjs',`--output=${path.join(work,'empty-site')}`],{env:{...process.env,PORTFOLIO_TEST_DIR:empty,PORTFOLIO_CATEGORY_TEST_DIR:cats},stdio:'pipe'});count(fs.readFileSync(path.join(work,'empty-site/portfolyo/index.html'),'utf8'),0);});
+  check('Empty portfolio builds with zero count, no cards/modals or category filters',()=>{const empty=fs.mkdtempSync(path.join(work,'empty-'));const p=loadPortfolio({directory:empty,categoryDirectory:cats});assert.equal(p.projects.length,0);execFileSync(process.execPath,['node_modules/@11ty/eleventy/cmd.cjs',`--output=${path.join(work,'empty-site')}`],{env:{...process.env,PORTFOLIO_TEST_DIR:empty,PORTFOLIO_CATEGORY_TEST_DIR:cats},stdio:'pipe'});count(fs.readFileSync(path.join(work,'empty-site/portfolyo/index.html'),'utf8')+fs.readFileSync(path.join(work,'empty-site/en/portfolio/index.html'),'utf8'),0);});
   check('Duplicate IDs, bad ID/order/archive, missing translations, unsafe HTML/URLs, bad media/alts fail',()=>{
     const invalid=[p=>p.id=0,p=>p.order=-1,p=>p.archived='yes',p=>delete p.en,p=>p.tr.summary='<script>x</script>',p=>p.tr.summary='<strong>x',p=>p.gallery[0].file='/assets/portfolio/../x.png',p=>p.gallery[0].file='/assets/portfolio/missing.png',p=>p.gallery[0].altEN='',p=>p.links=[{url:'javascript:alert(1)',labelTR:'x',labelEN:'x'}]];
     for(const edit of invalid){const p=structuredClone(base);edit(p);assert.throws(()=>validateProjects([p]));}assert.throws(()=>validateProjects([base,base]),/Duplicate project id/);
@@ -52,6 +52,6 @@ try {
   check('Original source files remain byte-identical to synced CMS baseline',()=>{assert.equal(fs.readdirSync('src/content/projects').length,original.size);for(const [f,b]of original)assert.deepEqual(fs.readFileSync(`src/content/projects/${f}`),b);for(const [f,h]of categoriesBefore)assert.equal(hash(fs.readFileSync(`src/content/categories/${f}`)),h);});
   // Keep an ignored fixture for explicit browser checks; this never touches real records.
   fs.writeFileSync(path.join(work,'fixture-info.json'),JSON.stringify({projects:dir,categories:cats,output:path.join(work,'minimal'),count:23},null,2));
-  fs.mkdirSync('migration/phase-4',{recursive:true});fs.writeFileSync('migration/phase-4/flexibility-results.json',JSON.stringify({passed:checks.length,failed:0,checks,realCmsEditor:false},null,2)+'\n');
+  fs.mkdirSync('migration/phase-4',{recursive:true});fs.writeFileSync('migration/phase-7/flexibility-results.json',JSON.stringify({passed:checks.length,failed:0,checks,realCmsEditor:false},null,2)+'\n');
   console.log(`${checks.length} isolated flexibility scenarios passed (real Eleventy builds).`);
 } catch(error) { console.error(error);process.exitCode=1; }

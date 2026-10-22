@@ -6,7 +6,7 @@ import { loadPortfolio } from '../lib/portfolio.mjs';
 const {projects,categories} = loadPortfolio();
 const outputDir = process.env.SITE_TEST_OUTPUT || '_site';
 const pages = JSON.parse(fs.readFileSync('migration/phase-2/extraction-manifest.json')).pages;
-const html = fs.readFileSync(`${outputDir}/portfolyo/index.html`,'utf8');
+const html = fs.readFileSync(`${outputDir}/portfolyo/index.html`,'utf8')+fs.readFileSync(`${outputDir}/en/portfolio/index.html`,'utf8');
 assert.equal((html.match(/data-pid=/g)||[]).length,projects.length*2);
 assert.equal((html.match(/id="modal-(?:tr|en)-[0-9a-f-]+"/g)||[]).length,projects.length*2);
 assert(html.includes(`<strong id="stat1-num">${projects.length}</strong>`));
@@ -24,7 +24,7 @@ for (const file of pages) {
     if(!ref || /^(?:https?:|mailto:|tel:|data:|#|\/\/)/.test(ref)) continue;
     const [url,fragment]=ref.split('#');
     let dest=path.posix.normalize(url.startsWith('/')?url.slice(1):path.posix.join(path.posix.dirname(file),url));
-    dest=dest.split('?')[0]; if(!dest||dest.endsWith('/'))dest+='index.html';
+    dest=dest.split('?')[0]; if(dest==='.')dest='';if(!dest||dest.endsWith('/'))dest+='index.html';
     const absolute=path.resolve(outputDir,dest);assert(absolute.startsWith(path.resolve(outputDir)+path.sep),`Outside output: ${ref}`);
     assert(fs.existsSync(absolute),`${file}: missing ${ref}`);
     if(fragment)assert(fs.readFileSync(absolute,'utf8').includes(`id="${fragment}"`),`${file}: missing fragment ${ref}`);

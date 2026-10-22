@@ -77,7 +77,7 @@ content:
           Küçük sıra önce gelir. Boş bırakılanlar sonda gösterilir; eşit sırada kalıcı kimlik kullanılır.
           Proje listesi sayı ile sıralanır; sürükle-bırak değildir.
       - name: archived
-        label: Arşivle (sitede gizle)
+        label: Arşivlendi
         type: boolean
         default: false
         description: >-
@@ -90,11 +90,11 @@ content:
         options:
           collection: categories
           value: '{fields.key}'
-          label: '{fields.tr} / {fields.en} (arşiv: {fields.archived})'
+          label: '{fields.tr}'
           search: key,tr,en
         description: >-
-          Arşiv değeri true olan kategoriyi seçmeyin. Editör aktif kategori filtresi sunmaz; arşivli kategori
-          kullanımı derlemede reddedilir.
+          Kategori adını seçin. Arşivli kategoriyi kullanmadan önce Kategoriler ekranından yeniden
+          etkinleştirin; geçersiz referanslar derlemede yakalanır.
       - name: tr
         label: Türkçe
         type: object
@@ -133,7 +133,7 @@ content:
             label: Detay teknoloji etiketleri
             type: string
             list: true
-            description: Bazı mevcut projelerde kart listesinden farklıdır; iki liste ayrı korunur.
+            description: Boş bırakılırsa karttaki teknoloji etiketleri kullanılır. Farklı bir liste isterseniz doldurun.
           - name: galleryTitle
             label: Galeri başlığı
             type: string
@@ -182,7 +182,7 @@ content:
             label: Detay teknoloji etiketleri
             type: string
             list: true
-            description: Bazı mevcut projelerde kart listesinden farklıdır; iki liste ayrı korunur.
+            description: Boş bırakılırsa karttaki teknoloji etiketleri kullanılır. Farklı bir liste isterseniz doldurun.
           - name: galleryTitle
             label: Galeri başlığı
             type: string
@@ -295,7 +295,7 @@ content:
         pattern: ^#[a-fA-F0-9]{6}$
         description: 'Örnek: #48C9B0. Boş bırakılırsa mevcut turkuaz renk kullanılır.'
       - name: archived
-        label: Kategoriyi arşivle
+        label: Arşivlendi
         type: boolean
         default: false
         description: >-
@@ -354,7 +354,7 @@ content:
           Mevcut dosyayı seçin veya yeni yükleyin. Aynı dosya için tek arşiv kaydı oluşturun. Kullanılan bir
           kaydı başka dosyaya yönlendirmek yerine yeni kayıt oluşturun.
       - name: archived
-        label: Görseli arşivle (dosyayı koru)
+        label: Arşivlendi
         type: boolean
         default: false
         description: >-
@@ -380,6 +380,7 @@ content:
       primary: title
       fields:
         - title
+        - locale
         - slug
         - status
         - publishAt
@@ -406,18 +407,26 @@ content:
           generate: false
       - name: translationKey
         label: Çeviri eşleştirme kimliği
-        type: uuid
-        hidden: true
-        readonly: true
-        options:
-          editable: false
-          generate: false
-        description: Gelecekteki dil eşleşmesi için otomatik saklanır; İngilizce yayın bu aşamada açık değildir.
-      - name: locale
         type: string
-        hidden: true
-        readonly: true
+        hidden: false
+        readonly: false
+        description: >-
+          Bağımsız yazıda boş bırakın. Çeviri oluştururken asıl yazının eşleştirme kimliğini (boşsa yazı
+          UUID’sini) buraya kopyalayın. İki dil aynı kimliği kullanır.
+        required: false
+      - name: locale
+        type: select
+        hidden: false
+        readonly: false
         default: tr
+        label: Yazının dili
+        required: true
+        options:
+          values:
+            - name: tr
+              label: Türkçe
+            - name: en
+              label: İngilizce
       - name: title
         label: Başlık
         type: string
@@ -477,7 +486,7 @@ content:
         options:
           collection: blogCategories
           value: '{fields.key}'
-          label: '{fields.name} (arşiv: {fields.archived})'
+          label: '{fields.name}'
           search: key,name
         description: Arşivli kategorideki yazı yayımlanamaz.
       - name: tags
@@ -524,7 +533,9 @@ content:
           value: '{fields.uid}'
           label: '{fields.title}'
           search: title,slug
-        description: Yalnızca yayında olan seçili yazılar gösterilir. Boşsa aynı kategoriden en fazla üç yazı önerilir.
+        description: >-
+          Yalnızca aynı dilde yayımlanmış yazılar gösterilir. Boşsa aynı dil ve kategoriden en fazla üç yazı
+          önerilir.
   - name: blogCategories
     label: Blog Kategorileri
     type: collection
@@ -543,6 +554,7 @@ content:
       fields:
         - key
         - name
+        - en
         - order
         - archived
     fields:
@@ -558,13 +570,17 @@ content:
         label: Kategori adı
         type: string
         required: true
+      - name: en
+        label: İngilizce kategori adı
+        type: string
+        description: İngilizce yazı yayımlanacaksa gereklidir.
       - name: order
         label: Filtre sırası
         type: number
         options:
           min: 1
       - name: archived
-        label: Kategoriyi arşivle
+        label: Arşivlendi
         type: boolean
         default: false
         description: Bu kategoride yayımlanmış yazı varsa önce aktif kategoriye taşıyın; aksi halde build durur.

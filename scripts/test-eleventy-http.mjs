@@ -20,5 +20,5 @@ for (const route of ['/migration/phase-1/README.md','/.migration-backups/phase-1
   if(route.startsWith('/blog/'))assert((await response.text()).includes('Bu sayfa bulunamadı.'));
   checks.push({ blockedPrivateRoute: route, passed: true });
 }
-fs.writeFileSync('migration/phase-6/http-results.json', JSON.stringify({ passed: checks.length, failed: 0, checks }, null, 2) + '\n');
+fs.writeFileSync('migration/phase-7/http-results.json', JSON.stringify({ passed: checks.length, failed: 0, checks }, null, 2) + '\n');
 console.log(`HTTP: ${checks.length} passed; 0 failures.`);

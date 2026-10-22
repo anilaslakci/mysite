@@ -10,7 +10,7 @@ assert.deepEqual(Object.keys(active.jobs),['validate']);
 const pins=JSON.parse(fs.readFileSync('ops/github-actions/action-pins.json'));
 for(const step of active.jobs.validate.steps){
   if(step.uses)assert(['checkout','setup-node'].some(name=>step.uses==='actions/'+name+'@'+pins[name].sha));
-  if(step.run)assert(['npm ci --ignore-scripts','npm test','npm run test:blog','npm run test:workflow'].includes(step.run));
+  if(step.run)assert(['npm ci --ignore-scripts','npm test','npm run test:blog','npm run test:i18n','npm run test:workflow'].includes(step.run));
 }
 assert.equal(active.jobs.validate.steps[0].with['persist-credentials'],false);
 const disabled=yaml.load(fs.readFileSync('ops/github-actions/publish.yml.example','utf8'));

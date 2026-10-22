@@ -28,6 +28,7 @@ jobs:
       - run: npm ci --ignore-scripts
       - run: npm test
       - run: npm run test:blog
+      - run: npm run test:i18n
       - run: npm run test:workflow
 env:
   ENABLE_SITE_DEPLOY: ${{ vars.ENABLE_SITE_DEPLOY }}

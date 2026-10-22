@@ -24,7 +24,7 @@ const build=(name,{fail=false}={})=>{
   const output=path.join(work,name);
   try{execFileSync(process.execPath,['node_modules/@11ty/eleventy/cmd.cjs',`--output=${output}`],{env:{...process.env,PORTFOLIO_TEST_DIR:dirs.projects,PORTFOLIO_CATEGORY_TEST_DIR:dirs.categories},stdio:'pipe'});assert(!fail,'Expected rejection');}
   catch(error){if(fail&&error.status){negatives.push(name);return '';}throw error;}
-  return fs.readFileSync(path.join(output,'portfolyo/index.html'),'utf8');
+  return fs.readFileSync(path.join(output,'portfolyo/index.html'),'utf8')+fs.readFileSync(path.join(output,'en/portfolio/index.html'),'utf8');
 };
 const count=(html,n)=>{assert(html.includes(`<strong id="stat1-num">${n}</strong>`));assert.equal((html.match(/data-pid=/g)||[]).length,n*2);assert.equal((html.match(/id="modal-(?:tr|en)-[0-9a-f-]+"/g)||[]).length,n*2);};
 const first=JSON.parse(sources.find(x=>x.file==='src/content/projects/1.json').bytes);
@@ -97,7 +97,7 @@ try {
   build('browser-site');
   execFileSync(process.execPath,['scripts/test-portfolio-runtime.mjs'],{env:{...process.env,PORTFOLIO_TEST_DIR:dirs.projects,PORTFOLIO_CATEGORY_TEST_DIR:dirs.categories,SITE_TEST_OUTPUT:path.join(work,'browser-site')},stdio:'pipe'});
   fs.writeFileSync('.migration-preview/phase-5-fixture.json',JSON.stringify({site:path.join(work,'browser-site'),uid:p22.uid,otherUid:p23.uid,count:23},null,2));
-  fs.writeFileSync('migration/phase-6/completion-test-results.json',JSON.stringify({passed:checks.length,failed:0,negativeBuilds:negatives,uuidSamples:10000,concurrentUuidWorkers:4,collisionObserved:false,realCmsEditor:false,checks},null,2)+'\n');
+  fs.writeFileSync('migration/phase-7/completion-test-results.json',JSON.stringify({passed:checks.length,failed:0,negativeBuilds:negatives,uuidSamples:10000,concurrentUuidWorkers:4,collisionObserved:false,realCmsEditor:false,checks},null,2)+'\n');
   console.log(`${checks.length} completion scenarios passed, ${negatives.length} invalid builds correctly rejected. 10000 UUID samples, no collisions observed. Real hosted CMS NOT tested.`);
 } finally {
   // Only the uniquely named test upload is removed. The ignored fixture preserves its byte copy.

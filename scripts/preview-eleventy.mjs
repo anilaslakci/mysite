@@ -8,17 +8,20 @@ http.createServer((req, res) => {
   try {
     const requestUrl = new URL(req.url, 'http://localhost');
     let url = decodeURIComponent(requestUrl.pathname);
+    const phase7Baseline=url.startsWith('/__phase7before/');if(phase7Baseline)url=url.slice('/__phase7before'.length);
     const baseline = url.startsWith('/__baseline/');
     if (baseline) url = url.slice('/__baseline'.length);
     const fixture = url.startsWith('/__cmsfixture/');
     if (fixture) url = url.slice('/__cmsfixture'.length);
     const blogFixture = url.startsWith('/__blogfixture/');
     if (blogFixture) url = url.slice('/__blogfixture'.length);
+    const i18nFixture=url.startsWith('/__i18nfixture/');if(i18nFixture)url=url.slice('/__i18nfixture'.length);
     let relative = url.replace(/^\/+/, '');
     if (!relative || relative.endsWith('/')) relative += 'index.html';
-    if (!pages.includes(relative) && !/^blog\/(?:[a-z0-9-]+\/)?index\.html$/.test(relative) && !relative.startsWith('assets/') && !['CNAME','robots.txt','sitemap.xml','feed.xml','404.html','favicon.ico','favicon.png','favicon-48x48.png','favicon-96x96.png'].includes(relative)) { res.writeHead(404,{'Content-Type':'text/html; charset=utf-8'}); res.end(fs.readFileSync(path.join(root,'_site/404.html'))); return; }
-    let base = path.resolve(root, baseline ? '.' : fixture ? '.migration-preview/cms-edit-output' : '_site');
+    if (!pages.includes(relative) && !/^en\/(?:[a-z0-9-]+\/)*(?:index.html|404.html|feed.xml)$/.test(relative) && !/^blog\/(?:[a-z0-9-]+\/)?index\.html$/.test(relative) && !relative.startsWith('assets/') && !['CNAME','robots.txt','sitemap.xml','feed.xml','404.html','favicon.ico','favicon.png','favicon-48x48.png','favicon-96x96.png'].includes(relative)) { res.writeHead(404,{'Content-Type':'text/html; charset=utf-8'}); res.end(fs.readFileSync(path.join(root,url.startsWith('/en/')?'_site/en/404.html':'_site/404.html'))); return; }
+    let base = path.resolve(root, phase7Baseline ? '.migration-preview/phase-7-before' : baseline ? '.' : fixture ? '.migration-preview/cms-edit-output' : '_site');
     if(blogFixture){base=path.resolve(JSON.parse(fs.readFileSync('.migration-preview/blog-fixture.json')).site);if(!base.startsWith(path.join(root,'.migration-preview')+path.sep))throw Error('Unsafe fixture root');}
+    if(i18nFixture){base=path.resolve(JSON.parse(fs.readFileSync('.migration-preview/i18n-fixture.json')).site);if(!base.startsWith(path.join(root,'.migration-preview')+path.sep))throw Error('Unsafe fixture root');}
     const file = path.resolve(base, relative);
     if (!file.startsWith(base + path.sep) || !fs.existsSync(file) || !fs.statSync(file).isFile()) { res.writeHead(404,{'Content-Type':'text/html; charset=utf-8'}); res.end(fs.readFileSync(path.join(root,'_site/404.html'))); return; }
     res.writeHead(200, { 'Content-Type': types[path.extname(file)] || 'application/octet-stream', 'Cache-Control': 'no-store', 'Content-Security-Policy': "script-src 'self' 'unsafe-inline'; connect-src 'self'" });
@@ -26,6 +29,7 @@ http.createServer((req, res) => {
       let html=fs.readFileSync(file,'utf8');
       // Ignored QA posts/assets remain isolated; this prefix never enters real output.
       if(blogFixture)html=html.replace(/\b(href|src)="\/(assets\/|blog\/)/g,'$1="/__blogfixture/$2');
+      if(i18nFixture)html=html.replace(/\b(href|src)="\/(?!\/)/g,'$1="/__i18nfixture/');
       if(requestUrl.searchParams.get('visual')==='1'){
       // Screenshot-only stabilization, identical for baseline and build.
       // Never written to source/output; ordinary routes test real animations.

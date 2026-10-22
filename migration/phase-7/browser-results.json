@@ -1,0 +1,2050 @@
+{
+  "pages": [
+    {
+      "view": "desktop",
+      "route": "/",
+      "canonical": "https://anilaslakci.com.tr/",
+      "cards": 0,
+      "h1": "Dijital ticareti\nveri ve teknolojiyle\nyönetiyorum.",
+      "lang": "tr",
+      "languageLinks": [
+        "/",
+        "/en/",
+        "/",
+        "/en/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/portfolyo/",
+      "canonical": "https://anilaslakci.com.tr/portfolyo/",
+      "cards": 21,
+      "h1": "Seçili Çalışmalar",
+      "lang": "tr",
+      "languageLinks": [
+        "/portfolyo/",
+        "/en/portfolio/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/pazaryeri-yonetimi/",
+      "canonical": "https://anilaslakci.com.tr/pazaryeri-yonetimi/",
+      "cards": 0,
+      "h1": "Pazaryeri kanallarını yalnızca açmıyor, sürdürülebilir biçimde yönetiyorum.",
+      "lang": "tr",
+      "languageLinks": [
+        "/pazaryeri-yonetimi/",
+        "/en/marketplace-management/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/erp-entegrasyonu/",
+      "canonical": "https://anilaslakci.com.tr/erp-entegrasyonu/",
+      "cards": 0,
+      "h1": "ERP ve satış kanalları arasındaki veri akışını anlaşılır ve kontrol edilebilir hâle getiriyorum.",
+      "lang": "tr",
+      "languageLinks": [
+        "/erp-entegrasyonu/",
+        "/en/erp-integration/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/reklam-kampanya-yonetimi/",
+      "canonical": "https://anilaslakci.com.tr/reklam-kampanya-yonetimi/",
+      "cards": 0,
+      "h1": "Reklam ve kampanyaları yalnızca görünürlük değil, ticari sonuç üretmek için yönetiyorum.",
+      "lang": "tr",
+      "languageLinks": [
+        "/reklam-kampanya-yonetimi/",
+        "/en/advertising-campaign-management/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "canonical": "https://anilaslakci.com.tr/e-ticaret-sitesi-yonetimi/",
+      "cards": 0,
+      "h1": "E-ticaret sitesini yalnızca vitrin değil, çalışan bir satış kanalı olarak ele alıyorum.",
+      "lang": "tr",
+      "languageLinks": [
+        "/e-ticaret-sitesi-yonetimi/",
+        "/en/ecommerce-website-management/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/veri-analizi-raporlama/",
+      "canonical": "https://anilaslakci.com.tr/veri-analizi-raporlama/",
+      "cards": 0,
+      "h1": "Dağınık e-ticaret verisini anlaşılır, karşılaştırılabilir ve karar alınabilir hâle getiriyorum.",
+      "lang": "tr",
+      "languageLinks": [
+        "/veri-analizi-raporlama/",
+        "/en/data-analysis-reporting/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/operasyon-otomasyon/",
+      "canonical": "https://anilaslakci.com.tr/operasyon-otomasyon/",
+      "cards": 0,
+      "h1": "E-ticaret operasyonunu anlayarak, gerçekten ihtiyaç duyulan yerlerde otomasyon geliştiriyorum.",
+      "lang": "tr",
+      "languageLinks": [
+        "/operasyon-otomasyon/",
+        "/en/operations-automation/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/blog/",
+      "canonical": "https://anilaslakci.com.tr/blog/",
+      "cards": 0,
+      "h1": "E-ticaretten otomasyona.",
+      "lang": "tr",
+      "languageLinks": [
+        "/blog/",
+        "/en/blog/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/",
+      "canonical": "https://anilaslakci.com.tr/en/",
+      "cards": 0,
+      "h1": "Managing digital commerce\nwith data\nand technology.",
+      "lang": "en",
+      "languageLinks": [
+        "/",
+        "/en/",
+        "/",
+        "/en/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/portfolio/",
+      "canonical": "https://anilaslakci.com.tr/en/portfolio/",
+      "cards": 21,
+      "h1": "Selected Work",
+      "lang": "en",
+      "languageLinks": [
+        "/portfolyo/",
+        "/en/portfolio/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/marketplace-management/",
+      "canonical": "https://anilaslakci.com.tr/en/marketplace-management/",
+      "cards": 0,
+      "h1": "I do more than launch marketplace channels: I manage them sustainably.",
+      "lang": "en",
+      "languageLinks": [
+        "/pazaryeri-yonetimi/",
+        "/en/marketplace-management/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/erp-integration/",
+      "canonical": "https://anilaslakci.com.tr/en/erp-integration/",
+      "cards": 0,
+      "h1": "I make data flows between ERP systems and sales channels clear and controllable.",
+      "lang": "en",
+      "languageLinks": [
+        "/erp-entegrasyonu/",
+        "/en/erp-integration/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/advertising-campaign-management/",
+      "canonical": "https://anilaslakci.com.tr/en/advertising-campaign-management/",
+      "cards": 0,
+      "h1": "I manage advertising and campaigns to deliver business results as well as visibility.",
+      "lang": "en",
+      "languageLinks": [
+        "/reklam-kampanya-yonetimi/",
+        "/en/advertising-campaign-management/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/ecommerce-website-management/",
+      "canonical": "https://anilaslakci.com.tr/en/ecommerce-website-management/",
+      "cards": 0,
+      "h1": "I treat an e-commerce website as a working sales channel, not simply a storefront.",
+      "lang": "en",
+      "languageLinks": [
+        "/e-ticaret-sitesi-yonetimi/",
+        "/en/ecommerce-website-management/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/data-analysis-reporting/",
+      "canonical": "https://anilaslakci.com.tr/en/data-analysis-reporting/",
+      "cards": 0,
+      "h1": "I turn scattered e-commerce data into clear, comparable information that supports decisions.",
+      "lang": "en",
+      "languageLinks": [
+        "/veri-analizi-raporlama/",
+        "/en/data-analysis-reporting/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/operations-automation/",
+      "canonical": "https://anilaslakci.com.tr/en/operations-automation/",
+      "cards": 0,
+      "h1": "I develop automation where it is genuinely useful, grounded in an understanding of e-commerce operations.",
+      "lang": "en",
+      "languageLinks": [
+        "/operasyon-otomasyon/",
+        "/en/operations-automation/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/blog/",
+      "canonical": "https://anilaslakci.com.tr/en/blog/",
+      "cards": 0,
+      "h1": "From e-commerce to automation.",
+      "lang": "en",
+      "languageLinks": [
+        "/blog/",
+        "/en/blog/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/",
+      "cards": 0,
+      "h1": "Dijital ticareti\nveri ve teknolojiyle\nyönetiyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/portfolyo/",
+      "cards": 21,
+      "h1": "Seçili Çalışmalar",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/pazaryeri-yonetimi/",
+      "cards": 0,
+      "h1": "Pazaryeri kanallarını yalnızca açmıyor, sürdürülebilir biçimde yönetiyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/erp-entegrasyonu/",
+      "cards": 0,
+      "h1": "ERP ve satış kanalları arasındaki veri akışını anlaşılır ve kontrol edilebilir hâle getiriyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/reklam-kampanya-yonetimi/",
+      "cards": 0,
+      "h1": "Reklam ve kampanyaları yalnızca görünürlük değil, ticari sonuç üretmek için yönetiyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "cards": 0,
+      "h1": "E-ticaret sitesini yalnızca vitrin değil, çalışan bir satış kanalı olarak ele alıyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/veri-analizi-raporlama/",
+      "cards": 0,
+      "h1": "Dağınık e-ticaret verisini anlaşılır, karşılaştırılabilir ve karar alınabilir hâle getiriyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/operasyon-otomasyon/",
+      "cards": 0,
+      "h1": "E-ticaret operasyonunu anlayarak, gerçekten ihtiyaç duyulan yerlerde otomasyon geliştiriyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/blog/",
+      "cards": 0,
+      "h1": "E-ticaretten otomasyona.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/",
+      "cards": 0,
+      "h1": "Managing digital commerce\nwith data\nand technology.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/portfolio/",
+      "cards": 21,
+      "h1": "Selected Work",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/marketplace-management/",
+      "cards": 0,
+      "h1": "I do more than launch marketplace channels: I manage them sustainably.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/erp-integration/",
+      "cards": 0,
+      "h1": "I make data flows between ERP systems and sales channels clear and controllable.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/advertising-campaign-management/",
+      "cards": 0,
+      "h1": "I manage advertising and campaigns to deliver business results as well as visibility.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/ecommerce-website-management/",
+      "cards": 0,
+      "h1": "I treat an e-commerce website as a working sales channel, not simply a storefront.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/data-analysis-reporting/",
+      "cards": 0,
+      "h1": "I turn scattered e-commerce data into clear, comparable information that supports decisions.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/operations-automation/",
+      "cards": 0,
+      "h1": "I develop automation where it is genuinely useful, grounded in an understanding of e-commerce operations.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/blog/",
+      "cards": 0,
+      "h1": "From e-commerce to automation.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/",
+      "cards": 0,
+      "h1": "Dijital ticareti\nveri ve teknolojiyle\nyönetiyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/portfolyo/",
+      "cards": 21,
+      "h1": "Seçili Çalışmalar",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/pazaryeri-yonetimi/",
+      "cards": 0,
+      "h1": "Pazaryeri kanallarını yalnızca açmıyor, sürdürülebilir biçimde yönetiyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/erp-entegrasyonu/",
+      "cards": 0,
+      "h1": "ERP ve satış kanalları arasındaki veri akışını anlaşılır ve kontrol edilebilir hâle getiriyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/reklam-kampanya-yonetimi/",
+      "cards": 0,
+      "h1": "Reklam ve kampanyaları yalnızca görünürlük değil, ticari sonuç üretmek için yönetiyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "cards": 0,
+      "h1": "E-ticaret sitesini yalnızca vitrin değil, çalışan bir satış kanalı olarak ele alıyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/veri-analizi-raporlama/",
+      "cards": 0,
+      "h1": "Dağınık e-ticaret verisini anlaşılır, karşılaştırılabilir ve karar alınabilir hâle getiriyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/operasyon-otomasyon/",
+      "cards": 0,
+      "h1": "E-ticaret operasyonunu anlayarak, gerçekten ihtiyaç duyulan yerlerde otomasyon geliştiriyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/blog/",
+      "cards": 0,
+      "h1": "E-ticaretten otomasyona.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/",
+      "cards": 0,
+      "h1": "Managing digital commerce\nwith data\nand technology.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/portfolio/",
+      "cards": 21,
+      "h1": "Selected Work",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/marketplace-management/",
+      "cards": 0,
+      "h1": "I do more than launch marketplace channels: I manage them sustainably.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/erp-integration/",
+      "cards": 0,
+      "h1": "I make data flows between ERP systems and sales channels clear and controllable.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/advertising-campaign-management/",
+      "cards": 0,
+      "h1": "I manage advertising and campaigns to deliver business results as well as visibility.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/ecommerce-website-management/",
+      "cards": 0,
+      "h1": "I treat an e-commerce website as a working sales channel, not simply a storefront.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/data-analysis-reporting/",
+      "cards": 0,
+      "h1": "I turn scattered e-commerce data into clear, comparable information that supports decisions.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/operations-automation/",
+      "cards": 0,
+      "h1": "I develop automation where it is genuinely useful, grounded in an understanding of e-commerce operations.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/blog/",
+      "cards": 0,
+      "h1": "From e-commerce to automation.",
+      "lang": "en",
+      "overflow": false
+    }
+  ],
+  "modals": [
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-1",
+      "images": [
+        {
+          "alt": "Pazaryeri Satış Analiz Aracı 1",
+          "src": "/assets/portfolio/80f5883825e6c1766a0e09a7e2c2330e4e4f161492f1d06de9194b3b7530f7f2.png"
+        },
+        {
+          "alt": "Pazaryeri Satış Analiz Aracı 2",
+          "src": "/assets/portfolio/4830f0c1fc5eef6f5c2f2402259d23eb65595530fb84dd1b7092296dd852bb8c.png"
+        },
+        {
+          "alt": "Pazaryeri Satış Analiz Aracı 3",
+          "src": "/assets/portfolio/1bc9bcda5d6b8921a2f6323c436e8cd0287a12b8037dc1f64eb65ac5bd2cf7a5.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-2",
+      "images": [
+        {
+          "alt": "T-Soft Sipariş Analiz Aracı 1",
+          "src": "/assets/portfolio/fc0d35a3a387479c1550c5fa9d010f27eff4939e68b1c68ed5bc682058c2341c.png"
+        },
+        {
+          "alt": "T-Soft Sipariş Analiz Aracı 2",
+          "src": "/assets/portfolio/b14a0935e7b1ff6e8b5675f7077fb907e11be0cf60716b851be781c439935313.png"
+        },
+        {
+          "alt": "T-Soft Sipariş Analiz Aracı 3",
+          "src": "/assets/portfolio/1dda8075beb816cad1c6d9b288abfc09cbc60faba7b5951cb621bda64fa528a2.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-3",
+      "images": [
+        {
+          "alt": "Depolar Arası Transfer Planlayıcı 1",
+          "src": "/assets/portfolio/fccbd33cc7d61eb04e9769b90254c25533ceb3c0a6ee9c4fa58712c4f5fd24f7.png"
+        },
+        {
+          "alt": "Depolar Arası Transfer Planlayıcı 2",
+          "src": "/assets/portfolio/9c3f42a6648339a652432f7662626bcd5ab5680847ac9b4467fb220d83cb844a.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-4",
+      "images": [
+        {
+          "alt": "T-Soft Anlık Ürün Verisi Çekme Aracı 1",
+          "src": "/assets/portfolio/03deb5c9e5b372c32a5234c623e2407fa41e76474f4259d8cd7e4dc9b3a8d484.png"
+        },
+        {
+          "alt": "T-Soft Anlık Ürün Verisi Çekme Aracı 2",
+          "src": "/assets/portfolio/df231ef4a346f221977f0f86f9e677624d15dd6d3d93fdd1fdba94a341935d7f.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-5",
+      "images": [
+        {
+          "alt": "Trendyol Komisyon Optimizasyon Aracı 1",
+          "src": "/assets/portfolio/3e847228f1c04c15e7923e2d3b0d3ae76262b72ddd8e585ad8af648bc9bdf458.png"
+        },
+        {
+          "alt": "Trendyol Komisyon Optimizasyon Aracı 2",
+          "src": "/assets/portfolio/bc35d659bbc5dde344096d008dca8743b8057d91c15dfd73c24a2c1388b981c9.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-6",
+      "images": [
+        {
+          "alt": "Kritik Stok Bildirim Sistemi 1",
+          "src": "/assets/portfolio/758d45ffe0757781b6948b739eed97a91a72560748f0a8127beb0d8c780a6b4a.png"
+        },
+        {
+          "alt": "Kritik Stok Bildirim Sistemi 2",
+          "src": "/assets/portfolio/3b423dc4ed05db9c2b76062ee4cdea19316a6126a8ffd8a6716acb7f4e22a79b.png"
+        },
+        {
+          "alt": "Kritik Stok Bildirim Sistemi 3",
+          "src": "/assets/portfolio/a0278b6827ab40580dd6efa3b61c846b127aaf6951689b95981e5656a40bffad.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-7",
+      "images": [
+        {
+          "alt": "Pazaryeri Desi & Lojistik Uyarı Eklentisi 1",
+          "src": "/assets/portfolio/6bb2a673e70f17d1bac727d27890306fdaabec90e8672f8e91a2394fdc4c81f1.png"
+        },
+        {
+          "alt": "Pazaryeri Desi & Lojistik Uyarı Eklentisi 2",
+          "src": "/assets/portfolio/f4a332232e4995974aaf5cb4c7432b844f385a4e24c78f17f0fafa09db841c1f.png"
+        },
+        {
+          "alt": "Pazaryeri Desi & Lojistik Uyarı Eklentisi 3",
+          "src": "/assets/portfolio/e2f9ad8cc85dd3ea2e09abfd781c9fc88a7a44f461ae245980a5bd5af7db3cd7.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-8",
+      "images": [
+        {
+          "alt": "Masaüstü Görev & Hatırlatıcı Uygulaması 1",
+          "src": "/assets/portfolio/3c5013ed67018a804e6f2730cc0e5b783fb4fec06e90ccc947329276564622ce.png"
+        },
+        {
+          "alt": "Masaüstü Görev & Hatırlatıcı Uygulaması 2",
+          "src": "/assets/portfolio/68156f152317b6b2deb9c945a9146dcabe29387148605cb89400054a99111dd3.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-9",
+      "images": [
+        {
+          "alt": "Sırlar Dünyası 1",
+          "src": "/assets/portfolio/77b28e96adbd97b1328f88fa67384c14571c00047026bee5007429d3fb1c8992.png"
+        },
+        {
+          "alt": "Sırlar Dünyası 2",
+          "src": "/assets/portfolio/550549b597568c97b67ff1f318c84d3832f5472b103c382e3bc19665d8dc1862.png"
+        },
+        {
+          "alt": "Sırlar Dünyası 3",
+          "src": "/assets/portfolio/c358fe129d4a098733009395c9cfe792cd97535748877fec9a18acc3b47af315.png"
+        },
+        {
+          "alt": "Sırlar Dünyası 4",
+          "src": "/assets/portfolio/43eee0e1488d4a31a25e1a7ea29f7340b69f5a6d7022db28455c0be04f847ed7.png"
+        },
+        {
+          "alt": "Sırlar Dünyası 5",
+          "src": "/assets/portfolio/b929c72f4fb5cbcfa40c0da91c8d543f7d2df399cd33a4bf7016ae2a5adea760.png"
+        },
+        {
+          "alt": "Sırlar Dünyası 6",
+          "src": "/assets/portfolio/c25627c29e1d16d648990fa94a77fc1e5e92fb5118b928448d4f5c8c21cf43a8.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-10",
+      "images": [
+        {
+          "alt": "Hisse Senedi Portföy Takip Uygulaması 1",
+          "src": "/assets/portfolio/640c581c8b8fcd01c12de4b8830e6f286cd71fc3d50f4d7068f80e5d482d7868.png"
+        },
+        {
+          "alt": "Hisse Senedi Portföy Takip Uygulaması 2",
+          "src": "/assets/portfolio/168bf476df0b003b4832304cb83ac3f09e3c7241667c78a6c774ed6125150741.png"
+        },
+        {
+          "alt": "Hisse Senedi Portföy Takip Uygulaması 3",
+          "src": "/assets/portfolio/579e61b1b5ed3323b09bf093449d494da39a585f6e11fca782f4d67530107ea7.png"
+        },
+        {
+          "alt": "Hisse Senedi Portföy Takip Uygulaması 4",
+          "src": "/assets/portfolio/cfc03e7a07b165f264c7f0a949e4b421d6cc85eff9fa762a0101225d7467ce70.png"
+        },
+        {
+          "alt": "Hisse Senedi Portföy Takip Uygulaması 5",
+          "src": "/assets/portfolio/a4558b50a5e6b641fd881cc273f399db0f78838da7dd20d68abac118bdd28a79.png"
+        },
+        {
+          "alt": "Hisse Senedi Portföy Takip Uygulaması 6",
+          "src": "/assets/portfolio/fe8ed3c1243cc19ff90872ab77783023e2b45a92a784dde34d0d8d6f60e50ee4.png"
+        },
+        {
+          "alt": "Hisse Senedi Portföy Takip Uygulaması 7",
+          "src": "/assets/portfolio/b0a09b8bc5cc6f72b448026acceec3451f22670d98b1176afa290ad879098aa8.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-11",
+      "images": [
+        {
+          "alt": "İpucuk — Türkçe Kelime Tahmin Oyunu 1",
+          "src": "/assets/portfolio/707bd9dd832c379edd8664ce08989e2a6e6ee71a167d3272204f256af86ac951.png"
+        },
+        {
+          "alt": "İpucuk — Türkçe Kelime Tahmin Oyunu 2",
+          "src": "/assets/portfolio/0f6d4bc735092254c63c79f7c88176a7a5435bafeca08d383192c7a6756d0a7a.png"
+        },
+        {
+          "alt": "İpucuk — Türkçe Kelime Tahmin Oyunu 3",
+          "src": "/assets/portfolio/d2667ae1708b0e9ce6743ac965a662c354788c0a0ab3f5c2ea51968e567788ef.png"
+        },
+        {
+          "alt": "İpucuk — Türkçe Kelime Tahmin Oyunu 4",
+          "src": "/assets/portfolio/73d31227b45496a2b46d88453412dd04a2ccf18e38cc1fa357fe1f8749d09a70.png"
+        },
+        {
+          "alt": "İpucuk — Türkçe Kelime Tahmin Oyunu 5",
+          "src": "/assets/portfolio/85c14651f89422a9933672ea060af16b430e75cb4c6be2f30e3a75dfe68cb523.png"
+        },
+        {
+          "alt": "İpucuk — Türkçe Kelime Tahmin Oyunu 6",
+          "src": "/assets/portfolio/31be95f7f3670f8d7fe4c3dfa2db7426288c73b318b77c83dfbf424faa492598.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-12",
+      "images": [
+        {
+          "alt": "Kelime Zinciri — Local Multiplayer 1",
+          "src": "/assets/portfolio/49244409ae6fb8648fee251d73a330b126edc450fb79a2d63770f4c62a9478e2.png"
+        },
+        {
+          "alt": "Kelime Zinciri — Local Multiplayer 2",
+          "src": "/assets/portfolio/9c6cf923a9137d0b5b33a8f2575fb09042c1686983b528bb67124d65ac501efc.png"
+        },
+        {
+          "alt": "Kelime Zinciri — Local Multiplayer 3",
+          "src": "/assets/portfolio/b946bf8f1d273189e2533c784f74bdb72656728aa8ccd39a57daf406f69f6100.png"
+        },
+        {
+          "alt": "Kelime Zinciri — Local Multiplayer 4",
+          "src": "/assets/portfolio/e538928ba726646de6d94e409e06c8e9249bb5ab4900930fc832d545332a0691.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-13",
+      "images": [
+        {
+          "alt": "Trendyol Flaş Ürün Fiyat Kontrol Eklentisi 1",
+          "src": "/assets/portfolio/a16a24ca37219125cb94222eeb7ad974c2bc9d075fabc9ba93cd7b9d87fdae48.png"
+        },
+        {
+          "alt": "Trendyol Flaş Ürün Fiyat Kontrol Eklentisi 2",
+          "src": "/assets/portfolio/7b962f98e36fc8a146c0ae743e8fed7a85ce95e802a156a5e12e3385517d3319.png"
+        },
+        {
+          "alt": "Trendyol Flaş Ürün Fiyat Kontrol Eklentisi 3",
+          "src": "/assets/portfolio/e2038f92bcdb82c54da91d31b9a7781097805dfa1c2d73ad168d5039d1dd13f3.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-14",
+      "images": [
+        {
+          "alt": "Kargo Fatura Kontrol ve Doğrulama Aracı 1",
+          "src": "/assets/portfolio/0d6b69d7404788c395887930f029d0d0654a0508d6297d26ae7f0e760b93d8b0.png"
+        },
+        {
+          "alt": "Kargo Fatura Kontrol ve Doğrulama Aracı 2",
+          "src": "/assets/portfolio/6b84fcc0c01a96aeffddbaad4f8576e40d79399ae92ad37a46d45cd92e2b345c.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-15",
+      "images": [
+        {
+          "alt": "2D Mobil Arcade Oyun 1",
+          "src": "/assets/portfolio/9c3a3a2e6f103a9668202ac9e01ec2651b5d57f08eda6df4b8a83d7a9567db1a.jpg"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-16",
+      "images": [
+        {
+          "alt": "Çok Oyunculu Bilgi Yarışması 1",
+          "src": "/assets/portfolio/d81c80b29433114071ae43ed8fa42e90296c80cac28524bda013c9be3192a060.png"
+        },
+        {
+          "alt": "Çok Oyunculu Bilgi Yarışması 2",
+          "src": "/assets/portfolio/14a6538aee6cf0b67e859438591e99e76f0028365b644bdedca8da1544f6f4fd.png"
+        },
+        {
+          "alt": "Çok Oyunculu Bilgi Yarışması 3",
+          "src": "/assets/portfolio/9452294099332a85c3413072ebc03f934d53c147c94a1743480f33ef5c0992d8.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-17",
+      "images": [
+        {
+          "alt": "Kargo Sürecinde İptal Sipariş Takip Sistemi genel bakış ekranı",
+          "src": "/assets/portfolio/7977a93bcf5a7bdd5efd4bcaa42d630287bd279546a95c341fdc9501eb7f7815.png"
+        },
+        {
+          "alt": "Kargo Sürecinde İptal Sipariş Takip Sistemi siparişler ekranı",
+          "src": "/assets/portfolio/ca76103db2f8e33483c7ff015640da210f9ca2f582c3a48bf1c37205cf00b009.png"
+        },
+        {
+          "alt": "Kargo Sürecinde İptal Sipariş Takip Sistemi iptal siparişler ekranı",
+          "src": "/assets/portfolio/907934bc9b5ee78967fc629a2c8362b111f2539f5aa1b562f22e2d16e4d9e43d.png"
+        },
+        {
+          "alt": "Kargo Sürecinde İptal Sipariş Takip Sistemi ayarlar ekranı",
+          "src": "/assets/portfolio/067cd08723766522d48faa3f1ce56777fd9fe98d45f844fff9027a19edf278df.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-18",
+      "images": [
+        {
+          "alt": "SSH Depo Takip ve Sevk Süreci Uygulaması 1",
+          "src": "/assets/portfolio/c24c669b3ca979002ef464bfb98ba29ac0119349c5cd5aec578b7d74c5fa4678.png"
+        },
+        {
+          "alt": "SSH Depo Takip ve Sevk Süreci Uygulaması 2",
+          "src": "/assets/portfolio/c257897d7d7d2cb2d980341463e4c55a397acd0b31e25f100a9ab932763187e5.png"
+        },
+        {
+          "alt": "SSH Depo Takip ve Sevk Süreci Uygulaması 3",
+          "src": "/assets/portfolio/d26d66a35c7049cf8d8557aac29cb0af33ab7020417d71b0cda74118412cfc05.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-19",
+      "images": [
+        {
+          "alt": "Google Yorum Takip Sistemi mağaza puan ve yorum takip ekranı",
+          "src": "/assets/portfolio/95275684b8c8e4b8311c1e72f8648c58d9e38b7122b71deeae692c9d2a501434.png"
+        },
+        {
+          "alt": "Google Yorum Takip Sistemi işletme ekleme ve düzenleme penceresi",
+          "src": "/assets/portfolio/d5e58518a5b18cd52d17e5d0e85f1100ad5250621570778ed8e9e0a4882eb872.png"
+        },
+        {
+          "alt": "Google Yorum Takip Sistemi Excel rapor çıktısı",
+          "src": "/assets/portfolio/bbed402daab013bc234683c4a78b9e60860534388aa9cbc0580db6eef474489a.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-20",
+      "images": [
+        {
+          "alt": "Birleşik E-Ticaret Satış Raporu Aracı analiz hazırlık ekranı",
+          "src": "/assets/portfolio/24bac071dc60b152554b14ff7f4452828519842997e002aa3e951fd637762597.png"
+        },
+        {
+          "alt": "Birleşik E-Ticaret Satış Raporu Aracı kanal özeti ekranı",
+          "src": "/assets/portfolio/67ba8e4e165ba34332ed03d21a2bbf137542eca97092158ed68fecfc880963f3.png"
+        },
+        {
+          "alt": "Birleşik E-Ticaret Satış Raporu Aracı Excel rapor çıktısı",
+          "src": "/assets/portfolio/caa92c430e7ad0b8dad5ff892894920062b460a19c86e3ea3b7f2cb22e456dcb.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "tr",
+      "focusedClose": true,
+      "id": "modal-tr-21",
+      "images": [
+        {
+          "alt": "Depo Sipariş Hazırlayıcı dosya seçim ve hazırlama ekranı",
+          "src": "/assets/portfolio/8c287b4e062aa584bc31a7539e356454cdf4fdcf3514c649c11d77ab5ad7aac3.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-1",
+      "images": [
+        {
+          "alt": "Marketplace Sales Analyzer 1",
+          "src": "/assets/portfolio/80f5883825e6c1766a0e09a7e2c2330e4e4f161492f1d06de9194b3b7530f7f2.png"
+        },
+        {
+          "alt": "Marketplace Sales Analyzer 2",
+          "src": "/assets/portfolio/4830f0c1fc5eef6f5c2f2402259d23eb65595530fb84dd1b7092296dd852bb8c.png"
+        },
+        {
+          "alt": "Marketplace Sales Analyzer 3",
+          "src": "/assets/portfolio/1bc9bcda5d6b8921a2f6323c436e8cd0287a12b8037dc1f64eb65ac5bd2cf7a5.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-2",
+      "images": [
+        {
+          "alt": "T-Soft Order Analysis Tool 1",
+          "src": "/assets/portfolio/fc0d35a3a387479c1550c5fa9d010f27eff4939e68b1c68ed5bc682058c2341c.png"
+        },
+        {
+          "alt": "T-Soft Order Analysis Tool 2",
+          "src": "/assets/portfolio/b14a0935e7b1ff6e8b5675f7077fb907e11be0cf60716b851be781c439935313.png"
+        },
+        {
+          "alt": "T-Soft Order Analysis Tool 3",
+          "src": "/assets/portfolio/1dda8075beb816cad1c6d9b288abfc09cbc60faba7b5951cb621bda64fa528a2.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-3",
+      "images": [
+        {
+          "alt": "Inter-Warehouse Transfer Planner 1",
+          "src": "/assets/portfolio/fccbd33cc7d61eb04e9769b90254c25533ceb3c0a6ee9c4fa58712c4f5fd24f7.png"
+        },
+        {
+          "alt": "Inter-Warehouse Transfer Planner 2",
+          "src": "/assets/portfolio/9c3f42a6648339a652432f7662626bcd5ab5680847ac9b4467fb220d83cb844a.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-4",
+      "images": [
+        {
+          "alt": "T-Soft Live Inventory Feed 1",
+          "src": "/assets/portfolio/03deb5c9e5b372c32a5234c623e2407fa41e76474f4259d8cd7e4dc9b3a8d484.png"
+        },
+        {
+          "alt": "T-Soft Live Inventory Feed 2",
+          "src": "/assets/portfolio/df231ef4a346f221977f0f86f9e677624d15dd6d3d93fdd1fdba94a341935d7f.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-5",
+      "images": [
+        {
+          "alt": "Trendyol Commission Optimizer 1",
+          "src": "/assets/portfolio/3e847228f1c04c15e7923e2d3b0d3ae76262b72ddd8e585ad8af648bc9bdf458.png"
+        },
+        {
+          "alt": "Trendyol Commission Optimizer 2",
+          "src": "/assets/portfolio/bc35d659bbc5dde344096d008dca8743b8057d91c15dfd73c24a2c1388b981c9.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-6",
+      "images": [
+        {
+          "alt": "Critical Stock Alert System 1",
+          "src": "/assets/portfolio/758d45ffe0757781b6948b739eed97a91a72560748f0a8127beb0d8c780a6b4a.png"
+        },
+        {
+          "alt": "Critical Stock Alert System 2",
+          "src": "/assets/portfolio/3b423dc4ed05db9c2b76062ee4cdea19316a6126a8ffd8a6716acb7f4e22a79b.png"
+        },
+        {
+          "alt": "Critical Stock Alert System 3",
+          "src": "/assets/portfolio/a0278b6827ab40580dd6efa3b61c846b127aaf6951689b95981e5656a40bffad.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-7",
+      "images": [
+        {
+          "alt": "Marketplace Desi & Freight Routing Extension 1",
+          "src": "/assets/portfolio/6bb2a673e70f17d1bac727d27890306fdaabec90e8672f8e91a2394fdc4c81f1.png"
+        },
+        {
+          "alt": "Marketplace Desi & Freight Routing Extension 2",
+          "src": "/assets/portfolio/f4a332232e4995974aaf5cb4c7432b844f385a4e24c78f17f0fafa09db841c1f.png"
+        },
+        {
+          "alt": "Marketplace Desi & Freight Routing Extension 3",
+          "src": "/assets/portfolio/e2f9ad8cc85dd3ea2e09abfd781c9fc88a7a44f461ae245980a5bd5af7db3cd7.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-8",
+      "images": [
+        {
+          "alt": "Desktop Task & Reminder App 1",
+          "src": "/assets/portfolio/3c5013ed67018a804e6f2730cc0e5b783fb4fec06e90ccc947329276564622ce.png"
+        },
+        {
+          "alt": "Desktop Task & Reminder App 2",
+          "src": "/assets/portfolio/68156f152317b6b2deb9c945a9146dcabe29387148605cb89400054a99111dd3.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-9",
+      "images": [
+        {
+          "alt": "Sırlar Dünyası (Mystery World) 1",
+          "src": "/assets/portfolio/77b28e96adbd97b1328f88fa67384c14571c00047026bee5007429d3fb1c8992.png"
+        },
+        {
+          "alt": "Sırlar Dünyası (Mystery World) 2",
+          "src": "/assets/portfolio/550549b597568c97b67ff1f318c84d3832f5472b103c382e3bc19665d8dc1862.png"
+        },
+        {
+          "alt": "Sırlar Dünyası (Mystery World) 3",
+          "src": "/assets/portfolio/c358fe129d4a098733009395c9cfe792cd97535748877fec9a18acc3b47af315.png"
+        },
+        {
+          "alt": "Sırlar Dünyası (Mystery World) 4",
+          "src": "/assets/portfolio/43eee0e1488d4a31a25e1a7ea29f7340b69f5a6d7022db28455c0be04f847ed7.png"
+        },
+        {
+          "alt": "Sırlar Dünyası (Mystery World) 5",
+          "src": "/assets/portfolio/b929c72f4fb5cbcfa40c0da91c8d543f7d2df399cd33a4bf7016ae2a5adea760.png"
+        },
+        {
+          "alt": "Sırlar Dünyası (Mystery World) 6",
+          "src": "/assets/portfolio/c25627c29e1d16d648990fa94a77fc1e5e92fb5118b928448d4f5c8c21cf43a8.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-10",
+      "images": [
+        {
+          "alt": "Stock Portfolio Tracker 1",
+          "src": "/assets/portfolio/640c581c8b8fcd01c12de4b8830e6f286cd71fc3d50f4d7068f80e5d482d7868.png"
+        },
+        {
+          "alt": "Stock Portfolio Tracker 2",
+          "src": "/assets/portfolio/168bf476df0b003b4832304cb83ac3f09e3c7241667c78a6c774ed6125150741.png"
+        },
+        {
+          "alt": "Stock Portfolio Tracker 3",
+          "src": "/assets/portfolio/579e61b1b5ed3323b09bf093449d494da39a585f6e11fca782f4d67530107ea7.png"
+        },
+        {
+          "alt": "Stock Portfolio Tracker 4",
+          "src": "/assets/portfolio/cfc03e7a07b165f264c7f0a949e4b421d6cc85eff9fa762a0101225d7467ce70.png"
+        },
+        {
+          "alt": "Stock Portfolio Tracker 5",
+          "src": "/assets/portfolio/a4558b50a5e6b641fd881cc273f399db0f78838da7dd20d68abac118bdd28a79.png"
+        },
+        {
+          "alt": "Stock Portfolio Tracker 6",
+          "src": "/assets/portfolio/fe8ed3c1243cc19ff90872ab77783023e2b45a92a784dde34d0d8d6f60e50ee4.png"
+        },
+        {
+          "alt": "Stock Portfolio Tracker 7",
+          "src": "/assets/portfolio/b0a09b8bc5cc6f72b448026acceec3451f22670d98b1176afa290ad879098aa8.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-11",
+      "images": [
+        {
+          "alt": "İpucuk — Turkish Word Guessing Game 1",
+          "src": "/assets/portfolio/707bd9dd832c379edd8664ce08989e2a6e6ee71a167d3272204f256af86ac951.png"
+        },
+        {
+          "alt": "İpucuk — Turkish Word Guessing Game 2",
+          "src": "/assets/portfolio/0f6d4bc735092254c63c79f7c88176a7a5435bafeca08d383192c7a6756d0a7a.png"
+        },
+        {
+          "alt": "İpucuk — Turkish Word Guessing Game 3",
+          "src": "/assets/portfolio/d2667ae1708b0e9ce6743ac965a662c354788c0a0ab3f5c2ea51968e567788ef.png"
+        },
+        {
+          "alt": "İpucuk — Turkish Word Guessing Game 4",
+          "src": "/assets/portfolio/73d31227b45496a2b46d88453412dd04a2ccf18e38cc1fa357fe1f8749d09a70.png"
+        },
+        {
+          "alt": "İpucuk — Turkish Word Guessing Game 5",
+          "src": "/assets/portfolio/85c14651f89422a9933672ea060af16b430e75cb4c6be2f30e3a75dfe68cb523.png"
+        },
+        {
+          "alt": "İpucuk — Turkish Word Guessing Game 6",
+          "src": "/assets/portfolio/31be95f7f3670f8d7fe4c3dfa2db7426288c73b318b77c83dfbf424faa492598.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-12",
+      "images": [
+        {
+          "alt": "Word Chain — Local Multiplayer 1",
+          "src": "/assets/portfolio/49244409ae6fb8648fee251d73a330b126edc450fb79a2d63770f4c62a9478e2.png"
+        },
+        {
+          "alt": "Word Chain — Local Multiplayer 2",
+          "src": "/assets/portfolio/9c6cf923a9137d0b5b33a8f2575fb09042c1686983b528bb67124d65ac501efc.png"
+        },
+        {
+          "alt": "Word Chain — Local Multiplayer 3",
+          "src": "/assets/portfolio/b946bf8f1d273189e2533c784f74bdb72656728aa8ccd39a57daf406f69f6100.png"
+        },
+        {
+          "alt": "Word Chain — Local Multiplayer 4",
+          "src": "/assets/portfolio/e538928ba726646de6d94e409e06c8e9249bb5ab4900930fc832d545332a0691.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-13",
+      "images": [
+        {
+          "alt": "Trendyol Flash Deal Price Checker 1",
+          "src": "/assets/portfolio/a16a24ca37219125cb94222eeb7ad974c2bc9d075fabc9ba93cd7b9d87fdae48.png"
+        },
+        {
+          "alt": "Trendyol Flash Deal Price Checker 2",
+          "src": "/assets/portfolio/7b962f98e36fc8a146c0ae743e8fed7a85ce95e802a156a5e12e3385517d3319.png"
+        },
+        {
+          "alt": "Trendyol Flash Deal Price Checker 3",
+          "src": "/assets/portfolio/e2038f92bcdb82c54da91d31b9a7781097805dfa1c2d73ad168d5039d1dd13f3.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-14",
+      "images": [
+        {
+          "alt": "Cargo Invoice Verification Tool 1",
+          "src": "/assets/portfolio/0d6b69d7404788c395887930f029d0d0654a0508d6297d26ae7f0e760b93d8b0.png"
+        },
+        {
+          "alt": "Cargo Invoice Verification Tool 2",
+          "src": "/assets/portfolio/6b84fcc0c01a96aeffddbaad4f8576e40d79399ae92ad37a46d45cd92e2b345c.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-15",
+      "images": [
+        {
+          "alt": "2D Mobile Arcade Game 1",
+          "src": "/assets/portfolio/9c3a3a2e6f103a9668202ac9e01ec2651b5d57f08eda6df4b8a83d7a9567db1a.jpg"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-16",
+      "images": [
+        {
+          "alt": "Multiplayer Quiz Game 1",
+          "src": "/assets/portfolio/d81c80b29433114071ae43ed8fa42e90296c80cac28524bda013c9be3192a060.png"
+        },
+        {
+          "alt": "Multiplayer Quiz Game 2",
+          "src": "/assets/portfolio/14a6538aee6cf0b67e859438591e99e76f0028365b644bdedca8da1544f6f4fd.png"
+        },
+        {
+          "alt": "Multiplayer Quiz Game 3",
+          "src": "/assets/portfolio/9452294099332a85c3413072ebc03f934d53c147c94a1743480f33ef5c0992d8.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-17",
+      "images": [
+        {
+          "alt": "In-Transit Order Cancellation Tracker overview screen",
+          "src": "/assets/portfolio/7977a93bcf5a7bdd5efd4bcaa42d630287bd279546a95c341fdc9501eb7f7815.png"
+        },
+        {
+          "alt": "In-Transit Order Cancellation Tracker orders screen",
+          "src": "/assets/portfolio/ca76103db2f8e33483c7ff015640da210f9ca2f582c3a48bf1c37205cf00b009.png"
+        },
+        {
+          "alt": "In-Transit Order Cancellation Tracker cancelled orders screen",
+          "src": "/assets/portfolio/907934bc9b5ee78967fc629a2c8362b111f2539f5aa1b562f22e2d16e4d9e43d.png"
+        },
+        {
+          "alt": "In-Transit Order Cancellation Tracker settings screen",
+          "src": "/assets/portfolio/067cd08723766522d48faa3f1ce56777fd9fe98d45f844fff9027a19edf278df.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-18",
+      "images": [
+        {
+          "alt": "After-Sales Warehouse Tracking and Shipment Workflow App 1",
+          "src": "/assets/portfolio/c24c669b3ca979002ef464bfb98ba29ac0119349c5cd5aec578b7d74c5fa4678.png"
+        },
+        {
+          "alt": "After-Sales Warehouse Tracking and Shipment Workflow App 2",
+          "src": "/assets/portfolio/c257897d7d7d2cb2d980341463e4c55a397acd0b31e25f100a9ab932763187e5.png"
+        },
+        {
+          "alt": "After-Sales Warehouse Tracking and Shipment Workflow App 3",
+          "src": "/assets/portfolio/d26d66a35c7049cf8d8557aac29cb0af33ab7020417d71b0cda74118412cfc05.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-19",
+      "images": [
+        {
+          "alt": "Google Review Tracking System store rating and review dashboard",
+          "src": "/assets/portfolio/95275684b8c8e4b8311c1e72f8648c58d9e38b7122b71deeae692c9d2a501434.png"
+        },
+        {
+          "alt": "Google Review Tracking System add and edit business dialog",
+          "src": "/assets/portfolio/d5e58518a5b18cd52d17e5d0e85f1100ad5250621570778ed8e9e0a4882eb872.png"
+        },
+        {
+          "alt": "Google Review Tracking System Excel report output",
+          "src": "/assets/portfolio/bbed402daab013bc234683c4a78b9e60860534388aa9cbc0580db6eef474489a.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-20",
+      "images": [
+        {
+          "alt": "Unified E-Commerce Sales Reporting Tool analysis setup screen",
+          "src": "/assets/portfolio/24bac071dc60b152554b14ff7f4452828519842997e002aa3e951fd637762597.png"
+        },
+        {
+          "alt": "Unified E-Commerce Sales Reporting Tool channel summary screen",
+          "src": "/assets/portfolio/67ba8e4e165ba34332ed03d21a2bbf137542eca97092158ed68fecfc880963f3.png"
+        },
+        {
+          "alt": "Unified E-Commerce Sales Reporting Tool Excel report output",
+          "src": "/assets/portfolio/caa92c430e7ad0b8dad5ff892894920062b460a19c86e3ea3b7f2cb22e456dcb.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    },
+    {
+      "lang": "en",
+      "focusedClose": true,
+      "id": "modal-en-21",
+      "images": [
+        {
+          "alt": "Warehouse Order Preparation Tool file selection and export screen",
+          "src": "/assets/portfolio/8c287b4e062aa584bc31a7539e356454cdf4fdcf3514c649c11d77ab5ad7aac3.png"
+        }
+      ],
+      "open": true,
+      "role": "dialog"
+    }
+  ],
+  "screenshots": [
+    "desktop-home.png",
+    "desktop-portfolyo.png",
+    "desktop-pazaryeri-yonetimi.png",
+    "desktop-erp-entegrasyonu.png",
+    "desktop-reklam-kampanya-yonetimi.png",
+    "desktop-e-ticaret-sitesi-yonetimi.png",
+    "desktop-veri-analizi-raporlama.png",
+    "desktop-operasyon-otomasyon.png",
+    "desktop-blog.png",
+    "desktop-en.png",
+    "desktop-en-portfolio.png",
+    "desktop-en-marketplace-management.png",
+    "desktop-en-erp-integration.png",
+    "desktop-en-advertising-campaign-management.png",
+    "desktop-en-ecommerce-website-management.png",
+    "desktop-en-data-analysis-reporting.png",
+    "desktop-en-operations-automation.png",
+    "desktop-en-blog.png",
+    "tablet-home.png",
+    "tablet-portfolyo.png",
+    "tablet-pazaryeri-yonetimi.png",
+    "tablet-erp-entegrasyonu.png",
+    "tablet-reklam-kampanya-yonetimi.png",
+    "tablet-e-ticaret-sitesi-yonetimi.png",
+    "tablet-veri-analizi-raporlama.png",
+    "tablet-operasyon-otomasyon.png",
+    "tablet-blog.png",
+    "tablet-en.png",
+    "tablet-en-portfolio.png",
+    "tablet-en-marketplace-management.png",
+    "tablet-en-erp-integration.png",
+    "tablet-en-advertising-campaign-management.png",
+    "tablet-en-ecommerce-website-management.png",
+    "tablet-en-data-analysis-reporting.png",
+    "tablet-en-operations-automation.png",
+    "tablet-en-blog.png",
+    "mobile-home.png",
+    "mobile-portfolyo.png",
+    "mobile-pazaryeri-yonetimi.png",
+    "mobile-erp-entegrasyonu.png",
+    "mobile-reklam-kampanya-yonetimi.png",
+    "mobile-e-ticaret-sitesi-yonetimi.png",
+    "mobile-veri-analizi-raporlama.png",
+    "mobile-operasyon-otomasyon.png",
+    "mobile-blog.png",
+    "mobile-en.png",
+    "mobile-en-portfolio.png",
+    "mobile-en-marketplace-management.png",
+    "mobile-en-erp-integration.png",
+    "mobile-en-advertising-campaign-management.png",
+    "mobile-en-ecommerce-website-management.png",
+    "mobile-en-data-analysis-reporting.png",
+    "mobile-en-operations-automation.png",
+    "mobile-en-blog.png"
+  ],
+  "interactions": [
+    {
+      "lang": "tr",
+      "filter": {
+        "active": "Veri Analizi",
+        "visible": 5
+      }
+    },
+    {
+      "lang": "tr",
+      "trapped": true,
+      "zoom": {
+        "alt": "Pazaryeri Satış Analiz Aracı 1",
+        "focus": "zoom-close",
+        "open": true
+      },
+      "modalRemains": 1,
+      "restored": true
+    },
+    {
+      "lang": "en",
+      "filter": {
+        "active": "Data Analysis",
+        "visible": 5
+      }
+    },
+    {
+      "lang": "en",
+      "trapped": true,
+      "zoom": {
+        "alt": "Marketplace Sales Analyzer 1",
+        "focus": "zoom-close",
+        "open": true
+      },
+      "modalRemains": 1,
+      "restored": true
+    },
+    {
+      "tab": "Education",
+      "active": "EDUCATION"
+    },
+    {
+      "tab": "Skills",
+      "active": "SKILLS"
+    },
+    {
+      "tab": "Technical Tools",
+      "active": "TECHNICAL TOOLS"
+    },
+    {
+      "tab": "Interests",
+      "active": "INTERESTS"
+    },
+    {
+      "tab": "Experience",
+      "active": "EXPERIENCE"
+    }
+  ],
+  "blog": [
+    {
+      "view": "desktop",
+      "canonical": "https://anilaslakci.com.tr/blog/qa-turkce/",
+      "h1": "YEREL QA yazısı",
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://anilaslakci.com.tr/blog/qa-turkce/#article",
+          "@type": "BlogPosting",
+          "articleSection": "Teknik Rehberler",
+          "author": {
+            "@type": "Person",
+            "name": "Mustafa Anıl Aşlakcı",
+            "url": "https://anilaslakci.com.tr/"
+          },
+          "dateModified": "2027-02-01T06:00:00.000Z",
+          "datePublished": "2027-02-01T06:00:00.000Z",
+          "description": "Yalnızca yerel test; gerçek yayın değildir.",
+          "headline": "YEREL QA yazısı",
+          "inLanguage": "tr",
+          "keywords": [],
+          "mainEntityOfPage": "https://anilaslakci.com.tr/blog/qa-turkce/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/",
+              "name": "Ana Sayfa",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/blog/",
+              "name": "Blog",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/blog/qa-turkce/",
+              "name": "YEREL QA yazısı",
+              "position": 3
+            }
+          ]
+        }
+      ],
+      "lang": "tr",
+      "links": [
+        "/__i18nfixture/blog/qa-turkce/",
+        "/__i18nfixture/en/blog/qa-english/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "canonical": "https://anilaslakci.com.tr/en/blog/qa-english/",
+      "h1": "LOCAL QA article",
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://anilaslakci.com.tr/en/blog/qa-english/#article",
+          "@type": "BlogPosting",
+          "articleSection": "Technical Guides",
+          "author": {
+            "@type": "Person",
+            "name": "Mustafa Anıl Aşlakcı",
+            "url": "https://anilaslakci.com.tr/en/"
+          },
+          "dateModified": "2027-02-01T06:00:00.000Z",
+          "datePublished": "2027-02-01T06:00:00.000Z",
+          "description": "Local test only; not a real publication.",
+          "headline": "LOCAL QA article",
+          "inLanguage": "en",
+          "keywords": [],
+          "mainEntityOfPage": "https://anilaslakci.com.tr/en/blog/qa-english/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/en/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/en/blog/",
+              "name": "Blog",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/en/blog/qa-english/",
+              "name": "LOCAL QA article",
+              "position": 3
+            }
+          ]
+        }
+      ],
+      "lang": "en",
+      "links": [
+        "/__i18nfixture/blog/qa-turkce/",
+        "/__i18nfixture/en/blog/qa-english/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "canonical": "https://anilaslakci.com.tr/blog/qa-turkce/",
+      "h1": "YEREL QA yazısı",
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://anilaslakci.com.tr/blog/qa-turkce/#article",
+          "@type": "BlogPosting",
+          "articleSection": "Teknik Rehberler",
+          "author": {
+            "@type": "Person",
+            "name": "Mustafa Anıl Aşlakcı",
+            "url": "https://anilaslakci.com.tr/"
+          },
+          "dateModified": "2027-02-01T06:00:00.000Z",
+          "datePublished": "2027-02-01T06:00:00.000Z",
+          "description": "Yalnızca yerel test; gerçek yayın değildir.",
+          "headline": "YEREL QA yazısı",
+          "inLanguage": "tr",
+          "keywords": [],
+          "mainEntityOfPage": "https://anilaslakci.com.tr/blog/qa-turkce/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/",
+              "name": "Ana Sayfa",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/blog/",
+              "name": "Blog",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/blog/qa-turkce/",
+              "name": "YEREL QA yazısı",
+              "position": 3
+            }
+          ]
+        }
+      ],
+      "lang": "tr",
+      "links": [
+        "/__i18nfixture/blog/qa-turkce/",
+        "/__i18nfixture/en/blog/qa-english/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "canonical": "https://anilaslakci.com.tr/en/blog/qa-english/",
+      "h1": "LOCAL QA article",
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://anilaslakci.com.tr/en/blog/qa-english/#article",
+          "@type": "BlogPosting",
+          "articleSection": "Technical Guides",
+          "author": {
+            "@type": "Person",
+            "name": "Mustafa Anıl Aşlakcı",
+            "url": "https://anilaslakci.com.tr/en/"
+          },
+          "dateModified": "2027-02-01T06:00:00.000Z",
+          "datePublished": "2027-02-01T06:00:00.000Z",
+          "description": "Local test only; not a real publication.",
+          "headline": "LOCAL QA article",
+          "inLanguage": "en",
+          "keywords": [],
+          "mainEntityOfPage": "https://anilaslakci.com.tr/en/blog/qa-english/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/en/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/en/blog/",
+              "name": "Blog",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/en/blog/qa-english/",
+              "name": "LOCAL QA article",
+              "position": 3
+            }
+          ]
+        }
+      ],
+      "lang": "en",
+      "links": [
+        "/__i18nfixture/blog/qa-turkce/",
+        "/__i18nfixture/en/blog/qa-english/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "canonical": "https://anilaslakci.com.tr/blog/qa-turkce/",
+      "h1": "YEREL QA yazısı",
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://anilaslakci.com.tr/blog/qa-turkce/#article",
+          "@type": "BlogPosting",
+          "articleSection": "Teknik Rehberler",
+          "author": {
+            "@type": "Person",
+            "name": "Mustafa Anıl Aşlakcı",
+            "url": "https://anilaslakci.com.tr/"
+          },
+          "dateModified": "2027-02-01T06:00:00.000Z",
+          "datePublished": "2027-02-01T06:00:00.000Z",
+          "description": "Yalnızca yerel test; gerçek yayın değildir.",
+          "headline": "YEREL QA yazısı",
+          "inLanguage": "tr",
+          "keywords": [],
+          "mainEntityOfPage": "https://anilaslakci.com.tr/blog/qa-turkce/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/",
+              "name": "Ana Sayfa",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/blog/",
+              "name": "Blog",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/blog/qa-turkce/",
+              "name": "YEREL QA yazısı",
+              "position": 3
+            }
+          ]
+        }
+      ],
+      "lang": "tr",
+      "links": [
+        "/__i18nfixture/blog/qa-turkce/",
+        "/__i18nfixture/en/blog/qa-english/"
+      ],
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "canonical": "https://anilaslakci.com.tr/en/blog/qa-english/",
+      "h1": "LOCAL QA article",
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://anilaslakci.com.tr/en/blog/qa-english/#article",
+          "@type": "BlogPosting",
+          "articleSection": "Technical Guides",
+          "author": {
+            "@type": "Person",
+            "name": "Mustafa Anıl Aşlakcı",
+            "url": "https://anilaslakci.com.tr/en/"
+          },
+          "dateModified": "2027-02-01T06:00:00.000Z",
+          "datePublished": "2027-02-01T06:00:00.000Z",
+          "description": "Local test only; not a real publication.",
+          "headline": "LOCAL QA article",
+          "inLanguage": "en",
+          "keywords": [],
+          "mainEntityOfPage": "https://anilaslakci.com.tr/en/blog/qa-english/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/en/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/en/blog/",
+              "name": "Blog",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://anilaslakci.com.tr/en/blog/qa-english/",
+              "name": "LOCAL QA article",
+              "position": 3
+            }
+          ]
+        }
+      ],
+      "lang": "en",
+      "links": [
+        "/__i18nfixture/blog/qa-turkce/",
+        "/__i18nfixture/en/blog/qa-english/"
+      ],
+      "overflow": false
+    }
+  ],
+  "before": [
+    {
+      "view": "desktop",
+      "route": "/",
+      "screenshot": "before-desktop-home.png",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/portfolyo/",
+      "screenshot": "before-desktop-portfolyo.png",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/pazaryeri-yonetimi/",
+      "screenshot": "before-desktop-pazaryeri-yonetimi.png",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/erp-entegrasyonu/",
+      "screenshot": "before-desktop-erp-entegrasyonu.png",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/reklam-kampanya-yonetimi/",
+      "screenshot": "before-desktop-reklam-kampanya-yonetimi.png",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "screenshot": "before-desktop-e-ticaret-sitesi-yonetimi.png",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/veri-analizi-raporlama/",
+      "screenshot": "before-desktop-veri-analizi-raporlama.png",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/operasyon-otomasyon/",
+      "screenshot": "before-desktop-operasyon-otomasyon.png",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/",
+      "screenshot": "before-tablet-home.png",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/portfolyo/",
+      "screenshot": "before-tablet-portfolyo.png",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/pazaryeri-yonetimi/",
+      "screenshot": "before-tablet-pazaryeri-yonetimi.png",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/erp-entegrasyonu/",
+      "screenshot": "before-tablet-erp-entegrasyonu.png",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/reklam-kampanya-yonetimi/",
+      "screenshot": "before-tablet-reklam-kampanya-yonetimi.png",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "screenshot": "before-tablet-e-ticaret-sitesi-yonetimi.png",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/veri-analizi-raporlama/",
+      "screenshot": "before-tablet-veri-analizi-raporlama.png",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/operasyon-otomasyon/",
+      "screenshot": "before-tablet-operasyon-otomasyon.png",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/",
+      "screenshot": "before-mobile-home.png",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/portfolyo/",
+      "screenshot": "before-mobile-portfolyo.png",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/pazaryeri-yonetimi/",
+      "screenshot": "before-mobile-pazaryeri-yonetimi.png",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/erp-entegrasyonu/",
+      "screenshot": "before-mobile-erp-entegrasyonu.png",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/reklam-kampanya-yonetimi/",
+      "screenshot": "before-mobile-reklam-kampanya-yonetimi.png",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "screenshot": "before-mobile-e-ticaret-sitesi-yonetimi.png",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/veri-analizi-raporlama/",
+      "screenshot": "before-mobile-veri-analizi-raporlama.png",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/operasyon-otomasyon/",
+      "screenshot": "before-mobile-operasyon-otomasyon.png",
+      "overflow": false
+    }
+  ],
+  "logs": [],
+  "intro": {
+    "lang": "en",
+    "text": "E-COMMERCE SPECIALIST · DIGITAL OPERATIONS & AUTOMATION",
+    "backgroundInert": "",
+    "released": null
+  },
+  "menu": {
+    "expanded": "true",
+    "visible": true,
+    "closed": "false"
+  },
+  "analytics": {
+    "measurement": "https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2"
+  },
+  "cms": {
+    "url": "https://app.pagescms.org/sign-in?redirect=%2F",
+    "editorSession": false,
+    "remoteWrites": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "baseline": "d120e7030496b8c4c5c9449a7168f7a0692cea9b",
+  "branch": "refactor/eleventy-cms-migration",
+  "archive": ".migration-backups/phase-7/baseline-d120e70.zip",
+  "archiveSHA256": "690d1f0bf6b94bfbee908edc8ef23c82fb26614fddcf0f9c6dd1fdec9309f992",
+  "bundle": ".migration-backups/phase-7/before-i18n.bundle",
+  "bundleVerified": true,
+  "draftBackup": ".migration-backups/phase-7/cms-deneme-yazisi.md",
+  "draftSHA256": "abf3a17c7235d1ae073ad815c91ac989e209e477b45472d3d952bc5ea6f2e022",
+  "removedOnlyNamedTestDraft": true,
+  "projects": 21,
+  "translations": 42,
+  "uniqueImages": 67,
+  "originalURLs": 8,
+  "localizedBasePages": 18,
+  "newDependencies": 0,
+  "realCMSWritePerformed": false,
+  "realCMSLoginAvailable": false,
+  "liveDeploymentEnabled": false
+}

@@ -1,9 +1,9 @@
-<div aria-hidden="true" class="modal" data-lang="{{ lang }}" id="modal-{{ lang }}-{{ project.id }}">
+<div aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title-{{ lang }}-{{ project.id }}" class="modal" data-lang="{{ lang }}" id="modal-{{ lang }}-{{ project.id }}">
 <div class="modal-panel">
-<button class="close" onclick="closeModal()">×</button>
+<button class="close" aria-label="{% if lang == 'en' %}Close project{% else %}Projeyi kapat{% endif %}" onclick="closeModal()">×</button>
 <div class="modal-head">
 <span class="tag" style="--tag:{{ category.color }}">{{ category[lang] | escape }}</span>
-<h2>{{ t.title | escape }}</h2>{% if t.intro %}<p>{{ t.intro | safe }}</p>{% endif %}
+<h2 id="modal-title-{{ lang }}-{{ project.id }}">{{ t.title | escape }}</h2>{% if t.intro %}<p>{{ t.intro | safe }}</p>{% endif %}
 </div>
 {% if t.problem or t.solution or t.impact %}<div class="detail-grid">
 {% if t.problem %}<div class="detail-block"><h4>{{ portfolio.words[lang].problem }}</h4><p>{{ t.problem | safe }}</p></div>{% endif %}

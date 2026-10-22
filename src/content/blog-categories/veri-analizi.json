@@ -2,5 +2,6 @@
   "key": "veri-analizi",
   "name": "Veri Analizi",
   "order": 6,
-  "archived": false
+  "archived": false,
+  "en": "Data Analysis"
 }

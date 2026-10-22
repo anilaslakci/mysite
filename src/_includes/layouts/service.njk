@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="{{ pageLocale | default('tr') }}" data-page-key="{{ pageKey }}">
 <head>{% block head %}{% endblock %}</head>
 <body>
 {% include "services/header.njk" %}

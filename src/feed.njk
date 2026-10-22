@@ -1,4 +1,8 @@
 ---
-permalink: /feed.xml
+pagination:
+  data: blog.views
+  size: 1
+  alias: view
+permalink: "{{ view.feed }}"
 ---
-{{ blog | rssXML | safe }}
+{{ view | rssXML | safe }}
