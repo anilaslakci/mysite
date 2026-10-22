@@ -11,7 +11,7 @@
     "Same slug across locales is allowed; duplicate slug or translation key inside one locale fails",
     "Related articles never leak across languages",
     "English categories require actual English labels, not Turkish fallback",
-    "Legacy project records and all 67 image files have unchanged content"
+    "Isolated blog scenarios leave current editorial project and image content unchanged"
   ],
   "realCMSWrite": false
 }

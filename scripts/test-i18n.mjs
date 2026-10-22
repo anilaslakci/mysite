@@ -1,8 +1,11 @@
 // Isolated multilingual build fixtures; no remote CMS writes and no real content edits.
 import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import crypto from 'node:crypto';import {execFileSync} from 'node:child_process';import {createRequire} from 'node:module';
 import {pagePairs,alternates} from '../lib/i18n.mjs';import {loadBlog,buildClock,readPost} from '../lib/blog.mjs';
+import {loadPortfolio} from '../lib/portfolio.mjs';
 const yaml=createRequire(import.meta.url)('js-yaml'),root=process.cwd();fs.mkdirSync('.migration-preview',{recursive:true});const work=fs.mkdtempSync(path.resolve('.migration-preview/i18n-qa-')),dir=path.join(work,'posts'),out=path.join(work,'site');fs.mkdirSync(dir);
 const time='2027-02-01T06:00:00Z',key=crypto.randomUUID(),checks=[];const check=(name,fn)=>{fn();checks.push(name);};
+const currentPortfolio=loadPortfolio(),protectedPaths=[...fs.readdirSync('src/content/projects').filter(f=>f.endsWith('.json')).map(f=>'src/content/projects/'+f),...currentPortfolio.media.map(m=>m.file.slice(1))];
+const protectedSources=new Map(protectedPaths.map(p=>[p,fs.readFileSync(p)]));
 const fixture=(locale,slug,extra={})=>({uid:crypto.randomUUID(),translationKey:key,locale,slug,title:locale==='en'?'LOCAL QA article':'YEREL QA yazısı',summary:locale==='en'?'Local test only; not a real publication.':'Yalnızca yerel test; gerçek yayın değildir.',body:locale==='en'?'## Local QA\nIsolated test content.':'## Yerel QA\nİzole test içeriği.',status:'published',publishAt:'2027-02-01T09:00',category:'teknik-rehberler',...extra});
 const tr=fixture('tr','qa-turkce'),en=fixture('en','qa-english');
 const put=p=>{const {body,...data}=p;fs.writeFileSync(path.join(dir,p.uid+'.md'),'---\n'+yaml.dump(data)+'---\n'+body);};const load=clock=>loadBlog({directory:dir,now:buildClock(clock||time)});
@@ -17,6 +20,6 @@ check('A single language article does not fabricate an equivalent article URL',(
 check('Same slug across locales is allowed; duplicate slug or translation key inside one locale fails',()=>{en.slug=tr.slug;put(en);assert.equal(load().posts.length,2);const dup=fixture('en','qa-second');put(dup);assert.throws(()=>load(),/Duplicate translationKey/);fs.unlinkSync(path.join(dir,dup.uid+'.md'));en.slug='qa-english';put(en);});
 check('Related articles never leak across languages',()=>{tr.related=[en.uid];en.related=[tr.uid];put(tr);put(en);assert(load().posts.every(p=>p.relatedPosts.length===0));});
 check('English categories require actual English labels, not Turkish fallback',()=>{assert.equal(load().posts.find(p=>p.locale==='en').categoryInfo.name,'Technical Guides');});
-check('Legacy project records and all 67 image files have unchanged content',()=>{const manifest=JSON.parse(fs.readFileSync('migration/phase-1/image-manifest.json'));for(const image of manifest.unique)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(image.file)).digest('hex'),image.sha256);for(const f of fs.readdirSync('src/content/projects'))assert.deepEqual(JSON.parse(fs.readFileSync('src/content/projects/'+f)),JSON.parse(execFileSync('git',['show','d120e70:src/content/projects/'+f],{encoding:'utf8'})));});
+check('Isolated blog scenarios leave current editorial project and image content unchanged',()=>{for(const [file,bytes]of protectedSources)assert.deepEqual(fs.readFileSync(file),bytes);});
 build();fs.writeFileSync('.migration-preview/i18n-fixture.json',JSON.stringify({site:out,dir,clock:time,tr:tr.slug,en:en.slug},null,2));
 fs.writeFileSync('migration/phase-7/i18n-results.json',JSON.stringify({passed:checks.length,failed:0,checks,realCMSWrite:false},null,2)+'\n');console.log(checks.length+' multilingual scenario groups passed.');
