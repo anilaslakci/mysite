@@ -408,11 +408,9 @@ content:
       - name: translationKey
         label: Çeviri eşleştirme kimliği
         type: string
-        hidden: false
-        readonly: false
-        description: >-
-          Bağımsız yazıda boş bırakın. Çeviri oluştururken asıl yazının eşleştirme kimliğini (boşsa yazı
-          UUID’sini) buraya kopyalayın. İki dil aynı kimliği kullanır.
+        hidden: true
+        readonly: true
+        description: Eski çeviri ilişkilerini koruyan teknik alan; elle düzenlenmez.
         required: false
       - name: locale
         type: select
@@ -427,6 +425,18 @@ content:
               label: Türkçe
             - name: en
               label: İngilizce
+      - name: translationOf
+        label: Bu yazı hangi makalenin çevirisi?
+        type: reference
+        options:
+          collection: posts
+          value: '{fields.uid}'
+          label: '{fields.title} — {fields.locale}'
+          search: title,slug
+        description: >-
+          İngilizce çeviride Türkçe (tr) asıl yazıyı seçin. Türkçe veya bağımsız İngilizce yazıda boş bırakın.
+          Listede tüm diller görünür; yanlış dil seçimi build sırasında reddedilir. Eski eşleştirilmiş yazıda
+          boşsa mevcut ilişki korunur.
       - name: title
         label: Başlık
         type: string
@@ -437,8 +447,8 @@ content:
         required: true
         pattern: ^[a-z0-9]+(?:-[a-z0-9]+)*$
         description: >-
-          Örnek: pazaryeri-satis-analizi. İlk oluştururken belirleyin; başlığı değiştirmek URL adını
-          değiştirmez. Yayımlanmış URL adını yönlendirme planı olmadan değiştirmeyin.
+          Küçük Latin harf, rakam ve tire kullanın (örnek: pazaryeri-yonetimi). Bir kez belirleyin; başlık
+          değişince URL değişmez. Editör başlıktan otomatik öneri üretmez.
       - name: seoTitle
         label: SEO başlığı (isteğe bağlı)
         type: string
@@ -501,9 +511,12 @@ content:
         options:
           values:
             - name: draft
-              label: Taslak (yayımlanmaz)
+              label: Taslak
             - name: published
-              label: Yayına hazır (tarihi gelince yayımlanır)
+              label: Yayında
+        description: >-
+          Yayında seçilen yazı, yayın tarihi geldiğinde çıktıya alınır. Gelecek tarihli yazı o zamana kadar
+          görünmez.
       - name: publishAt
         label: Yayın tarihi ve saati
         type: date

@@ -1,0 +1,17 @@
+{
+  "baseline": "e9f34b62cd1dfe7e337558ebac18fb47e352c647",
+  "backupSHA256": "08587504488596cf85d32a0ce2c5356bda9872c58a02d19626ed6cfe22b8dbb0",
+  "posts": [
+    {
+      "file": "69e0db51-b2aa-4a35-aee7-12bd58c00b66.md",
+      "sha256": "5f2a5e927a09d993efabb28700c5858a6779437d21e6ddefee70e9751d7d7f60"
+    },
+    {
+      "file": "cf7652fc-6d26-4ae9-8b24-974f3f97b1cd.md",
+      "sha256": "02dddcb33aedb6be6bf6427507e00f27d0751812d2cf6aa9e4869d8bc665e5b3"
+    }
+  ],
+  "uploadedImageSHA256": "c68de0f51c61a69d09edcc31e339057b1466cd483517dfc01b46494c138dc40f",
+  "userFilesEdited": false,
+  "userFilesDeleted": false
+}
