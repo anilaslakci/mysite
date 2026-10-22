@@ -48,7 +48,7 @@ try{
   const restored=fs.readFileSync(`${restoredOutput}/portfolyo/index.html`);
   assert.equal(hash(restored),hash(fs.readFileSync('_site/portfolyo/index.html')));checks.push('Undo restores the previous generated portfolio byte-for-byte and count 21');
   for(const [name,bytes]of originals)assert.deepEqual(fs.readFileSync(path.join(sourceDir,name)),bytes);assert.equal(fs.readdirSync(sourceDir).length,21);checks.push('Production source records never changed; synthetic record exists only in ignored QA output');
-  fs.writeFileSync('migration/phase-5/local-edit-results.json',JSON.stringify({passed:checks.length,failed:0,editorTested:false,fixtureContent:'Existing project 1 copied temporarily; no invented project or description saved to production records',checks},null,2)+'\n');
+  fs.writeFileSync('migration/phase-6/local-edit-results.json',JSON.stringify({passed:checks.length,failed:0,editorTested:false,fixtureContent:'Existing project 1 copied temporarily; no invented project or description saved to production records',checks},null,2)+'\n');
   console.log(`${checks.length} isolated CMS-style edit/build/undo checks passed; real CMS editor NOT tested.`);
 }finally{
   if(ownsUpload){assert(upload.startsWith('assets/portfolio/qa-upload-'));fs.unlinkSync(upload);}

@@ -97,7 +97,7 @@ try {
   build('browser-site');
   execFileSync(process.execPath,['scripts/test-portfolio-runtime.mjs'],{env:{...process.env,PORTFOLIO_TEST_DIR:dirs.projects,PORTFOLIO_CATEGORY_TEST_DIR:dirs.categories,SITE_TEST_OUTPUT:path.join(work,'browser-site')},stdio:'pipe'});
   fs.writeFileSync('.migration-preview/phase-5-fixture.json',JSON.stringify({site:path.join(work,'browser-site'),uid:p22.uid,otherUid:p23.uid,count:23},null,2));
-  fs.writeFileSync('migration/phase-5/completion-test-results.json',JSON.stringify({passed:checks.length,failed:0,negativeBuilds:negatives,uuidSamples:10000,concurrentUuidWorkers:4,collisionObserved:false,realCmsEditor:false,checks},null,2)+'\n');
+  fs.writeFileSync('migration/phase-6/completion-test-results.json',JSON.stringify({passed:checks.length,failed:0,negativeBuilds:negatives,uuidSamples:10000,concurrentUuidWorkers:4,collisionObserved:false,realCmsEditor:false,checks},null,2)+'\n');
   console.log(`${checks.length} completion scenarios passed, ${negatives.length} invalid builds correctly rejected. 10000 UUID samples, no collisions observed. Real hosted CMS NOT tested.`);
 } finally {
   // Only the uniquely named test upload is removed. The ignored fixture preserves its byte copy.

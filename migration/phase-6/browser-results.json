@@ -1,0 +1,351 @@
+{
+  "blogViews": [
+    {
+      "columns": "368px 368px 368px",
+      "count": "2 yazı",
+      "overflow": false,
+      "page": "list",
+      "view": "desktop"
+    },
+    {
+      "count": "1 yazı",
+      "page": "filtered",
+      "pressed": "true",
+      "view": "desktop",
+      "visible": 1
+    },
+    {
+      "canonical": "https://anilaslakci.com.tr/blog/yerel-qa-zaman/",
+      "h1": 1,
+      "images": [
+        {
+          "alt": "Yerel QA ekran görüntüsü",
+          "loaded": true
+        },
+        {
+          "alt": "Yerel QA içerik görseli",
+          "loaded": true
+        }
+      ],
+      "jsonld": [
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "overflow": false,
+      "page": "post",
+      "related": [
+        "YEREL QA — yerel-qa-once"
+      ],
+      "view": "desktop"
+    },
+    {
+      "columns": "348px 348px",
+      "count": "2 yazı",
+      "overflow": false,
+      "page": "list",
+      "view": "tablet"
+    },
+    {
+      "count": "1 yazı",
+      "page": "filtered",
+      "pressed": "true",
+      "view": "tablet",
+      "visible": 1
+    },
+    {
+      "canonical": "https://anilaslakci.com.tr/blog/yerel-qa-zaman/",
+      "h1": 1,
+      "images": [
+        {
+          "alt": "Yerel QA ekran görüntüsü",
+          "loaded": true
+        },
+        {
+          "alt": "Yerel QA içerik görseli",
+          "loaded": true
+        }
+      ],
+      "jsonld": [
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "overflow": false,
+      "page": "post",
+      "related": [
+        "YEREL QA — yerel-qa-once"
+      ],
+      "view": "tablet"
+    },
+    {
+      "columns": "350px",
+      "count": "2 yazı",
+      "overflow": false,
+      "page": "list",
+      "view": "mobile"
+    },
+    {
+      "count": "1 yazı",
+      "page": "filtered",
+      "pressed": "true",
+      "view": "mobile",
+      "visible": 1
+    },
+    {
+      "canonical": "https://anilaslakci.com.tr/blog/yerel-qa-zaman/",
+      "h1": 1,
+      "images": [
+        {
+          "alt": "Yerel QA ekran görüntüsü",
+          "loaded": true
+        },
+        {
+          "alt": "Yerel QA içerik görseli",
+          "loaded": true
+        }
+      ],
+      "jsonld": [
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "overflow": false,
+      "page": "post",
+      "related": [
+        "YEREL QA — yerel-qa-once"
+      ],
+      "view": "mobile"
+    }
+  ],
+  "portfolioComparisons": [
+    {
+      "view": "desktop",
+      "equal": true
+    },
+    {
+      "view": "mobile",
+      "equal": true
+    }
+  ],
+  "portfolioModals": [
+    {
+      "id": "1",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "2",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "3",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "4",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "5",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "6",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "7",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "8",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "9",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "10",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "11",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "12",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "13",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "14",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "15",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "16",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "17",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "18",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "19",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "20",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "21",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "1",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "2",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "3",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "4",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "5",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "6",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "7",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "8",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "9",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "10",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "11",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "12",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "13",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "14",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "15",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "16",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "17",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "18",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "19",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "20",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "21",
+      "lang": "en",
+      "open": true
+    }
+  ],
+  "home": {
+    "blogLink": "/blog/",
+    "overflow": false
+  },
+  "empty": {
+    "count": "0 yazı",
+    "overflow": false,
+    "posts": 0
+  },
+  "logs": [],
+  "realCmsEditor": false
+}

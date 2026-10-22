@@ -14,9 +14,11 @@ for (const file of walk('_site')) {
   if (file.endsWith('.js')) assert(response.headers.get('content-type').startsWith('text/javascript'));
   checks.push({ route, passed: true });
 }
-for (const route of ['/migration/phase-1/README.md','/.migration-backups/phase-1/metadata.json','/package.json','/src/index.njk']) {
-  assert.equal((await fetch(`http://127.0.0.1:4174${route}`)).status, 404, route);
+for (const route of ['/migration/phase-1/README.md','/.migration-backups/phase-1/metadata.json','/package.json','/src/index.njk','/blog/does-not-exist/']) {
+  const response=await fetch(`http://127.0.0.1:4174${route}`);
+  assert.equal(response.status, 404, route);
+  if(route.startsWith('/blog/'))assert((await response.text()).includes('Bu sayfa bulunamadı.'));
   checks.push({ blockedPrivateRoute: route, passed: true });
 }
-fs.writeFileSync('migration/phase-5/http-results.json', JSON.stringify({ passed: checks.length, failed: 0, checks }, null, 2) + '\n');
+fs.writeFileSync('migration/phase-6/http-results.json', JSON.stringify({ passed: checks.length, failed: 0, checks }, null, 2) + '\n');
 console.log(`HTTP: ${checks.length} passed; 0 failures.`);

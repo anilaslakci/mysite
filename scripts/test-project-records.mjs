@@ -47,5 +47,5 @@ check('Duplicate IDs/invalid orders, missing translation, unsafe content and mis
 });
 check('Referenced/shared image deletion guard rejects removal without deleting any file',()=>{const p=records[0],shared=structuredClone(p);shared.id=22;shared.order=22;assert.throws(()=>assertMediaUnused([p,shared],p.gallery[0].file),/1, 22/);});
 check('Project count is server-generated and language JS has no fixed stat1_num',()=>{const html=fs.readFileSync('_site/portfolyo/index.html','utf8');assert(html.includes('<strong id="stat1-num">21</strong>'));const js=fs.readFileSync('src/assets/js/portfolio-1.js','utf8');assert(!js.includes('stat1_num'));assert(js.includes("querySelectorAll('#grid-' + lang + ' .project-card').length"));});
-fs.writeFileSync('migration/phase-5/historical-record-results.json',JSON.stringify({passed:checks.length,failed:0,checks},null,2)+'\n');
+fs.writeFileSync('migration/phase-6/historical-record-results.json',JSON.stringify({passed:checks.length,failed:0,checks},null,2)+'\n');
 console.log(`${checks.length} project/CMS data checks passed; 84 lossless card/modal comparisons included.`);

@@ -1,0 +1,17 @@
+---
+pagination:
+  data: blog.posts
+  size: 1
+  alias: post
+permalink: "{{ post.url }}index.html"
+---
+{% extends "blog/base.njk" %}
+{% block title %}{{ post.seoTitle | escape }} | Mustafa Anıl Aşlakcı{% endblock %}
+{% block description %}{{ post.description | escape }}{% endblock %}
+{% block canonicalPath %}{{ post.url }}{% endblock %}
+{% block navCurrent %}false{% endblock %}
+{% block social %}<meta property="og:title" content="{{ post.seoTitle | escape }}"><meta property="og:description" content="{{ post.description | escape }}"><meta property="og:type" content="article"><meta property="og:url" content="{{ post.canonical }}"><meta property="og:image" content="{{ blog.site.url }}{{ post.cover | default('/favicon.png', true) }}"><meta property="article:published_time" content="{{ post.publishedISO }}"><meta property="article:modified_time" content="{{ post.modifiedISO }}"><meta name="twitter:card" content="{% if post.cover %}summary_large_image{% else %}summary{% endif %}"><meta name="twitter:title" content="{{ post.seoTitle | escape }}"><meta name="twitter:description" content="{{ post.description | escape }}"><meta name="twitter:image" content="{{ blog.site.url }}{{ post.cover | default('/favicon.png', true) }}">{% endblock %}
+{% block head %}{% if post.cover %}<meta property="og:image:alt" content="{{ post.coverAlt | escape }}"><meta name="twitter:image:alt" content="{{ post.coverAlt | escape }}">{% endif %}<script type="application/ld+json">{{ post | postSchema | jsonScript | safe }}</script>{% endblock %}
+{% block content %}<article class="post"><nav class="breadcrumbs" aria-label="İçerik yolu"><a href="/?skipIntro=1">Ana Sayfa</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a><span aria-hidden="true">/</span><span>{{ post.title | escape }}</span></nav><header class="post-header"><a class="eyebrow" href="/blog/?kategori={{ post.category }}">{{ post.categoryInfo.name | escape }}</a><h1>{{ post.title | escape }}</h1><p class="post-summary">{{ post.summary | escape }}</p><p class="post-meta"><span>Mustafa Anıl Aşlakcı</span><time datetime="{{ post.publishedISO }}">{{ post.dateLabel }}</time>{% if post.modifiedISO != post.publishedISO %}<span>Güncellendi: <time datetime="{{ post.modifiedISO }}">{{ post.modifiedISO | editorialDate }}</time></span>{% endif %}</p></header>
+{% if post.cover %}<img class="post-cover" src="{{ post.cover | escape }}" alt="{{ post.coverAlt | escape }}" width="1200" height="675" fetchpriority="high">{% endif %}<div class="prose">{{ post.html | safe }}</div>{% if post.tags.length %}<ul class="tags" aria-label="Yazı etiketleri">{% for tag in post.tags %}<li>{{ tag | escape }}</li>{% endfor %}</ul>{% endif %}<a class="gold-link" href="/blog/">← Tüm yazılara dön</a></article>
+{% if post.relatedPosts.length %}<aside class="related" aria-labelledby="related-heading"><h2 id="related-heading">İlgili yazılar</h2><div class="blog-grid">{% for item in post.relatedPosts %}{% include "blog/card.njk" %}{% endfor %}</div></aside>{% endif %}{% endblock %}

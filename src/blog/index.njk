@@ -1,0 +1,7 @@
+{% extends "blog/base.njk" %}
+{% block head %}<script type="application/ld+json">{{ blog | blogIndexSchema | jsonScript | safe }}</script>{% endblock %}
+{% block content %}<section class="blog-hero"><p class="eyebrow">Bilgi &amp; Deneyim</p><h1>E-ticaretten otomasyona.</h1><p>E-ticaret, pazaryeri yönetimi, entegrasyon ve veri analizi üzerine notlar, pratik yaklaşımlar ve teknik rehberler.</p></section>
+<section class="blog-list" aria-labelledby="posts-heading"><div class="section-heading"><h2 id="posts-heading">Yazılar</h2><p id="result-count" role="status" aria-live="polite">{{ blog.posts.length }} yazı</p></div>
+{% if blog.posts.length %}<div class="blog-filters" aria-label="Yazıları kategoriye göre filtrele"><button type="button" data-filter="all" aria-pressed="true">Tümü</button>{% for category in blog.categories %}<button type="button" data-filter="{{ category.key }}" aria-pressed="false">{{ category.name | escape }}</button>{% endfor %}</div><div class="blog-grid">{% for item in blog.posts %}{% include "blog/card.njk" %}{% endfor %}</div><p id="filter-empty" class="empty" hidden>Bu kategoride henüz yayımlanmış yazı yok.</p>
+{% else %}<div class="empty"><h3>Henüz yayımlanmış yazı yok.</h3><p>Yeni yazılar burada yer alacak. Bu sırada uygulamalı çalışmalarımı portfolyoda inceleyebilirsiniz.</p><a class="gold-link" href="/portfolyo/">Projeleri incele <span aria-hidden="true">→</span></a></div>{% endif %}</section>{% endblock %}
+{% block scripts %}<script src="/assets/js/blog.js" defer></script>{% endblock %}

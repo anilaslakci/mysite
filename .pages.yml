@@ -8,6 +8,15 @@ media:
       - png
       - jpg
       - jpeg
+  - name: blogImages
+    label: Blog görselleri
+    input: assets/blog
+    output: /assets/blog
+    rename: random
+    extensions:
+      - png
+      - jpg
+      - jpeg
 content:
   - name: projects
     label: Portfolyo projeleri
@@ -72,8 +81,8 @@ content:
         type: boolean
         default: false
         description: >-
-          Kayıt ve görseller korunur; kart, modal, filtre ve sayaca dahil edilmez. Yeniden yayımlamak
-          için kapatın.
+          Kayıt ve görseller korunur; kart, modal, filtre ve sayaca dahil edilmez. Yeniden yayımlamak için
+          kapatın.
       - name: category
         label: Kategori
         type: reference
@@ -84,8 +93,8 @@ content:
           label: '{fields.tr} / {fields.en} (arşiv: {fields.archived})'
           search: key,tr,en
         description: >-
-          Arşiv değeri true olan kategoriyi seçmeyin. Editör aktif kategori filtresi sunmaz; arşivli
-          kategori kullanımı derlemede reddedilir.
+          Arşiv değeri true olan kategoriyi seçmeyin. Editör aktif kategori filtresi sunmaz; arşivli kategori
+          kullanımı derlemede reddedilir.
       - name: tr
         label: Türkçe
         type: object
@@ -228,8 +237,8 @@ content:
             type: string
             required: true
         description: >-
-          İsteğe bağlı. HTTPS adresi veya / ile başlayan site içi yol. Eklenen her bağlantıda iki dilde
-          etiket gerekir.
+          İsteğe bağlı. HTTPS adresi veya / ile başlayan site içi yol. Eklenen her bağlantıda iki dilde etiket
+          gerekir.
   - name: categories
     label: Portfolyo kategorileri
     type: collection
@@ -264,8 +273,8 @@ content:
         required: true
         pattern: ^[a-z][a-z0-9-]*$
         description: >-
-          Küçük Latin harf, rakam ve tire. all kullanılamaz. Kullanılan anahtarı değiştirmeyin; silmeden
-          önce tüm proje referanslarını (arşivdekiler dahil) başka kategoriye taşıyın.
+          Küçük Latin harf, rakam ve tire. all kullanılamaz. Kullanılan anahtarı değiştirmeyin; silmeden önce
+          tüm proje referanslarını (arşivdekiler dahil) başka kategoriye taşıyın.
       - name: tr
         label: Türkçe ad
         type: string
@@ -290,8 +299,8 @@ content:
         type: boolean
         default: false
         description: >-
-          Önce bu kategoriyi kullanan tüm projeleri (arşivdekiler dahil) başka kategoriye taşıyın.
-          Arşivli kategori yeni projeye atanamaz; açmak için işareti kaldırın.
+          Önce bu kategoriyi kullanan tüm projeleri (arşivdekiler dahil) başka kategoriye taşıyın. Arşivli
+          kategori yeni projeye atanamaz; açmak için işareti kaldırın.
   - name: portfolioMedia
     label: Görsel arşivi ve kayıtları
     type: collection
@@ -342,13 +351,220 @@ content:
             - jpg
             - jpeg
         description: >-
-          Mevcut dosyayı seçin veya yeni yükleyin. Aynı dosya için tek arşiv kaydı oluşturun. Kullanılan
-          bir kaydı başka dosyaya yönlendirmek yerine yeni kayıt oluşturun.
+          Mevcut dosyayı seçin veya yeni yükleyin. Aynı dosya için tek arşiv kaydı oluşturun. Kullanılan bir
+          kaydı başka dosyaya yönlendirmek yerine yeni kayıt oluşturun.
       - name: archived
         label: Görseli arşivle (dosyayı koru)
         type: boolean
         default: false
         description: >-
-          Yalnızca arşiv işaretidir. Dosyayı taşımaz/silmez; mevcut galeriler çalışır. Yeniden kullanmak
-          için işareti kaldırın veya dosyayı galeride tekrar seçin. Dosyalar ekranındaki fiziksel silme
-          işlemini kullanmayın.
+          Yalnızca arşiv işaretidir. Dosyayı taşımaz/silmez; mevcut galeriler çalışır. Yeniden kullanmak için
+          işareti kaldırın veya dosyayı galeride tekrar seçin. Dosyalar ekranındaki fiziksel silme işlemini
+          kullanmayın.
+  - name: posts
+    label: Blog Yazıları
+    type: collection
+    path: src/content/posts
+    format: yaml-frontmatter
+    subfolders: false
+    exclude:
+      - .gitkeep
+    filename:
+      template: '{fields.uid}.md'
+      field: false
+    operations:
+      create: true
+      rename: false
+      delete: true
+    view:
+      primary: title
+      fields:
+        - title
+        - slug
+        - status
+        - publishAt
+        - category
+      sort:
+        - title
+        - publishAt
+        - status
+      search:
+        - title
+        - slug
+      default:
+        sort: publishAt
+        order: desc
+    fields:
+      - name: uid
+        type: uuid
+        label: Otomatik yazı kimliği
+        hidden: true
+        readonly: true
+        required: true
+        options:
+          editable: false
+          generate: false
+      - name: translationKey
+        label: Çeviri eşleştirme kimliği
+        type: uuid
+        hidden: true
+        readonly: true
+        options:
+          editable: false
+          generate: false
+        description: Gelecekteki dil eşleşmesi için otomatik saklanır; İngilizce yayın bu aşamada açık değildir.
+      - name: locale
+        type: string
+        hidden: true
+        readonly: true
+        default: tr
+      - name: title
+        label: Başlık
+        type: string
+        required: true
+      - name: slug
+        label: Kalıcı URL adı
+        type: string
+        required: true
+        pattern: ^[a-z0-9]+(?:-[a-z0-9]+)*$
+        description: >-
+          Örnek: pazaryeri-satis-analizi. İlk oluştururken belirleyin; başlığı değiştirmek URL adını
+          değiştirmez. Yayımlanmış URL adını yönlendirme planı olmadan değiştirmeyin.
+      - name: seoTitle
+        label: SEO başlığı (isteğe bağlı)
+        type: string
+        description: Boşsa yazı başlığı kullanılır.
+      - name: description
+        label: Meta açıklaması (isteğe bağlı)
+        type: text
+        description: Boşsa kısa özet kullanılır. Yazının gerçekten sunduğu bilgiyi açıklayın.
+      - name: summary
+        label: Kısa özet
+        type: text
+        required: true
+      - name: body
+        label: Yazı içeriği
+        type: rich-text
+        options:
+          format: markdown
+          switcher: true
+          media: blogImages
+          rename: random
+          extensions:
+            - png
+            - jpg
+            - jpeg
+        description: >-
+          Markdown saklanır. Yazı başlığı H1 olarak otomatik gelir; içerikte H2/H3 kullanın. Her görsele
+          alternatif metin girin.
+      - name: cover
+        label: Kapak görseli (isteğe bağlı)
+        type: image
+        options:
+          media: blogImages
+          extensions:
+            - png
+            - jpg
+            - jpeg
+      - name: coverAlt
+        label: Kapak alternatif metni
+        type: string
+        description: Kapak görseli varsa zorunludur; görselin ne anlattığını yazın.
+      - name: category
+        label: Kategori
+        type: reference
+        required: true
+        options:
+          collection: blogCategories
+          value: '{fields.key}'
+          label: '{fields.name} (arşiv: {fields.archived})'
+          search: key,name
+        description: Arşivli kategorideki yazı yayımlanamaz.
+      - name: tags
+        label: Etiketler
+        type: string
+        list: true
+      - name: status
+        label: Yayın durumu
+        type: select
+        required: true
+        default: draft
+        options:
+          values:
+            - name: draft
+              label: Taslak (yayımlanmaz)
+            - name: published
+              label: Yayına hazır (tarihi gelince yayımlanır)
+      - name: publishAt
+        label: Yayın tarihi ve saati
+        type: date
+        default: ''
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm
+        description: Türkiye saati (Europe/Istanbul). Saat dilimi olmayan değerler Türkiye saati olarak yorumlanır.
+      - name: updatedAt
+        label: Son içerik güncellemesi
+        type: date
+        default: ''
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm
+        description: Türkiye saati (Europe/Istanbul). Saat dilimi olmayan değerler Türkiye saati olarak yorumlanır.
+      - name: featured
+        label: Öne çıkan olarak işaretle
+        type: boolean
+        default: false
+      - name: related
+        label: İlgili yazılar (isteğe bağlı)
+        type: reference
+        options:
+          collection: posts
+          multiple: true
+          value: '{fields.uid}'
+          label: '{fields.title}'
+          search: title,slug
+        description: Yalnızca yayında olan seçili yazılar gösterilir. Boşsa aynı kategoriden en fazla üç yazı önerilir.
+  - name: blogCategories
+    label: Blog Kategorileri
+    type: collection
+    path: src/content/blog-categories
+    format: json
+    subfolders: false
+    filename:
+      template: '{fields.key}.json'
+      field: false
+    operations:
+      create: true
+      rename: false
+      delete: true
+    view:
+      primary: name
+      fields:
+        - key
+        - name
+        - order
+        - archived
+    fields:
+      - name: key
+        label: Kalıcı kategori kodu
+        type: string
+        required: true
+        pattern: ^[a-z][a-z0-9-]*$
+        description: >-
+          Örnek: veri-analizi. Kullanılan kodu değiştirmeden önce yazı referanslarını taşıyın. all
+          ayrılmıştır.
+      - name: name
+        label: Kategori adı
+        type: string
+        required: true
+      - name: order
+        label: Filtre sırası
+        type: number
+        options:
+          min: 1
+      - name: archived
+        label: Kategoriyi arşivle
+        type: boolean
+        default: false
+        description: Bu kategoride yayımlanmış yazı varsa önce aktif kategoriye taşıyın; aksi halde build durur.

@@ -1,0 +1,39 @@
+{
+  "passed": 14,
+  "failed": 0,
+  "negativeCases": [
+    "invalid slug",
+    "uppercase slug",
+    "missing cover",
+    "missing cover alt",
+    "invalid date",
+    "missing publication date",
+    "future update",
+    "unknown category",
+    "invalid status",
+    "missing related",
+    "missing Markdown alt",
+    "extra H1",
+    "English publication not enabled",
+    "unpublished internal link",
+    "duplicate slug",
+    "UUID filename mismatch"
+  ],
+  "realCmsEditor": false,
+  "checks": [
+    "Istanbul civil time and explicit offsets represent the same instant",
+    "One second before publication excludes scheduled post everywhere",
+    "Exact publication instant includes eligible posts; draft and future remain absent from HTML/feed/related",
+    "After publication and on next day status/date predicate remains consistent",
+    "Title/content edits do not change slug; update metadata reflects explicit edit date",
+    "Withdrawn post and stale output disappear on a clean rebuild",
+    "Lastmod/feed remain byte-identical when only build time changes",
+    "Category CRUD, archive and tag edits validate against current data",
+    "Cover and Markdown images retain alt text and safe lazy loading",
+    "Invalid slug, duplicate slug/UUID, missing image/alt, invalid dates/status/related fail",
+    "Raw HTML/script is escaped; SEO fallback and JSON-LD match rendered facts",
+    "Empty blog has truthful empty state, zero RSS items and no draft URLs",
+    "CMS fields declare actual Markdown/frontmatter, UUID, dates and stable filename",
+    "No real article/source CMS config was edited by fixtures"
+  ]
+}

@@ -20,7 +20,7 @@ try {
     assert.equal(baseline.files.length, 102);
     for (const f of baseline.files) assert.equal(hash(fs.readFileSync(f.file)), f.sha256, f.file);
   });
-  check('Exactly eight HTML output files at the original paths', () => assert.deepEqual(files('_site').filter(f => f.endsWith('.html')).map(f => f.slice(6)).sort(), [...extraction.pages].sort()));
+  check('Exactly eight HTML output files at the original paths', () => assert.deepEqual(files('_site').filter(f => f.endsWith('.html') && !f.startsWith('_site/blog/') && f !== '_site/404.html').map(f => f.slice(6)).sort(), [...extraction.pages].sort()));
   for (const file of extraction.pages) {
     const output = text(`_site/${file}`);
     check(`${file}: HTML preserved after external-asset substitution (portfolio inert keys/whitespace normalized)`, () => {
@@ -42,7 +42,7 @@ try {
         restored = restored.replace(t.replacement, t.originalBlock);
       }
       if (file === 'portfolyo/index.html') assert.equal(legacyPortfolioMarkup(restored), legacyPortfolioMarkup(text(file)), file);
-      else assert.equal(normalize(restored), normalize(text(file)), file);
+      else assert.equal(normalize(restored).replace(' <a data-blog-entry href="/blog/" style="color:var(--gold);text-decoration:none">· Blog</a>',''), normalize(text(file)), file);
     });
     check(`${file}: title, description, canonical and JSON-LD preserved`, () => {
       const seo = html => ({
@@ -70,7 +70,7 @@ try {
     }
   });
   check('All legacy media, favicon and SEO files copied byte-for-byte', () => {
-    const original = load('migration/phase-1/baseline-inventory.json').files.filter(f => !f.file.endsWith('.html') && f.file !== 'README-KURULUM.txt');
+    const original = load('migration/phase-1/baseline-inventory.json').files.filter(f => !f.file.endsWith('.html') && f.file !== 'README-KURULUM.txt' && !['sitemap.xml','robots.txt'].includes(f.file));
     for (const f of original) assert.equal(hash(fs.readFileSync(`_site/${f.file}`)), f.sha256, f.file);
     for (const asset of files('assets')) assert.equal(hash(fs.readFileSync(`_site/${asset}`)), hash(fs.readFileSync(asset)));
   });
@@ -97,14 +97,14 @@ try {
     }
     assert.equal(files('src/_includes/services').length, 4);
   });
-  check('Only intended public files are output; no migration records, backups, CMS data or blog', () => {
-    for (const file of files('_site')) assert(file.startsWith('_site/assets/') || extraction.pages.includes(file.slice(6)) || ['CNAME','robots.txt','sitemap.xml','favicon.ico','favicon.png','favicon-48x48.png','favicon-96x96.png'].includes(file.slice(6)), file);
-    assert(!fs.existsSync('_site/.pages.yml')); assert(!fs.existsSync('_site/content')); assert(!fs.existsSync('src/blog'));
+  check('Only intended public files are output; no migration records, backups or CMS data; blog routes explicitly allowed', () => {
+    for (const file of files('_site')) assert(file.startsWith('_site/assets/') || file.startsWith('_site/blog/') || ['_site/404.html','_site/feed.xml'].includes(file) || extraction.pages.includes(file.slice(6)) || ['CNAME','robots.txt','sitemap.xml','favicon.ico','favicon.png','favicon-48x48.png','favicon-96x96.png'].includes(file.slice(6)), file);
+    assert(!fs.existsSync('_site/.pages.yml')); assert(!fs.existsSync('_site/content'));
   });
   const result = { passed: results.length, failed: 0, eleventy: load('node_modules/@11ty/eleventy/package.json').version, checks: results };
-  fs.writeFileSync('migration/phase-5/historical-eleventy-results.json', JSON.stringify(result, null, 2) + '\n');
+  fs.writeFileSync('migration/phase-6/historical-eleventy-results.json', JSON.stringify(result, null, 2) + '\n');
   console.log(`${results.length} preservation checks passed; 0 failures.`);
 } catch (error) {
-  fs.writeFileSync('migration/phase-5/historical-eleventy-results.json', JSON.stringify({ passed: results.length, failed: 1, error: error.message, checks: results }, null, 2) + '\n');
+  fs.writeFileSync('migration/phase-6/historical-eleventy-results.json', JSON.stringify({ passed: results.length, failed: 1, error: error.message, checks: results }, null, 2) + '\n');
   throw error;
 }
