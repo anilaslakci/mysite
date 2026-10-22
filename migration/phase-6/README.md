@@ -125,3 +125,7 @@ Bugünkü blog yalnızca Türkçe üretir. `locale` ve kararlı `translationKey`
 Canlıya geçmeden önce gerçek CMS kabulü, gerçek ilk yazının editoryal incelemesi, tam yayın çıktısı ve link kontrolü, main/Pages geçiş onayı, gate/cron aktivasyonu ve canlı 404/SEO kontrolü gerekir. Örnek QA içeriği yayımlanmayacak. Görsel optimizasyonu, sayfalama ve kapsamlı ekran okuyucu denetimi bu görevde yapılmış sayılmaz; içerik hacmi büyürse ölçümle ele alınabilir.
 
 Resmî kaynaklar: [Pages CMS rich-text](https://pagescms.org/docs/configuration/fields/rich-text/), [date](https://pagescms.org/docs/configuration/fields/date/), [editors](https://pagescms.org/docs/configuration/content/editors/), [GitHub schedule](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule), [Google Article](https://developers.google.com/search/docs/appearance/structured-data/article), [Google sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
+
+## Temiz GitHub çalışma ortamı düzeltmesi
+
+İlk GitHub CI çalışmasında npm test geçti; blog senaryo testi, Git tarafından izlenmeyen .migration-preview üst klasörü temiz runner üzerinde bulunmadığından ENOENT ile durdu. Test başlangıcına üst klasörü güvenli oluşturma adımı eklendi. Yerelde var olan klasöre örtük bağımlılık kaldırıldı; canlı yayın veya içerik hatası değildi. Sonraki CI sonucu kullanıcı teslimatında belirtilir.

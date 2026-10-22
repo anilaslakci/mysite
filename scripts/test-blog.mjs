@@ -7,6 +7,7 @@ import {createRequire} from 'node:module';
 import {execFileSync} from 'node:child_process';
 import {loadBlog,parseEditorialDate,buildClock,readPost} from '../lib/blog.mjs';
 const yaml=createRequire(import.meta.url)('js-yaml');
+fs.mkdirSync('.migration-preview',{recursive:true});
 const work=fs.mkdtempSync(path.resolve('.migration-preview/blog-qa-')),dir=path.join(work,'posts'),cats=path.join(work,'categories'),out=path.join(work,'site');
 fs.mkdirSync(dir);fs.cpSync('src/content/blog-categories',cats,{recursive:true});fs.mkdirSync('assets/blog',{recursive:true});
 fs.writeFileSync(path.join(cats,'qa-topic.json'),JSON.stringify({key:'qa-topic',name:'YEREL QA konusu',order:99}));
