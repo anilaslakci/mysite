@@ -1,0 +1,428 @@
+{
+  "screenshots": [
+    {
+      "viewport": "desktop",
+      "equal": true
+    },
+    {
+      "viewport": "mobile",
+      "equal": true
+    }
+  ],
+  "legacyModals": [
+    {
+      "id": "1",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "2",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "3",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "4",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "5",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "6",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "7",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "8",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "9",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "10",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "11",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "12",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "13",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "14",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "15",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "16",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "17",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "18",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "19",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "20",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "21",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "1",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "2",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "3",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "4",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "5",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "6",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "7",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "8",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "9",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "10",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "11",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "12",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "13",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "14",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "15",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "16",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "17",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "18",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "19",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "20",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "21",
+      "lang": "en",
+      "open": true
+    }
+  ],
+  "fixture": {
+    "count": "23",
+    "filters": [
+      "filterProjects('all', this)",
+      "filterProjects('data-analysis', this)",
+      "filterProjects('qa-category', this)",
+      "filterProjects('operations', this)",
+      "filterProjects('marketplace', this)",
+      "filterProjects('finance', this)",
+      "filterProjects('entertainment', this)",
+      "filterProjects('mobile', this)",
+      "filterProjects('other', this)"
+    ],
+    "ids": [
+      "1",
+      "066432b3-d336-4981-90a5-7b1e5d37330d",
+      "89ef861a-7dda-48f2-9297-ce6231f56192",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21"
+    ]
+  },
+  "uuidModals": [
+    {
+      "id": "066432b3-d336-4981-90a5-7b1e5d37330d",
+      "images": [
+        {
+          "alt": "Pazaryeri Satış Analiz Aracı 1",
+          "loaded": true
+        },
+        {
+          "alt": "Pazaryeri Satış Analiz Aracı 2",
+          "loaded": true
+        },
+        {
+          "alt": "Pazaryeri Satış Analiz Aracı 3",
+          "loaded": true
+        },
+        {
+          "alt": "Pazaryeri Satış Analiz Aracı 1",
+          "loaded": true
+        }
+      ],
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "89ef861a-7dda-48f2-9297-ce6231f56192",
+      "images": [
+        {
+          "alt": "Pazaryeri Satış Analiz Aracı 1",
+          "loaded": true
+        },
+        {
+          "alt": "Pazaryeri Satış Analiz Aracı 3",
+          "loaded": true
+        },
+        {
+          "alt": "Pazaryeri Satış Analiz Aracı 2",
+          "loaded": true
+        },
+        {
+          "alt": "Pazaryeri Satış Analiz Aracı 1",
+          "loaded": true
+        }
+      ],
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": "066432b3-d336-4981-90a5-7b1e5d37330d",
+      "images": [
+        {
+          "alt": "Marketplace Sales Analyzer 1",
+          "loaded": true
+        },
+        {
+          "alt": "Marketplace Sales Analyzer 2",
+          "loaded": true
+        },
+        {
+          "alt": "Marketplace Sales Analyzer 3",
+          "loaded": true
+        },
+        {
+          "alt": "Marketplace Sales Analyzer 1",
+          "loaded": true
+        }
+      ],
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": "89ef861a-7dda-48f2-9297-ce6231f56192",
+      "images": [
+        {
+          "alt": "Marketplace Sales Analyzer 1",
+          "loaded": true
+        },
+        {
+          "alt": "Marketplace Sales Analyzer 3",
+          "loaded": true
+        },
+        {
+          "alt": "Marketplace Sales Analyzer 2",
+          "loaded": true
+        },
+        {
+          "alt": "Marketplace Sales Analyzer 1",
+          "loaded": true
+        }
+      ],
+      "lang": "en",
+      "open": true
+    }
+  ],
+  "newFilter": {
+    "count": "23",
+    "visible": [
+      "066432b3-d336-4981-90a5-7b1e5d37330d"
+    ]
+  },
+  "zoom": {
+    "alt": "Marketplace Sales Analyzer 1",
+    "loaded": true,
+    "open": true
+  },
+  "mobile": {
+    "count": "23",
+    "images": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "open": true,
+    "overflow": false
+  },
+  "logs": [],
+  "realCmsEditor": false,
+  "cmsSession": "Sign-in required",
+  "initialLazyImageObservations": [
+    {
+      "id": "066432b3-d336-4981-90a5-7b1e5d37330d",
+      "lang": "tr",
+      "loadedImmediately": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "89ef861a-7dda-48f2-9297-ce6231f56192",
+      "lang": "tr",
+      "loadedImmediately": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "066432b3-d336-4981-90a5-7b1e5d37330d",
+      "lang": "en",
+      "loadedImmediately": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "89ef861a-7dda-48f2-9297-ce6231f56192",
+      "lang": "en",
+      "loadedImmediately": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "uploadZoom": {
+    "loaded": true,
+    "src": "http://127.0.0.1:4174/__cmsfixture/assets/portfolio/qa-upload-d4d40a52-b243-432a-b555-af6ca8366fb4.png"
+  }
+}

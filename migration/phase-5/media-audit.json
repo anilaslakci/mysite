@@ -1,0 +1,545 @@
+{
+  "missing": 0,
+  "projectCount": 21,
+  "referencedImages": 66,
+  "registeredImages": 67,
+  "archivedImages": 0,
+  "unregisteredGalleryImages": [],
+  "references": [
+    {
+      "file": "/assets/portfolio/3b423dc4ed05db9c2b76062ee4cdea19316a6126a8ffd8a6716acb7f4e22a79b.png",
+      "archived": false,
+      "projectIds": [
+        6
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/7b962f98e36fc8a146c0ae743e8fed7a85ce95e802a156a5e12e3385517d3319.png",
+      "archived": false,
+      "projectIds": [
+        13
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/c257897d7d7d2cb2d980341463e4c55a397acd0b31e25f100a9ab932763187e5.png",
+      "archived": false,
+      "projectIds": [
+        18
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/b0a09b8bc5cc6f72b448026acceec3451f22670d98b1176afa290ad879098aa8.png",
+      "archived": false,
+      "projectIds": [
+        10
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/a4558b50a5e6b641fd881cc273f399db0f78838da7dd20d68abac118bdd28a79.png",
+      "archived": false,
+      "projectIds": [
+        10
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/7977a93bcf5a7bdd5efd4bcaa42d630287bd279546a95c341fdc9501eb7f7815.png",
+      "archived": false,
+      "projectIds": [
+        17
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/fccbd33cc7d61eb04e9769b90254c25533ceb3c0a6ee9c4fa58712c4f5fd24f7.png",
+      "archived": false,
+      "projectIds": [
+        3
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/d5e58518a5b18cd52d17e5d0e85f1100ad5250621570778ed8e9e0a4882eb872.png",
+      "archived": false,
+      "projectIds": [
+        19
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/b929c72f4fb5cbcfa40c0da91c8d543f7d2df399cd33a4bf7016ae2a5adea760.png",
+      "archived": false,
+      "projectIds": [
+        9
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/d81c80b29433114071ae43ed8fa42e90296c80cac28524bda013c9be3192a060.png",
+      "archived": false,
+      "projectIds": [
+        16
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/df231ef4a346f221977f0f86f9e677624d15dd6d3d93fdd1fdba94a341935d7f.png",
+      "archived": false,
+      "projectIds": [
+        4
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/9452294099332a85c3413072ebc03f934d53c147c94a1743480f33ef5c0992d8.png",
+      "archived": false,
+      "projectIds": [
+        16
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/0d6b69d7404788c395887930f029d0d0654a0508d6297d26ae7f0e760b93d8b0.png",
+      "archived": false,
+      "projectIds": [
+        14
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/d2667ae1708b0e9ce6743ac965a662c354788c0a0ab3f5c2ea51968e567788ef.png",
+      "archived": false,
+      "projectIds": [
+        11
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/ca76103db2f8e33483c7ff015640da210f9ca2f582c3a48bf1c37205cf00b009.png",
+      "archived": false,
+      "projectIds": [
+        17
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/b946bf8f1d273189e2533c784f74bdb72656728aa8ccd39a57daf406f69f6100.png",
+      "archived": false,
+      "projectIds": [
+        12
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/1dda8075beb816cad1c6d9b288abfc09cbc60faba7b5951cb621bda64fa528a2.png",
+      "archived": false,
+      "projectIds": [
+        2
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/c25627c29e1d16d648990fa94a77fc1e5e92fb5118b928448d4f5c8c21cf43a8.png",
+      "archived": false,
+      "projectIds": [
+        9
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/bbed402daab013bc234683c4a78b9e60860534388aa9cbc0580db6eef474489a.png",
+      "archived": false,
+      "projectIds": [
+        19
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/6b84fcc0c01a96aeffddbaad4f8576e40d79399ae92ad37a46d45cd92e2b345c.png",
+      "archived": false,
+      "projectIds": [
+        14
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/3e847228f1c04c15e7923e2d3b0d3ae76262b72ddd8e585ad8af648bc9bdf458.png",
+      "archived": false,
+      "projectIds": [
+        5
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/d26d66a35c7049cf8d8557aac29cb0af33ab7020417d71b0cda74118412cfc05.png",
+      "archived": false,
+      "projectIds": [
+        18
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/1bc9bcda5d6b8921a2f6323c436e8cd0287a12b8037dc1f64eb65ac5bd2cf7a5.png",
+      "archived": false,
+      "projectIds": [
+        1
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/fe8ed3c1243cc19ff90872ab77783023e2b45a92a784dde34d0d8d6f60e50ee4.png",
+      "archived": false,
+      "projectIds": [
+        10
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/758d45ffe0757781b6948b739eed97a91a72560748f0a8127beb0d8c780a6b4a.png",
+      "archived": false,
+      "projectIds": [
+        6
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/579e61b1b5ed3323b09bf093449d494da39a585f6e11fca782f4d67530107ea7.png",
+      "archived": false,
+      "projectIds": [
+        10
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/49244409ae6fb8648fee251d73a330b126edc450fb79a2d63770f4c62a9478e2.png",
+      "archived": false,
+      "projectIds": [
+        12
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/95275684b8c8e4b8311c1e72f8648c58d9e38b7122b71deeae692c9d2a501434.png",
+      "archived": false,
+      "projectIds": [
+        19
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/bc35d659bbc5dde344096d008dca8743b8057d91c15dfd73c24a2c1388b981c9.png",
+      "archived": false,
+      "projectIds": [
+        5
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/8c287b4e062aa584bc31a7539e356454cdf4fdcf3514c649c11d77ab5ad7aac3.png",
+      "archived": false,
+      "projectIds": [
+        21
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/73d31227b45496a2b46d88453412dd04a2ccf18e38cc1fa357fe1f8749d09a70.png",
+      "archived": false,
+      "projectIds": [
+        11
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/9c3a3a2e6f103a9668202ac9e01ec2651b5d57f08eda6df4b8a83d7a9567db1a.jpg",
+      "archived": false,
+      "projectIds": [
+        15
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/9c3f42a6648339a652432f7662626bcd5ab5680847ac9b4467fb220d83cb844a.png",
+      "archived": false,
+      "projectIds": [
+        3
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/067cd08723766522d48faa3f1ce56777fd9fe98d45f844fff9027a19edf278df.png",
+      "archived": false,
+      "projectIds": [
+        17
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/e538928ba726646de6d94e409e06c8e9249bb5ab4900930fc832d545332a0691.png",
+      "archived": false,
+      "projectIds": [
+        12
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/640c581c8b8fcd01c12de4b8830e6f286cd71fc3d50f4d7068f80e5d482d7868.png",
+      "archived": false,
+      "projectIds": [
+        10
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/b14a0935e7b1ff6e8b5675f7077fb907e11be0cf60716b851be781c439935313.png",
+      "archived": false,
+      "projectIds": [
+        2
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/c358fe129d4a098733009395c9cfe792cd97535748877fec9a18acc3b47af315.png",
+      "archived": false,
+      "projectIds": [
+        9
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/cfc03e7a07b165f264c7f0a949e4b421d6cc85eff9fa762a0101225d7467ce70.png",
+      "archived": false,
+      "projectIds": [
+        10
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/550549b597568c97b67ff1f318c84d3832f5472b103c382e3bc19665d8dc1862.png",
+      "archived": false,
+      "projectIds": [
+        9
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/67ba8e4e165ba34332ed03d21a2bbf137542eca97092158ed68fecfc880963f3.png",
+      "archived": false,
+      "projectIds": [
+        20
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/a0278b6827ab40580dd6efa3b61c846b127aaf6951689b95981e5656a40bffad.png",
+      "archived": false,
+      "projectIds": [
+        6
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/6bf4bbc5a1b9331a6934f3b19f640fbd230c82bc975b1e4bad412a9d80a9f2ef.png",
+      "archived": false,
+      "projectIds": [],
+      "used": false
+    },
+    {
+      "file": "/assets/portfolio/fc0d35a3a387479c1550c5fa9d010f27eff4939e68b1c68ed5bc682058c2341c.png",
+      "archived": false,
+      "projectIds": [
+        2
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/c24c669b3ca979002ef464bfb98ba29ac0119349c5cd5aec578b7d74c5fa4678.png",
+      "archived": false,
+      "projectIds": [
+        18
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/85c14651f89422a9933672ea060af16b430e75cb4c6be2f30e3a75dfe68cb523.png",
+      "archived": false,
+      "projectIds": [
+        11
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/31be95f7f3670f8d7fe4c3dfa2db7426288c73b318b77c83dfbf424faa492598.png",
+      "archived": false,
+      "projectIds": [
+        11
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/24bac071dc60b152554b14ff7f4452828519842997e002aa3e951fd637762597.png",
+      "archived": false,
+      "projectIds": [
+        20
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/caa92c430e7ad0b8dad5ff892894920062b460a19c86e3ea3b7f2cb22e456dcb.png",
+      "archived": false,
+      "projectIds": [
+        20
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/a16a24ca37219125cb94222eeb7ad974c2bc9d075fabc9ba93cd7b9d87fdae48.png",
+      "archived": false,
+      "projectIds": [
+        13
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/77b28e96adbd97b1328f88fa67384c14571c00047026bee5007429d3fb1c8992.png",
+      "archived": false,
+      "projectIds": [
+        9
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/e2038f92bcdb82c54da91d31b9a7781097805dfa1c2d73ad168d5039d1dd13f3.png",
+      "archived": false,
+      "projectIds": [
+        13
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/e2f9ad8cc85dd3ea2e09abfd781c9fc88a7a44f461ae245980a5bd5af7db3cd7.png",
+      "archived": false,
+      "projectIds": [
+        7
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/0f6d4bc735092254c63c79f7c88176a7a5435bafeca08d383192c7a6756d0a7a.png",
+      "archived": false,
+      "projectIds": [
+        11
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/68156f152317b6b2deb9c945a9146dcabe29387148605cb89400054a99111dd3.png",
+      "archived": false,
+      "projectIds": [
+        8
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/80f5883825e6c1766a0e09a7e2c2330e4e4f161492f1d06de9194b3b7530f7f2.png",
+      "archived": false,
+      "projectIds": [
+        1
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/03deb5c9e5b372c32a5234c623e2407fa41e76474f4259d8cd7e4dc9b3a8d484.png",
+      "archived": false,
+      "projectIds": [
+        4
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/14a6538aee6cf0b67e859438591e99e76f0028365b644bdedca8da1544f6f4fd.png",
+      "archived": false,
+      "projectIds": [
+        16
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/43eee0e1488d4a31a25e1a7ea29f7340b69f5a6d7022db28455c0be04f847ed7.png",
+      "archived": false,
+      "projectIds": [
+        9
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/707bd9dd832c379edd8664ce08989e2a6e6ee71a167d3272204f256af86ac951.png",
+      "archived": false,
+      "projectIds": [
+        11
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/168bf476df0b003b4832304cb83ac3f09e3c7241667c78a6c774ed6125150741.png",
+      "archived": false,
+      "projectIds": [
+        10
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/9c6cf923a9137d0b5b33a8f2575fb09042c1686983b528bb67124d65ac501efc.png",
+      "archived": false,
+      "projectIds": [
+        12
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/3c5013ed67018a804e6f2730cc0e5b783fb4fec06e90ccc947329276564622ce.png",
+      "archived": false,
+      "projectIds": [
+        8
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/4830f0c1fc5eef6f5c2f2402259d23eb65595530fb84dd1b7092296dd852bb8c.png",
+      "archived": false,
+      "projectIds": [
+        1
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/6bb2a673e70f17d1bac727d27890306fdaabec90e8672f8e91a2394fdc4c81f1.png",
+      "archived": false,
+      "projectIds": [
+        7
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/f4a332232e4995974aaf5cb4c7432b844f385a4e24c78f17f0fafa09db841c1f.png",
+      "archived": false,
+      "projectIds": [
+        7
+      ],
+      "used": true
+    },
+    {
+      "file": "/assets/portfolio/907934bc9b5ee78967fc629a2c8362b111f2539f5aa1b562f22e2d16e4d9e43d.png",
+      "archived": false,
+      "projectIds": [
+        17
+      ],
+      "used": true
+    }
+  ],
+  "note": "Read-only audit. Archiving is metadata only. No files are deleted. Native Pages CMS physical deletion is NOT locked by this audit. Register new uploads in the media archive when archive management is needed."
+}

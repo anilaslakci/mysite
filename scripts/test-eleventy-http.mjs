@@ -18,5 +18,5 @@ for (const route of ['/migration/phase-1/README.md','/.migration-backups/phase-1
   assert.equal((await fetch(`http://127.0.0.1:4174${route}`)).status, 404, route);
   checks.push({ blockedPrivateRoute: route, passed: true });
 }
-fs.writeFileSync('migration/phase-2/http-results.json', JSON.stringify({ passed: checks.length, failed: 0, checks }, null, 2) + '\n');
+fs.writeFileSync('migration/phase-5/http-results.json', JSON.stringify({ passed: checks.length, failed: 0, checks }, null, 2) + '\n');
 console.log(`HTTP: ${checks.length} passed; 0 failures.`);

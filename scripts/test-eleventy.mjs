@@ -102,9 +102,9 @@ try {
     assert(!fs.existsSync('_site/.pages.yml')); assert(!fs.existsSync('_site/content')); assert(!fs.existsSync('src/blog'));
   });
   const result = { passed: results.length, failed: 0, eleventy: load('node_modules/@11ty/eleventy/package.json').version, checks: results };
-  fs.writeFileSync('migration/phase-4/historical-eleventy-results.json', JSON.stringify(result, null, 2) + '\n');
+  fs.writeFileSync('migration/phase-5/historical-eleventy-results.json', JSON.stringify(result, null, 2) + '\n');
   console.log(`${results.length} preservation checks passed; 0 failures.`);
 } catch (error) {
-  fs.writeFileSync('migration/phase-4/historical-eleventy-results.json', JSON.stringify({ passed: results.length, failed: 1, error: error.message, checks: results }, null, 2) + '\n');
+  fs.writeFileSync('migration/phase-5/historical-eleventy-results.json', JSON.stringify({ passed: results.length, failed: 1, error: error.message, checks: results }, null, 2) + '\n');
   throw error;
 }

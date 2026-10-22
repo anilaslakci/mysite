@@ -1,0 +1,32 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "negativeBuilds": [
+    "changed-id",
+    "archived-category-selection",
+    "used-category-archive",
+    "used-category-delete",
+    "category-key-change",
+    "missing-registered-image",
+    "duplicate-media",
+    "unsafe-media-path"
+  ],
+  "uuidSamples": 10000,
+  "concurrentUuidWorkers": 4,
+  "collisionObserved": false,
+  "realCmsEditor": false,
+  "checks": [
+    "Official UUID default generates 10000 distinct UUID v4 values across four concurrent workers",
+    "Two independently created UUID records build 23 projects and safe string modal handlers",
+    "Legacy numeric identities survive an automatically added UID during an old-record save",
+    "ID/filename tampering and duplicate UUIDs reject the build",
+    "UUID records reorder, tie, archive and republish without altering identity",
+    "Unused category archives/reactivates; archived selection fails, no unsupported CMS filtering claimed",
+    "Metadata archive preserves every shared gallery and can be reused/reactivated",
+    "Missing registered physical image rejects build even if metadata is archived and unused",
+    "Local upload bytes, gallery order, bilingual alt texts and shared use are preserved",
+    "Independent translations, technology and optional links work; record deletion leaves others intact",
+    "Duplicate metadata and media path tampering reject the build",
+    "Production records, categories and metadata are byte-identical after isolated edits"
+  ]
+}

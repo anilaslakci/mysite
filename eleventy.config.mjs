@@ -3,6 +3,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter('portfolioImage', imagePath);
   eleventyConfig.addWatchTarget('./src/content/projects/');
   eleventyConfig.addWatchTarget('./src/content/categories/');
+  eleventyConfig.addWatchTarget('./src/content/media/');
   // Legacy media paths are a public contract. Only the explicit asset folders
   // are copied; migration records and local recovery archives are never output.
   eleventyConfig.addPassthroughCopy({ assets: 'assets' });

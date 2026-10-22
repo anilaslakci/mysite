@@ -19,7 +19,8 @@
     "media:check": "node scripts/check-project-media.mjs",
     "test:migration": "node scripts/test-eleventy.mjs && node scripts/test-project-records.mjs",
     "test:flexibility": "node scripts/test-portfolio-flexibility.mjs",
-    "test:flexibility-browser-evidence": "node scripts/test-portfolio-browser-evidence.mjs"
+    "test:flexibility-browser-evidence": "node scripts/test-portfolio-browser-evidence.mjs",
+    "test:completion": "node scripts/test-portfolio-completion.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.7"

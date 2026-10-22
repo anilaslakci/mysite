@@ -24,7 +24,7 @@ check('All gallery references resolve to original image manifest bytes, includin
   for(const p of records){const old=source.projects.find(x=>x.id===p.id);assert.equal(p.gallery.length,old.translations.tr.modal.images.length);for(const image of p.gallery){assert(known.has(image.file));assert.equal(crypto.createHash('sha256').update(fs.readFileSync('.'+image.file)).digest('hex'),known.get(image.file));}}
 });
 function verifyField(field,value,label){
-  if(field.required)assert(value!==undefined&&value!==null&&value!=='',label);
+  if(field.required && field.type!=='uuid')assert(value!==undefined&&value!==null&&value!=='',label);
   if(value===undefined||value===null)return;
   if(field.list){assert(Array.isArray(value),label);for(const item of value)verifyField({...field,list:false},item,label+'[]');return;}
   if(field.type==='object'){assert.equal(typeof value,'object',label);const names=field.fields.map(f=>f.name);for(const key of Object.keys(value))assert(names.includes(key),`${label}: undeclared CMS key ${key}`);for(const child of field.fields)verifyField(child,value[child.name],label+'.'+child.name);}
@@ -32,7 +32,7 @@ function verifyField(field,value,label){
   else {assert.equal(typeof value,'string',label);if(field.type==='select')assert(field.options.values.some(v=>(typeof v==='string'?v:v.name)===value),label);}
 }
 check('Every stored JSON key is declared in supported CMS fields, and every required field has a value',()=>{
-  const entry=config.content[0];assert.equal(entry.format,'json');assert.equal(entry.path,'src/content/projects');assert.equal(entry.operations.create,true);assert.equal(entry.operations.rename,false);assert.equal(entry.operations.delete,true);assert.equal(entry.filename.template,'{fields.id}.json');
+  const entry=config.content[0];assert.equal(entry.format,'json');assert.equal(entry.path,'src/content/projects');assert.equal(entry.operations.create,true);assert.equal(entry.operations.rename,false);assert.equal(entry.operations.delete,true);assert.equal(entry.filename.template,'{fields.uid}.json');
   for(const p of records)verifyField({name:'project',type:'object',fields:entry.fields},p,'project');
 });
 check('CMS media input/output map to the actual public passthrough directory; upload names are randomized',()=>{const m=config.media[0];assert.equal(m.input,'assets/portfolio');assert.equal(m.output,'/assets/portfolio');assert.equal(m.rename,'random');assert.equal(config.content[0].fields.find(f=>f.name==='gallery').fields[0].options.media,m.name);});
@@ -47,5 +47,5 @@ check('Duplicate IDs/invalid orders, missing translation, unsafe content and mis
 });
 check('Referenced/shared image deletion guard rejects removal without deleting any file',()=>{const p=records[0],shared=structuredClone(p);shared.id=22;shared.order=22;assert.throws(()=>assertMediaUnused([p,shared],p.gallery[0].file),/1, 22/);});
 check('Project count is server-generated and language JS has no fixed stat1_num',()=>{const html=fs.readFileSync('_site/portfolyo/index.html','utf8');assert(html.includes('<strong id="stat1-num">21</strong>'));const js=fs.readFileSync('src/assets/js/portfolio-1.js','utf8');assert(!js.includes('stat1_num'));assert(js.includes("querySelectorAll('#grid-' + lang + ' .project-card').length"));});
-fs.writeFileSync('migration/phase-4/historical-record-results.json',JSON.stringify({passed:checks.length,failed:0,checks},null,2)+'\n');
+fs.writeFileSync('migration/phase-5/historical-record-results.json',JSON.stringify({passed:checks.length,failed:0,checks},null,2)+'\n');
 console.log(`${checks.length} project/CMS data checks passed; 84 lossless card/modal comparisons included.`);

@@ -1,0 +1,42 @@
+{
+  "passed": 9,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "21 independent records with fixed historical IDs and order",
+      "passed": true
+    },
+    {
+      "name": "All 84 card/modal markup round trips preserve content, formatting, technologies and image order",
+      "passed": true
+    },
+    {
+      "name": "All gallery references resolve to original image manifest bytes, including alt translations",
+      "passed": true
+    },
+    {
+      "name": "Every stored JSON key is declared in supported CMS fields, and every required field has a value",
+      "passed": true
+    },
+    {
+      "name": "CMS media input/output map to the actual public passthrough directory; upload names are randomized",
+      "passed": true
+    },
+    {
+      "name": "Existing TR/EN strong emphasis and distinct card/modal technologies retained",
+      "passed": true
+    },
+    {
+      "name": "Duplicate IDs/invalid orders, missing translation, unsafe content and missing media are rejected",
+      "passed": true
+    },
+    {
+      "name": "Referenced/shared image deletion guard rejects removal without deleting any file",
+      "passed": true
+    },
+    {
+      "name": "Project count is server-generated and language JS has no fixed stat1_num",
+      "passed": true
+    }
+  ]
+}
