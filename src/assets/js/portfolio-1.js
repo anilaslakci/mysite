@@ -50,16 +50,18 @@ function openProject(id) {
   const modal = document.getElementById('modal-'+currentLang+'-'+id);
   if (!modal) return;
   modal.classList.add('open');
+  modal.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
 }
 function closeModal() {
-  document.querySelectorAll('.modal.open').forEach(m => m.classList.remove('open'));
+  document.querySelectorAll('.modal.open').forEach(m => { m.classList.remove('open'); m.setAttribute('aria-hidden', 'true'); });
   document.body.style.overflow = '';
 }
 document.querySelectorAll('.modal').forEach(m => m.addEventListener('click', e => { if(e.target===m) closeModal(); }));
 document.querySelectorAll('.project-card').forEach(c => c.addEventListener('keydown', e => { if(e.key==='Enter'||e.key===' '){e.preventDefault();c.click();} }));
 function zoomImage(img) {
   document.getElementById('zoom-img').src = img.src;
+  document.getElementById('zoom-img').alt = img.alt;
   document.getElementById('zoom').classList.add('open');
 }
 function closeZoom() { document.getElementById('zoom').classList.remove('open'); }

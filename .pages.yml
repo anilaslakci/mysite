@@ -21,7 +21,7 @@ content:
     operations:
       create: true
       rename: false
-      delete: false
+      delete: true
     view:
       primary: tr.title
       fields:
@@ -30,6 +30,7 @@ content:
         - en.title
         - category
         - order
+        - archived
       sort:
         - order
         - id
@@ -48,35 +49,33 @@ content:
         options:
           min: 1
         description: >-
-          Mevcut kimliği değiştirmeyin. Yeni projede kullanılmayan bir sonraki tam sayıyı girin; dosya adı bu
-          kimlikten üretilir.
+          Kalıcı kimlik: mevcut kayıtta değiştirmeyin. Yeni kayıt için kullanılmayan pozitif tam sayı girin
+          (ör. en büyük kimlik + 1). Sıralamadan bağımsızdır. Çakışma ve dosya adı uyuşmazlığı derlemede
+          reddedilir; CMS otomatik artan kimlik garantisi vermez.
       - name: order
         label: Sıralama
         type: number
-        required: true
         options:
           min: 1
-        description: Mevcut 1–21 sırası sabittir. Yeni projeye kullanılmayan sonraki sıralama numarasını verin.
+        description: >-
+          Küçük sayılar önce görünür. Boş bırakılanlar listenin sonuna gelir. Eşit sıralarda küçük proje
+          kimliği önce gelir. Koleksiyon sıralaması sayı ile yapılır; sürükle-bırak değildir.
+      - name: archived
+        label: Arşivle (sitede gizle)
+        type: boolean
+        default: false
+        description: >-
+          Kayıt ve görseller korunur; kart, modal, filtre ve sayaca dahil edilmez. Yeniden yayımlamak için
+          kapatın.
       - name: category
         label: Kategori
-        type: select
+        type: reference
         required: true
         options:
-          values:
-            - name: data-analysis
-              label: Veri Analizi
-            - name: operations
-              label: Operasyon Otomasyonu
-            - name: marketplace
-              label: Pazaryeri Araçları
-            - name: finance
-              label: Finans
-            - name: entertainment
-              label: Eğlence
-            - name: mobile
-              label: Mobil Geliştirme
-            - name: other
-              label: Diğer
+          collection: categories
+          value: '{fields.key}'
+          label: '{fields.tr} / {fields.en}'
+          search: key,tr,en
       - name: tr
         label: Türkçe
         type: object
@@ -94,42 +93,34 @@ content:
           - name: intro
             label: Detay giriş açıklaması
             type: text
-            required: true
             description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
           - name: problem
             label: Sorun
             type: text
-            required: true
             description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
           - name: solution
             label: Çözüm
             type: text
-            required: true
             description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
           - name: impact
             label: Etki
             type: text
-            required: true
             description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
           - name: technologies
             label: Kart teknoloji etiketleri
             type: string
             list: true
-            required: true
           - name: detailTechnologies
             label: Detay teknoloji etiketleri
             type: string
             list: true
-            required: true
             description: Bazı mevcut projelerde kart listesinden farklıdır; iki liste ayrı korunur.
           - name: galleryTitle
             label: Galeri başlığı
             type: string
-            required: true
           - name: galleryIntro
             label: Galeri açıklaması
             type: string
-            required: true
           - name: legacyModalTail
             type: string
             hidden: true
@@ -151,42 +142,34 @@ content:
           - name: intro
             label: Detay giriş açıklaması
             type: text
-            required: true
             description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
           - name: problem
             label: Sorun
             type: text
-            required: true
             description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
           - name: solution
             label: Çözüm
             type: text
-            required: true
             description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
           - name: impact
             label: Etki
             type: text
-            required: true
             description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
           - name: technologies
             label: Kart teknoloji etiketleri
             type: string
             list: true
-            required: true
           - name: detailTechnologies
             label: Detay teknoloji etiketleri
             type: string
             list: true
-            required: true
             description: Bazı mevcut projelerde kart listesinden farklıdır; iki liste ayrı korunur.
           - name: galleryTitle
             label: Galeri başlığı
             type: string
-            required: true
           - name: galleryIntro
             label: Galeri açıklaması
             type: string
-            required: true
           - name: legacyModalTail
             type: string
             hidden: true
@@ -194,9 +177,7 @@ content:
       - name: gallery
         label: Galeri (sürükleyerek sıralayın)
         type: object
-        required: true
         list:
-          min: 1
           collapsible:
             collapsed: true
             summary: '{altTR}'
@@ -236,3 +217,60 @@ content:
             label: English label
             type: string
             required: true
+        description: >-
+          İsteğe bağlı. HTTPS adresi veya / ile başlayan site içi yol. Eklenen her bağlantıda iki dilde etiket
+          gerekir.
+  - name: categories
+    label: Portfolyo kategorileri
+    type: collection
+    path: src/content/categories
+    format: json
+    subfolders: false
+    filename:
+      template: '{fields.key}.json'
+      field: false
+    operations:
+      create: true
+      rename: false
+      delete: true
+    view:
+      primary: tr
+      fields:
+        - key
+        - tr
+        - en
+        - order
+      sort:
+        - order
+        - key
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: key
+        label: Kalıcı kategori anahtarı
+        type: string
+        required: true
+        pattern: ^[a-z][a-z0-9-]*$
+        description: >-
+          Küçük Latin harf, rakam ve tire. all kullanılamaz. Kullanılan anahtarı değiştirmeyin; silmeden önce
+          tüm proje referanslarını (arşivdekiler dahil) başka kategoriye taşıyın.
+      - name: tr
+        label: Türkçe ad
+        type: string
+        required: true
+      - name: en
+        label: English name
+        type: string
+        required: true
+      - name: order
+        label: Filtre sırası
+        type: number
+        options:
+          min: 1
+        description: Boşlar sonda; eşit sıralarda kategori anahtarı kullanılır.
+      - name: color
+        label: Renk (isteğe bağlı)
+        type: string
+        pattern: ^#[a-fA-F0-9]{6}$
+        description: 'Örnek: #48C9B0. Boş bırakılırsa mevcut turkuaz renk kullanılır.'

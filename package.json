@@ -3,18 +3,25 @@
   "version": "1.0.0",
   "private": true,
   "description": "Existing personal site, built locally with Eleventy",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "node scripts/clean-site.mjs && eleventy",
     "dev": "eleventy --serve --port=8080",
     "preview:migration": "node scripts/preview-eleventy.mjs",
-    "test": "npm run build && node scripts/test-eleventy.mjs && node scripts/test-project-records.mjs",
+    "test": "npm run build && node scripts/test-portfolio-runtime.mjs",
     "test:http": "node scripts/test-eleventy-http.mjs",
     "test:browser-evidence": "node scripts/test-eleventy-browser-evidence.mjs",
     "test:cms-edits": "node scripts/test-cms-local-edits.mjs",
     "test:cms-schema": "node scripts/test-pages-upstream-schema.mjs",
     "test:project-browser-evidence": "node scripts/test-project-browser-evidence.mjs",
-    "media:check": "node scripts/check-project-media.mjs"
+    "media:check": "node scripts/check-project-media.mjs",
+    "test:migration": "node scripts/test-eleventy.mjs && node scripts/test-project-records.mjs",
+    "test:flexibility": "node scripts/test-portfolio-flexibility.mjs",
+    "test:flexibility-browser-evidence": "node scripts/test-portfolio-browser-evidence.mjs"
   },
-  "devDependencies": { "@11ty/eleventy": "3.1.7" }
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.7"
+  }
 }

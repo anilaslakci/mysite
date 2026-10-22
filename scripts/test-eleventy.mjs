@@ -33,7 +33,10 @@ try {
           let expected = t.originalBlock.match(/^[\s\S]*?>([\s\S]*)<\/script>$/)[1];
           expected = expected.replace(/const STRINGS = (.*);/,(_,v)=>{const s=JSON.parse(v);delete s.tr.stat1_num;delete s.en.stat1_num;return `const STRINGS = ${JSON.stringify(s)};`;});
           expected = expected.replace("document.getElementById('stat1-num').textContent = s.stat1_num;", "document.getElementById('stat1-num').textContent = document.querySelectorAll('#grid-' + lang + ' .project-card').length;");
-          assert.equal(text(`_site/${t.asset}`), expected, 'Only dynamic project counter change allowed');
+          expected = expected.replace("modal.classList.add('open');", "modal.classList.add('open');\n  modal.setAttribute('aria-hidden', 'false');");
+          expected = expected.replace("m => m.classList.remove('open')", "m => { m.classList.remove('open'); m.setAttribute('aria-hidden', 'true'); }");
+          expected = expected.replace("document.getElementById('zoom-img').src = img.src;", "document.getElementById('zoom-img').src = img.src;\n  document.getElementById('zoom-img').alt = img.alt;");
+          assert.equal(text(`_site/${t.asset}`).replace(/\r\n/g,'\n'), expected.replace(/\r\n/g,'\n'), 'Only counter and modal/zoom accessibility changes allowed');
         }
         assert.equal(restored.split(t.replacement).length - 1, 1);
         restored = restored.replace(t.replacement, t.originalBlock);
@@ -99,9 +102,9 @@ try {
     assert(!fs.existsSync('_site/.pages.yml')); assert(!fs.existsSync('_site/content')); assert(!fs.existsSync('src/blog'));
   });
   const result = { passed: results.length, failed: 0, eleventy: load('node_modules/@11ty/eleventy/package.json').version, checks: results };
-  fs.writeFileSync('migration/phase-3/eleventy-regression-results.json', JSON.stringify(result, null, 2) + '\n');
+  fs.writeFileSync('migration/phase-4/historical-eleventy-results.json', JSON.stringify(result, null, 2) + '\n');
   console.log(`${results.length} preservation checks passed; 0 failures.`);
 } catch (error) {
-  fs.writeFileSync('migration/phase-3/eleventy-regression-results.json', JSON.stringify({ passed: results.length, failed: 1, error: error.message, checks: results }, null, 2) + '\n');
+  fs.writeFileSync('migration/phase-4/historical-eleventy-results.json', JSON.stringify({ passed: results.length, failed: 1, error: error.message, checks: results }, null, 2) + '\n');
   throw error;
 }

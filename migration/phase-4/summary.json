@@ -1,0 +1,113 @@
+{
+  "branch": "refactor/eleventy-cms-migration",
+  "syncedBaseline": "13f0fc4337ddae4e3c5e7d31578bcd766dd21d96",
+  "cmsCommits": [
+    "e3a0362",
+    "13f0fc4"
+  ],
+  "projectTitle": "Pazaryeri Satış Analiz Aracı",
+  "sourceRecordsPreserved": 21,
+  "projectFiles": [
+    {
+      "file": "src/content/projects/1.json",
+      "sha256": "7983f8ef9d8726b3ac103d8013e70d3f043ef4d0c1d4b498aceb9208d0a57f6c"
+    },
+    {
+      "file": "src/content/projects/10.json",
+      "sha256": "f121448ce09d7da413c1aff06efb9acd72df3fbd77cf693b03009524b0472c52"
+    },
+    {
+      "file": "src/content/projects/11.json",
+      "sha256": "67ab3c147bea788d5b7444828cbcc1110e711749b2bb6e71df3ece0734398e6d"
+    },
+    {
+      "file": "src/content/projects/12.json",
+      "sha256": "471c03c51132fb4073656faae78720eef31b3a403763a095d454cad9c2190acb"
+    },
+    {
+      "file": "src/content/projects/13.json",
+      "sha256": "60098d8951196e1baf061a5a34a291bb95da3465ca4516b5fd07d6e5e63f1d8a"
+    },
+    {
+      "file": "src/content/projects/14.json",
+      "sha256": "8e4dff7e2b94356781cfd98697c1831e55dea83c3686a11afb0024b91d2e49e7"
+    },
+    {
+      "file": "src/content/projects/15.json",
+      "sha256": "35ba50347fcd521e4815276bcb6a6418cd693e0312601dfee826815ba2f52cbe"
+    },
+    {
+      "file": "src/content/projects/16.json",
+      "sha256": "080c0a429cb16657cb905f19efdadbe011d0029f64a1c965de63ecb0a946c9dc"
+    },
+    {
+      "file": "src/content/projects/17.json",
+      "sha256": "7b4e36ad74f474ef57c825c92de7eae166e5f518a31f24d67f348f1804be1a6b"
+    },
+    {
+      "file": "src/content/projects/18.json",
+      "sha256": "6e4b65fadc0b9505021f792cd2389b479aa66c17e7d8b98c8b27e9569cf9918c"
+    },
+    {
+      "file": "src/content/projects/19.json",
+      "sha256": "7b47aef27a1c1546c3f3b932909649d614b5fa98aea940e5b9b61f19a8d5c5f4"
+    },
+    {
+      "file": "src/content/projects/2.json",
+      "sha256": "360b7d8939dc9306eebb9d7df8b5ff7ce83242ff9dbbc792fdf998f815941e21"
+    },
+    {
+      "file": "src/content/projects/20.json",
+      "sha256": "71a95aab90f78e7f81937273fc4f00cb23cd9cc4d99615535a849493d10719f2"
+    },
+    {
+      "file": "src/content/projects/21.json",
+      "sha256": "874320230e6566b2cf9293e95bfb66322c30712feac1831f87ce925185c09311"
+    },
+    {
+      "file": "src/content/projects/3.json",
+      "sha256": "a375f8dbb3ce8b43d0a3be36274aab889e14b03be88ebbf19d7887f0562d2f8c"
+    },
+    {
+      "file": "src/content/projects/4.json",
+      "sha256": "8cff32b898cbab2209a4744af3bab1f20e1fe4f4bca940b4066b168ca1ffb579"
+    },
+    {
+      "file": "src/content/projects/5.json",
+      "sha256": "9293f9bac9aecc12a5af9548fbf67940f15045befd34f6c93039a831fb6fe78e"
+    },
+    {
+      "file": "src/content/projects/6.json",
+      "sha256": "02a6c5c16b0afbc3ae006953defe55b2c9ac2fdb55528e7b8592eb33190cd5b9"
+    },
+    {
+      "file": "src/content/projects/7.json",
+      "sha256": "6890d75938bf1874f50291f6621f5de8da7536794437806573ec404d47fc2f58"
+    },
+    {
+      "file": "src/content/projects/8.json",
+      "sha256": "609e722b4b2daf77ba54f08bfdc4191f7a80242c7a9cf15440193e5095f3e84a"
+    },
+    {
+      "file": "src/content/projects/9.json",
+      "sha256": "5b0c7582f33d99e010ce1d2f51f3c2d9e7f32fb86d1cca4c838f09ddd672aba7"
+    }
+  ],
+  "archiveSha256": "49c3615f81c93d3ce7ce4355e8639a3568d0aec05f56969eeaec13547373c131",
+  "pushPerformed": false,
+  "mainModified": false,
+  "realEditorNewFieldsTested": false,
+  "sourceImagesPreserved": 67,
+  "httpChecks": 97,
+  "flexibilityGroups": 14,
+  "migrationChecks": 33,
+  "losslessComparisons": 84,
+  "localEditChecks": 6,
+  "screenshotPairs": 2,
+  "openLimits": [
+    "Manual numeric ID allocation, no atomic CMS cross-record uniqueness enforcement",
+    "CMS new reference/archive/delete/order interface not yet tested on hosted editor",
+    "CMS media deletion has no UI reference lock",
+    "All project DOM is built on one page; no unbounded performance guarantee"
+  ]
+}

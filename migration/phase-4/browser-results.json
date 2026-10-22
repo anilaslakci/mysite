@@ -1,0 +1,326 @@
+{
+  "desktopIdentical": true,
+  "mobileIdentical": true,
+  "modals": [
+    {
+      "aria": "false",
+      "id": "1",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "2",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "3",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "4",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "5",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "6",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "7",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "8",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "9",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "10",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "11",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "12",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "13",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "14",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "15",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "16",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "17",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "18",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "19",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "20",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "21",
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "1",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "2",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "3",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "4",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "5",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "6",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "7",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "8",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "9",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "10",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "11",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "12",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "13",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "14",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "15",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "16",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "17",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "18",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "19",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "20",
+      "lang": "en",
+      "open": true
+    },
+    {
+      "aria": "false",
+      "id": "21",
+      "lang": "en",
+      "open": true
+    }
+  ],
+  "zoomCheck": {
+    "alt": "Pazaryeri Satış Analiz Aracı 1",
+    "loaded": true,
+    "open": true
+  },
+  "closeCheck": {
+    "ariaHidden": "true",
+    "modalsClosed": true,
+    "zoomClosed": true
+  },
+  "filterCheck": {
+    "counter": "21",
+    "visible": [
+      "1",
+      "2",
+      "4",
+      "19",
+      "20"
+    ]
+  },
+  "fixtureFilter": {
+    "counter": "23",
+    "visible": [
+      "23"
+    ]
+  },
+  "fixtureModal": {
+    "images": [
+      {
+        "alt": "Pazaryeri Satış Analiz Aracı 1",
+        "loaded": true
+      },
+      {
+        "alt": "Pazaryeri Satış Analiz Aracı 3",
+        "loaded": true
+      },
+      {
+        "alt": "Pazaryeri Satış Analiz Aracı 2",
+        "loaded": true
+      },
+      {
+        "alt": "Pazaryeri Satış Analiz Aracı 1",
+        "loaded": true
+      }
+    ],
+    "open": true,
+    "title": "Depolar Arası Transfer Planlayıcı"
+  },
+  "fixtureEN": {
+    "counter": "23",
+    "language": "en",
+    "visible": 23
+  },
+  "minimalModal": {
+    "galleries": 0,
+    "open": true
+  },
+  "fixtureMobile": {
+    "images": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "open": true,
+    "overflow": false
+  },
+  "logs": []
+}
