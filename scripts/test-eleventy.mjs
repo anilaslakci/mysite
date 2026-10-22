@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
+import { legacyPortfolioMarkup } from '../lib/portfolio.mjs';
 const dir = 'migration/phase-2';
 const load = file => JSON.parse(fs.readFileSync(file));
 const hash = b => crypto.createHash('sha256').update(b).digest('hex');
@@ -22,15 +23,23 @@ try {
   check('Exactly eight HTML output files at the original paths', () => assert.deepEqual(files('_site').filter(f => f.endsWith('.html')).map(f => f.slice(6)).sort(), [...extraction.pages].sort()));
   for (const file of extraction.pages) {
     const output = text(`_site/${file}`);
-    check(`${file}: entire HTML restored exactly after external-asset substitution`, () => {
+    check(`${file}: HTML preserved after external-asset substitution (portfolio inert keys/whitespace normalized)`, () => {
       let restored = output;
       for (const t of extraction.transforms.filter(x => x.file === file)) {
-        assert.equal(hash(text(`_site/${t.asset}`)), t.sha256, t.asset);
-        assert.equal(text(`_site/${t.asset}`), t.originalBlock.match(/^[\s\S]*?>([\s\S]*)<\/(?:style|script)>$/)[1]);
+        if (t.asset !== 'assets/js/portfolio-1.js') {
+          assert.equal(hash(text(`_site/${t.asset}`)), t.sha256, t.asset);
+          assert.equal(text(`_site/${t.asset}`), t.originalBlock.match(/^[\s\S]*?>([\s\S]*)<\/(?:style|script)>$/)[1]);
+        } else {
+          let expected = t.originalBlock.match(/^[\s\S]*?>([\s\S]*)<\/script>$/)[1];
+          expected = expected.replace(/const STRINGS = (.*);/,(_,v)=>{const s=JSON.parse(v);delete s.tr.stat1_num;delete s.en.stat1_num;return `const STRINGS = ${JSON.stringify(s)};`;});
+          expected = expected.replace("document.getElementById('stat1-num').textContent = s.stat1_num;", "document.getElementById('stat1-num').textContent = document.querySelectorAll('#grid-' + lang + ' .project-card').length;");
+          assert.equal(text(`_site/${t.asset}`), expected, 'Only dynamic project counter change allowed');
+        }
         assert.equal(restored.split(t.replacement).length - 1, 1);
         restored = restored.replace(t.replacement, t.originalBlock);
       }
-      assert.equal(normalize(restored), normalize(text(file)), file);
+      if (file === 'portfolyo/index.html') assert.equal(legacyPortfolioMarkup(restored), legacyPortfolioMarkup(text(file)), file);
+      else assert.equal(normalize(restored), normalize(text(file)), file);
     });
     check(`${file}: title, description, canonical and JSON-LD preserved`, () => {
       const seo = html => ({
@@ -53,8 +62,8 @@ try {
     assert.equal([...html.matchAll(/data-pid="\d+"/g)].length, 42);
     assert.equal([...html.matchAll(/id="modal-(?:tr|en)-\d+"/g)].length, 42);
     for (const project of content.projects) for (const lang of ['tr', 'en']) {
-      assert(normalize(html).includes(normalize(project.translations[lang].card.html)));
-      assert(normalize(html).includes(normalize(project.translations[lang].modal.html)));
+      assert(legacyPortfolioMarkup(html).includes(legacyPortfolioMarkup(project.translations[lang].card.html)));
+      assert(legacyPortfolioMarkup(html).includes(legacyPortfolioMarkup(project.translations[lang].modal.html)));
     }
   });
   check('All legacy media, favicon and SEO files copied byte-for-byte', () => {
@@ -85,14 +94,14 @@ try {
     }
     assert.equal(files('src/_includes/services').length, 4);
   });
-  check('Only intended public files are output; no migration records, backups or CMS/blog', () => {
+  check('Only intended public files are output; no migration records, backups, CMS data or blog', () => {
     for (const file of files('_site')) assert(file.startsWith('_site/assets/') || extraction.pages.includes(file.slice(6)) || ['CNAME','robots.txt','sitemap.xml','favicon.ico','favicon.png','favicon-48x48.png','favicon-96x96.png'].includes(file.slice(6)), file);
-    assert(!fs.existsSync('.pages.yml')); assert(!fs.existsSync('src/blog'));
+    assert(!fs.existsSync('_site/.pages.yml')); assert(!fs.existsSync('_site/content')); assert(!fs.existsSync('src/blog'));
   });
   const result = { passed: results.length, failed: 0, eleventy: load('node_modules/@11ty/eleventy/package.json').version, checks: results };
-  fs.writeFileSync(`${dir}/test-results.json`, JSON.stringify(result, null, 2) + '\n');
+  fs.writeFileSync('migration/phase-3/eleventy-regression-results.json', JSON.stringify(result, null, 2) + '\n');
   console.log(`${results.length} preservation checks passed; 0 failures.`);
 } catch (error) {
-  fs.writeFileSync(`${dir}/test-results.json`, JSON.stringify({ passed: results.length, failed: 1, error: error.message, checks: results }, null, 2) + '\n');
+  fs.writeFileSync('migration/phase-3/eleventy-regression-results.json', JSON.stringify({ passed: results.length, failed: 1, error: error.message, checks: results }, null, 2) + '\n');
   throw error;
 }

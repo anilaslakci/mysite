@@ -1,0 +1,238 @@
+media:
+  - name: portfolio
+    label: Portfolyo görselleri
+    input: assets/portfolio
+    output: /assets/portfolio
+    rename: random
+    extensions:
+      - png
+      - jpg
+      - jpeg
+content:
+  - name: projects
+    label: Portfolyo projeleri
+    type: collection
+    path: src/content/projects
+    format: json
+    subfolders: false
+    filename:
+      template: '{fields.id}.json'
+      field: false
+    operations:
+      create: true
+      rename: false
+      delete: false
+    view:
+      primary: tr.title
+      fields:
+        - id
+        - tr.title
+        - en.title
+        - category
+        - order
+      sort:
+        - order
+        - id
+        - tr.title
+      search:
+        - tr.title
+        - en.title
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: id
+        label: Proje kimliği
+        type: number
+        required: true
+        options:
+          min: 1
+        description: >-
+          Mevcut kimliği değiştirmeyin. Yeni projede kullanılmayan bir sonraki tam sayıyı girin; dosya adı bu
+          kimlikten üretilir.
+      - name: order
+        label: Sıralama
+        type: number
+        required: true
+        options:
+          min: 1
+        description: Mevcut 1–21 sırası sabittir. Yeni projeye kullanılmayan sonraki sıralama numarasını verin.
+      - name: category
+        label: Kategori
+        type: select
+        required: true
+        options:
+          values:
+            - name: data-analysis
+              label: Veri Analizi
+            - name: operations
+              label: Operasyon Otomasyonu
+            - name: marketplace
+              label: Pazaryeri Araçları
+            - name: finance
+              label: Finans
+            - name: entertainment
+              label: Eğlence
+            - name: mobile
+              label: Mobil Geliştirme
+            - name: other
+              label: Diğer
+      - name: tr
+        label: Türkçe
+        type: object
+        required: true
+        fields:
+          - name: title
+            label: Başlık
+            type: string
+            required: true
+          - name: summary
+            label: Kart özeti
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: intro
+            label: Detay giriş açıklaması
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: problem
+            label: Sorun
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: solution
+            label: Çözüm
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: impact
+            label: Etki
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: technologies
+            label: Kart teknoloji etiketleri
+            type: string
+            list: true
+            required: true
+          - name: detailTechnologies
+            label: Detay teknoloji etiketleri
+            type: string
+            list: true
+            required: true
+            description: Bazı mevcut projelerde kart listesinden farklıdır; iki liste ayrı korunur.
+          - name: galleryTitle
+            label: Galeri başlığı
+            type: string
+            required: true
+          - name: galleryIntro
+            label: Galeri açıklaması
+            type: string
+            required: true
+          - name: legacyModalTail
+            type: string
+            hidden: true
+            default: ''
+      - name: en
+        label: English
+        type: object
+        required: true
+        fields:
+          - name: title
+            label: Başlık
+            type: string
+            required: true
+          - name: summary
+            label: Kart özeti
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: intro
+            label: Detay giriş açıklaması
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: problem
+            label: Sorun
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: solution
+            label: Çözüm
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: impact
+            label: Etki
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: technologies
+            label: Kart teknoloji etiketleri
+            type: string
+            list: true
+            required: true
+          - name: detailTechnologies
+            label: Detay teknoloji etiketleri
+            type: string
+            list: true
+            required: true
+            description: Bazı mevcut projelerde kart listesinden farklıdır; iki liste ayrı korunur.
+          - name: galleryTitle
+            label: Galeri başlığı
+            type: string
+            required: true
+          - name: galleryIntro
+            label: Galeri açıklaması
+            type: string
+            required: true
+          - name: legacyModalTail
+            type: string
+            hidden: true
+            default: ''
+      - name: gallery
+        label: Galeri (sürükleyerek sıralayın)
+        type: object
+        required: true
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: '{altTR}'
+        fields:
+          - name: file
+            label: Görsel
+            type: image
+            required: true
+            options:
+              media: portfolio
+              extensions:
+                - png
+                - jpg
+                - jpeg
+          - name: altTR
+            label: Türkçe alternatif metin
+            type: string
+            required: true
+          - name: altEN
+            label: English alternative text
+            type: string
+            required: true
+      - name: links
+        label: Proje bağlantıları (isteğe bağlı)
+        type: object
+        list: true
+        fields:
+          - name: url
+            label: Adres
+            type: string
+            required: true
+          - name: labelTR
+            label: Türkçe etiket
+            type: string
+            required: true
+          - name: labelEN
+            label: English label
+            type: string
+            required: true

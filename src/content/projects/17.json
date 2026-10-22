@@ -1,0 +1,78 @@
+{
+  "id": 17,
+  "order": 17,
+  "category": "marketplace",
+  "tr": {
+    "title": "Kargo Sürecinde İptal Sipariş Takip Sistemi",
+    "summary": "Trendyol ve Hepsiburada API'lerinden anlık veri çekerek kargo hazırlık aşamasındaki iptal siparişleri bildiren masaüstü takip aracı.",
+    "intro": "Trendyol ve Hepsiburada API'lerinden anlık veri çekerek kargo hazırlık aşamasındaki iptal siparişleri bildiren masaüstü takip aracı.",
+    "problem": "Kargo hazırlanırken iptal edilen siparişler ilgili birimler tarafından zamanında fark edilemiyordu; bu durum gereksiz kargo hazırlığına ve operasyonel kayba yol açıyordu.",
+    "solution": "Trendyol ve Hepsiburada API'lerinden sürekli yeni sipariş ve iptal verisi çekiliyor. Kargo sürecindeyken iptal edilen bir sipariş tespit edildiğinde masaüstünde anlık pop-up bildirimi geliyor; ilgili ekipler hemen aksiyon alabiliyor.",
+    "impact": "Kargo aşamasındaki iptal siparişler artık anlık fark ediliyor; gereksiz hazırlık ve kargo maliyeti önleniyor.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "REST API",
+      "Trendyol API",
+      "Hepsiburada API"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "REST API",
+      "Trendyol API",
+      "Hepsiburada API"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "In-Transit Order Cancellation Tracker",
+    "summary": "Desktop monitoring tool that pulls live data from Trendyol and Hepsiburada APIs and alerts when orders are cancelled mid-shipment.",
+    "intro": "Desktop monitoring tool that pulls live data from Trendyol and Hepsiburada APIs and alerts when orders are cancelled mid-shipment.",
+    "problem": "Orders cancelled while already in the cargo preparation phase weren't being caught in time, leading to unnecessary packaging and operational waste.",
+    "solution": "Live order and cancellation data is continuously pulled from the Trendyol and Hepsiburada APIs. When a cancellation is detected for an order already in the cargo pipeline, a desktop pop-up notification fires immediately so the relevant team can act.",
+    "impact": "In-transit cancellations are now caught instantly; unnecessary cargo preparation and associated costs are prevented.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "REST API",
+      "Trendyol API",
+      "Hepsiburada API"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "REST API",
+      "Trendyol API",
+      "Hepsiburada API"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/7977a93bcf5a7bdd5efd4bcaa42d630287bd279546a95c341fdc9501eb7f7815.png",
+      "altTR": "Kargo Sürecinde İptal Sipariş Takip Sistemi genel bakış ekranı",
+      "altEN": "In-Transit Order Cancellation Tracker overview screen"
+    },
+    {
+      "file": "/assets/portfolio/ca76103db2f8e33483c7ff015640da210f9ca2f582c3a48bf1c37205cf00b009.png",
+      "altTR": "Kargo Sürecinde İptal Sipariş Takip Sistemi siparişler ekranı",
+      "altEN": "In-Transit Order Cancellation Tracker orders screen"
+    },
+    {
+      "file": "/assets/portfolio/907934bc9b5ee78967fc629a2c8362b111f2539f5aa1b562f22e2d16e4d9e43d.png",
+      "altTR": "Kargo Sürecinde İptal Sipariş Takip Sistemi iptal siparişler ekranı",
+      "altEN": "In-Transit Order Cancellation Tracker cancelled orders screen"
+    },
+    {
+      "file": "/assets/portfolio/067cd08723766522d48faa3f1ce56777fd9fe98d45f844fff9027a19edf278df.png",
+      "altTR": "Kargo Sürecinde İptal Sipariş Takip Sistemi ayarlar ekranı",
+      "altEN": "In-Transit Order Cancellation Tracker settings screen"
+    }
+  ],
+  "links": []
+}

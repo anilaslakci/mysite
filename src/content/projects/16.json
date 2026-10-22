@@ -1,0 +1,69 @@
+{
+  "id": 16,
+  "order": 16,
+  "category": "entertainment",
+  "tr": {
+    "title": "Çok Oyunculu Bilgi Yarışması",
+    "summary": "Kendine özgü puanlama sistemi, özel oda modu ve yetenek mekanikleri içeren local çok oyunculu web bilgi yarışması.",
+    "intro": "Kendine özgü puanlama sistemi, özel oda modu ve yetenek mekanikleri içeren local çok oyunculu web bilgi yarışması.",
+    "problem": "Arkadaşlarla oynanabilecek, hız + doğruluk kombinasyonunu ödüllendiren ve tekrar oynanabilirliği artıran özel mekanikler içeren bir bilgi yarışması platformu yoktu.",
+    "solution": "Oda kurma/katılma, özel yetenek kullanımı ve hıza dayalı puanlama sistemi geliştirildi. Doğru cevap vermek yetmiyor; hızlı olmak da gerekiyor. Özel odada arkadaşlarla ya da genel odada yabancılarla oynanabiliyor.",
+    "impact": "Tekrar oynanabilirliği yüksek, özgün mekanikler içeren tam kapsamlı bir multiplayer web oyunu uçtan uca geliştirildi.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Multiplayer Quiz Game",
+    "summary": "Local multiplayer web quiz game with a custom scoring system, private room mode, and in-game ability mechanics.",
+    "intro": "Local multiplayer web quiz game with a custom scoring system, private room mode, and in-game ability mechanics.",
+    "problem": "There was no quiz platform that combined speed + accuracy into its scoring and offered custom mechanics that rewarded skill and increased replay value.",
+    "solution": "Room creation/joining, special ability usage, and speed-based scoring were built. Getting the right answer isn't enough — being fast matters too. Players can compete in private rooms with friends or open rooms with anyone.",
+    "impact": "A fully self-built multiplayer web game with original mechanics was developed end-to-end.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/d81c80b29433114071ae43ed8fa42e90296c80cac28524bda013c9be3192a060.png",
+      "altTR": "Çok Oyunculu Bilgi Yarışması 1",
+      "altEN": "Multiplayer Quiz Game 1"
+    },
+    {
+      "file": "/assets/portfolio/14a6538aee6cf0b67e859438591e99e76f0028365b644bdedca8da1544f6f4fd.png",
+      "altTR": "Çok Oyunculu Bilgi Yarışması 2",
+      "altEN": "Multiplayer Quiz Game 2"
+    },
+    {
+      "file": "/assets/portfolio/9452294099332a85c3413072ebc03f934d53c147c94a1743480f33ef5c0992d8.png",
+      "altTR": "Çok Oyunculu Bilgi Yarışması 3",
+      "altEN": "Multiplayer Quiz Game 3"
+    }
+  ],
+  "links": []
+}

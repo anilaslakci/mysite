@@ -1,0 +1,55 @@
+{
+  "id": 15,
+  "order": 15,
+  "category": "mobile",
+  "tr": {
+    "title": "2D Mobil Arcade Oyun",
+    "summary": "Flutter ve Dart ile sıfırdan geliştirilen, APK ve AAB çıktısı alınan 2D arcade mobil oyun.",
+    "intro": "Flutter ve Dart ile sıfırdan geliştirilen, APK ve AAB çıktısı alınan 2D arcade mobil oyun.",
+    "problem": "Flutter/Dart ekosistemini ve mobil geliştirme sürecini (derleme, APK/AAB üretimi, platform farkları) pratikte öğrenmek için gerçek bir proje gerekiyordu.",
+    "solution": "2D arcade mekaniklerine sahip eğlenceli bir mobil oyun sıfırdan geliştirildi. APK ve AAB derleme süreçlerinin tamamı sorunsuz tamamlandı.",
+    "impact": "Flutter/Dart ile uçtan uca mobil geliştirme deneyimi kazanıldı; derleme ortamı, platform konfigürasyonu ve oyun döngüsü mimarisi pratikte öğrenildi.",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Mobile"
+    ],
+    "detailTechnologies": [
+      "Flutter",
+      "Dart",
+      "Mobile"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "2D Mobile Arcade Game",
+    "summary": "A 2D arcade mobile game built from scratch with Flutter and Dart, including full APK and AAB build output.",
+    "intro": "A 2D arcade mobile game built from scratch with Flutter and Dart, including full APK and AAB build output.",
+    "problem": "Learning the Flutter/Dart ecosystem and the full mobile development pipeline — builds, APK/AAB output, platform configuration — required a real project to work through end-to-end.",
+    "solution": "A playful 2D arcade mobile game was built from scratch. The full APK and AAB compilation pipeline was completed without issues.",
+    "impact": "End-to-end mobile development experience gained with Flutter/Dart; build environment, platform configuration, and game loop architecture learned in practice.",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Mobile"
+    ],
+    "detailTechnologies": [
+      "Flutter",
+      "Dart",
+      "Mobile"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/9c3a3a2e6f103a9668202ac9e01ec2651b5d57f08eda6df4b8a83d7a9567db1a.jpg",
+      "altTR": "2D Mobil Arcade Oyun 1",
+      "altEN": "2D Mobile Arcade Game 1"
+    }
+  ],
+  "links": []
+}

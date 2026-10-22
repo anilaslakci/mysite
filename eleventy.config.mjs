@@ -1,4 +1,7 @@
+import { imagePath } from './lib/portfolio.mjs';
 export default function (eleventyConfig) {
+  eleventyConfig.addFilter('portfolioImage', imagePath);
+  eleventyConfig.addWatchTarget('./src/content/projects/');
   // Legacy media paths are a public contract. Only the explicit asset folders
   // are copied; migration records and local recovery archives are never output.
   eleventyConfig.addPassthroughCopy({ assets: 'assets' });

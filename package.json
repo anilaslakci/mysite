@@ -8,9 +8,13 @@
     "build": "node scripts/clean-site.mjs && eleventy",
     "dev": "eleventy --serve --port=8080",
     "preview:migration": "node scripts/preview-eleventy.mjs",
-    "test": "npm run build && node scripts/test-eleventy.mjs",
+    "test": "npm run build && node scripts/test-eleventy.mjs && node scripts/test-project-records.mjs",
     "test:http": "node scripts/test-eleventy-http.mjs",
-    "test:browser-evidence": "node scripts/test-eleventy-browser-evidence.mjs"
+    "test:browser-evidence": "node scripts/test-eleventy-browser-evidence.mjs",
+    "test:cms-edits": "node scripts/test-cms-local-edits.mjs",
+    "test:cms-schema": "node scripts/test-pages-upstream-schema.mjs",
+    "test:project-browser-evidence": "node scripts/test-project-browser-evidence.mjs",
+    "media:check": "node scripts/check-project-media.mjs"
   },
   "devDependencies": { "@11ty/eleventy": "3.1.7" }
 }

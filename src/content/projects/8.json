@@ -1,0 +1,56 @@
+{
+  "id": 8,
+  "order": 8,
+  "category": "other",
+  "tr": {
+    "title": "Masaüstü Görev & Hatırlatıcı Uygulaması",
+    "summary": "Tek seferlik ve tekrarlayan görevleri takip etmek için geliştirilen sade masaüstü hatırlatıcı uygulaması.",
+    "intro": "Tek seferlik ve tekrarlayan görevleri takip etmek için geliştirilen sade masaüstü hatırlatıcı uygulaması.",
+    "problem": "Yoğun iş gününde tekrarlayan rutin görevleri hatırlamak ve takip etmek için harici bir araca ihtiyaç vardı.",
+    "solution": "Başlık ve açıklama girilerek oluşturulan görevler, belirli gün ve saatlerde tekrarlayan veya tek seferlik olarak ayarlanabiliyor. Zamanı geldiğinde masaüstü bildirimi tetikleniyor.",
+    "impact": "Rutin işler artık hafızaya değil sisteme bağlı; unutulan periyodik görev sayısı sıfırlandı.",
+    "technologies": [
+      "Python",
+      "PyQt5"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Desktop Task & Reminder App",
+    "summary": "Lightweight desktop reminder app for tracking one-off and recurring tasks with native notifications.",
+    "intro": "Lightweight desktop reminder app for tracking one-off and recurring tasks with native notifications.",
+    "problem": "During a busy workday, recurring routine tasks needed an external tool to be reliably remembered and tracked.",
+    "solution": "Tasks are created with a title and description, then configured as recurring on specific days and times, or as one-off. A desktop notification fires at the scheduled time.",
+    "impact": "Routine work no longer depends on memory; missed periodic tasks dropped to zero.",
+    "technologies": [
+      "Python",
+      "PyQt5"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/3c5013ed67018a804e6f2730cc0e5b783fb4fec06e90ccc947329276564622ce.png",
+      "altTR": "Masaüstü Görev & Hatırlatıcı Uygulaması 1",
+      "altEN": "Desktop Task & Reminder App 1"
+    },
+    {
+      "file": "/assets/portfolio/68156f152317b6b2deb9c945a9146dcabe29387148605cb89400054a99111dd3.png",
+      "altTR": "Masaüstü Görev & Hatırlatıcı Uygulaması 2",
+      "altEN": "Desktop Task & Reminder App 2"
+    }
+  ],
+  "links": []
+}

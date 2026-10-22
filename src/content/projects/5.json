@@ -1,0 +1,64 @@
+{
+  "id": 5,
+  "order": 5,
+  "category": "marketplace",
+  "tr": {
+    "title": "Trendyol Komisyon Optimizasyon Aracı",
+    "summary": "Trendyol komisyon tekliflerini indirim oranı ve net kazanç açısından değerlendiren karar destek aracı.",
+    "intro": "Trendyol komisyon tekliflerini indirim oranı ve net kazanç açısından değerlendiren karar destek aracı.",
+    "problem": "Trendyol'un kampanya dönemlerinde sunduğu komisyon teklifleri indirim oranına göre değişiyor; hangi indirimin gerçekte daha fazla net kazanç getirdiğini elle hesaplamak pratik değildi.",
+    "solution": "Trendyol panelinden indirilen ham Excel olduğu gibi yükleniyor. Ayarlardan girilen maksimum indirim oranına göre araç uygun komisyon tekliflerini hesaplayıp Excel olarak sunuyor; hangi indirimin net kazancı artırdığı doğrudan görülebiliyor.",
+    "impact": "Kampanya kararları artık tahmine değil hesaba dayanıyor; yüzlerce SKU için manuel komisyon karşılaştırması yapma ihtiyacı ortadan kalktı.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Trendyol Commission Optimizer",
+    "summary": "Decision-support tool that evaluates Trendyol commission offers against discount rate and net profit.",
+    "intro": "Decision-support tool that evaluates Trendyol commission offers against discount rate and net profit.",
+    "problem": "Trendyol's campaign-period commission offers vary by discount rate, and manually calculating which discount actually produced a better net margin for each product wasn't practical.",
+    "solution": "The raw campaign Excel is loaded as-is. Based on a maximum discount rate entered in settings, the tool filters and calculates the commission offers within that boundary and exports the result, making it clear which discount tier improves net margin.",
+    "impact": "Campaign decisions are now based on calculation rather than guesswork, removing the need for manual commission comparisons across hundreds of SKUs.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/3e847228f1c04c15e7923e2d3b0d3ae76262b72ddd8e585ad8af648bc9bdf458.png",
+      "altTR": "Trendyol Komisyon Optimizasyon Aracı 1",
+      "altEN": "Trendyol Commission Optimizer 1"
+    },
+    {
+      "file": "/assets/portfolio/bc35d659bbc5dde344096d008dca8743b8057d91c15dfd73c24a2c1388b981c9.png",
+      "altTR": "Trendyol Komisyon Optimizasyon Aracı 2",
+      "altEN": "Trendyol Commission Optimizer 2"
+    }
+  ],
+  "links": []
+}

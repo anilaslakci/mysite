@@ -10,10 +10,12 @@ http.createServer((req, res) => {
     let url = decodeURIComponent(requestUrl.pathname);
     const baseline = url.startsWith('/__baseline/');
     if (baseline) url = url.slice('/__baseline'.length);
+    const fixture = url.startsWith('/__cmsfixture/');
+    if (fixture) url = url.slice('/__cmsfixture'.length);
     let relative = url.replace(/^\/+/, '');
     if (!relative || relative.endsWith('/')) relative += 'index.html';
     if (!pages.includes(relative) && !relative.startsWith('assets/') && !['CNAME','robots.txt','sitemap.xml','favicon.ico','favicon.png','favicon-48x48.png','favicon-96x96.png'].includes(relative)) { res.writeHead(404); res.end(); return; }
-    const base = path.resolve(root, baseline ? '.' : '_site');
+    const base = path.resolve(root, baseline ? '.' : fixture ? '.migration-preview/cms-edit-output' : '_site');
     const file = path.resolve(base, relative);
     if (!file.startsWith(base + path.sep) || !fs.existsSync(file) || !fs.statSync(file).isFile()) { res.writeHead(404); res.end(); return; }
     res.writeHead(200, { 'Content-Type': types[path.extname(file)] || 'application/octet-stream', 'Cache-Control': 'no-store', 'Content-Security-Policy': "script-src 'self' 'unsafe-inline'; connect-src 'self'" });

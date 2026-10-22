@@ -1,0 +1,38 @@
+{
+  "authenticated": false,
+  "observedUrl": "https://app.pagescms.org/sign-in?redirect=%2F",
+  "observedScreen": "Sign in to Pages CMS",
+  "realEditorOperationsTested": false,
+  "reason": "No authenticated Pages CMS session. Configuration exists only locally; push is explicitly prohibited. No sign-in, permission grant, upload, remote commit or save performed.",
+  "operations": [
+    {
+      "name": "open existing project",
+      "status": "not tested in real editor"
+    },
+    {
+      "name": "edit Turkish title",
+      "status": "not tested in real editor"
+    },
+    {
+      "name": "edit English description",
+      "status": "not tested in real editor"
+    },
+    {
+      "name": "upload image",
+      "status": "not tested in real editor"
+    },
+    {
+      "name": "create project",
+      "status": "not tested in real editor"
+    },
+    {
+      "name": "choose category and technology",
+      "status": "not tested in real editor"
+    },
+    {
+      "name": "save to GitHub",
+      "status": "not tested in real editor"
+    }
+  ],
+  "localEditBuildUndo": "Tested separately; not represented as a real editor pass"
+}

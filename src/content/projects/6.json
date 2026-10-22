@@ -1,0 +1,65 @@
+{
+  "id": 6,
+  "order": 6,
+  "category": "operations",
+  "tr": {
+    "title": "Kritik Stok Bildirim Sistemi",
+    "summary": "Arka planda çalışan, API üzerinden stok değişimlerini takip edip kritik eşiklerde masaüstü bildirimi veren izleme sistemi.",
+    "intro": "Arka planda çalışan, API üzerinden stok değişimlerini takip edip kritik eşiklerde masaüstü bildirimi veren izleme sistemi.",
+    "problem": "Binlerce SKU'lu katalogda stok tükenmesi veya beklenmeyen transfer gözden kaçabiliyordu; fark edilene kadar satış kaybı yaşanıyordu.",
+    "solution": "Sistem başladığında arka planda sessizce çalışmaya başlayan bu araç, API üzerinden belirlenen sıklıkta stok seviyelerini kontrol ediyor. Kritik eşiğin altına düşen ürün için anında masaüstü pop-up bildirimi geliyor; sesli uyarı açılıp kapatılabiliyor.",
+    "impact": "Stok açıkları anlık olarak fark ediliyor; gece veya mesai dışı oluşan kritik durumlar artık sabah sürprizi olmaktan çıktı.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "REST API"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "REST API"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Critical Stock Alert System",
+    "summary": "Background desktop monitoring daemon that watches stock levels via API and alerts on critical thresholds.",
+    "intro": "Background desktop monitoring daemon that watches stock levels via API and alerts on critical thresholds.",
+    "problem": "In a catalogue of thousands of SKUs, a stockout or unexpected transfer could easily go unnoticed — leading to lost sales before anyone caught it.",
+    "solution": "This tool launches at system startup and runs silently in the background, polling stock levels via API at a configurable interval. When any product drops below a user-defined critical threshold, a desktop pop-up fires instantly with an optional audio alert.",
+    "impact": "Stock shortages are now caught in real time; critical situations arising overnight no longer come as a morning surprise.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "REST API"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "REST API"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/758d45ffe0757781b6948b739eed97a91a72560748f0a8127beb0d8c780a6b4a.png",
+      "altTR": "Kritik Stok Bildirim Sistemi 1",
+      "altEN": "Critical Stock Alert System 1"
+    },
+    {
+      "file": "/assets/portfolio/3b423dc4ed05db9c2b76062ee4cdea19316a6126a8ffd8a6716acb7f4e22a79b.png",
+      "altTR": "Kritik Stok Bildirim Sistemi 2",
+      "altEN": "Critical Stock Alert System 2"
+    },
+    {
+      "file": "/assets/portfolio/a0278b6827ab40580dd6efa3b61c846b127aaf6951689b95981e5656a40bffad.png",
+      "altTR": "Kritik Stok Bildirim Sistemi 3",
+      "altEN": "Critical Stock Alert System 3"
+    }
+  ],
+  "links": []
+}

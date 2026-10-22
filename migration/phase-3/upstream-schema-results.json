@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "validator": "Official Pages CMS ConfigSchema",
+  "schemaUrl": "https://raw.githubusercontent.com/hunvreus/pagescms/main/lib/config-schema.ts",
+  "schemaSha256": "c09e507c8f978c774ee8bfe38a3d9804c16dc1fea02eec53e1b68e2e0f302df6",
+  "registrySha256": "197b66ba04404e2e8e053850e29e1be971bcd73de2015a022b88a07ce0c5c6aa",
+  "upstreamVersion": "2.1.8",
+  "types": [
+    "boolean",
+    "code",
+    "date",
+    "file",
+    "image",
+    "number",
+    "reference",
+    "rich-text",
+    "select",
+    "string",
+    "text",
+    "uuid"
+  ],
+  "negativeChecks": 2,
+  "adaptation": "Only fieldTypes registry import replaced by names extracted from official registry; TypeScript erased with Node. No rules modified.",
+  "editorTested": false
+}

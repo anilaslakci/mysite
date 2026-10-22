@@ -1,0 +1,7 @@
+<article aria-label="{{ t.title | escape }}" class="project-card" data-category="{{ project.category }}" data-lang="{{ lang }}" data-pid="{{ project.id }}" onclick="openProject({{ project.id }})" role="button" style="display:{% if lang == 'tr' %}flex{% else %}none{% endif %}" tabindex="0">
+<div class="card-top"><span class="tag" style="--tag:{{ category.color }}">{{ category[lang] }}</span></div>
+<h3>{{ t.title | escape }}</h3>
+<p>{{ t.summary | safe }}</p>
+<div class="chips">{% for tech in t.technologies %}<span class="chip">{{ tech | escape }}</span>{% endfor %}</div>
+<div class="card-footer">{{ portfolio.words[lang].more }} <span>→</span></div>
+</article>

@@ -1,0 +1,415 @@
+{
+  "comparisons": [
+    {
+      "route": "/portfolyo/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "homeStabilized": true
+    },
+    {
+      "route": "/portfolyo/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "homeStabilized": false
+    },
+    {
+      "route": "/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "homeStabilized": true
+    }
+  ],
+  "modals": [
+    {
+      "id": 1,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 2,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 3,
+      "images": 2,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 4,
+      "images": 2,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 5,
+      "images": 2,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 6,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 7,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 8,
+      "images": 2,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 9,
+      "images": 6,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 10,
+      "images": 7,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 11,
+      "images": 6,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 12,
+      "images": 4,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 13,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 14,
+      "images": 2,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 15,
+      "images": 1,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 16,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 17,
+      "images": 4,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 18,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 19,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 20,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 21,
+      "images": 1,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 1,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 2,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 3,
+      "images": 2,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 4,
+      "images": 2,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 5,
+      "images": 2,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 6,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 7,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 8,
+      "images": 2,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 9,
+      "images": 6,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 10,
+      "images": 7,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 11,
+      "images": 6,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 12,
+      "images": 4,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 13,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 14,
+      "images": 2,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 15,
+      "images": 1,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 16,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 17,
+      "images": 4,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 18,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 19,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 20,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 21,
+      "images": 1,
+      "lang": "en",
+      "open": true
+    }
+  ],
+  "filter": {
+    "category": "data-analysis",
+    "count": 5,
+    "counter": "21",
+    "lang": "en"
+  },
+  "zoom": {
+    "loaded": true,
+    "open": true
+  },
+  "escape": {
+    "modalsClosed": true,
+    "zoomClosed": true
+  },
+  "mobile": {
+    "images": [
+      {
+        "loaded": true,
+        "width": 765
+      }
+    ],
+    "noHorizontalOverflow": true,
+    "open": true
+  },
+  "mobileCount": "21",
+  "homeReturn": {
+    "particles": 91,
+    "skipIntroWorks": true,
+    "visible": true
+  },
+  "homeTab": {
+    "active": true,
+    "hash": "#hakkimda"
+  },
+  "fixture": {
+    "initial": {
+      "cards": 44,
+      "counter": "22",
+      "modals": 44
+    },
+    "filter": {
+      "counter": "22",
+      "visible": [
+        "10",
+        "22"
+      ]
+    },
+    "modal": {
+      "open": true,
+      "optionalLinks": 1,
+      "title": "Marketplace Sales Analyzer"
+    },
+    "gallery": {
+      "loaded": true,
+      "src": "http://127.0.0.1:4174/__cmsfixture/assets/portfolio/qa-upload-19f28435-e20d-4964-9537-8046cd8f8a9e.png",
+      "zoom": true
+    },
+    "synthetic": true,
+    "realCMSEditor": false
+  },
+  "consoleErrorsAndWarnings": []
+}

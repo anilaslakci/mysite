@@ -1,0 +1,69 @@
+{
+  "id": 2,
+  "order": 2,
+  "category": "data-analysis",
+  "tr": {
+    "title": "T-Soft Sipariş Analiz Aracı",
+    "summary": "T-Soft'tan alınan karmaşık CSV çıktısını filtrelenebilir, şablonlanabilir ve Excel'e aktarılabilir rapora çeviren analiz uygulaması.",
+    "intro": "T-Soft'tan alınan karmaşık CSV çıktısını filtrelenebilir, şablonlanabilir ve Excel'e aktarılabilir rapora çeviren analiz uygulaması.",
+    "problem": "T-Soft altyapısından alınan sipariş CSV'leri düzensiz formatta geliyor ve platformun kendi panelinde detaylı filtreleme/raporlama yapmak pratik değil. Tekrar eden filtreleme ihtiyacı operasyonu yavaşlatıyor.",
+    "solution": "CSV dosyası bozulmadan içeri alınıyor; tarih, ürün ve sipariş süreci filtreleri ekrandan yönetiliyor, sık kullanılan kombinasyonlar şablon olarak kaydedilip tek tıkla uygulanabiliyor. Toplam ciro, sipariş sayısı ve ortalama sepet tutarı özet ekranında anlık görünüyor. Şirket içi kullanım için pembe/koyu tema seçeneği de eklendi.",
+    "impact": "Operasyon ekibi günlük rutin raporları tek tıkla şablonlardan alabiliyor; dış paylaşım için ayrıca rapor hazırlamaya gerek kalmıyor.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "T-Soft Order Analysis Tool",
+    "summary": "Analysis app that converts T-Soft's messy CSV exports into filterable, templated, Excel-ready reports.",
+    "intro": "Analysis app that converts T-Soft's messy CSV exports into filterable, templated, Excel-ready reports.",
+    "problem": "Order CSVs from T-Soft come in an inconsistent format and the platform's own panel doesn't support practical filtering or reporting. Repeating the same filter combinations daily slowed operations.",
+    "solution": "The CSV is ingested without pre-processing; date, product, and order-status filters are managed on screen, and frequently used combinations can be saved as templates and reapplied in one click. Total revenue, order count, and average basket value appear instantly on the summary screen. A light/dark theme option was added for in-office use.",
+    "impact": "The operations team can pull daily routine reports from saved templates in one click, removing the need to prepare separate reports for external sharing.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/fc0d35a3a387479c1550c5fa9d010f27eff4939e68b1c68ed5bc682058c2341c.png",
+      "altTR": "T-Soft Sipariş Analiz Aracı 1",
+      "altEN": "T-Soft Order Analysis Tool 1"
+    },
+    {
+      "file": "/assets/portfolio/b14a0935e7b1ff6e8b5675f7077fb907e11be0cf60716b851be781c439935313.png",
+      "altTR": "T-Soft Sipariş Analiz Aracı 2",
+      "altEN": "T-Soft Order Analysis Tool 2"
+    },
+    {
+      "file": "/assets/portfolio/1dda8075beb816cad1c6d9b288abfc09cbc60faba7b5951cb621bda64fa528a2.png",
+      "altTR": "T-Soft Sipariş Analiz Aracı 3",
+      "altEN": "T-Soft Order Analysis Tool 3"
+    }
+  ],
+  "links": []
+}

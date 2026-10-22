@@ -1,0 +1,65 @@
+{
+  "id": 13,
+  "order": 13,
+  "category": "marketplace",
+  "tr": {
+    "title": "Trendyol Flaş Ürün Fiyat Kontrol Eklentisi",
+    "summary": "Trendyol flaş indirim tekliflerini önceden belirlenen dip fiyat listesiyle otomatik karşılaştıran kontrol aracı.",
+    "intro": "Trendyol flaş indirim tekliflerini önceden belirlenen dip fiyat listesiyle otomatik karşılaştıran kontrol aracı.",
+    "problem": "Yüzlerce ürün için sürekli gelen flaş indirim tekliflerini komisyon yapısını göz önüne alarak dip fiyatla elle karşılaştırmak pratik değildi.",
+    "solution": "Stok Kodu, Barkod ve dip fiyat içeren Excel eklentiye yükleniyor; Trendyol flaş teklifler ekranındaki ürünlerle otomatik eşleştirme yapılıyor ve teklifin dip fiyatın üzerinde mi altında mı olduğu anında gösteriliyor. 'Barkodları Aç' butonuyla barkod bazlı yedek eşleştirme de denenebiliyor.",
+    "impact": "Yüzlerce flaş teklifin manuel kontrolü ortadan kalktı; dip fiyatın altında kalan teklifler anlık işaretlenip hızlıca aksiyon alınabiliyor.",
+    "technologies": [
+      "JavaScript",
+      "Tampermonkey",
+      "Excel Eşleştirme"
+    ],
+    "detailTechnologies": [
+      "JavaScript",
+      "Tampermonkey",
+      "Excel Eşleştirme"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Trendyol Flash Deal Price Checker",
+    "summary": "Extension that automatically cross-checks Trendyol flash-deal offers against a pre-defined floor-price list.",
+    "intro": "Extension that automatically cross-checks Trendyol flash-deal offers against a pre-defined floor-price list.",
+    "problem": "Verifying each flash-discount offer against a floor price manually across hundreds of products wasn't practical due to commission structure considerations.",
+    "solution": "The user prepares an Excel list with Stock Code, Barcode, and floor price. Loaded into the extension, it automatically matches against products on the flash-deal screen and instantly flags whether each offer is above or below the floor price. A 'Reveal Barcodes' option enables barcode-based matching as a fallback.",
+    "impact": "Manual review of hundreds of flash offers was eliminated; only offers falling below the floor price are flagged instantly for fast action.",
+    "technologies": [
+      "JavaScript",
+      "Tampermonkey",
+      "Excel Matching"
+    ],
+    "detailTechnologies": [
+      "JavaScript",
+      "Tampermonkey",
+      "Excel Matching"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/a16a24ca37219125cb94222eeb7ad974c2bc9d075fabc9ba93cd7b9d87fdae48.png",
+      "altTR": "Trendyol Flaş Ürün Fiyat Kontrol Eklentisi 1",
+      "altEN": "Trendyol Flash Deal Price Checker 1"
+    },
+    {
+      "file": "/assets/portfolio/7b962f98e36fc8a146c0ae743e8fed7a85ce95e802a156a5e12e3385517d3319.png",
+      "altTR": "Trendyol Flaş Ürün Fiyat Kontrol Eklentisi 2",
+      "altEN": "Trendyol Flash Deal Price Checker 2"
+    },
+    {
+      "file": "/assets/portfolio/e2038f92bcdb82c54da91d31b9a7781097805dfa1c2d73ad168d5039d1dd13f3.png",
+      "altTR": "Trendyol Flaş Ürün Fiyat Kontrol Eklentisi 3",
+      "altEN": "Trendyol Flash Deal Price Checker 3"
+    }
+  ],
+  "links": []
+}

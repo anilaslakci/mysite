@@ -1,0 +1,19 @@
+<div aria-hidden="true" class="modal" data-lang="{{ lang }}" id="modal-{{ lang }}-{{ project.id }}">
+<div class="modal-panel">
+<button class="close" onclick="closeModal()">×</button>
+<div class="modal-head">
+<span class="tag" style="--tag:{{ category.color }}">{{ category[lang] }}</span>
+<h2>{{ t.title | escape }}</h2><p>{{ t.intro | safe }}</p>
+</div>
+<div class="detail-grid">
+<div class="detail-block"><h4>{{ portfolio.words[lang].problem }}</h4><p>{{ t.problem | safe }}</p></div>
+<div class="detail-block"><h4>{{ portfolio.words[lang].solution }}</h4><p>{{ t.solution | safe }}</p></div>
+<div class="detail-block wide"><h4>{{ portfolio.words[lang].impact }}</h4><p>{{ t.impact | safe }}</p></div>
+</div>
+<div class="chips" style="margin-bottom:24px">{% for tech in t.detailTechnologies %}<span class="chip">{{ tech | escape }}</span>{% endfor %}</div>
+<div class="gallery-head"><h4>{{ t.galleryTitle | escape }}</h4><p>{{ t.galleryIntro | escape }}</p></div>
+<div class="gallery">{% for image in project.gallery %}<figure class="shot" data-zoom-label="{{ portfolio.words[lang].zoom }}" onclick="zoomImage(this.querySelector('img'))"><img alt="{% if lang == 'tr' %}{{ image.altTR | escape }}{% else %}{{ image.altEN | escape }}{% endif %}" loading="lazy" src="{{ image.file | portfolioImage }}"/></figure>{% endfor %}</div>
+{% if project.links.length %}<div class="chips">{% for link in project.links %}<a class="chip" href="{{ link.url | escape }}">{% if lang == 'tr' %}{{ link.labelTR | escape }}{% else %}{{ link.labelEN | escape }}{% endif %}</a>{% endfor %}</div>{% endif %}
+</div>
+</div>
+{{ t.legacyModalTail | default('') | safe }}

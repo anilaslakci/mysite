@@ -1,0 +1,73 @@
+{
+  "id": 19,
+  "order": 19,
+  "category": "data-analysis",
+  "tr": {
+    "title": "Google Yorum Takip Sistemi",
+    "summary": "Google Business işletme bağlantıları üzerinden 32 mağazanın yıldız puanı ve yorum sayılarını tek ekrandan takip eden masaüstü analiz uygulaması.",
+    "intro": "Google Business işletme bağlantıları üzerinden mağazaların yıldız puanı ve yorum sayılarını tek ekrandan takip eden masaüstü analiz uygulaması.",
+    "problem": "Müşteri Hizmetleri ekibi onlarca mağazanın Google yorumlarını ve puanlarını tek tek açarak kontrol etmek zorunda kalıyordu. Güncel yorum sayılarını takip etmek, rapor hazırlamak ve mağazalar arasındaki değişiklikleri izlemek zaman kaybına neden oluyordu.",
+    "solution": "Google işletme bağlantıları sisteme bir kez ekleniyor. Uygulama seçilen mağazayı veya tüm mağazaları tek tıklamayla güncelliyor; yıldız puanı, yorum sayısı ve son güncelleme tarihi otomatik olarak tabloya işleniyor. İstenildiğinde tüm veriler Excel raporu olarak dışa aktarılabiliyor.",
+    "impact": "Google Business üzerinde mağaza mağaza dolaşma ihtiyacı ortadan kalktı. Müşteri Hizmetleri ekibi onlarca mağazanın güncel yorum ve puan bilgilerine tek ekrandan ulaşabiliyor, raporlama süresi birkaç dakikaya indi ve manuel kontrol yükü önemli ölçüde azaldı. <strong>32 farklı mağazanın Google yorum ve puan takibi tek ekranda, tek tıklamayla gerçekleştirilebilir hale getirildi.</strong>",
+    "technologies": [
+      "Python",
+      "PySide6",
+      "Playwright",
+      "OpenPyXL",
+      "JSON"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PySide6 (Qt)",
+      "Playwright",
+      "OpenPyXL",
+      "JSON"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": "</div>"
+  },
+  "en": {
+    "title": "Google Review Tracking System",
+    "summary": "A desktop analytics application that tracks star ratings and review counts for 32 stores from Google Business links on a single screen.",
+    "intro": "A desktop analytics application that tracks store star ratings and review counts from Google Business links on a single screen.",
+    "problem": "The Customer Service team had to open and check the Google ratings and reviews of dozens of stores one by one. Tracking current review counts, preparing reports, and comparing changes between stores created a considerable manual workload.",
+    "solution": "Google Business links are added to the system once. The application updates either the selected store or every store with one click, then records the star rating, review count, and last update time automatically. All results can also be exported as an Excel report.",
+    "impact": "The need to visit each Google Business profile separately was removed. Customer Service can now view current ratings and review counts for dozens of stores from one screen, while report preparation takes only a few minutes. <strong>Google rating and review tracking for 32 different stores became available on one screen with one click.</strong>",
+    "technologies": [
+      "Python",
+      "PySide6",
+      "Playwright",
+      "OpenPyXL",
+      "JSON"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PySide6 (Qt)",
+      "Playwright",
+      "OpenPyXL",
+      "JSON"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": "</div>"
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/95275684b8c8e4b8311c1e72f8648c58d9e38b7122b71deeae692c9d2a501434.png",
+      "altTR": "Google Yorum Takip Sistemi mağaza puan ve yorum takip ekranı",
+      "altEN": "Google Review Tracking System store rating and review dashboard"
+    },
+    {
+      "file": "/assets/portfolio/d5e58518a5b18cd52d17e5d0e85f1100ad5250621570778ed8e9e0a4882eb872.png",
+      "altTR": "Google Yorum Takip Sistemi işletme ekleme ve düzenleme penceresi",
+      "altEN": "Google Review Tracking System add and edit business dialog"
+    },
+    {
+      "file": "/assets/portfolio/bbed402daab013bc234683c4a78b9e60860534388aa9cbc0580db6eef474489a.png",
+      "altTR": "Google Yorum Takip Sistemi Excel rapor çıktısı",
+      "altEN": "Google Review Tracking System Excel report output"
+    }
+  ],
+  "links": []
+}

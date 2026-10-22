@@ -1,0 +1,85 @@
+{
+  "id": 10,
+  "order": 10,
+  "category": "finance",
+  "tr": {
+    "title": "Hisse Senedi Portföy Takip Uygulaması",
+    "summary": "Sepetler halinde organize edilen, kar/zarar analizi ve temettü takibi yapan detaylı portföy yönetim uygulaması.",
+    "intro": "Sepetler halinde organize edilen, kar/zarar analizi ve temettü takibi yapan detaylı portföy yönetim uygulaması.",
+    "problem": "Farklı sepetlerdeki hisselerin maliyet ortalamasını, kar/zararını ve temettü takvimini tek bir yerden takip etmek mümkün değildi.",
+    "solution": "Kullanıcı sepetler oluşturup hisse adetleri ve alım fiyatlarını giriyor; uygulama her hisse ve sepet için kar/zarar analizi yapıyor. Haberler sekmesi yalnızca takip edilen hisselerin temettü haberlerini filtreliyor. Fiyat grafikleri ve yıllık yatırım takvimi de uygulama içinden erişilebiliyor.",
+    "impact": "Yatırım takibi dağınık tablolardan tek uygulamaya taşındı; temettü haberlerini kaçırma riski ve manuel kar/zarar hesaplama ihtiyacı ortadan kalktı.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "Pandas"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "Pandas"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Stock Portfolio Tracker",
+    "summary": "Detailed portfolio management app organized into baskets, with profit/loss analysis and dividend tracking.",
+    "intro": "Detailed portfolio management app organized into baskets, with profit/loss analysis and dividend tracking.",
+    "problem": "Seeing cost averages, profit/loss, and dividend calendars for stocks across different baskets — focused only on holdings that actually mattered — wasn't possible from one place.",
+    "solution": "Users build their own baskets and enter share counts and purchase prices; the app calculates separate profit/loss analysis per stock and per basket. The news tab filters dividend announcements to only tracked stocks. Price charts and an annual investment calendar are all accessible inside the app.",
+    "impact": "Investment tracking moved from scattered spreadsheets into a single app, removing both the risk of missing dividend news and the need for manual profit/loss math.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "Pandas"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "Pandas"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/640c581c8b8fcd01c12de4b8830e6f286cd71fc3d50f4d7068f80e5d482d7868.png",
+      "altTR": "Hisse Senedi Portföy Takip Uygulaması 1",
+      "altEN": "Stock Portfolio Tracker 1"
+    },
+    {
+      "file": "/assets/portfolio/168bf476df0b003b4832304cb83ac3f09e3c7241667c78a6c774ed6125150741.png",
+      "altTR": "Hisse Senedi Portföy Takip Uygulaması 2",
+      "altEN": "Stock Portfolio Tracker 2"
+    },
+    {
+      "file": "/assets/portfolio/579e61b1b5ed3323b09bf093449d494da39a585f6e11fca782f4d67530107ea7.png",
+      "altTR": "Hisse Senedi Portföy Takip Uygulaması 3",
+      "altEN": "Stock Portfolio Tracker 3"
+    },
+    {
+      "file": "/assets/portfolio/cfc03e7a07b165f264c7f0a949e4b421d6cc85eff9fa762a0101225d7467ce70.png",
+      "altTR": "Hisse Senedi Portföy Takip Uygulaması 4",
+      "altEN": "Stock Portfolio Tracker 4"
+    },
+    {
+      "file": "/assets/portfolio/a4558b50a5e6b641fd881cc273f399db0f78838da7dd20d68abac118bdd28a79.png",
+      "altTR": "Hisse Senedi Portföy Takip Uygulaması 5",
+      "altEN": "Stock Portfolio Tracker 5"
+    },
+    {
+      "file": "/assets/portfolio/fe8ed3c1243cc19ff90872ab77783023e2b45a92a784dde34d0d8d6f60e50ee4.png",
+      "altTR": "Hisse Senedi Portföy Takip Uygulaması 6",
+      "altEN": "Stock Portfolio Tracker 6"
+    },
+    {
+      "file": "/assets/portfolio/b0a09b8bc5cc6f72b448026acceec3451f22670d98b1176afa290ad879098aa8.png",
+      "altTR": "Hisse Senedi Portföy Takip Uygulaması 7",
+      "altEN": "Stock Portfolio Tracker 7"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,74 @@
+{
+  "id": 12,
+  "order": 12,
+  "category": "entertainment",
+  "tr": {
+    "title": "Kelime Zinciri — Local Multiplayer",
+    "summary": "Ofis ortamında ekip arkadaşlarıyla oynanan, gerçek zamanlı çalışan local kelime zinciri oyunu.",
+    "intro": "Ofis ortamında ekip arkadaşlarıyla oynanan, gerçek zamanlı çalışan local kelime zinciri oyunu.",
+    "problem": "Ofis içinde hızlı kurulabilen, harici servise bağlı olmayan eğlenceli bir takım aktivitesine ihtiyaç vardı.",
+    "solution": "Bir oyuncu oda açıp süreyi belirliyor, diğerleri oda koduyla katılıyor. Sırayla önceki kelimenin son harfiyle başlayan yeni bir kelime üretmek zorunlu; sıra ve süre otomatik yönetiliyor.",
+    "impact": "Mola aralarında kullanılan, kurulumu saniyeler süren hızlı bir takım aktivitesi haline geldi.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Word Chain — Local Multiplayer",
+    "summary": "Real-time local word-chain game built for playing with coworkers in the office.",
+    "intro": "Real-time local word-chain game built for playing with coworkers in the office.",
+    "problem": "A quick, fun team activity was needed that could run without an external service and be spun up in seconds.",
+    "solution": "One player creates a local room and sets the time limit; others join with the room code. Each player must produce a new word starting with the last letter of the previous one, with turn order handled automatically.",
+    "impact": "Became a fast, genuinely fun team activity used during breaks, with setup taking only seconds.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/49244409ae6fb8648fee251d73a330b126edc450fb79a2d63770f4c62a9478e2.png",
+      "altTR": "Kelime Zinciri — Local Multiplayer 1",
+      "altEN": "Word Chain — Local Multiplayer 1"
+    },
+    {
+      "file": "/assets/portfolio/9c6cf923a9137d0b5b33a8f2575fb09042c1686983b528bb67124d65ac501efc.png",
+      "altTR": "Kelime Zinciri — Local Multiplayer 2",
+      "altEN": "Word Chain — Local Multiplayer 2"
+    },
+    {
+      "file": "/assets/portfolio/b946bf8f1d273189e2533c784f74bdb72656728aa8ccd39a57daf406f69f6100.png",
+      "altTR": "Kelime Zinciri — Local Multiplayer 3",
+      "altEN": "Word Chain — Local Multiplayer 3"
+    },
+    {
+      "file": "/assets/portfolio/e538928ba726646de6d94e409e06c8e9249bb5ab4900930fc832d545332a0691.png",
+      "altTR": "Kelime Zinciri — Local Multiplayer 4",
+      "altEN": "Word Chain — Local Multiplayer 4"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": 20,
+  "order": 20,
+  "category": "data-analysis",
+  "tr": {
+    "title": "Birleşik E-Ticaret Satış Raporu Aracı",
+    "summary": "T-Soft CSV sipariş verileri ile pazaryeri Excel satış raporlarını tek ekranda birleştirip kanal, SKU ve tarih bazında analiz edilebilir raporlara dönüştüren masaüstü uygulama.",
+    "intro": "T-Soft CSV sipariş verileri ile pazaryeri Excel satış raporlarını tek ekranda birleştirip kanal, SKU ve tarih bazında analiz edilebilir raporlara dönüştüren masaüstü uygulama.",
+    "problem": "T-Soft ve pazaryeri satış verileri farklı formatlarda dışa aktarılıyor; T-Soft tarafında birden fazla CSV dosyası gerekebiliyor, pazaryeri tarafında ise Excel formatı ayrı kolon yapısıyla geliyor. Bu verileri ayrı ayrı analiz etmek, toplam SKU satışını ve kanal bazlı performansı tek raporda görmek için manuel işlem gerektiriyordu.",
+    "solution": "Uygulama, birden fazla T-Soft CSV dosyasını ve tek pazaryeri Excel dosyasını aynı ekrandan alarak ortak rapor yapısına dönüştürüyor. Pazaryeri satışları alt kanal kırılımıyla, T-Soft satışları ise süreç filtreleri ve kaydedilebilir şablonlarla analiz ediliyor. Toplam SKU özeti, kanal özeti, tarih filtresi ve Excel çıktısı tek akışta sunuluyor.",
+    "impact": "Farklı kaynaklardan gelen e-ticaret satış verileri tek uygulamada birleşti; manuel dosya karşılaştırma, pivot hazırlama ve ayrı raporları birleştirme ihtiyacı büyük ölçüde ortadan kalktı. Toplam SKU performansı ve pazaryeri/T-Soft kanal dağılımı birkaç tıklamayla görünür hale geldi.",
+    "technologies": [
+      "Python",
+      "Tkinter",
+      "Pandas",
+      "OpenPyXL",
+      "PyInstaller"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Tkinter",
+      "Pandas",
+      "OpenPyXL",
+      "PyInstaller"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": "</div>"
+  },
+  "en": {
+    "title": "Unified E-Commerce Sales Reporting Tool",
+    "summary": "A desktop app that combines T-Soft CSV order files and marketplace Excel sales reports into analyzable reports by channel, SKU, and date.",
+    "intro": "A desktop application that combines T-Soft CSV order data and marketplace Excel sales reports into analyzable reports by channel, SKU, and date.",
+    "problem": "T-Soft and marketplace sales data are exported in different formats. T-Soft may require multiple CSV files, while marketplace reports arrive as Excel files with a separate column structure. Analyzing these files separately and seeing total SKU sales with channel performance in one report required manual work.",
+    "solution": "The application accepts multiple T-Soft CSV files and one marketplace Excel file from the same screen, then converts them into a shared report structure. Marketplace sales are analyzed with sub-channel breakdowns, while T-Soft sales are handled through process filters and saveable templates. Total SKU summary, channel summary, date filtering, and Excel export are delivered in a single flow.",
+    "impact": "E-commerce sales data from different sources were unified in one application, greatly reducing the need for manual file comparison, pivot preparation, and report merging. Total SKU performance and marketplace/T-Soft channel distribution became visible in just a few clicks.",
+    "technologies": [
+      "Python",
+      "Tkinter",
+      "Pandas",
+      "OpenPyXL",
+      "PyInstaller"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Tkinter",
+      "Pandas",
+      "OpenPyXL",
+      "PyInstaller"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": "</div>"
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/24bac071dc60b152554b14ff7f4452828519842997e002aa3e951fd637762597.png",
+      "altTR": "Birleşik E-Ticaret Satış Raporu Aracı analiz hazırlık ekranı",
+      "altEN": "Unified E-Commerce Sales Reporting Tool analysis setup screen"
+    },
+    {
+      "file": "/assets/portfolio/67ba8e4e165ba34332ed03d21a2bbf137542eca97092158ed68fecfc880963f3.png",
+      "altTR": "Birleşik E-Ticaret Satış Raporu Aracı kanal özeti ekranı",
+      "altEN": "Unified E-Commerce Sales Reporting Tool channel summary screen"
+    },
+    {
+      "file": "/assets/portfolio/caa92c430e7ad0b8dad5ff892894920062b460a19c86e3ea3b7f2cb22e456dcb.png",
+      "altTR": "Birleşik E-Ticaret Satış Raporu Aracı Excel rapor çıktısı",
+      "altEN": "Unified E-Commerce Sales Reporting Tool Excel report output"
+    }
+  ],
+  "links": []
+}
