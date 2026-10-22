@@ -1,0 +1,21 @@
+{
+  "verifiedDraftTestRecords": true,
+  "unreferencedTestImage": true,
+  "removed": [
+    {
+      "file": "src/content/posts/69e0db51-b2aa-4a35-aee7-12bd58c00b66.md",
+      "backup": ".migration-backups/phase-9-exact/test-records/69e0db51-b2aa-4a35-aee7-12bd58c00b66.md",
+      "sha256": "5f2a5e927a09d993efabb28700c5858a6779437d21e6ddefee70e9751d7d7f60"
+    },
+    {
+      "file": "src/content/posts/cf7652fc-6d26-4ae9-8b24-974f3f97b1cd.md",
+      "backup": ".migration-backups/phase-9-exact/test-records/cf7652fc-6d26-4ae9-8b24-974f3f97b1cd.md",
+      "sha256": "67a827c760d3d8691e72790814db1344631c5ac420cb5e0da3bc4a032540217d"
+    },
+    {
+      "file": "assets/blog/mvjg96t2-p5wd4qsu.png",
+      "backup": ".migration-backups/phase-9-exact/test-records/mvjg96t2-p5wd4qsu.png",
+      "sha256": "c68de0f51c61a69d09edcc31e339057b1466cd483517dfc01b46494c138dc40f"
+    }
+  ]
+}

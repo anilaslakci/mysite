@@ -15,6 +15,14 @@ for(const step of active.jobs.validate.steps){
 assert.equal(active.jobs.validate.steps[0].with['persist-credentials'],false);
 const disabled=yaml.load(fs.readFileSync('ops/github-actions/publish.yml.example','utf8'));
 assert.equal(disabled.on.schedule[0].cron,'0 6 * * *');assert.deepEqual(disabled.on.push.branches,['main']);
+assert.deepEqual(disabled.permissions,{contents:'read'});
+assert.deepEqual(disabled.jobs.deploy.permissions,{pages:'write','id-token':'write'});
+assert.equal(disabled.jobs.deploy.needs,'build');assert.equal(disabled.jobs.deploy.environment.name,'github-pages');
+assert.equal(disabled.concurrency['cancel-in-progress'],false);
+const upload=disabled.jobs.build.steps.find(s=>s.uses?.startsWith('actions/upload-pages-artifact@'));
+assert.equal(upload.with.path,'_site');assert.equal(upload.with.name,'github-pages');assert.equal(upload.with['retention-days'],7);
+assert.equal(disabled.jobs.deploy.steps[0].with.artifact_name,'github-pages');
+assert(!disabled.on.pull_request&&!disabled.on.pull_request_target);
 for(const job of Object.values(disabled.jobs))assert(job.if.includes("github.ref == 'refs/heads/main'")&&job.if.includes("vars.ENABLE_SITE_DEPLOY == 'true'"));
 if(files.includes('publish.yml')){
   assert.equal(process.env.ENABLE_SITE_DEPLOY,'true','Publishing workflow requires explicit deployment approval');
