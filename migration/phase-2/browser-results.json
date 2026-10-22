@@ -1,0 +1,401 @@
+{
+  "comparisons": [
+    {
+      "route": "/portfolyo/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/portfolyo/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "geometryEqual": true
+    }
+  ],
+  "homeComparisons": [
+    {
+      "viewport": "desktop",
+      "screenshotEqual": true,
+      "geometryEqual": true,
+      "heroOpacity": "1",
+      "stabilized": true
+    },
+    {
+      "viewport": "mobile",
+      "screenshotEqual": true,
+      "geometryEqual": true,
+      "heroOpacity": "1",
+      "stabilized": true
+    }
+  ],
+  "homeRuntime": {
+    "educationActive": true,
+    "hash": "#hakkimda",
+    "introClosed": true,
+    "particleAnimation": "pUp",
+    "particles": 91,
+    "siteVisible": true,
+    "unlocked": true,
+    "visibleReveals": 2
+  },
+  "modals": [
+    {
+      "id": 1,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 2,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 3,
+      "images": 2,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 4,
+      "images": 2,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 5,
+      "images": 2,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 6,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 7,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 8,
+      "images": 2,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 9,
+      "images": 6,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 10,
+      "images": 7,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 11,
+      "images": 6,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 12,
+      "images": 4,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 13,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 14,
+      "images": 2,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 15,
+      "images": 1,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 16,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 17,
+      "images": 4,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 18,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 19,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 20,
+      "images": 3,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 21,
+      "images": 1,
+      "lang": "tr",
+      "open": true
+    },
+    {
+      "id": 1,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 2,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 3,
+      "images": 2,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 4,
+      "images": 2,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 5,
+      "images": 2,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 6,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 7,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 8,
+      "images": 2,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 9,
+      "images": 6,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 10,
+      "images": 7,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 11,
+      "images": 6,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 12,
+      "images": 4,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 13,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 14,
+      "images": 2,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 15,
+      "images": 1,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 16,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 17,
+      "images": 4,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 18,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 19,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 20,
+      "images": 3,
+      "lang": "en",
+      "open": true
+    },
+    {
+      "id": 21,
+      "images": 1,
+      "lang": "en",
+      "open": true
+    }
+  ],
+  "filter": {
+    "count": 5,
+    "lang": "en"
+  },
+  "zoom": {
+    "loaded": true,
+    "open": true
+  },
+  "escape": {
+    "modalsClosed": true,
+    "zoomClosed": true
+  },
+  "mobile": {
+    "images": [
+      {
+        "loaded": true,
+        "width": 765
+      }
+    ],
+    "noHorizontalOverflow": true,
+    "open": true
+  },
+  "returnHome": {
+    "introHidden": true,
+    "queryCleared": true,
+    "visible": true
+  },
+  "capturedConsoleErrorsAndWarnings": [],
+  "limitations": [
+    "Home screenshot comparison uses preview-only motion/count stabilization; real animations checked separately",
+    "Screenshots cover first viewport; full-page heading/paragraph/card geometry compared on services and portfolio",
+    "No physical phone test or production deployment performed"
+  ]
+}

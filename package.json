@@ -1,0 +1,16 @@
+{
+  "name": "anilaslakci-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Existing personal site, built locally with Eleventy",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/clean-site.mjs && eleventy",
+    "dev": "eleventy --serve --port=8080",
+    "preview:migration": "node scripts/preview-eleventy.mjs",
+    "test": "npm run build && node scripts/test-eleventy.mjs",
+    "test:http": "node scripts/test-eleventy-http.mjs",
+    "test:browser-evidence": "node scripts/test-eleventy-browser-evidence.mjs"
+  },
+  "devDependencies": { "@11ty/eleventy": "3.1.7" }
+}

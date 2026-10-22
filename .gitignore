@@ -1,2 +1,4 @@
 .migration-backups/
 .migration-preview/
+node_modules/
+_site/
