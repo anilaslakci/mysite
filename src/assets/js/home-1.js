@@ -32,25 +32,30 @@ document.addEventListener('visibilitychange',()=>{
   else if(cursorSeen)followCursor();
 });
 
-// SPARKLES
-function mkSparkles(id,n){
-  if(lowMotion)return;
-  const c=document.getElementById(id);
-  for(let i=0;i<n;i++){
-    const s=document.createElement('div');
-    s.className='star-el';
-    const sz=8+Math.random()*12;
-    s.style.cssText=`left:${Math.random()*100}%;top:${Math.random()*100}%;--d:${2+Math.random()*4}s;--dl:${Math.random()*6}s;`;
-    s.innerHTML=`<svg width="${sz}" height="${sz}" viewBox="0 0 24 24" fill="rgba(201,168,76,0.85)"><path d="M12 2l1.8 7.2L21 12l-7.2 1.8L12 22l-1.8-7.2L3 12l7.2-1.8z"/></svg>`;
-    c.appendChild(s);
+// Shared, bounded sparkle lifecycle. Session/intro bypass never disables decoration.
+(() => {
+  const motion=matchMedia('(prefers-reduced-motion: reduce)');
+  const layers=[document.querySelector('.intro-gold'),document.getElementById('hero-sparkles')].filter(Boolean);
+  function place(star,index,protectBrand){
+    // Side bands protect the brand, hero copy and bottom swipe cue.
+    star.style.left=((index%2?78:4)+Math.random()*17)+'%';
+    star.style.top=(protectBrand?(index%2?68+Math.random()*7:14+Math.random()*15):14+Math.random()*60)+'%';
+    star.style.setProperty('--size',(index%3===0?3:8+Math.random()*6)+'px');
   }
-}
-
-mkSparkles('hero-sparkles',10);
-
-// HERO PARTICLES
-const hpc=document.getElementById('hpc');
-for(let i=0;i<(lowMotion?0:20);i++){const p=document.createElement('div');p.className='h-p';p.style.cssText=`left:${Math.random()*100}%;bottom:0;width:${1+Math.random()*2}px;height:${1+Math.random()*2}px;animation-duration:${6+Math.random()*10}s;animation-delay:${Math.random()*8}s;`;hpc.appendChild(p);}
+  for(const layer of layers){
+    layer.setAttribute('aria-hidden','true');layer.replaceChildren();
+    const count=layer.classList.contains('intro-gold')?6:8;
+    for(let i=0;i<count;i++){
+      const star=document.createElement('i');star.className='gold-glint'+(i%3===0?' gold-glint--dot':'');
+      if(i%3!==0)star.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l1.8 7.2L21 12l-7.2 1.8L12 22l-1.8-7.2L3 12l7.2-1.8z"/></svg>';
+      place(star,i,layer.classList.contains('intro-gold'));star.style.animationDelay=(-6*i/count)+'s';
+      // At each cycle boundary opacity is zero, so repositioning cannot jump visibly.
+      star.addEventListener('animationiteration',()=>place(star,i,layer.classList.contains('intro-gold')));layer.appendChild(star);
+    }
+  }
+  const update=()=>layers.forEach(layer=>{layer.dataset.goldPaused=String(document.hidden);layer.dataset.goldReduced=String(motion.matches);});
+  document.addEventListener('visibilitychange',update);motion.addEventListener('change',update);update();
+})();
 
 // NAV
 window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('sc',scrollY>60));
