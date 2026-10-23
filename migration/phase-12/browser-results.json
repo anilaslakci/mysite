@@ -1,0 +1,2164 @@
+{
+  "layouts": [
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/portfolyo/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/portfolio/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/marketplace-management/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/erp-integration/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/operations-automation/",
+      "width": 1440
+    },
+    {
+      "activeBlog": "page",
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/blog/",
+      "width": 1440
+    },
+    {
+      "activeBlog": "page",
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/blog/",
+      "width": 1440
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/portfolyo/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/portfolio/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/marketplace-management/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/erp-integration/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/operations-automation/",
+      "width": 1280
+    },
+    {
+      "activeBlog": "page",
+      "blog": "/blog/",
+      "centerError": 0.0078125,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/blog/",
+      "width": 1280
+    },
+    {
+      "activeBlog": "page",
+      "blog": "/en/blog/",
+      "centerError": 0,
+      "desktop": true,
+      "headerHeight": 85,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/blog/",
+      "width": 1280
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/portfolyo/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/portfolio/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/marketplace-management/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/erp-integration/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 1024
+    },
+    {
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/operations-automation/",
+      "width": 1024
+    },
+    {
+      "activeBlog": "page",
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/blog/",
+      "width": 1024
+    },
+    {
+      "activeBlog": "page",
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/blog/",
+      "width": 1024
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/portfolyo/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/portfolio/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/pazaryeri-yonetimi/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/marketplace-management/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/erp-entegrasyonu/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/erp-integration/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/advertising-campaign-management/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/ecommerce-website-management/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/veri-analizi-raporlama/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/data-analysis-reporting/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/operasyon-otomasyon/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/operations-automation/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": "page",
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/blog/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 659.359375,
+      "activeBlog": "page",
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 73,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/blog/",
+      "viewport": 753,
+      "width": 768
+    },
+    {
+      "actionsRight": 222.9375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 224.53125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 222.9375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/portfolyo/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 224.53125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/portfolio/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 222.9375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/pazaryeri-yonetimi/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 224.53125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/marketplace-management/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 222.9375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/erp-entegrasyonu/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 224.53125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/erp-integration/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 222.9375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 224.53125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/advertising-campaign-management/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 222.9375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 224.53125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/ecommerce-website-management/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 222.9375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/veri-analizi-raporlama/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 224.53125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/data-analysis-reporting/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 222.9375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/operasyon-otomasyon/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 224.53125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/operations-automation/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 222.9375,
+      "activeBlog": "page",
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/blog/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 224.53125,
+      "activeBlog": "page",
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/blog/",
+      "viewport": 375,
+      "width": 390
+    },
+    {
+      "actionsRight": 221.4375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 223.03125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 221.4375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/portfolyo/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 223.03125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/portfolio/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 221.4375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/pazaryeri-yonetimi/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 223.03125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/marketplace-management/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 221.4375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/erp-entegrasyonu/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 223.03125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/erp-integration/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 221.4375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 223.03125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/advertising-campaign-management/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 221.4375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 223.03125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/ecommerce-website-management/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 221.4375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/veri-analizi-raporlama/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 223.03125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/data-analysis-reporting/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 221.4375,
+      "activeBlog": null,
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/operasyon-otomasyon/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 223.03125,
+      "activeBlog": null,
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/operations-automation/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 221.4375,
+      "activeBlog": "page",
+      "blog": "/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/blog/",
+      "viewport": 345,
+      "width": 360
+    },
+    {
+      "actionsRight": 223.03125,
+      "activeBlog": "page",
+      "blog": "/en/blog/",
+      "centerError": null,
+      "desktop": false,
+      "headerHeight": 129,
+      "languageBG": "rgba(0, 0, 0, 0)",
+      "languageHeight": 44,
+      "overflow": false,
+      "overlap": false,
+      "route": "/en/blog/",
+      "viewport": 345,
+      "width": 360
+    }
+  ],
+  "menus": [
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/portfolyo/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/portfolio/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/marketplace-management/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/erp-integration/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/operations-automation/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/blog/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/blog/",
+      "width": 768
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/portfolyo/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/portfolio/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/marketplace-management/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/erp-integration/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/operations-automation/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/blog/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/blog/",
+      "width": 390
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/portfolyo/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/portfolio/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/marketplace-management/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/erp-integration/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/operations-automation/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/blog/",
+      "width": 360
+    },
+    {
+      "blogVisible": true,
+      "open": "true",
+      "overflow": false,
+      "route": "/en/blog/",
+      "width": 360
+    }
+  ],
+  "links": [
+    {
+      "case": "mobile-blog-tr",
+      "current": "Blog",
+      "menu": "false",
+      "path": "/blog/"
+    },
+    {
+      "case": "blog-language-en",
+      "current": "Blog",
+      "path": "/en/blog/",
+      "projects": "/en/portfolio/"
+    },
+    {
+      "cards": 21,
+      "case": "projects-en",
+      "path": "/en/portfolio/"
+    }
+  ],
+  "intro": [
+    {
+      "case": "from-portfolio-home",
+      "intro": "none",
+      "path": "/en/"
+    },
+    {
+      "case": "en-to-tr",
+      "intro": "none"
+    },
+    {
+      "case": "history-refresh",
+      "intro": "none"
+    },
+    {
+      "case": "first-visit",
+      "intro": "flex"
+    },
+    {
+      "case": "language-from-intro",
+      "intro": "none"
+    }
+  ],
+  "consent": [
+    {
+      "case": "initial",
+      "state": {
+        "cls": 0,
+        "network": [],
+        "cookieNames": [],
+        "choice": null,
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "case": "rejected-reload",
+      "state": {
+        "cls": 0,
+        "network": [],
+        "cookieNames": [],
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792753861961}",
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "case": "accepted",
+      "state": {
+        "cls": 0,
+        "network": [
+          {
+            "url": "https://www.googletagmanager.com/gtag/js",
+            "event": null,
+            "kind": "script"
+          }
+        ],
+        "cookieNames": [
+          "_ga",
+          "_ga_NFEHG270L2"
+        ],
+        "choice": "{\"version\":1,\"analytics\":true,\"at\":1792753881811}",
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 1,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "consent",
+            "update",
+            {
+              "analytics_storage": "granted",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "js",
+            "2026-10-23T11:11:21.815Z"
+          ],
+          [
+            "config",
+            "G-NFEHG270L2",
+            {
+              "allow_google_signals": false,
+              "allow_ad_personalization_signals": false
+            }
+          ],
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    {
+      "case": "accepted-again",
+      "state": {
+        "cls": 0,
+        "network": [
+          {
+            "url": "https://www.googletagmanager.com/gtag/js",
+            "event": null,
+            "kind": "script"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view",
+            "kind": "fetch"
+          }
+        ],
+        "cookieNames": [
+          "_ga",
+          "_ga_NFEHG270L2"
+        ],
+        "choice": "{\"version\":1,\"analytics\":true,\"at\":1792753882677}",
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 1,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "consent",
+            "update",
+            {
+              "analytics_storage": "granted",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "js",
+            "2026-10-23T11:11:21.815Z"
+          ],
+          [
+            "config",
+            "G-NFEHG270L2",
+            {
+              "allow_google_signals": false,
+              "allow_ad_personalization_signals": false
+            }
+          ],
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    {
+      "case": "withdrawn",
+      "state": {
+        "cls": 0,
+        "network": [],
+        "cookieNames": [],
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792753883531}",
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ]
+      }
+    }
+  ],
+  "console": [],
+  "finalChecks": [
+    {
+      "centerError": 0.0078125,
+      "languagePosition": "static",
+      "overflow": false,
+      "route": "/",
+      "width": 1280
+    },
+    {
+      "centerError": 0,
+      "languagePosition": "static",
+      "overflow": false,
+      "route": "/en/blog/",
+      "width": 1280
+    },
+    {
+      "centerError": null,
+      "languagePosition": "static",
+      "overflow": false,
+      "route": "/",
+      "width": 360
+    },
+    {
+      "centerError": null,
+      "languagePosition": "static",
+      "overflow": false,
+      "route": "/en/blog/",
+      "width": 360
+    }
+  ]
+}
