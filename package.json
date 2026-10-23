@@ -1,0 +1,34 @@
+{
+  "name": "anilaslakci-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Existing personal site, built locally with Eleventy",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/clean-site.mjs && eleventy",
+    "dev": "eleventy --serve --port=8080",
+    "preview:migration": "node scripts/preview-eleventy.mjs",
+    "test": "node scripts/validate-site.mjs",
+    "test:http": "node scripts/test-eleventy-http.mjs",
+    "test:browser-evidence": "node scripts/test-eleventy-browser-evidence.mjs",
+    "test:cms-edits": "node scripts/test-cms-local-edits.mjs",
+    "test:cms-schema": "node scripts/test-pages-upstream-schema.mjs",
+    "test:project-browser-evidence": "node scripts/test-project-browser-evidence.mjs",
+    "media:check": "node scripts/check-project-media.mjs",
+    "test:migration": "node scripts/test-eleventy.mjs && node scripts/test-project-records.mjs",
+    "test:flexibility": "node scripts/test-portfolio-flexibility.mjs",
+    "test:flexibility-browser-evidence": "node scripts/test-portfolio-browser-evidence.mjs",
+    "test:completion": "node scripts/test-portfolio-completion.mjs",
+    "test:blog": "node scripts/test-blog.mjs",
+    "test:workflow": "node scripts/test-workflow-safety.mjs",
+    "test:i18n": "node scripts/test-i18n.mjs && node scripts/test-blog-translations.mjs",
+    "test:translations": "node scripts/test-blog-translations.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.7",
+    "js-yaml": "4.3.2",
+    "markdown-it": "14.3.3"
+  }
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ pageLocale | default('tr') }}" data-page-key="{{ pageKey }}">
+<head>{% block head %}{% endblock %}</head>
+<body>
+{% include "services/header.njk" %}
+<main>
+{% block hero %}{% endblock %}
+<div class="layout"><article>{% block article %}{% endblock %}</article>{% include "services/sidebar.njk" %}</div>
+{% include "services/cta.njk" %}
+{% block related %}{% endblock %}
+</main>{% include "services/footer.njk" %}
+</body></html>

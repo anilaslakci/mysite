@@ -1,0 +1,14 @@
+{
+  "passed": 6,
+  "failed": 0,
+  "editorTested": false,
+  "fixtureContent": "Existing project 1 copied temporarily; no invented project or description saved to production records",
+  "checks": [
+    "Isolated 22nd record produces 44 cards/modals and server counter 22",
+    "TR title, EN intro, category and technology edits appear after a real Eleventy build",
+    "Locally copied PNG gallery addition is published with exact bytes; this is not a CMS upload test",
+    "Optional project links render from structured data",
+    "Undo restores the previous generated portfolio byte-for-byte and count 21",
+    "Production source records never changed; synthetic record exists only in ignored QA output"
+  ]
+}

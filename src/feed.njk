@@ -1,0 +1,8 @@
+---
+pagination:
+  data: blog.views
+  size: 1
+  alias: view
+permalink: "{{ view.feed }}"
+---
+{{ view | rssXML | safe }}

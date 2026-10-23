@@ -1,0 +1,9 @@
+---
+pagination:
+  data: pagePairs
+  size: 1
+  alias: route
+pageLocale: en
+permalink: "{{ route.en }}index.html"
+---
+{% include "pages/" + route.key + ".njk" %}

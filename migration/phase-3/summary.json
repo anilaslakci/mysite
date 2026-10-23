@@ -1,0 +1,43 @@
+{
+  "localChecksPassed": true,
+  "realCMSAcceptanceComplete": false,
+  "pilot": {
+    "projects": 1,
+    "roundTrips": 4
+  },
+  "conversion": {
+    "projects": 21,
+    "roundTrips": 84
+  },
+  "projectDataChecks": 9,
+  "eleventyRegressionChecks": 24,
+  "localEditBuildUndoChecks": 6,
+  "legacyStage1Checks": 12,
+  "legacyStage1HttpAndImageChecks": 77,
+  "httpChecks": 97,
+  "devServerChecks": 17,
+  "screenshotPairs": 16,
+  "modalOpenCloseChecks": 42,
+  "syntheticNewProjectCount": 22,
+  "realEditorStatus": "Sign-in required, no push authorized",
+  "remaining": [
+    "Real CMS editor save/upload/create acceptance",
+    "Hosted CMS media-delete reference protection"
+  ],
+  "originalMediaFiles": 67,
+  "originalProjectRecords": 21,
+  "backup": {
+    "commit": "324a1d5",
+    "independentCloneAndFsckPassed": true,
+    "files": [
+      {
+        "file": ".migration-backups/phase-3/baseline-324a1d5.zip",
+        "sha256": "c97b2c17a8a1adf9d50360dacb10dd5a2bb94749175948025296439d1fa5e091"
+      },
+      {
+        "file": ".migration-backups/phase-3/before-cms.bundle",
+        "sha256": "b970580637e25c7364b9c8e910015742cfb3da69e96f0d5a4d0bbf66b00b43e0"
+      }
+    ]
+  }
+}

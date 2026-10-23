@@ -1,0 +1,60 @@
+{
+  "id": 4,
+  "order": 4,
+  "category": "data-analysis",
+  "tr": {
+    "title": "T-Soft Anlık Ürün Verisi Çekme Aracı",
+    "summary": "T-Soft API üzerinden ürün kodu, stok ve fiyat bilgilerini saniyeler içinde Excel'e aktaran veri çekme aracı.",
+    "intro": "T-Soft API üzerinden ürün kodu, stok ve fiyat bilgilerini saniyeler içinde Excel'e aktaran veri çekme aracı.",
+    "problem": "Güncel stok ve fiyat bilgisini almak için panelden manuel filtre uygulayıp CSV/Excel dışa aktarmak gerekiyordu; sık tekrarlanan ama her seferinde birkaç dakika kaybettiren bir işti.",
+    "solution": "T-Soft API'sine doğrudan bağlanan bu araç, 'Anlık Veri Al' butonuyla tüm ürünlerin stok, kod ve fiyat bilgisini anında Excel'e aktarıyor. 'Sınırlı Veri Al' seçeneğiyle belirli stok eşiğinin üzerindeki ürünler veya seçilen alanlar ayrıca dışa aktarılabiliyor.",
+    "impact": "Dakikalar süren manuel export işlemi tek tuşa indi; güncel veri ihtiyacı olan herkes anlık ve güvenilir bir Excel çıktısına erişebiliyor.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "REST API"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "REST API"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "T-Soft Live Inventory Feed",
+    "summary": "Tool that pulls product codes, stock levels, and prices straight from the T-Soft API into Excel in seconds.",
+    "intro": "Tool that pulls product codes, stock levels, and prices straight from the T-Soft API into Excel in seconds.",
+    "problem": "Getting current stock and pricing data required manually applying filters in the panel and exporting CSV/Excel — a frequent task that cost several minutes every time.",
+    "solution": "Connecting directly to the T-Soft API, the 'Fetch Live Data' button instantly exports stock, code, and price data for every product to Excel. A 'Fetch Limited Data' option allows exporting only products above a chosen stock threshold or just selected fields.",
+    "impact": "A multi-minute manual export process became a single button press, giving anyone who needs current data instant and reliable access.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "REST API"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "REST API"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/03deb5c9e5b372c32a5234c623e2407fa41e76474f4259d8cd7e4dc9b3a8d484.png",
+      "altTR": "T-Soft Anlık Ürün Verisi Çekme Aracı 1",
+      "altEN": "T-Soft Live Inventory Feed 1"
+    },
+    {
+      "file": "/assets/portfolio/df231ef4a346f221977f0f86f9e677624d15dd6d3d93fdd1fdba94a341935d7f.png",
+      "altTR": "T-Soft Anlık Ürün Verisi Çekme Aracı 2",
+      "altEN": "T-Soft Live Inventory Feed 2"
+    }
+  ],
+  "links": []
+}

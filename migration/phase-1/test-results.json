@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "name": "Development branch",
+      "passed": true
+    },
+    {
+      "name": "Independent snapshot hashes",
+      "passed": true
+    },
+    {
+      "name": "Git history bundle",
+      "passed": true
+    },
+    {
+      "name": "Original HTML agrees with Git commit after Git newline normalization",
+      "passed": true
+    },
+    {
+      "name": "Other 17 original files unchanged",
+      "passed": true
+    },
+    {
+      "name": "133 occurrences and 67 unique images",
+      "passed": true
+    },
+    {
+      "name": "All extracted bytes match source",
+      "passed": true
+    },
+    {
+      "name": "Exact HTML transformation; all content/CSS/JS/attributes/order unchanged",
+      "passed": true
+    },
+    {
+      "name": "No remaining Base64 data URI",
+      "passed": true
+    },
+    {
+      "name": "21 projects; 21 TR + 21 EN cards and modals; full manifest match",
+      "passed": true
+    },
+    {
+      "name": "TR/EN gallery image order preserved and shared hashes match",
+      "passed": true
+    },
+    {
+      "name": "All local file links and fragment targets resolve across eight pages",
+      "passed": true
+    }
+  ],
+  "failed": 0,
+  "originalBytes": 19631972,
+  "updatedBytes": 156450,
+  "uniqueImages": 67
+}

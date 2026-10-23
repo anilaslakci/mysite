@@ -1,0 +1,1513 @@
+{
+  "pages": [
+    {
+      "view": "desktop",
+      "route": "/",
+      "file": "desktop-home.png",
+      "canonical": "https://anilaslakci.com.tr/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Dijital ticareti\nveri ve teknolojiyle\nyönetiyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/portfolyo/",
+      "file": "desktop-portfolyo.png",
+      "canonical": "https://anilaslakci.com.tr/portfolyo/",
+      "cards": 21,
+      "contact": [],
+      "forms": 0,
+      "h1": "Seçili Çalışmalar",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/pazaryeri-yonetimi/",
+      "file": "desktop-pazaryeri-yonetimi.png",
+      "canonical": "https://anilaslakci.com.tr/pazaryeri-yonetimi/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Pazaryeri kanallarını yalnızca açmıyor, sürdürülebilir biçimde yönetiyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/erp-entegrasyonu/",
+      "file": "desktop-erp-entegrasyonu.png",
+      "canonical": "https://anilaslakci.com.tr/erp-entegrasyonu/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "ERP ve satış kanalları arasındaki veri akışını anlaşılır ve kontrol edilebilir hâle getiriyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/reklam-kampanya-yonetimi/",
+      "file": "desktop-reklam-kampanya-yonetimi.png",
+      "canonical": "https://anilaslakci.com.tr/reklam-kampanya-yonetimi/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Reklam ve kampanyaları yalnızca görünürlük değil, ticari sonuç üretmek için yönetiyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "file": "desktop-e-ticaret-sitesi-yonetimi.png",
+      "canonical": "https://anilaslakci.com.tr/e-ticaret-sitesi-yonetimi/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "E-ticaret sitesini yalnızca vitrin değil, çalışan bir satış kanalı olarak ele alıyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/veri-analizi-raporlama/",
+      "file": "desktop-veri-analizi-raporlama.png",
+      "canonical": "https://anilaslakci.com.tr/veri-analizi-raporlama/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Dağınık e-ticaret verisini anlaşılır, karşılaştırılabilir ve karar alınabilir hâle getiriyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/operasyon-otomasyon/",
+      "file": "desktop-operasyon-otomasyon.png",
+      "canonical": "https://anilaslakci.com.tr/operasyon-otomasyon/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "E-ticaret operasyonunu anlayarak, gerçekten ihtiyaç duyulan yerlerde otomasyon geliştiriyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/blog/",
+      "file": "desktop-blog.png",
+      "canonical": "https://anilaslakci.com.tr/blog/",
+      "cards": 0,
+      "contact": [],
+      "forms": 0,
+      "h1": "E-ticaretten otomasyona.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/",
+      "file": "desktop-en.png",
+      "canonical": "https://anilaslakci.com.tr/en/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Managing digital commerce\nwith data\nand technology.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/portfolio/",
+      "file": "desktop-en-portfolio.png",
+      "canonical": "https://anilaslakci.com.tr/en/portfolio/",
+      "cards": 21,
+      "contact": [],
+      "forms": 0,
+      "h1": "Selected Work",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "desktop",
+      "route": "/en/marketplace-management/",
+      "file": "desktop-en-marketplace-management.png",
+      "canonical": "https://anilaslakci.com.tr/en/marketplace-management/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I do more than launch marketplace channels: I manage them sustainably.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/en/erp-integration/",
+      "file": "desktop-en-erp-integration.png",
+      "canonical": "https://anilaslakci.com.tr/en/erp-integration/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I make data flows between ERP systems and sales channels clear and controllable.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/en/advertising-campaign-management/",
+      "file": "desktop-en-advertising-campaign-management.png",
+      "canonical": "https://anilaslakci.com.tr/en/advertising-campaign-management/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I manage advertising and campaigns to deliver business results as well as visibility.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/en/ecommerce-website-management/",
+      "file": "desktop-en-ecommerce-website-management.png",
+      "canonical": "https://anilaslakci.com.tr/en/ecommerce-website-management/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I treat an e-commerce website as a working sales channel, not simply a storefront.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/en/data-analysis-reporting/",
+      "file": "desktop-en-data-analysis-reporting.png",
+      "canonical": "https://anilaslakci.com.tr/en/data-analysis-reporting/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I turn scattered e-commerce data into clear, comparable information that supports decisions.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/en/operations-automation/",
+      "file": "desktop-en-operations-automation.png",
+      "canonical": "https://anilaslakci.com.tr/en/operations-automation/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I develop automation where it is genuinely useful, grounded in an understanding of e-commerce operations.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "desktop",
+      "route": "/en/blog/",
+      "file": "desktop-en-blog.png",
+      "canonical": "https://anilaslakci.com.tr/en/blog/",
+      "cards": 0,
+      "contact": [],
+      "forms": 0,
+      "h1": "From e-commerce to automation.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/",
+      "file": "tablet-home.png",
+      "canonical": "https://anilaslakci.com.tr/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Dijital ticareti\nveri ve teknolojiyle\nyönetiyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/portfolyo/",
+      "file": "tablet-portfolyo.png",
+      "canonical": "https://anilaslakci.com.tr/portfolyo/",
+      "cards": 21,
+      "contact": [],
+      "forms": 0,
+      "h1": "Seçili Çalışmalar",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/pazaryeri-yonetimi/",
+      "file": "tablet-pazaryeri-yonetimi.png",
+      "canonical": "https://anilaslakci.com.tr/pazaryeri-yonetimi/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Pazaryeri kanallarını yalnızca açmıyor, sürdürülebilir biçimde yönetiyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/erp-entegrasyonu/",
+      "file": "tablet-erp-entegrasyonu.png",
+      "canonical": "https://anilaslakci.com.tr/erp-entegrasyonu/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "ERP ve satış kanalları arasındaki veri akışını anlaşılır ve kontrol edilebilir hâle getiriyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/reklam-kampanya-yonetimi/",
+      "file": "tablet-reklam-kampanya-yonetimi.png",
+      "canonical": "https://anilaslakci.com.tr/reklam-kampanya-yonetimi/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Reklam ve kampanyaları yalnızca görünürlük değil, ticari sonuç üretmek için yönetiyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "file": "tablet-e-ticaret-sitesi-yonetimi.png",
+      "canonical": "https://anilaslakci.com.tr/e-ticaret-sitesi-yonetimi/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "E-ticaret sitesini yalnızca vitrin değil, çalışan bir satış kanalı olarak ele alıyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/veri-analizi-raporlama/",
+      "file": "tablet-veri-analizi-raporlama.png",
+      "canonical": "https://anilaslakci.com.tr/veri-analizi-raporlama/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Dağınık e-ticaret verisini anlaşılır, karşılaştırılabilir ve karar alınabilir hâle getiriyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/operasyon-otomasyon/",
+      "file": "tablet-operasyon-otomasyon.png",
+      "canonical": "https://anilaslakci.com.tr/operasyon-otomasyon/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "E-ticaret operasyonunu anlayarak, gerçekten ihtiyaç duyulan yerlerde otomasyon geliştiriyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/blog/",
+      "file": "tablet-blog.png",
+      "canonical": "https://anilaslakci.com.tr/blog/",
+      "cards": 0,
+      "contact": [],
+      "forms": 0,
+      "h1": "E-ticaretten otomasyona.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/",
+      "file": "tablet-en.png",
+      "canonical": "https://anilaslakci.com.tr/en/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Managing digital commerce\nwith data\nand technology.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/portfolio/",
+      "file": "tablet-en-portfolio.png",
+      "canonical": "https://anilaslakci.com.tr/en/portfolio/",
+      "cards": 21,
+      "contact": [],
+      "forms": 0,
+      "h1": "Selected Work",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "tablet",
+      "route": "/en/marketplace-management/",
+      "file": "tablet-en-marketplace-management.png",
+      "canonical": "https://anilaslakci.com.tr/en/marketplace-management/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I do more than launch marketplace channels: I manage them sustainably.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/en/erp-integration/",
+      "file": "tablet-en-erp-integration.png",
+      "canonical": "https://anilaslakci.com.tr/en/erp-integration/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I make data flows between ERP systems and sales channels clear and controllable.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/en/advertising-campaign-management/",
+      "file": "tablet-en-advertising-campaign-management.png",
+      "canonical": "https://anilaslakci.com.tr/en/advertising-campaign-management/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I manage advertising and campaigns to deliver business results as well as visibility.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/en/ecommerce-website-management/",
+      "file": "tablet-en-ecommerce-website-management.png",
+      "canonical": "https://anilaslakci.com.tr/en/ecommerce-website-management/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I treat an e-commerce website as a working sales channel, not simply a storefront.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/en/data-analysis-reporting/",
+      "file": "tablet-en-data-analysis-reporting.png",
+      "canonical": "https://anilaslakci.com.tr/en/data-analysis-reporting/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I turn scattered e-commerce data into clear, comparable information that supports decisions.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/en/operations-automation/",
+      "file": "tablet-en-operations-automation.png",
+      "canonical": "https://anilaslakci.com.tr/en/operations-automation/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I develop automation where it is genuinely useful, grounded in an understanding of e-commerce operations.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "tablet",
+      "route": "/en/blog/",
+      "file": "tablet-en-blog.png",
+      "canonical": "https://anilaslakci.com.tr/en/blog/",
+      "cards": 0,
+      "contact": [],
+      "forms": 0,
+      "h1": "From e-commerce to automation.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/",
+      "file": "mobile-home.png",
+      "canonical": "https://anilaslakci.com.tr/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Dijital ticareti\nveri ve teknolojiyle\nyönetiyorum.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/portfolyo/",
+      "file": "mobile-portfolyo.png",
+      "canonical": "https://anilaslakci.com.tr/portfolyo/",
+      "cards": 21,
+      "contact": [],
+      "forms": 0,
+      "h1": "Seçili Çalışmalar",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/pazaryeri-yonetimi/",
+      "file": "mobile-pazaryeri-yonetimi.png",
+      "canonical": "https://anilaslakci.com.tr/pazaryeri-yonetimi/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Pazaryeri kanallarını yalnızca açmıyor, sürdürülebilir biçimde yönetiyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/erp-entegrasyonu/",
+      "file": "mobile-erp-entegrasyonu.png",
+      "canonical": "https://anilaslakci.com.tr/erp-entegrasyonu/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "ERP ve satış kanalları arasındaki veri akışını anlaşılır ve kontrol edilebilir hâle getiriyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/reklam-kampanya-yonetimi/",
+      "file": "mobile-reklam-kampanya-yonetimi.png",
+      "canonical": "https://anilaslakci.com.tr/reklam-kampanya-yonetimi/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Reklam ve kampanyaları yalnızca görünürlük değil, ticari sonuç üretmek için yönetiyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "file": "mobile-e-ticaret-sitesi-yonetimi.png",
+      "canonical": "https://anilaslakci.com.tr/e-ticaret-sitesi-yonetimi/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "E-ticaret sitesini yalnızca vitrin değil, çalışan bir satış kanalı olarak ele alıyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/veri-analizi-raporlama/",
+      "file": "mobile-veri-analizi-raporlama.png",
+      "canonical": "https://anilaslakci.com.tr/veri-analizi-raporlama/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Dağınık e-ticaret verisini anlaşılır, karşılaştırılabilir ve karar alınabilir hâle getiriyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/operasyon-otomasyon/",
+      "file": "mobile-operasyon-otomasyon.png",
+      "canonical": "https://anilaslakci.com.tr/operasyon-otomasyon/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "E-ticaret operasyonunu anlayarak, gerçekten ihtiyaç duyulan yerlerde otomasyon geliştiriyorum.",
+      "lang": "tr",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/blog/",
+      "file": "mobile-blog.png",
+      "canonical": "https://anilaslakci.com.tr/blog/",
+      "cards": 0,
+      "contact": [],
+      "forms": 0,
+      "h1": "E-ticaretten otomasyona.",
+      "lang": "tr",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/",
+      "file": "mobile-en.png",
+      "canonical": "https://anilaslakci.com.tr/en/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "Managing digital commerce\nwith data\nand technology.",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/portfolio/",
+      "file": "mobile-en-portfolio.png",
+      "canonical": "https://anilaslakci.com.tr/en/portfolio/",
+      "cards": 21,
+      "contact": [],
+      "forms": 0,
+      "h1": "Selected Work",
+      "lang": "en",
+      "overflow": false
+    },
+    {
+      "view": "mobile",
+      "route": "/en/marketplace-management/",
+      "file": "mobile-en-marketplace-management.png",
+      "canonical": "https://anilaslakci.com.tr/en/marketplace-management/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I do more than launch marketplace channels: I manage them sustainably.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/en/erp-integration/",
+      "file": "mobile-en-erp-integration.png",
+      "canonical": "https://anilaslakci.com.tr/en/erp-integration/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I make data flows between ERP systems and sales channels clear and controllable.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/en/advertising-campaign-management/",
+      "file": "mobile-en-advertising-campaign-management.png",
+      "canonical": "https://anilaslakci.com.tr/en/advertising-campaign-management/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I manage advertising and campaigns to deliver business results as well as visibility.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/en/ecommerce-website-management/",
+      "file": "mobile-en-ecommerce-website-management.png",
+      "canonical": "https://anilaslakci.com.tr/en/ecommerce-website-management/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I treat an e-commerce website as a working sales channel, not simply a storefront.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/en/data-analysis-reporting/",
+      "file": "mobile-en-data-analysis-reporting.png",
+      "canonical": "https://anilaslakci.com.tr/en/data-analysis-reporting/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I turn scattered e-commerce data into clear, comparable information that supports decisions.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/en/operations-automation/",
+      "file": "mobile-en-operations-automation.png",
+      "canonical": "https://anilaslakci.com.tr/en/operations-automation/",
+      "cards": 0,
+      "contact": [
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ],
+      "forms": 0,
+      "h1": "I develop automation where it is genuinely useful, grounded in an understanding of e-commerce operations.",
+      "lang": "en",
+      "overflow": false,
+      "sidebar": {
+        "count": 6,
+        "display": [
+          "block",
+          "block",
+          "block",
+          "block",
+          "block",
+          "block"
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "view": "mobile",
+      "route": "/en/blog/",
+      "file": "mobile-en-blog.png",
+      "canonical": "https://anilaslakci.com.tr/en/blog/",
+      "cards": 0,
+      "contact": [],
+      "forms": 0,
+      "h1": "From e-commerce to automation.",
+      "lang": "en",
+      "overflow": false
+    }
+  ],
+  "modals": [
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-1",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-2",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-3",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-4",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-5",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-6",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-7",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-8",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-9",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-10",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-11",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-12",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-13",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-14",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-15",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-16",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-17",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-18",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-19",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-20",
+      "open": true
+    },
+    {
+      "lang": "tr",
+      "focus": "close",
+      "id": "modal-tr-21",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-1",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-2",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-3",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-4",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-5",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-6",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-7",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-8",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-9",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-10",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-11",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-12",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-13",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-14",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-15",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-16",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-17",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-18",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-19",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-20",
+      "open": true
+    },
+    {
+      "lang": "en",
+      "focus": "close",
+      "id": "modal-en-21",
+      "open": true
+    }
+  ],
+  "interactions": [
+    {
+      "lang": "tr",
+      "filter": {
+        "label": "Veri Analizi",
+        "visible": 5
+      }
+    },
+    {
+      "lang": "tr",
+      "focusTrap": true,
+      "zoom": {
+        "alt": "Pazaryeri Satış Analiz Aracı 1",
+        "open": true
+      },
+      "remains": 1,
+      "restored": true
+    },
+    {
+      "lang": "en",
+      "filter": {
+        "label": "Data Analysis",
+        "visible": 5
+      }
+    },
+    {
+      "lang": "en",
+      "focusTrap": true,
+      "zoom": {
+        "alt": "Marketplace Sales Analyzer 1",
+        "open": true
+      },
+      "remains": 1,
+      "restored": true
+    }
+  ],
+  "menu": {
+    "expanded": "true",
+    "visible": true,
+    "closed": "false"
+  },
+  "serviceLanguageSwitch": "http://127.0.0.1:4174/erp-entegrasyonu/",
+  "logs": []
+}

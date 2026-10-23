@@ -1,0 +1,12 @@
+---
+permalink: /en/404.html
+is404: true
+---
+{% set view = blog.views[1] %}{% extends "blog/base.njk" %}
+{% block title %}Sayfa bulunamadı | Mustafa Anıl Aşlakcı{% endblock %}
+{% block description %}Aradığınız sayfa bulunamadı. Ana sayfa, blog veya portfolyodan devam edebilirsiniz.{% endblock %}
+{% block canonicalPath %}/en/404.html{% endblock %}
+{% block navCurrent %}false{% endblock %}
+{% block social %}{% endblock %}
+{% block head %}<meta name="robots" content="noindex, follow">{% endblock %}
+{% block content %}<section class="blog-hero not-found"><p class="eyebrow">404</p><h1>Bu sayfa bulunamadı.</h1><p>Bağlantı değişmiş veya sayfa kaldırılmış olabilir.</p><a class="gold-link" href="/?skipIntro=1">Ana sayfaya dön →</a><a class="gold-link" href="/blog/">Blog yazılarını incele →</a></section>{% endblock %}

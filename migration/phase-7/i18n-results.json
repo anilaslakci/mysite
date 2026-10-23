@@ -1,0 +1,17 @@
+{
+  "passed": 10,
+  "failed": 0,
+  "checks": [
+    "TR/EN records pair using stable translationKey and independent UUIDs",
+    "Both languages have self canonical, reciprocal hreflang and language-appropriate feeds",
+    "18 static localized URLs use paired hreflang, self canonical, correct lang and unchanged GA4",
+    "Translation is independently excluded one second before its publication time",
+    "Draft/withdrawn translation removes its HTML, sitemap, RSS and equivalent link",
+    "A single language article does not fabricate an equivalent article URL",
+    "Same slug across locales is allowed; duplicate slug or translation key inside one locale fails",
+    "Related articles never leak across languages",
+    "English categories require actual English labels, not Turkish fallback",
+    "Isolated blog scenarios leave current editorial project and image content unchanged"
+  ],
+  "realCMSWrite": false
+}

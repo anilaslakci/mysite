@@ -1,0 +1,13 @@
+{
+  "english": {
+    "canonical": "https://anilaslakci.com.tr/en/blog/cms-english-test/",
+    "lang": "en",
+    "title": "CMS English Test Article"
+  },
+  "turkish": {
+    "canonical": "https://anilaslakci.com.tr/blog/cms-turkce-test/",
+    "lang": "tr",
+    "title": "CMS Türkçe Test Yazısı2"
+  },
+  "logs": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": 21,
+  "order": 21,
+  "category": "operations",
+  "tr": {
+    "title": "Depo Sipariş Hazırlayıcı",
+    "summary": "Trendyol XLSX ve Hepsiburada CSV sipariş çıktılarını database eşleştirmesiyle depo biriminin istediği sade Excel formatına dönüştüren masaüstü uygulama.",
+    "intro": "Trendyol ve Hepsiburada sipariş listelerini depo biriminin kullanabileceği sade, düzenli ve tek Excel çıktısına dönüştüren masaüstü uygulama.",
+    "problem": "Trendyol ve Hepsiburada sipariş çıktıları farklı formatlarda geliyor; Trendyol tarafında fazladan açıklama satırı ve çok sayıda gereksiz kolon, Hepsiburada tarafında ise CSV yapısı ve bazı ürünlerde barkodla gelen satıcı stok kodları bulunuyordu. Depo biriminin istediği listeyi hazırlamak için her gün satır ve sütun temizliği, stok kodu kontrolü ve dosya birleştirme işlemleri manuel yapılıyordu.",
+    "solution": "Uygulama Trendyol XLSX, Hepsiburada CSV ve barkod-stok kodu database Excel dosyasını aynı ekrandan alıyor. Trendyol listesindeki gerekli sütunları seçip ilk açıklama satırını kaldırıyor; Hepsiburada tarafında istenen sütunları koruyor, ENT-HB ile gelen barkodları database üzerinden gerçek stok kodlarına çeviriyor ve iki pazaryeri listesini ayrı sayfalarda tek Excel çıktısı olarak hazırlıyor.",
+    "impact": "Depo sipariş hazırlama sürecinde her gün tekrarlanan manuel Excel düzenleme adımları tek tıkla tamamlanabilir hale geldi. Farklı pazaryeri formatları standartlaştırıldı, barkoddan stok koduna dönüşüm otomatikleşti ve depo birimine gönderilen çıktı daha hızlı, okunabilir ve hataya daha kapalı bir yapıya kavuştu.",
+    "technologies": [
+      "C#",
+      "WinForms",
+      "Excel",
+      "CSV",
+      "OpenXML"
+    ],
+    "detailTechnologies": [
+      "C#",
+      "WinForms",
+      "Excel",
+      "CSV",
+      "OpenXML"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsele tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Warehouse Order Preparation Tool",
+    "summary": "A desktop app that converts Trendyol XLSX and Hepsiburada CSV order exports into the simplified Excel format needed by the warehouse team.",
+    "intro": "A desktop application that converts Trendyol and Hepsiburada order exports into a clean, warehouse-ready Excel workbook.",
+    "problem": "Trendyol and Hepsiburada export their daily order lists in different formats. Trendyol includes an extra notice row and many unnecessary columns, while Hepsiburada arrives as CSV and sometimes provides seller stock codes as ENT-HB barcode values. Preparing the warehouse list required daily manual column cleanup, stock-code checks, and file merging.",
+    "solution": "The tool accepts the Trendyol XLSX file, the Hepsiburada CSV file, and a barcode-to-stock-code database workbook from one screen. It removes the unnecessary Trendyol row, keeps only the required columns, cleans the Hepsiburada output, converts ENT-HB barcode values into real stock codes through the database, and produces one Excel workbook with separate sheets for each marketplace.",
+    "impact": "The daily warehouse order-preparation workflow was reduced from repetitive manual Excel work to a single controlled action. Marketplace exports became standardized, barcode-to-SKU conversion was automated, and the final warehouse file became faster to prepare, easier to read, and less prone to human error.",
+    "technologies": [
+      "C#",
+      "WinForms",
+      "Excel",
+      "CSV",
+      "OpenXML"
+    ],
+    "detailTechnologies": [
+      "C#",
+      "WinForms",
+      "Excel",
+      "CSV",
+      "OpenXML"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click the image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/8c287b4e062aa584bc31a7539e356454cdf4fdcf3514c649c11d77ab5ad7aac3.png",
+      "altTR": "Depo Sipariş Hazırlayıcı dosya seçim ve hazırlama ekranı",
+      "altEN": "Warehouse Order Preparation Tool file selection and export screen"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": 3,
+  "order": 3,
+  "category": "operations",
+  "tr": {
+    "title": "Depolar Arası Transfer Planlayıcı",
+    "summary": "Nebim V3 stok Excel'i üzerinden depolar arası transfer ihtiyacını otomatik tespit eden stok dengeleme aracı.",
+    "intro": "Nebim V3 stok Excel'i üzerinden depolar arası transfer ihtiyacını otomatik tespit eden stok dengeleme aracı.",
+    "problem": "Binlerce SKU'luk katalogda A deposunda fazla stok varken B deposunda kritik seviyenin altına düşen ürünleri elle takip etmek saatler süren ve hataya açık bir işti.",
+    "solution": "Nebim V3'ten alınan stok Excel'i yükleniyor; eşik değerleri girildikten sonra araç iki koşulu sağlayan ürünleri otomatik eşleştirip transfer listesi üretiyor. B deposunda kullanılmayan SKU'lar hariç tutma listesiyle raporun dışında tutuluyor.",
+    "impact": "Saatler süren manuel karşılaştırma birkaç dakikaya indi; transfer kararları veriye dayalı ve tekrarlanabilir hale geldi.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "Pandas"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "Pandas"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Inter-Warehouse Transfer Planner",
+    "summary": "Stock-balancing tool that automatically detects transfer needs between warehouses from a Nebim V3 stock export.",
+    "intro": "Stock-balancing tool that automatically detects transfer needs between warehouses from a Nebim V3 stock export.",
+    "problem": "Across a catalogue of thousands of SKUs, manually tracking which products had surplus in one warehouse while falling below critical levels in another was slow and error-prone.",
+    "solution": "A Nebim V3 stock Excel is loaded; threshold values are entered and the tool automatically matches products meeting both conditions, outputting a ready-to-act transfer list. SKUs unused in Warehouse B can be excluded via an exclusion list.",
+    "impact": "What used to take hours of manual cross-referencing now takes minutes, turning transfer decisions into a repeatable, data-driven process.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "Pandas"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "Pandas"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/fccbd33cc7d61eb04e9769b90254c25533ceb3c0a6ee9c4fa58712c4f5fd24f7.png",
+      "altTR": "Depolar Arası Transfer Planlayıcı 1",
+      "altEN": "Inter-Warehouse Transfer Planner 1"
+    },
+    {
+      "file": "/assets/portfolio/9c3f42a6648339a652432f7662626bcd5ab5680847ac9b4467fb220d83cb844a.png",
+      "altTR": "Depolar Arası Transfer Planlayıcı 2",
+      "altEN": "Inter-Warehouse Transfer Planner 2"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "live-main",
+    "sha": "63c3f30b2d1af4fc178ccac295aaf0ae89adaabf",
+    "zip": ".migration-backups/phase-9-exact/live-main.zip",
+    "zipSHA256": "437cbda20b87ea3ba83275ac8ca09211d350db790d4d9fe14bd07106e46974d8",
+    "bundle": ".migration-backups/phase-9-exact/live-main.bundle",
+    "bundleSHA256": "fa561d4dfc82adc4fa89a956cfd7cdc6e365505bfe81890426b8b706298eefa2",
+    "bundleVerified": true,
+    "gitBlobComparisons": 18
+  },
+  {
+    "name": "development",
+    "sha": "573a434a69c1ebf4cfd19581db024156a84d60ab",
+    "zip": ".migration-backups/phase-9-exact/development.zip",
+    "zipSHA256": "34da037efd9ffee774832ac4906fbdd375a8d00041dbc8549916c5c9233778aa",
+    "bundle": ".migration-backups/phase-9-exact/development.bundle",
+    "bundleSHA256": "da581b5cfcc2da97575aa387f94db736a48dc7caba5b6734acf3fce009f14954",
+    "bundleVerified": true,
+    "gitBlobComparisons": 562
+  }
+]

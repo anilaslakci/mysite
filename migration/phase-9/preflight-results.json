@@ -1,0 +1,18 @@
+{
+  "passed": 6,
+  "failed": 0,
+  "htmlPages": 20,
+  "publicPages": 18,
+  "projects": 21,
+  "projectCards": 42,
+  "originalImages": 67,
+  "externalRichResultsTest": false,
+  "checks": [
+    "18 paired routes, self canonical, reciprocal hreflang and x-default",
+    "GA4 loader and config are included exactly once on every HTML page",
+    "JSON-LD is parseable, uses schema.org contexts and valid type declarations",
+    "Domain, CNAME, robots, RSS and 404 contracts",
+    "Exactly the authorized two drafts and test upload are removed",
+    "67 original images retain source and output SHA-256; no project/category/media edits"
+  ]
+}

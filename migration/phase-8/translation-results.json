@@ -1,0 +1,18 @@
+{
+  "passed": 11,
+  "failed": 0,
+  "realCMSSave": false,
+  "checks": [
+    "Actual user draft UUIDs, saved edits and uploaded bytes survive; drafts excluded",
+    "Reference field stores selected UID; technical keys hidden and SEO defaults remain optional",
+    "Reference alone resolves legacy custom key without writing it to source",
+    "Existing shared translationKey pairing works unchanged without new reference",
+    "User drafts can pair in isolated copies with only the selected Turkish UID",
+    "Draft translation removes peer hreflang and EN HTML/feed/sitemap entry",
+    "Future translation remains excluded until its independent date",
+    "Duplicate English reference, self reference, wrong locale, unknown source reject even drafts",
+    "Reassignment conflicts with another English translation, including legacy links",
+    "Independent EN, reference removal and translation deletion leave Turkish article intact",
+    "User records, portfolio and uploaded image were never edited or deleted"
+  ]
+}

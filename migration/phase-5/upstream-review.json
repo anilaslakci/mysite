@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "file": "fields-core-uuid-index.tsx",
+      "sha256": "73236f63e8a2d44cad3eb3e9fc61b8f570d0158b18d9acd96ef77da13a3fd845"
+    },
+    {
+      "file": "fields-core-uuid-edit-component.tsx",
+      "sha256": "aa89fbdb7018cf049a099ca1f54e89c0d5af8a6b90dc3b7936d1b249d09dcfdd"
+    },
+    {
+      "file": "fields-core-reference-edit-component.tsx",
+      "sha256": "170425e3d53077bad023c72dc46c0dfdfb9018d8acaa139cb85aacd84e3fc3aa"
+    },
+    {
+      "file": "app-api-owner-repo-branch-references-name-route.ts",
+      "sha256": "6cff9ab8ae5fb8f303eecf59abcd649ec076e15dda614adf2e760b6dac05fe8f"
+    }
+  ],
+  "uuidSource": "https://github.com/hunvreus/pagescms/blob/main/fields/core/uuid/index.tsx",
+  "referenceSource": "https://github.com/hunvreus/pagescms/blob/main/fields/core/reference/edit-component.tsx",
+  "activeOnlyReferenceFilterFound": false,
+  "nativeMediaDeleteLockConfigured": false
+}

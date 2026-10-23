@@ -1,0 +1,76 @@
+{
+  "id": 9,
+  "order": 9,
+  "category": "entertainment",
+  "tr": {
+    "title": "Sırlar Dünyası",
+    "summary": "Burç uyumu, şans kurabiyesi ve karar yardımcısı gibi eğlenceli modüller içeren deneysel masaüstü uygulaması.",
+    "intro": "Burç uyumu, şans kurabiyesi ve karar yardımcısı gibi eğlenceli modüller içeren deneysel masaüstü uygulaması.",
+    "problem": "Tamamen kişisel bir deneme; PyQt5 ile çok sekmeli, çok modüllü masaüstü uygulamasının uçtan uca nasıl kurulacağını öğrenmek ve eğlenceli bir prototip ortaya çıkarmak hedeflendi.",
+    "solution": "Rastgele burç uyum oranları, günlük şans kurabiyesi sözleri ve yazı-tura mantığıyla çalışan 'kararsızım' karar yardımcısı tek uygulamada birleştirildi; arka planda dizinin jenerik müziği çalıyor.",
+    "impact": "Çok sekmeli PyQt5 mimarisi, durum yönetimi ve medya entegrasyonu konusunda pratik deneyim kazanıldı.",
+    "technologies": [
+      "Python",
+      "PyQt5"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Sırlar Dünyası (Mystery World)",
+    "summary": "Experimental desktop app combining astrology compatibility, fortune cookies, and a decision helper.",
+    "intro": "Experimental desktop app combining astrology compatibility, fortune cookies, and a decision helper.",
+    "problem": "A personal experiment aimed at learning how to structure a multi-tab, multi-module PyQt5 desktop app end-to-end while producing something genuinely fun.",
+    "solution": "Randomised horoscope compatibility scores, daily fortune-cookie style messages, and a coin-flip decision helper were combined into a single app, with the show's theme music playing in the background.",
+    "impact": "Hands-on experience gained in multi-tab PyQt5 architecture, state management, and media integration.",
+    "technologies": [
+      "Python",
+      "PyQt5"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/77b28e96adbd97b1328f88fa67384c14571c00047026bee5007429d3fb1c8992.png",
+      "altTR": "Sırlar Dünyası 1",
+      "altEN": "Sırlar Dünyası (Mystery World) 1"
+    },
+    {
+      "file": "/assets/portfolio/550549b597568c97b67ff1f318c84d3832f5472b103c382e3bc19665d8dc1862.png",
+      "altTR": "Sırlar Dünyası 2",
+      "altEN": "Sırlar Dünyası (Mystery World) 2"
+    },
+    {
+      "file": "/assets/portfolio/c358fe129d4a098733009395c9cfe792cd97535748877fec9a18acc3b47af315.png",
+      "altTR": "Sırlar Dünyası 3",
+      "altEN": "Sırlar Dünyası (Mystery World) 3"
+    },
+    {
+      "file": "/assets/portfolio/43eee0e1488d4a31a25e1a7ea29f7340b69f5a6d7022db28455c0be04f847ed7.png",
+      "altTR": "Sırlar Dünyası 4",
+      "altEN": "Sırlar Dünyası (Mystery World) 4"
+    },
+    {
+      "file": "/assets/portfolio/b929c72f4fb5cbcfa40c0da91c8d543f7d2df399cd33a4bf7016ae2a5adea760.png",
+      "altTR": "Sırlar Dünyası 5",
+      "altEN": "Sırlar Dünyası (Mystery World) 5"
+    },
+    {
+      "file": "/assets/portfolio/c25627c29e1d16d648990fa94a77fc1e5e92fb5118b928448d4f5c8c21cf43a8.png",
+      "altTR": "Sırlar Dünyası 6",
+      "altEN": "Sırlar Dünyası (Mystery World) 6"
+    }
+  ],
+  "links": []
+}

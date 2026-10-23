@@ -1,0 +1,599 @@
+media:
+  - name: portfolio
+    label: Görsel dosyaları (fiziksel silmeyin)
+    input: assets/portfolio
+    output: /assets/portfolio
+    rename: random
+    extensions:
+      - png
+      - jpg
+      - jpeg
+  - name: blogImages
+    label: Blog görselleri
+    input: assets/blog
+    output: /assets/blog
+    rename: random
+    extensions:
+      - png
+      - jpg
+      - jpeg
+content:
+  - name: projects
+    label: Portfolyo projeleri
+    type: collection
+    path: src/content/projects
+    format: json
+    subfolders: false
+    filename:
+      template: '{fields.uid}.json'
+      field: false
+    operations:
+      create: true
+      rename: false
+      delete: true
+    view:
+      primary: tr.title
+      fields:
+        - tr.title
+        - en.title
+        - category
+        - order
+        - archived
+      sort:
+        - order
+        - tr.title
+      search:
+        - tr.title
+        - en.title
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: uid
+        label: Otomatik kayıt kimliği
+        type: uuid
+        required: true
+        hidden: true
+        readonly: true
+        options:
+          editable: false
+          generate: false
+        description: Otomatik üretilir; değiştirilmez. Eski projelerin sayısal bağlantıları korunur.
+      - name: id
+        label: Eski kayıt kimliği
+        type: number
+        options:
+          min: 1
+        description: Eski projelerin bağlantı eşleşmesi için saklanır; yeni kayıtta elle doldurulmaz.
+        hidden: true
+        readonly: true
+        default: ''
+      - name: order
+        label: Sıralama
+        type: number
+        options:
+          min: 1
+        description: >-
+          Küçük sıra önce gelir. Boş bırakılanlar sonda gösterilir; eşit sırada kalıcı kimlik kullanılır.
+          Proje listesi sayı ile sıralanır; sürükle-bırak değildir.
+      - name: archived
+        label: Arşivlendi
+        type: boolean
+        default: false
+        description: >-
+          Kayıt ve görseller korunur; kart, modal, filtre ve sayaca dahil edilmez. Yeniden yayımlamak için
+          kapatın.
+      - name: category
+        label: Kategori
+        type: reference
+        required: true
+        options:
+          collection: categories
+          value: '{fields.key}'
+          label: '{fields.tr}'
+          search: key,tr,en
+        description: >-
+          Kategori adını seçin. Arşivli kategoriyi kullanmadan önce Kategoriler ekranından yeniden
+          etkinleştirin; geçersiz referanslar derlemede yakalanır.
+      - name: tr
+        label: Türkçe
+        type: object
+        required: true
+        fields:
+          - name: title
+            label: Başlık
+            type: string
+            required: true
+          - name: summary
+            label: Kart özeti
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: intro
+            label: Detay giriş açıklaması
+            type: text
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: problem
+            label: Sorun
+            type: text
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: solution
+            label: Çözüm
+            type: text
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: impact
+            label: Etki
+            type: text
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: technologies
+            label: Kart teknoloji etiketleri
+            type: string
+            list: true
+          - name: detailTechnologies
+            label: Detay teknoloji etiketleri
+            type: string
+            list: true
+            description: Boş bırakılırsa karttaki teknoloji etiketleri kullanılır. Farklı bir liste isterseniz doldurun.
+          - name: galleryTitle
+            label: Galeri başlığı
+            type: string
+          - name: galleryIntro
+            label: Galeri açıklaması
+            type: string
+          - name: legacyModalTail
+            type: string
+            hidden: true
+            default: ''
+      - name: en
+        label: English
+        type: object
+        required: true
+        fields:
+          - name: title
+            label: Başlık
+            type: string
+            required: true
+          - name: summary
+            label: Kart özeti
+            type: text
+            required: true
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: intro
+            label: Detay giriş açıklaması
+            type: text
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: problem
+            label: Sorun
+            type: text
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: solution
+            label: Çözüm
+            type: text
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: impact
+            label: Etki
+            type: text
+            description: Metin ve mevcut <strong>/<em>/<br> biçimlendirmesi korunur; Markdown kullanılmaz.
+          - name: technologies
+            label: Kart teknoloji etiketleri
+            type: string
+            list: true
+          - name: detailTechnologies
+            label: Detay teknoloji etiketleri
+            type: string
+            list: true
+            description: Boş bırakılırsa karttaki teknoloji etiketleri kullanılır. Farklı bir liste isterseniz doldurun.
+          - name: galleryTitle
+            label: Galeri başlığı
+            type: string
+          - name: galleryIntro
+            label: Galeri açıklaması
+            type: string
+          - name: legacyModalTail
+            type: string
+            hidden: true
+            default: ''
+      - name: gallery
+        label: Galeri (sürükleyerek sıralayın)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: '{altTR}'
+        fields:
+          - name: file
+            label: Görsel
+            type: image
+            required: true
+            options:
+              media: portfolio
+              extensions:
+                - png
+                - jpg
+                - jpeg
+          - name: altTR
+            label: Türkçe alternatif metin
+            type: string
+            required: true
+          - name: altEN
+            label: English alternative text
+            type: string
+            required: true
+      - name: links
+        label: Proje bağlantıları (isteğe bağlı)
+        type: object
+        list: true
+        fields:
+          - name: url
+            label: Adres
+            type: string
+            required: true
+          - name: labelTR
+            label: Türkçe etiket
+            type: string
+            required: true
+          - name: labelEN
+            label: English label
+            type: string
+            required: true
+        description: >-
+          İsteğe bağlı. HTTPS adresi veya / ile başlayan site içi yol. Eklenen her bağlantıda iki dilde etiket
+          gerekir.
+  - name: categories
+    label: Portfolyo kategorileri
+    type: collection
+    path: src/content/categories
+    format: json
+    subfolders: false
+    filename:
+      template: '{fields.key}.json'
+      field: false
+    operations:
+      create: true
+      rename: false
+      delete: true
+    view:
+      primary: tr
+      fields:
+        - key
+        - tr
+        - en
+        - order
+        - archived
+      sort:
+        - order
+        - key
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: key
+        label: Kalıcı kategori anahtarı
+        type: string
+        required: true
+        pattern: ^[a-z][a-z0-9-]*$
+        description: >-
+          Küçük Latin harf, rakam ve tire. all kullanılamaz. Kullanılan anahtarı değiştirmeyin; silmeden önce
+          tüm proje referanslarını (arşivdekiler dahil) başka kategoriye taşıyın.
+      - name: tr
+        label: Türkçe ad
+        type: string
+        required: true
+      - name: en
+        label: English name
+        type: string
+        required: true
+      - name: order
+        label: Filtre sırası
+        type: number
+        options:
+          min: 1
+        description: Boşlar sonda; eşit sıralarda kategori anahtarı kullanılır.
+      - name: color
+        label: Renk (isteğe bağlı)
+        type: string
+        pattern: ^#[a-fA-F0-9]{6}$
+        description: 'Örnek: #48C9B0. Boş bırakılırsa mevcut turkuaz renk kullanılır.'
+      - name: archived
+        label: Arşivlendi
+        type: boolean
+        default: false
+        description: >-
+          Önce bu kategoriyi kullanan tüm projeleri (arşivdekiler dahil) başka kategoriye taşıyın. Arşivli
+          kategori yeni projeye atanamaz; açmak için işareti kaldırın.
+  - name: portfolioMedia
+    label: Görsel arşivi ve kayıtları
+    type: collection
+    path: src/content/media
+    format: json
+    subfolders: false
+    filename:
+      template: '{fields.uid}.json'
+      field: false
+    operations:
+      create: true
+      rename: false
+      delete: false
+    view:
+      primary: title
+      fields:
+        - title
+        - file
+        - archived
+      search:
+        - title
+        - file
+      sort:
+        - title
+        - archived
+    fields:
+      - name: uid
+        label: Otomatik kayıt kimliği
+        type: uuid
+        required: true
+        hidden: true
+        readonly: true
+        options:
+          editable: false
+          generate: false
+      - name: title
+        label: Görsel adı (arşiv listesi için)
+        type: string
+        description: Dosyanın ne olduğunu hatırlatan kısa ad. Proje içindeki alternatif metinleri değiştirmez.
+      - name: file
+        label: Görsel dosyası
+        type: image
+        required: true
+        options:
+          media: portfolio
+          extensions:
+            - png
+            - jpg
+            - jpeg
+        description: >-
+          Mevcut dosyayı seçin veya yeni yükleyin. Aynı dosya için tek arşiv kaydı oluşturun. Kullanılan bir
+          kaydı başka dosyaya yönlendirmek yerine yeni kayıt oluşturun.
+      - name: archived
+        label: Arşivlendi
+        type: boolean
+        default: false
+        description: >-
+          Yalnızca arşiv işaretidir. Dosyayı taşımaz/silmez; mevcut galeriler çalışır. Yeniden kullanmak için
+          işareti kaldırın veya dosyayı galeride tekrar seçin. Dosyalar ekranındaki fiziksel silme işlemini
+          kullanmayın.
+  - name: posts
+    label: Blog Yazıları
+    type: collection
+    path: src/content/posts
+    format: yaml-frontmatter
+    subfolders: false
+    exclude:
+      - .gitkeep
+    filename:
+      template: '{fields.uid}.md'
+      field: false
+    operations:
+      create: true
+      rename: false
+      delete: true
+    view:
+      primary: title
+      fields:
+        - title
+        - locale
+        - slug
+        - status
+        - publishAt
+        - category
+      sort:
+        - title
+        - publishAt
+        - status
+      search:
+        - title
+        - slug
+      default:
+        sort: publishAt
+        order: desc
+    fields:
+      - name: uid
+        type: uuid
+        label: Otomatik yazı kimliği
+        hidden: true
+        readonly: true
+        required: true
+        options:
+          editable: false
+          generate: false
+      - name: translationKey
+        label: Çeviri eşleştirme kimliği
+        type: string
+        hidden: true
+        readonly: true
+        description: Eski çeviri ilişkilerini koruyan teknik alan; elle düzenlenmez.
+        required: false
+      - name: locale
+        type: select
+        hidden: false
+        readonly: false
+        default: tr
+        label: Yazının dili
+        required: true
+        options:
+          values:
+            - name: tr
+              label: Türkçe
+            - name: en
+              label: İngilizce
+      - name: translationOf
+        label: Bu yazı hangi makalenin çevirisi?
+        type: reference
+        options:
+          collection: posts
+          value: '{fields.uid}'
+          label: '{fields.title} — {fields.locale}'
+          search: title,slug
+        description: >-
+          İngilizce çeviride Türkçe (tr) asıl yazıyı seçin. Türkçe veya bağımsız İngilizce yazıda boş bırakın.
+          Listede tüm diller görünür; yanlış dil seçimi build sırasında reddedilir. Eski eşleştirilmiş yazıda
+          boşsa mevcut ilişki korunur.
+      - name: title
+        label: Başlık
+        type: string
+        required: true
+      - name: slug
+        label: Kalıcı URL adı
+        type: string
+        required: true
+        pattern: ^[a-z0-9]+(?:-[a-z0-9]+)*$
+        description: >-
+          Küçük Latin harf, rakam ve tire kullanın (örnek: pazaryeri-yonetimi). Bir kez belirleyin; başlık
+          değişince URL değişmez. Editör başlıktan otomatik öneri üretmez.
+      - name: seoTitle
+        label: SEO başlığı (isteğe bağlı)
+        type: string
+        description: Boşsa yazı başlığı kullanılır.
+      - name: description
+        label: Meta açıklaması (isteğe bağlı)
+        type: text
+        description: Boşsa kısa özet kullanılır. Yazının gerçekten sunduğu bilgiyi açıklayın.
+      - name: summary
+        label: Kısa özet
+        type: text
+        required: true
+      - name: body
+        label: Yazı içeriği
+        type: rich-text
+        options:
+          format: markdown
+          switcher: true
+          media: blogImages
+          rename: random
+          extensions:
+            - png
+            - jpg
+            - jpeg
+        description: >-
+          Markdown saklanır. Yazı başlığı H1 olarak otomatik gelir; içerikte H2/H3 kullanın. Her görsele
+          alternatif metin girin.
+      - name: cover
+        label: Kapak görseli (isteğe bağlı)
+        type: image
+        options:
+          media: blogImages
+          extensions:
+            - png
+            - jpg
+            - jpeg
+      - name: coverAlt
+        label: Kapak alternatif metni
+        type: string
+        description: Kapak görseli varsa zorunludur; görselin ne anlattığını yazın.
+      - name: category
+        label: Kategori
+        type: reference
+        required: true
+        options:
+          collection: blogCategories
+          value: '{fields.key}'
+          label: '{fields.name}'
+          search: key,name
+        description: Arşivli kategorideki yazı yayımlanamaz.
+      - name: tags
+        label: Etiketler
+        type: string
+        list: true
+      - name: status
+        label: Yayın durumu
+        type: select
+        required: true
+        default: draft
+        options:
+          values:
+            - name: draft
+              label: Taslak
+            - name: published
+              label: Yayında
+        description: >-
+          Yayında seçilen yazı, yayın tarihi geldiğinde çıktıya alınır. Gelecek tarihli yazı o zamana kadar
+          görünmez.
+      - name: publishAt
+        label: Yayın tarihi ve saati
+        type: date
+        default: ''
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm
+        description: Türkiye saati (Europe/Istanbul). Saat dilimi olmayan değerler Türkiye saati olarak yorumlanır.
+      - name: updatedAt
+        label: Son içerik güncellemesi
+        type: date
+        default: ''
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm
+        description: Türkiye saati (Europe/Istanbul). Saat dilimi olmayan değerler Türkiye saati olarak yorumlanır.
+      - name: featured
+        label: Öne çıkan olarak işaretle
+        type: boolean
+        default: false
+      - name: related
+        label: İlgili yazılar (isteğe bağlı)
+        type: reference
+        options:
+          collection: posts
+          multiple: true
+          value: '{fields.uid}'
+          label: '{fields.title}'
+          search: title,slug
+        description: >-
+          Yalnızca aynı dilde yayımlanmış yazılar gösterilir. Boşsa aynı dil ve kategoriden en fazla üç yazı
+          önerilir.
+  - name: blogCategories
+    label: Blog Kategorileri
+    type: collection
+    path: src/content/blog-categories
+    format: json
+    subfolders: false
+    filename:
+      template: '{fields.key}.json'
+      field: false
+    operations:
+      create: true
+      rename: false
+      delete: true
+    view:
+      primary: name
+      fields:
+        - key
+        - name
+        - en
+        - order
+        - archived
+    fields:
+      - name: key
+        label: Kalıcı kategori kodu
+        type: string
+        required: true
+        pattern: ^[a-z][a-z0-9-]*$
+        description: >-
+          Örnek: veri-analizi. Kullanılan kodu değiştirmeden önce yazı referanslarını taşıyın. all
+          ayrılmıştır.
+      - name: name
+        label: Kategori adı
+        type: string
+        required: true
+      - name: en
+        label: İngilizce kategori adı
+        type: string
+        description: İngilizce yazı yayımlanacaksa gereklidir.
+      - name: order
+        label: Filtre sırası
+        type: number
+        options:
+          min: 1
+      - name: archived
+        label: Arşivlendi
+        type: boolean
+        default: false
+        description: Bu kategoride yayımlanmış yazı varsa önce aktif kategoriye taşıyın; aksi halde build durur.

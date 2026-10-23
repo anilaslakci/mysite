@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ view.locale | default('tr') }}"{% if not post and not is404 %} data-page-key="blog"{% endif %}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+{% include "shared/consent-head.njk" %}
+<title>{% block title %}Blog | Mustafa Anıl Aşlakcı{% endblock %}</title>
+<meta name="description" content="{% block description %}E-ticaret, pazaryeri yönetimi, ERP entegrasyonu, Python ve veri analizi üzerine yazılar.{% endblock %}">
+<link rel="canonical" href="{{ blog.site.url }}{% block canonicalPath %}{{ view.url | default('/blog/') }}{% endblock %}">
+<meta property="og:locale" content="tr_TR"><meta property="og:site_name" content="Mustafa Anıl Aşlakcı">
+{% block social %}<meta property="og:title" content="Blog | Mustafa Anıl Aşlakcı"><meta property="og:description" content="E-ticaret, entegrasyon ve otomasyon üzerine yazılar."><meta property="og:type" content="website"><meta property="og:url" content="{{ blog.site.url }}/blog/"><meta property="og:image" content="{{ blog.site.url }}/favicon.png"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Blog | Mustafa Anıl Aşlakcı"><meta name="twitter:description" content="E-ticaret, entegrasyon ve otomasyon üzerine yazılar."><meta name="twitter:image" content="{{ blog.site.url }}/favicon.png">{% endblock %}
+<link rel="icon" href="/favicon.ico"><link rel="alternate" type="application/rss+xml" title="Mustafa Anıl Aşlakcı Blog RSS" href="{{ view.feed | default('/feed.xml') }}">
+<link rel="stylesheet" href="/assets/css/blog.css">{% if post %}{{ post.variants | alternateHTML | safe }}{% endif %}{% block head %}{% endblock %}</head>
+<body><a class="skip" href="#main">İçeriğe geç</a><header class="blog-header"><a class="brand" href="/?skipIntro=1">Mustafa Anıl Aşlakcı <em>/ Blog</em></a>{% if post %}{{ post.variants | languageHTML(view.locale) | safe }}{% elif is404 %}{{ {tr:'/404.html',en:'/en/404.html'} | languageHTML(view.locale) | safe }}{% else %}<!--language-switch-->{% endif %}<nav aria-label="Ana navigasyon"><a href="/?skipIntro=1">Ana Sayfa</a><a href="/portfolyo/">Portfolyo</a><a href="/blog/" aria-current="{% block navCurrent %}page{% endblock %}">Blog</a></nav></header>
+<main id="main">{% block content %}{% endblock %}</main><footer class="blog-footer"><span>Mustafa Anıl Aşlakcı</span><a href="/feed.xml">RSS ile takip et</a><a href="/?skipIntro=1">Ana siteye dön</a></footer>{% block scripts %}{% endblock %}</body></html>

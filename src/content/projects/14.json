@@ -1,0 +1,64 @@
+{
+  "id": 14,
+  "order": 14,
+  "category": "operations",
+  "tr": {
+    "title": "Kargo Fatura Kontrol ve Doğrulama Aracı",
+    "summary": "Anlaşmalı kargo faturalarını anlaşma fiyatlarıyla satır satır karşılaştırıp tutarsızlıkları tespit eden masaüstü denetim aracı.",
+    "intro": "Anlaşmalı kargo faturalarını anlaşma fiyatlarıyla satır satır karşılaştırıp tutarsızlıkları tespit eden masaüstü denetim aracı.",
+    "problem": "Anlaşmalı kargo firmalarının binlerce satır içeren fatura Excel'leri, iade/tekrar sevk gibi farklı ücret kalemleri nedeniyle manuel kontrol için saatler gerektiriyordu; hatalı faturalandırmalar gözden kaçabiliyordu.",
+    "solution": "Ana ekranda anlaşmalı fiyatlar giriliyor, fatura Excel'i yükleniyor. Araç her satırı ve her gönderiyi kargo firmasının özel şablonuna göre otomatik kontrol edip iade/tekrar sevk gibi farklı tarife kalemlerini ayrıştırıyor. Eşleşmeyen veya sorunlu satırlar ayrı bir Excel çıktısında toplanıyor.",
+    "impact": "Saatler süren manuel fatura kontrolü dakikalara indi; hatalı faturalandırmalar artık sistematik olarak tespit ediliyor ve belgeleniyor.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Cargo Invoice Verification Tool",
+    "summary": "Desktop audit tool that cross-checks cargo carrier invoices against agreed rates line by line and flags discrepancies.",
+    "intro": "Desktop audit tool that cross-checks cargo carrier invoices against agreed rates line by line and flags discrepancies.",
+    "problem": "Cargo carrier invoices containing thousands of lines — with different rates for returns, re-deliveries, and standard shipments — required hours of manual checking and errors could go unnoticed.",
+    "solution": "Agreed rates are entered on the main screen and the invoice Excel is loaded. The tool checks every line against the carrier's specific template, separates different tariff categories (returns, re-deliveries), and consolidates mismatched or problematic rows into a separate Excel output for manual follow-up.",
+    "impact": "Hours of manual invoice checking dropped to minutes; billing discrepancies are now systematically detected and documented.",
+    "technologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/0d6b69d7404788c395887930f029d0d0654a0508d6297d26ae7f0e760b93d8b0.png",
+      "altTR": "Kargo Fatura Kontrol ve Doğrulama Aracı 1",
+      "altEN": "Cargo Invoice Verification Tool 1"
+    },
+    {
+      "file": "/assets/portfolio/6b84fcc0c01a96aeffddbaad4f8576e40d79399ae92ad37a46d45cd92e2b345c.png",
+      "altTR": "Kargo Fatura Kontrol ve Doğrulama Aracı 2",
+      "altEN": "Cargo Invoice Verification Tool 2"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,36 @@
+{
+  "checksPassed": true,
+  "checkedAt": "2026-10-22T11:32:02.0929031Z",
+  "remoteMain": "63c3f30b2d1af4fc178ccac295aaf0ae89adaabf",
+  "remoteDevelopment": "e9f34b62cd1dfe7e337558ebac18fb47e352c647",
+  "pages": {
+    "status": "built",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "build_type": "legacy",
+    "cname": "anilaslakci.com.tr",
+    "https_enforced": true
+  },
+  "workflowPaths": [
+    ".github/workflows/validate.yml",
+    "dynamic/pages/pages-build-deployment"
+  ],
+  "repositoryHookCount": 0,
+  "latestDeployment": {
+    "sha": "63c3f30b2d1af4fc178ccac295aaf0ae89adaabf",
+    "ref": "main",
+    "created_at": "2026-08-26T08:20:48Z"
+  },
+  "validationRuns": [
+    {
+      "id": 39770099100,
+      "name": "Site validation (no deployment)",
+      "path": ".github/workflows/validate.yml",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/anilaslakci/mysite/actions/runs/39770099100"
+    }
+  ]
+}

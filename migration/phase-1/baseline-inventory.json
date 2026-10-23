@@ -1,0 +1,657 @@
+{
+  "commit": "63c3f30b2d1af4fc178ccac295aaf0ae89adaabf",
+  "files": [
+    {
+      "file": "CNAME",
+      "bytes": 18,
+      "sha256": "2b0bad201671ae268337ebb2a94e4226e5912aed712b8634c3a1b0519c2b56f0"
+    },
+    {
+      "file": "README-KURULUM.txt",
+      "bytes": 520,
+      "sha256": "13ce693a7098187360a361cb246c79354e55c421dc0aff800449849de39a66fb"
+    },
+    {
+      "file": "assets/mustafa-anil-aslakci-og.jpg",
+      "bytes": 69633,
+      "sha256": "4d2ef1c2a56ce94a49e4329cc6e87a10a2f0ba0a99f1c251f60b186109d0bf4d"
+    },
+    {
+      "file": "assets/mustafa-anil-aslakci.jpg",
+      "bytes": 141116,
+      "sha256": "ea56586bfe3b9704dedfa712a70be5e45ba15b3f558c367efebf983ddac1a9da"
+    },
+    {
+      "file": "e-ticaret-sitesi-yonetimi/index.html",
+      "bytes": 14542,
+      "sha256": "c27fded79e5664e42e23b986e1750ca5235ec8360e379c1fc1d77c0a57ed47ec",
+      "inlineBlocks": [
+        {
+          "index": 0,
+          "tag": "script",
+          "sha256": "1b2e0b1af2fed035e8f86370da3fe28841592e21538539c4f31be6e2a271395f",
+          "bytes": 86
+        },
+        {
+          "index": 1,
+          "tag": "script",
+          "sha256": "410ed3cc1e6eb6169f3205b15981564b4ee1db4127a195a6dac2eeb878056b75",
+          "bytes": 149
+        },
+        {
+          "index": 2,
+          "tag": "script",
+          "sha256": "ab78ee842a57acb98d1572f0095a68f5581b9b80fee08502bb9e42d9d15f165f",
+          "bytes": 629
+        },
+        {
+          "index": 3,
+          "tag": "style",
+          "sha256": "1805f266dbeb4f6e83689ef2af800df236e50d9106362c95c89325a443515f99",
+          "bytes": 5080
+        }
+      ],
+      "links": [
+        "https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2",
+        "https://anilaslakci.com.tr/e-ticaret-sitesi-yonetimi/",
+        "/favicon.png",
+        "/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap",
+        "/?skipIntro=1",
+        "/portfolyo/",
+        "/?skipIntro=1",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/operasyon-otomasyon/",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/operasyon-otomasyon/"
+      ]
+    },
+    {
+      "file": "erp-entegrasyonu/index.html",
+      "bytes": 14766,
+      "sha256": "955fed79d7d30021161b37776427e2fcc7ae7c1f6759b51ba5f954bf15e036ec",
+      "inlineBlocks": [
+        {
+          "index": 0,
+          "tag": "script",
+          "sha256": "1b2e0b1af2fed035e8f86370da3fe28841592e21538539c4f31be6e2a271395f",
+          "bytes": 86
+        },
+        {
+          "index": 1,
+          "tag": "script",
+          "sha256": "410ed3cc1e6eb6169f3205b15981564b4ee1db4127a195a6dac2eeb878056b75",
+          "bytes": 149
+        },
+        {
+          "index": 2,
+          "tag": "script",
+          "sha256": "4df6b45b1e782e0e40b15c2a500a272b4b385c0e136befa266b921cba8f850b8",
+          "bytes": 564
+        },
+        {
+          "index": 3,
+          "tag": "style",
+          "sha256": "1805f266dbeb4f6e83689ef2af800df236e50d9106362c95c89325a443515f99",
+          "bytes": 5080
+        }
+      ],
+      "links": [
+        "https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2",
+        "https://anilaslakci.com.tr/erp-entegrasyonu/",
+        "/favicon.png",
+        "/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap",
+        "/?skipIntro=1",
+        "/portfolyo/",
+        "/?skipIntro=1",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/operasyon-otomasyon/",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/",
+        "/pazaryeri-yonetimi/",
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/operasyon-otomasyon/"
+      ]
+    },
+    {
+      "file": "favicon-48x48.png",
+      "bytes": 3117,
+      "sha256": "3fc88b6eb052b31613a42c8973cc854d3da5550f9b5962bf672a40b6570aab7b"
+    },
+    {
+      "file": "favicon-96x96.png",
+      "bytes": 6972,
+      "sha256": "a35244fab67c6854c3a70fcf4e1a3156c9bcd6c41b3cf8a0d150ce270e6e7e39"
+    },
+    {
+      "file": "favicon.ico",
+      "bytes": 33278,
+      "sha256": "04b86af269415327fa8794894426a1bf9ea941fade8c7599747c519414a7f562"
+    },
+    {
+      "file": "favicon.png",
+      "bytes": 5984,
+      "sha256": "6bf4bbc5a1b9331a6934f3b19f640fbd230c82bc975b1e4bad412a9d80a9f2ef"
+    },
+    {
+      "file": "index.html",
+      "bytes": 63153,
+      "sha256": "d4ac712631811e331966d441dc9ee46356641a97f29bccb670169fbb4c16389a",
+      "inlineBlocks": [
+        {
+          "index": 0,
+          "tag": "script",
+          "sha256": "79dbd56077da9c0897ac29558ff05e541b24717b0a3e234bfe43c8897bfda668",
+          "bytes": 89
+        },
+        {
+          "index": 1,
+          "tag": "script",
+          "sha256": "5c7cac6e00bf4f6559933fcf532d2fd493dcf495eb7b1067893f046314e95716",
+          "bytes": 174
+        },
+        {
+          "index": 2,
+          "tag": "style",
+          "sha256": "0f1c94044bd198bbbdf7b5d1165f0c865d8b8fee9d551056adbb892e08a1cf25",
+          "bytes": 15732
+        },
+        {
+          "index": 3,
+          "tag": "script",
+          "sha256": "9d754ff4596a60036c302af773f15a24818ed091f494bacd8732224a922836dc",
+          "bytes": 2666
+        },
+        {
+          "index": 4,
+          "tag": "style",
+          "sha256": "7ad8283fa6ad0ced3af8415953af426b701040a50b7022cc7e3ee1b07a2f1e0e",
+          "bytes": 210
+        },
+        {
+          "index": 5,
+          "tag": "style",
+          "sha256": "5f4e27120ee50546b78a325de23e06d08b8005a6064452e697fc244c9d801e04",
+          "bytes": 3731
+        },
+        {
+          "index": 6,
+          "tag": "style",
+          "sha256": "1b6dd583dcd2583ced6d808ce24f6e3f7e501f248f7b9c186fe3a9c5ebac148e",
+          "bytes": 7631
+        },
+        {
+          "index": 7,
+          "tag": "script",
+          "sha256": "60a635fba7a280c01faa9982ee0533c0592a32e4214f0d2f3369cfbaefa1d43b",
+          "bytes": 6020
+        }
+      ],
+      "links": [
+        "https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2",
+        "/favicon.ico",
+        "/favicon-48x48.png",
+        "/favicon-96x96.png",
+        "/favicon.png",
+        "https://anilaslakci.com.tr/",
+        "https://anilaslakci.com.tr/",
+        "https://anilaslakci.com.tr/",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=DM+Sans:wght@300;400;500&amp;display=swap",
+        "#",
+        "#hizmetler",
+        "#surec",
+        "#hakkimda",
+        "#iletisim",
+        "/portfolyo/",
+        "#hizmetler",
+        "#iletisim",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/operasyon-otomasyon/",
+        "mailto:m.anilaslakci@gmail.com",
+        "/portfolyo/",
+        "assets/mustafa-anil-aslakci.jpg",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/"
+      ]
+    },
+    {
+      "file": "operasyon-otomasyon/index.html",
+      "bytes": 14658,
+      "sha256": "0d582f146dffa08f951b9d5fea3bca07bf68f6890e570c935008642870f637a0",
+      "inlineBlocks": [
+        {
+          "index": 0,
+          "tag": "script",
+          "sha256": "1b2e0b1af2fed035e8f86370da3fe28841592e21538539c4f31be6e2a271395f",
+          "bytes": 86
+        },
+        {
+          "index": 1,
+          "tag": "script",
+          "sha256": "410ed3cc1e6eb6169f3205b15981564b4ee1db4127a195a6dac2eeb878056b75",
+          "bytes": 149
+        },
+        {
+          "index": 2,
+          "tag": "script",
+          "sha256": "0e229ef97efa6ebfb20d7495fd588743411198feb06ccfcd984908b8fa92cb25",
+          "bytes": 570
+        },
+        {
+          "index": 3,
+          "tag": "style",
+          "sha256": "1805f266dbeb4f6e83689ef2af800df236e50d9106362c95c89325a443515f99",
+          "bytes": 5080
+        }
+      ],
+      "links": [
+        "https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2",
+        "https://anilaslakci.com.tr/operasyon-otomasyon/",
+        "/favicon.png",
+        "/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap",
+        "/?skipIntro=1",
+        "/portfolyo/",
+        "/?skipIntro=1",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/operasyon-otomasyon/",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/"
+      ]
+    },
+    {
+      "file": "pazaryeri-yonetimi/index.html",
+      "bytes": 15026,
+      "sha256": "e6353b80260d3d52b3d91ae13f91ffe1215dd5a7376a3f094e48c07944b82e73",
+      "inlineBlocks": [
+        {
+          "index": 0,
+          "tag": "script",
+          "sha256": "1b2e0b1af2fed035e8f86370da3fe28841592e21538539c4f31be6e2a271395f",
+          "bytes": 86
+        },
+        {
+          "index": 1,
+          "tag": "script",
+          "sha256": "410ed3cc1e6eb6169f3205b15981564b4ee1db4127a195a6dac2eeb878056b75",
+          "bytes": 149
+        },
+        {
+          "index": 2,
+          "tag": "script",
+          "sha256": "77f47e446ff3a45dac49ee92f4b54aa9339a9e0efeaf0860947382ea30df4616",
+          "bytes": 608
+        },
+        {
+          "index": 3,
+          "tag": "style",
+          "sha256": "1805f266dbeb4f6e83689ef2af800df236e50d9106362c95c89325a443515f99",
+          "bytes": 5080
+        }
+      ],
+      "links": [
+        "https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2",
+        "https://anilaslakci.com.tr/pazaryeri-yonetimi/",
+        "/favicon.png",
+        "/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap",
+        "/?skipIntro=1",
+        "/portfolyo/",
+        "/?skipIntro=1",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/operasyon-otomasyon/",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/",
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/operasyon-otomasyon/"
+      ]
+    },
+    {
+      "file": "portfolyo/index.html",
+      "bytes": 19631972,
+      "sha256": "cfba4bf333c653fa5e9efcd30f9b37685e5fa25868516be2dde46d91650e1bb0",
+      "inlineBlocks": [
+        {
+          "index": 0,
+          "tag": "script",
+          "sha256": "79dbd56077da9c0897ac29558ff05e541b24717b0a3e234bfe43c8897bfda668",
+          "bytes": 89
+        },
+        {
+          "index": 1,
+          "tag": "script",
+          "sha256": "5c7cac6e00bf4f6559933fcf532d2fd493dcf495eb7b1067893f046314e95716",
+          "bytes": 174
+        },
+        {
+          "index": 2,
+          "tag": "script",
+          "sha256": "d40d78f16e9bde3eab976aeae033e2ca7dacf6c10117a3a4f32e1682fbcd1b9f",
+          "bytes": 993
+        },
+        {
+          "index": 3,
+          "tag": "style",
+          "sha256": "1c10f56accbbee11426f143f472cbc403f868bd0e1ce4a21d1afae4ed03a758b",
+          "bytes": 10548
+        },
+        {
+          "index": 4,
+          "tag": "script",
+          "sha256": "1732c21a67ef25748b3a4d889f97f98353ee4ea2115265ef7226d59ae7817fd7",
+          "bytes": 6380
+        }
+      ],
+      "links": [
+        "https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2",
+        "https://anilaslakci.com.tr/portfolyo/",
+        "https://anilaslakci.com.tr/",
+        "sha256:6bf4bbc5a1b9331a6934f3b19f640fbd230c82bc975b1e4bad412a9d80a9f2ef",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&amp;family=DM+Sans:wght@300;400;500;700&amp;display=swap",
+        "#",
+        "/?skipIntro=1",
+        "sha256:80f5883825e6c1766a0e09a7e2c2330e4e4f161492f1d06de9194b3b7530f7f2",
+        "sha256:4830f0c1fc5eef6f5c2f2402259d23eb65595530fb84dd1b7092296dd852bb8c",
+        "sha256:1bc9bcda5d6b8921a2f6323c436e8cd0287a12b8037dc1f64eb65ac5bd2cf7a5",
+        "sha256:fc0d35a3a387479c1550c5fa9d010f27eff4939e68b1c68ed5bc682058c2341c",
+        "sha256:b14a0935e7b1ff6e8b5675f7077fb907e11be0cf60716b851be781c439935313",
+        "sha256:1dda8075beb816cad1c6d9b288abfc09cbc60faba7b5951cb621bda64fa528a2",
+        "sha256:fccbd33cc7d61eb04e9769b90254c25533ceb3c0a6ee9c4fa58712c4f5fd24f7",
+        "sha256:9c3f42a6648339a652432f7662626bcd5ab5680847ac9b4467fb220d83cb844a",
+        "sha256:03deb5c9e5b372c32a5234c623e2407fa41e76474f4259d8cd7e4dc9b3a8d484",
+        "sha256:df231ef4a346f221977f0f86f9e677624d15dd6d3d93fdd1fdba94a341935d7f",
+        "sha256:3e847228f1c04c15e7923e2d3b0d3ae76262b72ddd8e585ad8af648bc9bdf458",
+        "sha256:bc35d659bbc5dde344096d008dca8743b8057d91c15dfd73c24a2c1388b981c9",
+        "sha256:758d45ffe0757781b6948b739eed97a91a72560748f0a8127beb0d8c780a6b4a",
+        "sha256:3b423dc4ed05db9c2b76062ee4cdea19316a6126a8ffd8a6716acb7f4e22a79b",
+        "sha256:a0278b6827ab40580dd6efa3b61c846b127aaf6951689b95981e5656a40bffad",
+        "sha256:6bb2a673e70f17d1bac727d27890306fdaabec90e8672f8e91a2394fdc4c81f1",
+        "sha256:f4a332232e4995974aaf5cb4c7432b844f385a4e24c78f17f0fafa09db841c1f",
+        "sha256:e2f9ad8cc85dd3ea2e09abfd781c9fc88a7a44f461ae245980a5bd5af7db3cd7",
+        "sha256:3c5013ed67018a804e6f2730cc0e5b783fb4fec06e90ccc947329276564622ce",
+        "sha256:68156f152317b6b2deb9c945a9146dcabe29387148605cb89400054a99111dd3",
+        "sha256:77b28e96adbd97b1328f88fa67384c14571c00047026bee5007429d3fb1c8992",
+        "sha256:550549b597568c97b67ff1f318c84d3832f5472b103c382e3bc19665d8dc1862",
+        "sha256:c358fe129d4a098733009395c9cfe792cd97535748877fec9a18acc3b47af315",
+        "sha256:43eee0e1488d4a31a25e1a7ea29f7340b69f5a6d7022db28455c0be04f847ed7",
+        "sha256:b929c72f4fb5cbcfa40c0da91c8d543f7d2df399cd33a4bf7016ae2a5adea760",
+        "sha256:c25627c29e1d16d648990fa94a77fc1e5e92fb5118b928448d4f5c8c21cf43a8",
+        "sha256:640c581c8b8fcd01c12de4b8830e6f286cd71fc3d50f4d7068f80e5d482d7868",
+        "sha256:168bf476df0b003b4832304cb83ac3f09e3c7241667c78a6c774ed6125150741",
+        "sha256:579e61b1b5ed3323b09bf093449d494da39a585f6e11fca782f4d67530107ea7",
+        "sha256:cfc03e7a07b165f264c7f0a949e4b421d6cc85eff9fa762a0101225d7467ce70",
+        "sha256:a4558b50a5e6b641fd881cc273f399db0f78838da7dd20d68abac118bdd28a79",
+        "sha256:fe8ed3c1243cc19ff90872ab77783023e2b45a92a784dde34d0d8d6f60e50ee4",
+        "sha256:b0a09b8bc5cc6f72b448026acceec3451f22670d98b1176afa290ad879098aa8",
+        "sha256:707bd9dd832c379edd8664ce08989e2a6e6ee71a167d3272204f256af86ac951",
+        "sha256:0f6d4bc735092254c63c79f7c88176a7a5435bafeca08d383192c7a6756d0a7a",
+        "sha256:d2667ae1708b0e9ce6743ac965a662c354788c0a0ab3f5c2ea51968e567788ef",
+        "sha256:73d31227b45496a2b46d88453412dd04a2ccf18e38cc1fa357fe1f8749d09a70",
+        "sha256:85c14651f89422a9933672ea060af16b430e75cb4c6be2f30e3a75dfe68cb523",
+        "sha256:31be95f7f3670f8d7fe4c3dfa2db7426288c73b318b77c83dfbf424faa492598",
+        "sha256:49244409ae6fb8648fee251d73a330b126edc450fb79a2d63770f4c62a9478e2",
+        "sha256:9c6cf923a9137d0b5b33a8f2575fb09042c1686983b528bb67124d65ac501efc",
+        "sha256:b946bf8f1d273189e2533c784f74bdb72656728aa8ccd39a57daf406f69f6100",
+        "sha256:e538928ba726646de6d94e409e06c8e9249bb5ab4900930fc832d545332a0691",
+        "sha256:a16a24ca37219125cb94222eeb7ad974c2bc9d075fabc9ba93cd7b9d87fdae48",
+        "sha256:7b962f98e36fc8a146c0ae743e8fed7a85ce95e802a156a5e12e3385517d3319",
+        "sha256:e2038f92bcdb82c54da91d31b9a7781097805dfa1c2d73ad168d5039d1dd13f3",
+        "sha256:0d6b69d7404788c395887930f029d0d0654a0508d6297d26ae7f0e760b93d8b0",
+        "sha256:6b84fcc0c01a96aeffddbaad4f8576e40d79399ae92ad37a46d45cd92e2b345c",
+        "sha256:9c3a3a2e6f103a9668202ac9e01ec2651b5d57f08eda6df4b8a83d7a9567db1a",
+        "sha256:d81c80b29433114071ae43ed8fa42e90296c80cac28524bda013c9be3192a060",
+        "sha256:14a6538aee6cf0b67e859438591e99e76f0028365b644bdedca8da1544f6f4fd",
+        "sha256:9452294099332a85c3413072ebc03f934d53c147c94a1743480f33ef5c0992d8",
+        "sha256:7977a93bcf5a7bdd5efd4bcaa42d630287bd279546a95c341fdc9501eb7f7815",
+        "sha256:ca76103db2f8e33483c7ff015640da210f9ca2f582c3a48bf1c37205cf00b009",
+        "sha256:907934bc9b5ee78967fc629a2c8362b111f2539f5aa1b562f22e2d16e4d9e43d",
+        "sha256:067cd08723766522d48faa3f1ce56777fd9fe98d45f844fff9027a19edf278df",
+        "sha256:c24c669b3ca979002ef464bfb98ba29ac0119349c5cd5aec578b7d74c5fa4678",
+        "sha256:c257897d7d7d2cb2d980341463e4c55a397acd0b31e25f100a9ab932763187e5",
+        "sha256:d26d66a35c7049cf8d8557aac29cb0af33ab7020417d71b0cda74118412cfc05",
+        "sha256:95275684b8c8e4b8311c1e72f8648c58d9e38b7122b71deeae692c9d2a501434",
+        "sha256:d5e58518a5b18cd52d17e5d0e85f1100ad5250621570778ed8e9e0a4882eb872",
+        "sha256:bbed402daab013bc234683c4a78b9e60860534388aa9cbc0580db6eef474489a",
+        "sha256:24bac071dc60b152554b14ff7f4452828519842997e002aa3e951fd637762597",
+        "sha256:67ba8e4e165ba34332ed03d21a2bbf137542eca97092158ed68fecfc880963f3",
+        "sha256:caa92c430e7ad0b8dad5ff892894920062b460a19c86e3ea3b7f2cb22e456dcb",
+        "sha256:8c287b4e062aa584bc31a7539e356454cdf4fdcf3514c649c11d77ab5ad7aac3",
+        "sha256:80f5883825e6c1766a0e09a7e2c2330e4e4f161492f1d06de9194b3b7530f7f2",
+        "sha256:4830f0c1fc5eef6f5c2f2402259d23eb65595530fb84dd1b7092296dd852bb8c",
+        "sha256:1bc9bcda5d6b8921a2f6323c436e8cd0287a12b8037dc1f64eb65ac5bd2cf7a5",
+        "sha256:fc0d35a3a387479c1550c5fa9d010f27eff4939e68b1c68ed5bc682058c2341c",
+        "sha256:b14a0935e7b1ff6e8b5675f7077fb907e11be0cf60716b851be781c439935313",
+        "sha256:1dda8075beb816cad1c6d9b288abfc09cbc60faba7b5951cb621bda64fa528a2",
+        "sha256:fccbd33cc7d61eb04e9769b90254c25533ceb3c0a6ee9c4fa58712c4f5fd24f7",
+        "sha256:9c3f42a6648339a652432f7662626bcd5ab5680847ac9b4467fb220d83cb844a",
+        "sha256:03deb5c9e5b372c32a5234c623e2407fa41e76474f4259d8cd7e4dc9b3a8d484",
+        "sha256:df231ef4a346f221977f0f86f9e677624d15dd6d3d93fdd1fdba94a341935d7f",
+        "sha256:3e847228f1c04c15e7923e2d3b0d3ae76262b72ddd8e585ad8af648bc9bdf458",
+        "sha256:bc35d659bbc5dde344096d008dca8743b8057d91c15dfd73c24a2c1388b981c9",
+        "sha256:758d45ffe0757781b6948b739eed97a91a72560748f0a8127beb0d8c780a6b4a",
+        "sha256:3b423dc4ed05db9c2b76062ee4cdea19316a6126a8ffd8a6716acb7f4e22a79b",
+        "sha256:a0278b6827ab40580dd6efa3b61c846b127aaf6951689b95981e5656a40bffad",
+        "sha256:6bb2a673e70f17d1bac727d27890306fdaabec90e8672f8e91a2394fdc4c81f1",
+        "sha256:f4a332232e4995974aaf5cb4c7432b844f385a4e24c78f17f0fafa09db841c1f",
+        "sha256:e2f9ad8cc85dd3ea2e09abfd781c9fc88a7a44f461ae245980a5bd5af7db3cd7",
+        "sha256:3c5013ed67018a804e6f2730cc0e5b783fb4fec06e90ccc947329276564622ce",
+        "sha256:68156f152317b6b2deb9c945a9146dcabe29387148605cb89400054a99111dd3",
+        "sha256:77b28e96adbd97b1328f88fa67384c14571c00047026bee5007429d3fb1c8992",
+        "sha256:550549b597568c97b67ff1f318c84d3832f5472b103c382e3bc19665d8dc1862",
+        "sha256:c358fe129d4a098733009395c9cfe792cd97535748877fec9a18acc3b47af315",
+        "sha256:43eee0e1488d4a31a25e1a7ea29f7340b69f5a6d7022db28455c0be04f847ed7",
+        "sha256:b929c72f4fb5cbcfa40c0da91c8d543f7d2df399cd33a4bf7016ae2a5adea760",
+        "sha256:c25627c29e1d16d648990fa94a77fc1e5e92fb5118b928448d4f5c8c21cf43a8",
+        "sha256:640c581c8b8fcd01c12de4b8830e6f286cd71fc3d50f4d7068f80e5d482d7868",
+        "sha256:168bf476df0b003b4832304cb83ac3f09e3c7241667c78a6c774ed6125150741",
+        "sha256:579e61b1b5ed3323b09bf093449d494da39a585f6e11fca782f4d67530107ea7",
+        "sha256:cfc03e7a07b165f264c7f0a949e4b421d6cc85eff9fa762a0101225d7467ce70",
+        "sha256:a4558b50a5e6b641fd881cc273f399db0f78838da7dd20d68abac118bdd28a79",
+        "sha256:fe8ed3c1243cc19ff90872ab77783023e2b45a92a784dde34d0d8d6f60e50ee4",
+        "sha256:b0a09b8bc5cc6f72b448026acceec3451f22670d98b1176afa290ad879098aa8",
+        "sha256:707bd9dd832c379edd8664ce08989e2a6e6ee71a167d3272204f256af86ac951",
+        "sha256:0f6d4bc735092254c63c79f7c88176a7a5435bafeca08d383192c7a6756d0a7a",
+        "sha256:d2667ae1708b0e9ce6743ac965a662c354788c0a0ab3f5c2ea51968e567788ef",
+        "sha256:73d31227b45496a2b46d88453412dd04a2ccf18e38cc1fa357fe1f8749d09a70",
+        "sha256:85c14651f89422a9933672ea060af16b430e75cb4c6be2f30e3a75dfe68cb523",
+        "sha256:31be95f7f3670f8d7fe4c3dfa2db7426288c73b318b77c83dfbf424faa492598",
+        "sha256:49244409ae6fb8648fee251d73a330b126edc450fb79a2d63770f4c62a9478e2",
+        "sha256:9c6cf923a9137d0b5b33a8f2575fb09042c1686983b528bb67124d65ac501efc",
+        "sha256:b946bf8f1d273189e2533c784f74bdb72656728aa8ccd39a57daf406f69f6100",
+        "sha256:e538928ba726646de6d94e409e06c8e9249bb5ab4900930fc832d545332a0691",
+        "sha256:a16a24ca37219125cb94222eeb7ad974c2bc9d075fabc9ba93cd7b9d87fdae48",
+        "sha256:7b962f98e36fc8a146c0ae743e8fed7a85ce95e802a156a5e12e3385517d3319",
+        "sha256:e2038f92bcdb82c54da91d31b9a7781097805dfa1c2d73ad168d5039d1dd13f3",
+        "sha256:0d6b69d7404788c395887930f029d0d0654a0508d6297d26ae7f0e760b93d8b0",
+        "sha256:6b84fcc0c01a96aeffddbaad4f8576e40d79399ae92ad37a46d45cd92e2b345c",
+        "sha256:9c3a3a2e6f103a9668202ac9e01ec2651b5d57f08eda6df4b8a83d7a9567db1a",
+        "sha256:d81c80b29433114071ae43ed8fa42e90296c80cac28524bda013c9be3192a060",
+        "sha256:14a6538aee6cf0b67e859438591e99e76f0028365b644bdedca8da1544f6f4fd",
+        "sha256:9452294099332a85c3413072ebc03f934d53c147c94a1743480f33ef5c0992d8",
+        "sha256:7977a93bcf5a7bdd5efd4bcaa42d630287bd279546a95c341fdc9501eb7f7815",
+        "sha256:ca76103db2f8e33483c7ff015640da210f9ca2f582c3a48bf1c37205cf00b009",
+        "sha256:907934bc9b5ee78967fc629a2c8362b111f2539f5aa1b562f22e2d16e4d9e43d",
+        "sha256:067cd08723766522d48faa3f1ce56777fd9fe98d45f844fff9027a19edf278df",
+        "sha256:c24c669b3ca979002ef464bfb98ba29ac0119349c5cd5aec578b7d74c5fa4678",
+        "sha256:c257897d7d7d2cb2d980341463e4c55a397acd0b31e25f100a9ab932763187e5",
+        "sha256:d26d66a35c7049cf8d8557aac29cb0af33ab7020417d71b0cda74118412cfc05",
+        "sha256:95275684b8c8e4b8311c1e72f8648c58d9e38b7122b71deeae692c9d2a501434",
+        "sha256:d5e58518a5b18cd52d17e5d0e85f1100ad5250621570778ed8e9e0a4882eb872",
+        "sha256:bbed402daab013bc234683c4a78b9e60860534388aa9cbc0580db6eef474489a",
+        "sha256:24bac071dc60b152554b14ff7f4452828519842997e002aa3e951fd637762597",
+        "sha256:67ba8e4e165ba34332ed03d21a2bbf137542eca97092158ed68fecfc880963f3",
+        "sha256:caa92c430e7ad0b8dad5ff892894920062b460a19c86e3ea3b7f2cb22e456dcb",
+        "sha256:8c287b4e062aa584bc31a7539e356454cdf4fdcf3514c649c11d77ab5ad7aac3"
+      ]
+    },
+    {
+      "file": "reklam-kampanya-yonetimi/index.html",
+      "bytes": 14430,
+      "sha256": "cf4c546cdbcff82ca4c7c5ce7edb6365f31aa8edbcb60cc895784e31d2e05650",
+      "inlineBlocks": [
+        {
+          "index": 0,
+          "tag": "script",
+          "sha256": "1b2e0b1af2fed035e8f86370da3fe28841592e21538539c4f31be6e2a271395f",
+          "bytes": 86
+        },
+        {
+          "index": 1,
+          "tag": "script",
+          "sha256": "410ed3cc1e6eb6169f3205b15981564b4ee1db4127a195a6dac2eeb878056b75",
+          "bytes": 149
+        },
+        {
+          "index": 2,
+          "tag": "script",
+          "sha256": "93a3c782e276fba24f1f62539cdcbd5d680934c1f5d15ca8129fd9652d2fc797",
+          "bytes": 602
+        },
+        {
+          "index": 3,
+          "tag": "style",
+          "sha256": "1805f266dbeb4f6e83689ef2af800df236e50d9106362c95c89325a443515f99",
+          "bytes": 5080
+        }
+      ],
+      "links": [
+        "https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2",
+        "https://anilaslakci.com.tr/reklam-kampanya-yonetimi/",
+        "/favicon.png",
+        "/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap",
+        "/?skipIntro=1",
+        "/portfolyo/",
+        "/?skipIntro=1",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/operasyon-otomasyon/",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/operasyon-otomasyon/"
+      ]
+    },
+    {
+      "file": "robots.txt",
+      "bytes": 76,
+      "sha256": "48d35c4a4e5743bbaacbd21f7c930d1c28aa28787128f453ae8610c6311e4788"
+    },
+    {
+      "file": "sitemap.xml",
+      "bytes": 1349,
+      "sha256": "1e71eb6017d0e2e92889decda7a9a0c493692d97c5e704cf46234f15d9c4d5f2"
+    },
+    {
+      "file": "veri-analizi-raporlama/index.html",
+      "bytes": 14367,
+      "sha256": "904eefa2cbdf9a9b47f54360a9212a168ca10e4adfb8e3d2ddd374a6dad29f13",
+      "inlineBlocks": [
+        {
+          "index": 0,
+          "tag": "script",
+          "sha256": "1b2e0b1af2fed035e8f86370da3fe28841592e21538539c4f31be6e2a271395f",
+          "bytes": 86
+        },
+        {
+          "index": 1,
+          "tag": "script",
+          "sha256": "410ed3cc1e6eb6169f3205b15981564b4ee1db4127a195a6dac2eeb878056b75",
+          "bytes": 149
+        },
+        {
+          "index": 2,
+          "tag": "script",
+          "sha256": "e12dc3a9387947c251dc1be41fed74f8172d99af964c4e449cefe586adb63fab",
+          "bytes": 586
+        },
+        {
+          "index": 3,
+          "tag": "style",
+          "sha256": "1805f266dbeb4f6e83689ef2af800df236e50d9106362c95c89325a443515f99",
+          "bytes": 5080
+        }
+      ],
+      "links": [
+        "https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2",
+        "https://anilaslakci.com.tr/veri-analizi-raporlama/",
+        "/favicon.png",
+        "/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap",
+        "/?skipIntro=1",
+        "/portfolyo/",
+        "/?skipIntro=1",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/operasyon-otomasyon/",
+        "mailto:m.anilaslakci@gmail.com",
+        "https://www.linkedin.com/in/m-a-aslakci/",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/operasyon-otomasyon/"
+      ]
+    }
+  ]
+}

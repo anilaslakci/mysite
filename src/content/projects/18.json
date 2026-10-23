@@ -1,0 +1,75 @@
+{
+  "id": 18,
+  "order": 18,
+  "category": "operations",
+  "tr": {
+    "title": "SSH Depo Takip ve Sevk Süreci Uygulaması",
+    "summary": "SSH, uydu depo ve sevk depoları arasındaki yedek parça bildirimlerini Excel yükleme, rol bazlı işlem ve canlı statü takibiyle yöneten web tabanlı iç operasyon uygulaması.",
+    "intro": "SSH birimi, uydu depo ve şehir depoları arasındaki yedek parça sürecini tek ekranda takip etmek için geliştirilen web tabanlı iç operasyon uygulaması.",
+    "problem": "SSH birimi üç ayrı Excel şablonuyla gelen panel, aksesuar ve koltuk yedek parça taleplerini takip ediyordu. Bildirimlerin üretimde, uydu depoda, sevkte, kargoda veya teslim aşamasında nerede olduğu herkes tarafından aynı anda görülemiyor; tekrar yüklenen Excel dosyaları ve farklı depo yetkileri süreci zorlaştırıyordu.",
+    "solution": "Excel yükleme, bildirim numarası bazlı tekil kayıt kontrolü, rol bazlı kullanıcı yetkileri, depo/kargo/süreç ayarları, toplu statü güncelleme, sevk-kargo ayrımı, depo bazlı görünürlük, not sistemi, işlem geçmişi ve özet yazdırma özelliklerini içeren Flask tabanlı bir takip paneli geliştirildi.",
+    "impact": "SSH, uydu depo, sevk deposu, admin ve misafir kullanıcıları aynı canlı takip ekranı üzerinden süreci izleyebiliyor. Hangi bildirimde kim, ne zaman, hangi işlemi yaptı loglanıyor; Excel tekrar yüklemelerinde mevcut bildirimler atlanırken yeni veya düzeltilmiş satırlar içeri alınabiliyor.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "SQLite",
+      "Excel",
+      "Yerel Ağ"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Flask",
+      "SQLite",
+      "Excel Import",
+      "Rol Bazlı Yetki",
+      "Yerel Ağ Sunucusu"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "After-Sales Warehouse Tracking and Shipment Workflow App",
+    "summary": "Web-based internal operations app that manages spare-part notifications across after-sales, satellite warehouse, and regional warehouses with Excel import, role-based actions, and live status tracking.",
+    "intro": "Web-based internal operations app built to track spare-part notifications across after-sales, satellite warehouse, and regional warehouses from a single interface.",
+    "problem": "The after-sales team was managing panel, accessory, and chair spare-part requests through three separate Excel templates. Teams could not see the exact live stage of each notification across production, satellite warehouse, shipment, cargo, and final warehouse delivery, while duplicate imports and different warehouse permissions added operational friction.",
+    "solution": "A Flask-based tracking dashboard was developed with Excel import, notification-number uniqueness checks, role-based user permissions, configurable depots, carriers and statuses, bulk status updates, shipment/cargo routing, warehouse-specific visibility, notes, audit logs, Excel export, and print-ready notification summaries.",
+    "impact": "After-sales, satellite warehouse, regional warehouse, admin, and guest users can now follow the process from one live dashboard. Every action is logged with user and timestamp details; duplicate Excel rows are skipped while new or corrected rows can still be imported safely.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "SQLite",
+      "Excel",
+      "Local Network"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Flask",
+      "SQLite",
+      "Excel Import",
+      "Role-Based Access",
+      "Local Network Server"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/c24c669b3ca979002ef464bfb98ba29ac0119349c5cd5aec578b7d74c5fa4678.png",
+      "altTR": "SSH Depo Takip ve Sevk Süreci Uygulaması 1",
+      "altEN": "After-Sales Warehouse Tracking and Shipment Workflow App 1"
+    },
+    {
+      "file": "/assets/portfolio/c257897d7d7d2cb2d980341463e4c55a397acd0b31e25f100a9ab932763187e5.png",
+      "altTR": "SSH Depo Takip ve Sevk Süreci Uygulaması 2",
+      "altEN": "After-Sales Warehouse Tracking and Shipment Workflow App 2"
+    },
+    {
+      "file": "/assets/portfolio/d26d66a35c7049cf8d8557aac29cb0af33ab7020417d71b0cda74118412cfc05.png",
+      "altTR": "SSH Depo Takip ve Sevk Süreci Uygulaması 3",
+      "altEN": "After-Sales Warehouse Tracking and Shipment Workflow App 3"
+    }
+  ],
+  "links": []
+}

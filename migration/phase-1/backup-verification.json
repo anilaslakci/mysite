@@ -1,0 +1,21 @@
+{
+  "baselineCommit": "63c3f30b2d1af4fc178ccac295aaf0ae89adaabf",
+  "snapshotFilesVerified": 18,
+  "archiveExtractAndHashCheck": true,
+  "bundleIndependentClone": true,
+  "bundleFsckFull": true,
+  "initialShallowBundleRestoreFailed": true,
+  "shallowHistoryCompleted": true,
+  "files": [
+    {
+      "file": ".migration-backups/phase-1-recovery.zip",
+      "bytes": 36043187,
+      "sha256": "9e01ef1016ab16ddbeec32f6512dd2b539d270e927c7eb5cd118ac72871da5c0"
+    },
+    {
+      "file": ".migration-backups/phase-1/history-complete.bundle",
+      "bytes": 21712012,
+      "sha256": "2cfec7b7a2fa4aa5c424c64847cf3494665703cf480e91b742596e50cc5123b2"
+    }
+  ]
+}

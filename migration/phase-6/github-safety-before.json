@@ -1,0 +1,26 @@
+{
+  "checksPassed": true,
+  "defaultBranch": "main",
+  "remoteMain": "63c3f30b2d1af4fc178ccac295aaf0ae89adaabf",
+  "remoteDevelopment": "aaccc05e4465cab6b5dec6a11338384d657cdd4e",
+  "pages": {
+    "status": "built",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "build_type": "legacy",
+    "cname": "anilaslakci.com.tr",
+    "https_enforced": true
+  },
+  "workflowPaths": [
+    "dynamic/pages/pages-build-deployment"
+  ],
+  "repositoryHookCount": 0,
+  "developmentWorkflowRuns": 0,
+  "latestDeployment": {
+    "sha": "63c3f30b2d1af4fc178ccac295aaf0ae89adaabf",
+    "ref": "main",
+    "created_at": "2026-08-26T08:20:48Z"
+  }
+}

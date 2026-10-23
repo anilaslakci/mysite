@@ -1,0 +1,65 @@
+{
+  "id": 7,
+  "order": 7,
+  "category": "marketplace",
+  "tr": {
+    "title": "Pazaryeri Desi & Lojistik Uyarı Eklentisi",
+    "summary": "Pazaryeri sipariş ekranlarında ürün barkodu ve desi bilgisini okuyarak lojistik yönlendirme uyarısı veren Tampermonkey tabanlı eklenti.",
+    "intro": "Pazaryeri sipariş ekranlarında ürün barkodu ve desi bilgisini okuyarak lojistik yönlendirme uyarısı veren Tampermonkey tabanlı eklenti.",
+    "problem": "Yüksek desili ürünlerin lojistik firmalarına yönlendirilmesi gerekiyordu; yüzlerce siparişte desi kontrolünü tek tek yapmak operasyonu yavaşlatıyordu.",
+    "solution": "Trendyol, Hepsiburada ve Koçtaş sipariş sayfalarında otomatik devreye giren eklenti, barkodları okuyup desi hesabı yapıyor. Eşiği aşan siparişler 'HorozYap' uyarısıyla işaretlenip mouse otomasyonuyla lojistik akışına yönlendiriliyor.",
+    "impact": "Operasyon ekibi tek tek desi kontrolü yerine sadece işaretlenen siparişlere odaklanıyor; yanlış kargo yönlendirmesi riski ortadan kalktı.",
+    "technologies": [
+      "JavaScript",
+      "Tampermonkey",
+      "Web Scraping"
+    ],
+    "detailTechnologies": [
+      "JavaScript",
+      "Tampermonkey",
+      "Web Scraping"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "Marketplace Desi & Freight Routing Extension",
+    "summary": "Tampermonkey-based extension that reads barcode and volumetric-weight data on marketplace order screens and flags freight routing.",
+    "intro": "Tampermonkey-based extension that reads barcode and volumetric-weight data on marketplace order screens and flags freight routing.",
+    "problem": "High volumetric-weight products needed to ship via freight carriers instead of standard courier, but checking the desi of every product across hundreds of orders manually slowed operations.",
+    "solution": "Activating automatically on Trendyol, Hepsiburada, and Koçtaş order pages, the extension reads barcodes and calculates desi. Orders exceeding the threshold are flagged with a 'Route to Freight' indicator and mouse automation routes the order to the freight workflow in one click.",
+    "impact": "The team now focuses only on flagged orders instead of checking desi one by one, eliminating the risk of misrouted shipments.",
+    "technologies": [
+      "JavaScript",
+      "Tampermonkey",
+      "Web Scraping"
+    ],
+    "detailTechnologies": [
+      "JavaScript",
+      "Tampermonkey",
+      "Web Scraping"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/6bb2a673e70f17d1bac727d27890306fdaabec90e8672f8e91a2394fdc4c81f1.png",
+      "altTR": "Pazaryeri Desi & Lojistik Uyarı Eklentisi 1",
+      "altEN": "Marketplace Desi & Freight Routing Extension 1"
+    },
+    {
+      "file": "/assets/portfolio/f4a332232e4995974aaf5cb4c7432b844f385a4e24c78f17f0fafa09db841c1f.png",
+      "altTR": "Pazaryeri Desi & Lojistik Uyarı Eklentisi 2",
+      "altEN": "Marketplace Desi & Freight Routing Extension 2"
+    },
+    {
+      "file": "/assets/portfolio/e2f9ad8cc85dd3ea2e09abfd781c9fc88a7a44f461ae245980a5bd5af7db3cd7.png",
+      "altTR": "Pazaryeri Desi & Lojistik Uyarı Eklentisi 3",
+      "altEN": "Marketplace Desi & Freight Routing Extension 3"
+    }
+  ],
+  "links": []
+}

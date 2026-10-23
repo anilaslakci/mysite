@@ -1,0 +1,103 @@
+{
+  "passed": 24,
+  "failed": 0,
+  "eleventy": "3.1.7",
+  "checks": [
+    {
+      "name": "All 102 phase-1 tracked files remain unchanged from extraction baseline",
+      "passed": true
+    },
+    {
+      "name": "Exactly eight HTML output files at the original paths",
+      "passed": true
+    },
+    {
+      "name": "index.html: entire HTML restored exactly after external-asset substitution",
+      "passed": true
+    },
+    {
+      "name": "index.html: title, description, canonical and JSON-LD preserved",
+      "passed": true
+    },
+    {
+      "name": "portfolyo/index.html: entire HTML restored exactly after external-asset substitution",
+      "passed": true
+    },
+    {
+      "name": "portfolyo/index.html: title, description, canonical and JSON-LD preserved",
+      "passed": true
+    },
+    {
+      "name": "pazaryeri-yonetimi/index.html: entire HTML restored exactly after external-asset substitution",
+      "passed": true
+    },
+    {
+      "name": "pazaryeri-yonetimi/index.html: title, description, canonical and JSON-LD preserved",
+      "passed": true
+    },
+    {
+      "name": "erp-entegrasyonu/index.html: entire HTML restored exactly after external-asset substitution",
+      "passed": true
+    },
+    {
+      "name": "erp-entegrasyonu/index.html: title, description, canonical and JSON-LD preserved",
+      "passed": true
+    },
+    {
+      "name": "reklam-kampanya-yonetimi/index.html: entire HTML restored exactly after external-asset substitution",
+      "passed": true
+    },
+    {
+      "name": "reklam-kampanya-yonetimi/index.html: title, description, canonical and JSON-LD preserved",
+      "passed": true
+    },
+    {
+      "name": "e-ticaret-sitesi-yonetimi/index.html: entire HTML restored exactly after external-asset substitution",
+      "passed": true
+    },
+    {
+      "name": "e-ticaret-sitesi-yonetimi/index.html: title, description, canonical and JSON-LD preserved",
+      "passed": true
+    },
+    {
+      "name": "veri-analizi-raporlama/index.html: entire HTML restored exactly after external-asset substitution",
+      "passed": true
+    },
+    {
+      "name": "veri-analizi-raporlama/index.html: title, description, canonical and JSON-LD preserved",
+      "passed": true
+    },
+    {
+      "name": "operasyon-otomasyon/index.html: entire HTML restored exactly after external-asset substitution",
+      "passed": true
+    },
+    {
+      "name": "operasyon-otomasyon/index.html: title, description, canonical and JSON-LD preserved",
+      "passed": true
+    },
+    {
+      "name": "All 67 extracted images retain original SHA-256",
+      "passed": true
+    },
+    {
+      "name": "21 projects, 42 cards, 42 modals; every TR/EN card and modal exactly preserved",
+      "passed": true
+    },
+    {
+      "name": "All legacy media, favicon and SEO files copied byte-for-byte",
+      "passed": true
+    },
+    {
+      "name": "Internal HTML, CSS and JS links resolve; fragment IDs preserved",
+      "passed": true
+    },
+    {
+      "name": "Six services use the shared layout, four partials and a single CSS file",
+      "passed": true
+    },
+    {
+      "name": "Only intended public files are output; no migration records, backups or CMS/blog",
+      "passed": true
+    }
+  ]
+}

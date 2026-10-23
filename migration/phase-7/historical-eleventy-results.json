@@ -1,0 +1,25 @@
+{
+  "passed": 19,
+  "failed": 0,
+  "checks": [
+    "All phase-1 original tracked files remain unchanged",
+    "index.html: original SEO retained",
+    "index.html: full Turkish visible content preserved",
+    "portfolyo/index.html: original SEO retained",
+    "pazaryeri-yonetimi/index.html: original SEO retained",
+    "pazaryeri-yonetimi/index.html: full Turkish visible content preserved",
+    "erp-entegrasyonu/index.html: original SEO retained",
+    "erp-entegrasyonu/index.html: full Turkish visible content preserved",
+    "reklam-kampanya-yonetimi/index.html: original SEO retained",
+    "reklam-kampanya-yonetimi/index.html: full Turkish visible content preserved",
+    "e-ticaret-sitesi-yonetimi/index.html: original SEO retained",
+    "e-ticaret-sitesi-yonetimi/index.html: full Turkish visible content preserved",
+    "veri-analizi-raporlama/index.html: original SEO retained",
+    "veri-analizi-raporlama/index.html: full Turkish visible content preserved",
+    "operasyon-otomasyon/index.html: original SEO retained",
+    "operasyon-otomasyon/index.html: full Turkish visible content preserved",
+    "67 source/output image SHA-256 values preserved",
+    "42 cards and modals split across two independent language URLs",
+    "Six services share one layout and stylesheet"
+  ]
+}

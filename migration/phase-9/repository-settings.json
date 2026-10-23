@@ -1,0 +1,30 @@
+{
+  "deployFlag": "absent",
+  "environment": {
+    "name": "github-pages",
+    "protection_rules": [
+      {
+        "id": 57468273,
+        "node_id": "GA_kwDOS8P8hs4DbOVx",
+        "type": "branch_policy"
+      }
+    ],
+    "deployment_branch_policy": {
+      "protected_branches": false,
+      "custom_branch_policies": true
+    }
+  },
+  "deploymentBranchPolicies": [
+    {
+      "name": "main",
+      "type": "branch"
+    }
+  ],
+  "dns": [
+    "185.199.109.153",
+    "185.199.111.153",
+    "185.199.108.153",
+    "185.199.110.153"
+  ],
+  "liveHTTPSStatus": 200
+}

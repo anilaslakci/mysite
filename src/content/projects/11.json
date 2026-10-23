@@ -1,0 +1,88 @@
+{
+  "id": 11,
+  "order": 11,
+  "category": "entertainment",
+  "tr": {
+    "title": "İpucuk — Türkçe Kelime Tahmin Oyunu",
+    "summary": "Wordle mantığıyla geliştirilen, dört farklı oyun modu ve gerçek zamanlı oda sistemi içeren Türkçe kelime oyunu.",
+    "intro": "Wordle mantığıyla geliştirilen, dört farklı oyun modu ve gerçek zamanlı oda sistemi içeren Türkçe kelime oyunu.",
+    "problem": "Wordle'ın Türkçe karşılığı olan, arkadaşlarla gerçek zamanlı oynanabilen ve farklı oyun tarzlarına hitap eden bir versiyon yoktu.",
+    "solution": "Günlük Yarış, Challenge, Oda Modu (gerçek zamanlı chat) ve Klasik olmak üzere dört mod geliştirildi. Oyun kişisel bilgisayar üzerinden cloudflared tüneliyle ipucuk.com.tr'ye bağlandı.",
+    "impact": "Yüzlerce kullanıcı tarafından oynanan, kendi domaini ve gerçek zamanlı çok oyunculu altyapısı olan tam kapsamlı bir web oyunu uçtan uca geliştirilip yayına alındı.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket",
+      "Cloudflared"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket",
+      "Cloudflared"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz.",
+    "legacyModalTail": ""
+  },
+  "en": {
+    "title": "İpucuk — Turkish Word Guessing Game",
+    "summary": "Wordle-inspired Turkish word game with four distinct modes and real-time multiplayer rooms.",
+    "intro": "Wordle-inspired Turkish word game with four distinct modes and real-time multiplayer rooms.",
+    "problem": "There was no Turkish-language equivalent of Wordle that supported real-time play with friends across multiple game styles — so one was built from scratch.",
+    "solution": "Four modes were built: Daily Race (same word for everyone, leaderboard), Challenge (most words in three minutes), Room Mode (private rooms with real-time chat), and Classic (six guesses). Self-hosted via a Cloudflare tunnel under the ipucuk.com.tr domain.",
+    "impact": "A fully self-built web game with its own domain and real-time multiplayer infrastructure, played by hundreds of users.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket",
+      "Cloudflared"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "WebSocket",
+      "Cloudflared"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it.",
+    "legacyModalTail": ""
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/707bd9dd832c379edd8664ce08989e2a6e6ee71a167d3272204f256af86ac951.png",
+      "altTR": "İpucuk — Türkçe Kelime Tahmin Oyunu 1",
+      "altEN": "İpucuk — Turkish Word Guessing Game 1"
+    },
+    {
+      "file": "/assets/portfolio/0f6d4bc735092254c63c79f7c88176a7a5435bafeca08d383192c7a6756d0a7a.png",
+      "altTR": "İpucuk — Türkçe Kelime Tahmin Oyunu 2",
+      "altEN": "İpucuk — Turkish Word Guessing Game 2"
+    },
+    {
+      "file": "/assets/portfolio/d2667ae1708b0e9ce6743ac965a662c354788c0a0ab3f5c2ea51968e567788ef.png",
+      "altTR": "İpucuk — Türkçe Kelime Tahmin Oyunu 3",
+      "altEN": "İpucuk — Turkish Word Guessing Game 3"
+    },
+    {
+      "file": "/assets/portfolio/73d31227b45496a2b46d88453412dd04a2ccf18e38cc1fa357fe1f8749d09a70.png",
+      "altTR": "İpucuk — Türkçe Kelime Tahmin Oyunu 4",
+      "altEN": "İpucuk — Turkish Word Guessing Game 4"
+    },
+    {
+      "file": "/assets/portfolio/85c14651f89422a9933672ea060af16b430e75cb4c6be2f30e3a75dfe68cb523.png",
+      "altTR": "İpucuk — Türkçe Kelime Tahmin Oyunu 5",
+      "altEN": "İpucuk — Turkish Word Guessing Game 5"
+    },
+    {
+      "file": "/assets/portfolio/31be95f7f3670f8d7fe4c3dfa2db7426288c73b318b77c83dfbf424faa492598.png",
+      "altTR": "İpucuk — Türkçe Kelime Tahmin Oyunu 6",
+      "altEN": "İpucuk — Turkish Word Guessing Game 6"
+    }
+  ],
+  "links": []
+}

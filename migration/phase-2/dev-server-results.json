@@ -1,0 +1,74 @@
+{
+  "passed": 17,
+  "failed": 0,
+  "checks": [
+    {
+      "route": "/",
+      "passed": true
+    },
+    {
+      "route": "/portfolyo/",
+      "passed": true
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "passed": true
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "passed": true
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "passed": true
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "passed": true
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "passed": true
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "passed": true
+    },
+    {
+      "route": "/assets/css/home-1.css",
+      "passed": true
+    },
+    {
+      "route": "/assets/css/home-2.css",
+      "passed": true
+    },
+    {
+      "route": "/assets/css/home-3.css",
+      "passed": true
+    },
+    {
+      "route": "/assets/css/portfolio-1.css",
+      "passed": true
+    },
+    {
+      "route": "/assets/css/services.css",
+      "passed": true
+    },
+    {
+      "route": "/assets/js/analytics-service.js",
+      "passed": true
+    },
+    {
+      "route": "/assets/js/analytics.js",
+      "passed": true
+    },
+    {
+      "route": "/assets/js/home-1.js",
+      "passed": true
+    },
+    {
+      "route": "/assets/js/portfolio-1.js",
+      "passed": true
+    }
+  ]
+}

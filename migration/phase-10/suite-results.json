@@ -1,0 +1,98 @@
+[
+  {
+    "test": "test-eleventy",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "19 historical preservation checks passed."
+  },
+  {
+    "test": "test-project-records",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "9 project/CMS data checks passed; 84 lossless card/modal comparisons included."
+  },
+  {
+    "test": "test-portfolio-flexibility",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "14 isolated flexibility scenarios passed (real Eleventy builds)."
+  },
+  {
+    "test": "test-portfolio-completion",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "12 completion scenarios passed, 8 invalid builds correctly rejected. 10000 UUID samples, no collisions observed. Real hosted CMS NOT tested."
+  },
+  {
+    "test": "test-cms-local-edits",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "6 isolated CMS-style edit/build/undo checks passed; real CMS editor NOT tested."
+  },
+  {
+    "test": "test-blog",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "14 blog scenario groups passed; 16 invalid cases correctly rejected. No hosted CMS Save or real post creation performed."
+  },
+  {
+    "test": "test-i18n",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "10 multilingual scenario groups passed."
+  },
+  {
+    "test": "test-blog-translations",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "11 translation/reference acceptance groups passed. User files unchanged."
+  },
+  {
+    "test": "test-pages-upstream-schema",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "Official ConfigSchema accepts .pages.yml; both unknown key/type negative checks rejected."
+  },
+  {
+    "test": "test-workflow-safety",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "Workflow safety passed: validation is read-only; production template is inactive outside .github/workflows."
+  },
+  {
+    "test": "test-eleventy-browser-evidence",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "Recorded browser evidence verified: 16 screenshot pairs, 42 modals, home/navigation/tabs/animations, language/filter/zoom/Escape, mobile, no captured console errors."
+  },
+  {
+    "test": "test-project-browser-evidence",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "Phase-3 browser evidence verified: 16 identical screenshot pairs, 42 modals, 21/22 dynamic counters, filters/gallery/mobile; real CMS sign-in requirement remains open."
+  },
+  {
+    "test": "test-portfolio-browser-evidence",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "Phase-4 fresh browser evidence verified: two identical screenshot pairs, 42 bilingual modals, 21/23 counters, dynamic filters, minimal record, desktop/mobile galleries, no console errors."
+  },
+  {
+    "test": "test-completion-browser-evidence",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "Phase-5 browser evidence passed: identical desktop/mobile screenshots, 42 legacy + 4 UUID modals, dynamic filters/counters, uploaded gallery image, keyboard/zoom, no console errors. Hosted CMS remains untested."
+  },
+  {
+    "test": "test-blog-browser-evidence",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "Browser evidence verified: blog desktop/tablet/mobile, filters, post images and SEO, home link, empty state; 42 portfolio modals and identical desktop/mobile screenshots; no console errors."
+  },
+  {
+    "test": "test-i18n-browser-evidence",
+    "passed": true,
+    "exitCode": 0,
+    "summary": "Browser evidence passed: 54 localized layouts, 24 baseline screenshots, 42 dialogs, 6 bilingual QA blog views, keyboard/zoom/menu, no console errors."
+  }
+]
