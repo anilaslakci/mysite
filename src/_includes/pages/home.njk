@@ -150,17 +150,7 @@
 </div>
 <!-- SITE -->
 <div id="site">
-<nav aria-label="Ana navigasyon" id="nav">
-<a class="n-logo" href="#">{% include "shared/brand.njk" %}</a>
-<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation-links" aria-label="Menüyü aç veya kapat">☰</button>
-<ul class="n-links" id="navigation-links">
-<li><a href="#hizmetler">Hizmetler</a></li>
-<li><a href="#surec">Süreç</a></li>
-<li><a href="#hakkimda">Hakkımda</a></li>
-<li><a href="#iletisim">İletişim</a></li>
-</ul>
-<a class="n-cta" href="/portfolyo/">Projeler</a>
-<!--language-switch--></nav>
+{% set headerHome = true %}{% include "shared/header.njk" %}
 <section aria-labelledby="ana-baslik" class="hero" id="hero">
 <div class="h-bg"></div>
 <div class="h-grid"></div>

@@ -23,10 +23,6 @@
 @media (max-width:820px){
   body{cursor:auto;}
   #cur,#cur-ring{display:none;}
-  nav{padding:1rem 5%;}
-  .n-links{display:none;}
-  .n-logo{font-size:1.05rem;}
-  .n-cta{padding:.58rem 1rem;font-size:.66rem;}
   .hero{min-height:auto;padding:8.5rem 6% 5rem;display:block;}
   .hero h1{font-size:clamp(2.7rem,12vw,4.3rem);}
   .h-desc{max-width:none;font-size:.98rem;}
@@ -50,7 +46,6 @@
   .contact{padding:5rem 6%;}
   footer{padding:2rem 6%;flex-direction:column;gap:.7rem;text-align:center;}
   #site{width:100%;overflow-x:hidden;}
-  nav{width:100%;max-width:100vw;}
   .hero,.services,.process,#hakkimda,.contact,.cta-section{width:100%;max-width:100vw;margin-left:auto;margin-right:auto;}
   .h-content,.s-title,.s-sub,.cta-text,.contact-simple{max-width:100%;}
   .svc-grid,.p-steps,.about-wrap,.tech-groups,.skills-grid,.hobby-grid{width:100%;min-width:0;}

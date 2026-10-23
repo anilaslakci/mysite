@@ -62,26 +62,7 @@ body.intro-locked{position:fixed;inset:0;width:100%;touch-action:none;}
 #site.visible{opacity:1;}
 
 /* NAV — fix underline on logo */
-nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.6rem 5%;display:flex;align-items:center;justify-content:space-between;transition:background .3s,padding .3s;}
-nav.sc{background:rgba(7,16,42,.93);backdrop-filter:blur(18px);padding:1rem 5%;border-bottom:1px solid rgba(201,168,76,.1);}
-.n-logo{
-  font-family:var(--site-heading);
-  font-size:1.3rem;letter-spacing:.1em;
-  color:var(--cream);
-  text-decoration:none; /* removes underline */
-  text-transform:uppercase;
-  line-height:1.4;
-  border-bottom:none !important;
-  box-shadow:none !important;
-}
-.n-logo span{color:var(--gold);}
-.n-links{display:flex;gap:2.5rem;list-style:none;}
-.n-links a{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color .3s;position:relative;}
-.n-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--gold);transition:width .3s;}
-.n-links a:hover{color:var(--gold);}
-.n-links a:hover::after{width:100%;}
-.n-cta{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--navy);background:var(--gold);padding:.65rem 1.5rem;text-decoration:none;transition:all .3s;font-weight:500;}
-.n-cta:hover{background:var(--gold-light);}
+
 
 /* HERO */
 .hero{min-height:100vh;display:flex;align-items:center;justify-content:space-between;position:relative;overflow:hidden;padding:0 5%;padding-top:80px;gap:4rem;}
