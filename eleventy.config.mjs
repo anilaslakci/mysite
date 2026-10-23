@@ -2,8 +2,10 @@ import { imagePath } from './lib/portfolio.mjs';
 import {site,safeJSON,postStructuredData} from './lib/blog.mjs';
 import {sitemap,rss} from './lib/blog-feeds.mjs';
 import {localizeHTML,alternates,languageNav} from './lib/i18n.mjs';
+import {consentHTML} from './lib/consent.mjs';
 export default function (eleventyConfig) {
   eleventyConfig.addTransform('localize',localizeHTML);
+  eleventyConfig.addTransform('consent',consentHTML);
   eleventyConfig.addFilter('alternateHTML',alternates);
   eleventyConfig.addFilter('languageHTML',languageNav);
   eleventyConfig.addWatchTarget('./src/i18n/');

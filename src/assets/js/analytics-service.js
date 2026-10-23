@@ -1,1 +1,1 @@
-window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-NFEHG270L2');
+// Legacy file retained for asset compatibility; consent is managed by analytics.js only.

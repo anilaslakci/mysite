@@ -1,0 +1,1068 @@
+{
+  "scenarios": [
+    {
+      "scenario": "first-visit",
+      "state": {
+        "events": [],
+        "cookies": "",
+        "choice": null,
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ],
+        "disabled": true
+      }
+    },
+    {
+      "scenario": "reject-reload",
+      "state": {
+        "events": [],
+        "cookies": "",
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792732150454}",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ],
+        "disabled": true
+      }
+    },
+    {
+      "scenario": "reject-shared-en",
+      "state": {
+        "events": [],
+        "cookies": "",
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792732150454}",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ],
+        "disabled": true
+      }
+    },
+    {
+      "scenario": "accepted-real-google",
+      "state": {
+        "events": [
+          {
+            "kind": "script",
+            "url": "https://www.googletagmanager.com/gtag/js",
+            "event": null
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view"
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view"
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "scroll"
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "scroll"
+          }
+        ],
+        "choice": "{\"version\":1,\"analytics\":true,\"at\":1792732161406}",
+        "scripts": 1,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "consent",
+            "update",
+            {
+              "analytics_storage": "granted",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "js",
+            "2026-10-23T05:09:21.407Z"
+          ],
+          [
+            "config",
+            "G-NFEHG270L2",
+            {
+              "allow_google_signals": false,
+              "allow_ad_personalization_signals": false
+            }
+          ],
+          [],
+          [],
+          []
+        ],
+        "disabled": false,
+        "cookieNames": [
+          "_ga",
+          "_ga_NFEHG270L2"
+        ]
+      }
+    },
+    {
+      "scenario": "accepted-again",
+      "state": {
+        "events": [
+          {
+            "kind": "script",
+            "url": "https://www.googletagmanager.com/gtag/js",
+            "event": null
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view"
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view"
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "scroll"
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "scroll"
+          }
+        ],
+        "choice": "{\"version\":1,\"analytics\":true,\"at\":1792732181904}",
+        "scripts": 1,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "consent",
+            "update",
+            {
+              "analytics_storage": "granted",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "js",
+            "2026-10-23T05:09:21.407Z"
+          ],
+          [
+            "config",
+            "G-NFEHG270L2",
+            {
+              "allow_google_signals": false,
+              "allow_ad_personalization_signals": false
+            }
+          ],
+          [],
+          [],
+          []
+        ],
+        "disabled": false,
+        "cookieNames": [
+          "_ga",
+          "_ga_NFEHG270L2"
+        ]
+      }
+    },
+    {
+      "scenario": "accepted-reload",
+      "state": {
+        "events": [
+          {
+            "kind": "script",
+            "url": "https://www.googletagmanager.com/gtag/js",
+            "event": null
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view"
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view"
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "scroll"
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "scroll"
+          }
+        ],
+        "choice": "{\"version\":1,\"analytics\":true,\"at\":1792732181904}",
+        "scripts": 1,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "consent",
+            "update",
+            {
+              "analytics_storage": "granted",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "js",
+            "2026-10-23T05:09:42.242Z"
+          ],
+          [
+            "config",
+            "G-NFEHG270L2",
+            {
+              "allow_google_signals": false,
+              "allow_ad_personalization_signals": false
+            }
+          ],
+          [],
+          [],
+          []
+        ],
+        "disabled": false,
+        "cookieNames": [
+          "_ga",
+          "_ga_NFEHG270L2"
+        ]
+      }
+    },
+    {
+      "scenario": "withdrawn-event-blocked",
+      "state": {
+        "events": [],
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792732264375}",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ],
+        "disabled": true,
+        "cookieNames": []
+      }
+    },
+    {
+      "scenario": "first-accept-button",
+      "state": {
+        "events": [
+          {
+            "kind": "script",
+            "url": "https://www.googletagmanager.com/gtag/js",
+            "event": null
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view"
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view"
+          }
+        ],
+        "choice": "{\"version\":1,\"analytics\":true,\"at\":1792732323843}",
+        "scripts": 1,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "consent",
+            "update",
+            {
+              "analytics_storage": "granted",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "js",
+            "2026-10-23T05:12:03.843Z"
+          ],
+          [
+            "config",
+            "G-NFEHG270L2",
+            {
+              "allow_google_signals": false,
+              "allow_ad_personalization_signals": false
+            }
+          ],
+          [],
+          []
+        ],
+        "disabled": false,
+        "cookieNames": [
+          "_ga_NFEHG270L2",
+          "_ga"
+        ]
+      }
+    },
+    {
+      "scenario": "portfolio-no-google",
+      "state": {
+        "events": [],
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792732345341}",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ],
+        "disabled": true,
+        "cookieNames": []
+      }
+    },
+    {
+      "scenario": "portfolio-under-rejection",
+      "cards": 21,
+      "visibleCards": 5,
+      "state": {
+        "events": [],
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792732345341}",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ],
+        "disabled": true,
+        "cookieNames": []
+      }
+    },
+    {
+      "scenario": "keyboard-before-explicit-trap",
+      "nativeTrap": "Your cookie preferencesOptional Google Analytics helps measure visits. It stays off until you accept. Rejecting does not affect the site.Accept allRejectManage preferencesSkip to contentMustafa Anıl Aşlakcı / BlogTRENHomePortfolioBlog\nKnowledge & ExperienceFrom e-commerce to automation.Notes, practical approaches and technical guides on e-commerce, marketplace management, integration and data analysis.\nArticles0 articles\nNo articles published yet.New articles will appear here. In the meantime, explore my practical work in the portfolio.Explore the projects →Mustafa Anıl AşlakcıSubscribe via RSSBack to Main SiteCookie preferences\nYour cookie preferencesOnly your choice is stored on this device for up to 180 days. If allowed, Google Analytics uses first-party cookies to measure visits and page views. No advertising tags are enabled. You can withdraw consent using Cookie preferences in the footer. Withdrawal reloads this page and removes accessible Analytics cookies.Necessary preference storage (always active)Allow AnalyticsSave preferencesRejectCloseLOCAL QA ONLYReset consentTry Analytics eventSeed QA Analytics cookie{\"events\":[],\"cookies\":\"\",\"choice\":null,\"scripts\":0,\"queue\":[[\"consent\",\"default\",{\"analytics_storage\":\"denied\",\"ad_storage\":\"denied\",\"ad_user_data\":\"denied\",\"ad_personalization\":\"denied\"}]],\"disabled\":true}",
+      "returnedFocus": "Manage preferences",
+      "ariaLabelledby": "consent-dialog-title",
+      "ariaDescribedby": "consent-policy"
+    },
+    {
+      "scenario": "mobile-home-rejected",
+      "state": {
+        "events": [],
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792732520016}",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ],
+        "disabled": true,
+        "cookieNames": []
+      }
+    },
+    {
+      "scenario": "mobile-navigation-rejected",
+      "expanded": "true",
+      "state": {
+        "events": [],
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792732520016}",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ],
+        "disabled": true,
+        "cookieNames": []
+      }
+    },
+    {
+      "scenario": "keyboard-after-fix",
+      "backFocus": "Kapat",
+      "nextFocus": "consent-analytics",
+      "restoreFocus": "Tercihleri Yönet"
+    },
+    {
+      "scenario": "accepted-shared-en",
+      "state": {
+        "events": [
+          {
+            "kind": "script",
+            "url": "https://www.googletagmanager.com/gtag/js",
+            "event": null
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view"
+          },
+          {
+            "kind": "fetch",
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view"
+          }
+        ],
+        "choice": "{\"version\":1,\"analytics\":true,\"at\":1792732714562}",
+        "scripts": 1,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "consent",
+            "update",
+            {
+              "analytics_storage": "granted",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "js",
+            "2026-10-23T05:18:34.995Z"
+          ],
+          [
+            "config",
+            "G-NFEHG270L2",
+            {
+              "allow_google_signals": false,
+              "allow_ad_personalization_signals": false
+            }
+          ],
+          [],
+          []
+        ],
+        "disabled": false,
+        "cookieNames": [
+          "_ga",
+          "_ga_NFEHG270L2"
+        ]
+      }
+    },
+    {
+      "scenario": "final-withdrawal",
+      "state": {
+        "events": [],
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792732803856}",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ],
+        "disabled": true,
+        "cookieNames": []
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "route": "/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 390,
+      "cards": 21,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 390,
+      "cards": 21,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/blog/",
+      "width": 390,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 768,
+      "cards": 21,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 768,
+      "cards": 21,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/blog/",
+      "width": 768,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 1440,
+      "cards": 21,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 1440,
+      "cards": 21,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "tr",
+      "notice": true,
+      "overflow": false
+    },
+    {
+      "route": "/en/blog/",
+      "width": 1440,
+      "cards": 0,
+      "footer": 1,
+      "lang": "en",
+      "notice": true,
+      "overflow": false
+    }
+  ],
+  "logs": [],
+  "realGoogleLibrary": true,
+  "googleDebugView": false,
+  "screenReaderApplicationTest": false
+}

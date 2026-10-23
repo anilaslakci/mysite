@@ -1,7 +1,6 @@
 {% set pageKey = 'veri-analizi-raporlama' %}{% extends "layouts/service.njk" %}{% block head %}
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2"></script>
-<script src="/assets/js/analytics-service.js"></script>
+{% include "shared/consent-head.njk" %}
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Veri Analizi &amp; Raporlama | Mustafa Anıl Aşlakcı</title>
 <meta name="description" content="E-ticaret satış analizi, Excel ve Python raporlama, SKU ve kategori performansı, stok, kampanya, rakip ve operasyon verisi analizi.">

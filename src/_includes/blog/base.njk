@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ view.locale | default('tr') }}"{% if not post and not is404 %} data-page-key="blog"{% endif %}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFEHG270L2"></script><script src="/assets/js/analytics.js"></script>
+{% include "shared/consent-head.njk" %}
 <title>{% block title %}Blog | Mustafa Anıl Aşlakcı{% endblock %}</title>
 <meta name="description" content="{% block description %}E-ticaret, pazaryeri yönetimi, ERP entegrasyonu, Python ve veri analizi üzerine yazılar.{% endblock %}">
 <link rel="canonical" href="{{ blog.site.url }}{% block canonicalPath %}{{ view.url | default('/blog/') }}{% endblock %}">

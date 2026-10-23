@@ -1,0 +1,11 @@
+PASS first visit defaults denied; events/config blocked and cookies cleared
+PASS accept once, config only after library load, repeated accept is idempotent
+PASS reject persists and never loads a tag
+PASS returning acceptance/denial and expired or malformed choices fail closed
+PASS withdrawal disables, clears cookies, blocks queued events and reloads runtime
+PASS withdrawal during loading does not configure later
+PASS storage failures stay usable and default off
+PASS cross-tab rejection disables an accepted document
+PASS bfcache resume rechecks consent before retaining a loaded tag
+PASS dialog keyboard wraps focus in both directions
+10 Consent Mode runtime groups passed.
