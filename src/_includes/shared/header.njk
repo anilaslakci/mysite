@@ -4,6 +4,7 @@
 <button class="site-menu-toggle" data-site-menu type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Menüyü aç veya kapat">☰</button>
 <ul class="site-nav-links" id="site-navigation">
 <li><a href="{{ homePrefix }}#hizmetler">Hizmetler</a></li><li><a href="{{ homePrefix }}#surec">Süreç</a></li><li><a href="{{ homePrefix }}#hakkimda">Hakkımda</a></li><li><a href="/blog/"{% if headerSection == 'blog' %} aria-current="page"{% endif %}>Blog</a></li><li><a href="{{ homePrefix }}#iletisim">İletişim</a></li>
+<li class="site-mobile-projects"><a href="/portfolyo/"{% if headerSection == 'portfolio' %} aria-current="page"{% endif %}>Projeler</a></li>
 </ul><div class="site-nav-actions"><a class="site-projects" href="/portfolyo/"{% if headerSection == 'portfolio' %} aria-current="page"{% endif %}>Projeler</a>
 {% if post %}{{ post.variants | languageHTML(view.locale) | safe }}{% elif is404 %}{{ {tr:'/404.html',en:'/en/404.html'} | languageHTML(view.locale) | safe }}{% else %}<!--language-switch-->{% endif %}</div>
 </nav></header>
