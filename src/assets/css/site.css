@@ -1,0 +1,14 @@
+:root{--site-navy:#07102A;--site-surface:#0D1B3E;--site-gold:#C9A84C;--site-gold-light:#E2C97E;--site-cream:#F7F2E8;--site-body:'DM Sans',sans-serif;--site-heading:'Cormorant Garamond',serif;--site-radius:6px;--site-gutter:5%}
+html[data-entry="direct"] #intro,html[data-entry="direct"] #curtain{display:none!important}
+html[data-entry="direct"] #site{opacity:1;transition:none}
+html[data-entry="direct"] .hero .h-eyebrow,html[data-entry="direct"] .hero h1,html[data-entry="direct"] .h-desc,html[data-entry="direct"] .h-actions,html[data-entry="direct"] .h-stats,html[data-entry="direct"] .scroll-ind{animation:none;opacity:1;transform:none}
+.site-header{position:sticky;top:0;z-index:90;background:rgba(7,16,42,.96);border-bottom:1px solid rgba(201,168,76,.14);backdrop-filter:blur(18px)}
+.site-nav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px var(--site-gutter);position:relative}
+.site-brand{font:400 1.3rem/1.4 var(--site-heading);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:var(--site-cream);white-space:nowrap}.site-brand span{color:var(--site-gold)}
+.site-nav-links{display:flex;list-style:none;align-items:center;gap:30px}.site-nav-links a{font:400 .72rem/1.4 var(--site-body);letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:rgba(247,242,232,.7)}
+.site-nav-links a:hover{color:var(--site-gold)}.site-nav-links a[aria-current="page"]{color:var(--site-navy);background:var(--site-gold);padding:12px 18px}
+.site-menu-toggle{display:none;background:transparent;color:var(--site-gold);border:1px solid rgba(201,168,76,.4);border-radius:var(--site-radius);min-width:44px;min-height:44px;font-size:20px;cursor:pointer}
+.site-nav a:focus-visible,.site-menu-toggle:focus-visible{outline:3px solid var(--site-gold-light);outline-offset:5px}
+@media(max-width:1100px){.site-nav{gap:14px;flex-wrap:wrap;padding:16px var(--site-gutter)}.site-brand{margin-right:auto}.site-menu-toggle{display:block}.site-nav-links{display:none;position:absolute;left:0;right:0;top:100%;padding:20px 5%;gap:20px;flex-wrap:wrap;background:var(--site-navy);border-bottom:1px solid rgba(201,168,76,.25)}.site-nav-links[data-open="true"]{display:flex}}
+@media(max-width:420px){.site-nav{gap:10px}.site-brand{font-size:1.1rem}.site-nav .site-language{width:100%;justify-content:flex-start}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{scroll-behavior:auto!important}}

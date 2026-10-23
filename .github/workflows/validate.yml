@@ -3,6 +3,7 @@ name: Site validation (no deployment)
   push:
     branches:
       - refactor/eleventy-cms-migration
+      - codex/site-ux-cohesion
   pull_request:
     branches:
       - main

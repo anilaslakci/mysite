@@ -1,0 +1,17 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "checks": [
+    "72 responsive views, all public routes, no overflow, fixed bottom banner",
+    "42 bilingual project modals open with keyboard focus",
+    "first visit and refresh retain intro, language and history skip it",
+    "real Google network consent checks and no extra loader",
+    "same home/portfolio design tokens and sufficient mobile footer clearance"
+  ],
+  "limits": {
+    "lighthouse": false,
+    "fieldCoreWebVitals": false,
+    "GoogleDebugView": false,
+    "realGoogleLibrary": true
+  }
+}

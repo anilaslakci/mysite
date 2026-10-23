@@ -1,0 +1,2107 @@
+{
+  "intro": [
+    {
+      "scenario": "first-visit",
+      "entry": null,
+      "inert": true,
+      "introDisplay": "flex"
+    },
+    {
+      "scenario": "tr-to-en",
+      "entry": "direct",
+      "introDisplay": "none",
+      "title": "Managing e-commercewith dataand technology."
+    },
+    {
+      "scenario": "en-to-tr-and-refresh",
+      "entry": "direct",
+      "introDisplay": "none"
+    },
+    {
+      "scenario": "back",
+      "entry": "direct",
+      "introDisplay": "none"
+    },
+    {
+      "scenario": "forward",
+      "entry": "direct",
+      "introDisplay": "none"
+    },
+    {
+      "scenario": "fresh-tab-state",
+      "entry": null,
+      "introDisplay": "flex"
+    },
+    {
+      "scenario": "refresh-before-entering",
+      "entry": null,
+      "introDisplay": "flex"
+    },
+    {
+      "scenario": "language-directly-from-intro",
+      "entry": "direct",
+      "introDisplay": "none",
+      "state": {
+        "cls": 0.0001533703898160419,
+        "network": [],
+        "cookieNames": [],
+        "choice": null,
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "scenario": "back-to-pre-entry-document",
+      "entry": "direct",
+      "introDisplay": "none"
+    },
+    {
+      "curtainDisplay": "block",
+      "entry": null,
+      "introDisplay": "flex",
+      "scenario": "first-explore-retains-curtain-flow"
+    }
+  ],
+  "consent": [
+    {
+      "scenario": "initial-denied",
+      "state": {
+        "cls": 0.00028720664819944597,
+        "network": [],
+        "cookieNames": [],
+        "choice": null,
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "scenario": "rejected-reload",
+      "state": {
+        "cls": 0.00028720664819944597,
+        "network": [],
+        "cookieNames": [],
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792739356183}",
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "scenario": "accepted",
+      "state": {
+        "cls": 0.00033727990150815633,
+        "network": [
+          {
+            "url": "https://www.googletagmanager.com/gtag/js",
+            "event": null,
+            "kind": "script"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view",
+            "kind": "fetch"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "scroll",
+            "kind": "fetch"
+          }
+        ],
+        "cookieNames": [
+          "_ga",
+          "_ga_NFEHG270L2"
+        ],
+        "choice": "{\"version\":1,\"analytics\":true,\"at\":1792739431906}",
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 1,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "consent",
+            "update",
+            {
+              "analytics_storage": "granted",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "js",
+            "2026-10-23T07:10:31.911Z"
+          ],
+          [
+            "config",
+            "G-NFEHG270L2",
+            {
+              "allow_google_signals": false,
+              "allow_ad_personalization_signals": false
+            }
+          ],
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    {
+      "scenario": "accepted-again",
+      "state": {
+        "cls": 0.00041153487226839024,
+        "network": [
+          {
+            "url": "https://www.googletagmanager.com/gtag/js",
+            "event": null,
+            "kind": "script"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view",
+            "kind": "fetch"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "scroll",
+            "kind": "fetch"
+          }
+        ],
+        "cookieNames": [
+          "_ga",
+          "_ga_NFEHG270L2"
+        ],
+        "choice": "{\"version\":1,\"analytics\":true,\"at\":1792739465488}",
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 1,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "consent",
+            "update",
+            {
+              "analytics_storage": "granted",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "js",
+            "2026-10-23T07:10:31.911Z"
+          ],
+          [
+            "config",
+            "G-NFEHG270L2",
+            {
+              "allow_google_signals": false,
+              "allow_ad_personalization_signals": false
+            }
+          ],
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    {
+      "scenario": "withdrawn-event-blocked",
+      "state": {
+        "cls": 0.000038293628808864266,
+        "network": [],
+        "cookieNames": [],
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792739466127}",
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ]
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "route": "/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 1440,
+      "cards": 21,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 1440,
+      "cards": 21,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/blog/",
+      "width": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 134,
+        "left": 287.5,
+        "right": 1137.5,
+        "top": 850,
+        "width": 850,
+        "x": 287.5,
+        "y": 850
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 768,
+      "cards": 21,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 768,
+      "cards": 21,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/en/blog/",
+      "width": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 984,
+        "height": 148.359375,
+        "left": 16,
+        "right": 737,
+        "top": 835.640625,
+        "width": 721,
+        "x": 16,
+        "y": 835.640625
+      },
+      "overflow": false,
+      "viewport": 1000
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 390,
+      "cards": 21,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 390,
+      "cards": 21,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/blog/",
+      "width": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 230.78125,
+        "left": 12,
+        "right": 363,
+        "top": 601.21875,
+        "width": 351,
+        "x": 12,
+        "y": 601.21875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 320,
+      "cards": 21,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 320,
+      "cards": 21,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/blog/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    },
+    {
+      "route": "/en/blog/",
+      "width": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "footer": 1,
+      "noticePosition": "fixed",
+      "noticeRect": {
+        "bottom": 832,
+        "height": 303.578125,
+        "left": 12,
+        "right": 293,
+        "top": 528.421875,
+        "width": 281,
+        "x": 12,
+        "y": 528.421875
+      },
+      "overflow": false,
+      "viewport": 844
+    }
+  ],
+  "interactions": [
+    {
+      "scenario": "banner-no-content-shift",
+      "beforeHero": 313.4375,
+      "afterHero": 313.4375
+    },
+    {
+      "scenario": "portfolio-filter-gallery",
+      "lang": "tr",
+      "width": 1440,
+      "filtered": 5,
+      "zoom": {
+        "alt": "Pazaryeri Satış Analiz Aracı 1",
+        "loaded": true,
+        "open": true
+      },
+      "focusRestored": true
+    },
+    {
+      "scenario": "portfolio-filter-gallery",
+      "lang": "en",
+      "width": 1440,
+      "filtered": 5,
+      "zoom": {
+        "alt": "Marketplace Sales Analyzer 1",
+        "loaded": true,
+        "open": true
+      },
+      "focusRestored": true
+    },
+    {
+      "scenario": "portfolio-filter-gallery",
+      "lang": "tr",
+      "width": 390,
+      "filtered": 5,
+      "zoom": {
+        "alt": "Pazaryeri Satış Analiz Aracı 1",
+        "loaded": true,
+        "open": true
+      },
+      "focusRestored": true
+    },
+    {
+      "scenario": "portfolio-mobile-menu",
+      "lang": "tr",
+      "open": "true",
+      "closed": "false"
+    },
+    {
+      "scenario": "portfolio-filter-gallery",
+      "lang": "en",
+      "width": 390,
+      "filtered": 5,
+      "zoom": {
+        "alt": "Marketplace Sales Analyzer 1",
+        "loaded": true,
+        "open": true
+      },
+      "focusRestored": true
+    },
+    {
+      "scenario": "portfolio-mobile-menu",
+      "lang": "en",
+      "open": "true",
+      "closed": "false"
+    },
+    {
+      "scenario": "service-equivalent",
+      "url": "http://127.0.0.1:4178/erp-entegrasyonu/"
+    },
+    {
+      "scenario": "portfolio-equivalent",
+      "url": "http://127.0.0.1:4178/en/portfolio/"
+    },
+    {
+      "scenario": "portfolio-home-section",
+      "url": "http://127.0.0.1:4178/en/#hizmetler",
+      "targetTop": 685.015625,
+      "settledTargetTop": 0.015625
+    },
+    {
+      "case": "consent-escape",
+      "closed": true
+    }
+  ],
+  "modals": [
+    {
+      "route": "/portfolyo/",
+      "name": "Pazaryeri Satış Analiz Aracı",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "T-Soft Sipariş Analiz Aracı",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Depolar Arası Transfer Planlayıcı",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "T-Soft Anlık Ürün Verisi Çekme Aracı",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Trendyol Komisyon Optimizasyon Aracı",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Kritik Stok Bildirim Sistemi",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Pazaryeri Desi & Lojistik Uyarı Eklentisi",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Masaüstü Görev & Hatırlatıcı Uygulaması",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Sırlar Dünyası",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Hisse Senedi Portföy Takip Uygulaması",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "İpucuk — Türkçe Kelime Tahmin Oyunu",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Kelime Zinciri — Local Multiplayer",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Trendyol Flaş Ürün Fiyat Kontrol Eklentisi",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Kargo Fatura Kontrol ve Doğrulama Aracı",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "2D Mobil Arcade Oyun",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Çok Oyunculu Bilgi Yarışması",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Kargo Sürecinde İptal Sipariş Takip Sistemi",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "SSH Depo Takip ve Sevk Süreci Uygulaması",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Google Yorum Takip Sistemi",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Birleşik E-Ticaret Satış Raporu Aracı",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/portfolyo/",
+      "name": "Depo Sipariş Hazırlayıcı",
+      "open": 1,
+      "focus": "Projeyi kapat"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Marketplace Sales Analyzer",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "T-Soft Order Analysis Tool",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Inter-Warehouse Transfer Planner",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "T-Soft Live Inventory Feed",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Trendyol Commission Optimizer",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Critical Stock Alert System",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Marketplace Desi & Freight Routing Extension",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Desktop Task & Reminder App",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Sırlar Dünyası (Mystery World)",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Stock Portfolio Tracker",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "İpucuk — Turkish Word Guessing Game",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Word Chain — Local Multiplayer",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Trendyol Flash Deal Price Checker",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Cargo Invoice Verification Tool",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "2D Mobile Arcade Game",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Multiplayer Quiz Game",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "In-Transit Order Cancellation Tracker",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "After-Sales Warehouse Tracking and Shipment Workflow App",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Google Review Tracking System",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Unified E-Commerce Sales Reporting Tool",
+      "open": 1,
+      "focus": "Close project"
+    },
+    {
+      "route": "/en/portfolio/",
+      "name": "Warehouse Order Preparation Tool",
+      "open": 1,
+      "focus": "Close project"
+    }
+  ],
+  "clearance": [
+    {
+      "clearance": "332px",
+      "height": 303.578125,
+      "padding": "332px",
+      "width": 320
+    },
+    {
+      "clearance": "166px",
+      "height": 134,
+      "overflow": false,
+      "padding": "166px",
+      "width": 844
+    }
+  ],
+  "tokens": [
+    {
+      "background": "rgb(7, 16, 42)",
+      "font": "\"DM Sans\", sans-serif",
+      "gold": "#C9A84C",
+      "heading": "\"Cormorant Garamond\", serif",
+      "page": "home"
+    },
+    {
+      "background": "rgb(7, 16, 42)",
+      "font": "\"DM Sans\", sans-serif",
+      "gold": "#C9A84C",
+      "heading": "\"Cormorant Garamond\", serif",
+      "page": "portfolio"
+    }
+  ],
+  "console": [],
+  "limits": {
+    "lighthouse": false,
+    "fieldCoreWebVitals": false,
+    "GoogleDebugView": false,
+    "realGoogleLibrary": true
+  }
+}

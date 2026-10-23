@@ -1,8 +1,9 @@
 
 // CURSOR
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
-const lowMotion=reducedMotion||matchMedia('(pointer: coarse)').matches;
-if(!new URLSearchParams(location.search).has('skipIntro'))document.getElementById('site').inert=true;
+const directEntry=document.documentElement.dataset.entry==='direct';
+const lowMotion=directEntry||reducedMotion||matchMedia('(pointer: coarse)').matches;
+if(!directEntry)document.getElementById('site').inert=true;
 const menuToggle=document.querySelector('.menu-toggle'),menuLinks=document.getElementById('navigation-links');
 menuToggle?.addEventListener('click',()=>{const open=menuToggle.getAttribute('aria-expanded')!=='true';menuToggle.setAttribute('aria-expanded',String(open));menuLinks.dataset.open=String(open);});
 menuLinks?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menuLinks.dataset.open='false';menuToggle.setAttribute('aria-expanded','false');}));
@@ -46,6 +47,7 @@ function closeIntro(){
   const curtain=document.getElementById('curtain');
   const site=document.getElementById('site');
   site.inert=false;
+  try{sessionStorage.setItem('mysite-home-visited','1');}catch{}
 
   if(intro.dataset.closing==='1') return;
   intro.dataset.closing='1';
@@ -80,9 +82,11 @@ function closeIntro(){
 
 // Portfolyodaki “Ana Siteye Dön” bağlantısı ?skipIntro=1 parametresi gönderir.
 // Bu durumda açılış ekranı gösterilmeden ana sayfa doğrudan açılır.
-const skipIntro = new URLSearchParams(window.location.search).get('skipIntro') === '1';
+const skipIntro = directEntry;
 
 if(skipIntro){
+  document.getElementById('site').inert=false;
+  try{sessionStorage.setItem('mysite-home-visited','1');}catch{}
   document.getElementById('intro').style.display='none';
   document.getElementById('curtain').style.display='none';
   document.getElementById('site').classList.add('visible');
@@ -135,8 +139,9 @@ function showTab(btn, id){
 // COUNT UP
 function countUp(el){
   const t=parseInt(el.dataset.count),sx=el.dataset.suffix||'';
+  if(directEntry||reducedMotion){el.textContent=t.toLocaleString(document.documentElement.lang==='en'?'en-US':'tr-TR')+sx;return;}
   let c=0;const st=t/40;
-  const tm=setInterval(()=>{c=Math.min(c+st,t);el.textContent=Math.floor(c).toLocaleString(document.documentElement.lang==='en'?'en-GB':'tr-TR')+(c>=t?sx:'');if(c>=t)clearInterval(tm);},40);
+  const tm=setInterval(()=>{c=Math.min(c+st,t);el.textContent=Math.floor(c).toLocaleString(document.documentElement.lang==='en'?'en-US':'tr-TR')+(c>=t?sx:'');if(c>=t)clearInterval(tm);},40);
 }
 const so=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){countUp(x.target);so.unobserve(x.target);}});});
 document.querySelectorAll('[data-count]').forEach(el=>so.observe(el));

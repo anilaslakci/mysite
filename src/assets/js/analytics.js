@@ -65,9 +65,9 @@
   }
   const en = document.documentElement.lang === 'en';
   const copy = en ? {
-    title:'Your cookie preferences', text:'Optional Google Analytics helps measure visits. It stays off until you accept. Rejecting does not affect the site.', accept:'Accept all',reject:'Reject',manage:'Manage preferences',save:'Save preferences',close:'Close',essential:'Necessary preference storage (always active)',analytics:'Allow Analytics',policy:'Only your choice is stored on this device for up to 180 days. If allowed, Google Analytics uses first-party cookies to measure visits and page views. No advertising tags are enabled. You can withdraw consent using Cookie preferences in the footer. Withdrawal reloads this page and removes accessible Analytics cookies.'
+    title:'Cookie Preferences', text:'We use optional Google Analytics cookies to understand how visitors use this website. Analytics remains disabled unless you consent.', accept:'Accept All',reject:'Reject',manage:'Manage Preferences',save:'Save preferences',close:'Close',essential:'Necessary preference storage (always active)',analytics:'Allow Analytics',policy:'Only your choice is stored on this device for up to 180 days. If allowed, Google Analytics uses first-party cookies to measure visits and page views. No advertising tags are enabled. You can withdraw consent using Cookie preferences in the footer. Withdrawal reloads this page and removes accessible Analytics cookies.'
   } : {
-    title:'Çerez tercihleriniz',text:'İsteğe bağlı Google Analytics ziyaretleri ölçmeye yardımcı olur. Siz kabul edene kadar kapalıdır. Reddetmeniz sitenin çalışmasını etkilemez.',accept:'Tümünü Kabul Et',reject:'Reddet',manage:'Tercihleri Yönet',save:'Tercihleri Kaydet',close:'Kapat',essential:'Zorunlu tercih kaydı (her zaman etkin)',analytics:'Analytics ölçümüne izin ver',policy:'Yalnızca tercihiniz bu cihazda en fazla 180 gün saklanır. İzin verirseniz Google Analytics ziyaretleri ve sayfa görüntülemelerini ölçmek için birinci taraf çerezler kullanır. Reklam etiketi etkin değildir. Footer’daki Çerez Tercihleri ile onayınızı geri çekebilirsiniz. Geri çekme sayfayı yeniler ve erişilebilen Analytics çerezlerini temizler.'
+    title:'Çerez Tercihleri',text:'Sitemizin kullanımını analiz etmek için isteğe bağlı Google Analytics çerezleri kullanıyoruz. Kabul etmediğinde analiz çerezleri çalışmaz.',accept:'Tümünü Kabul Et',reject:'Reddet',manage:'Tercihleri Yönet',save:'Tercihleri Kaydet',close:'Kapat',essential:'Zorunlu tercih kaydı (her zaman etkin)',analytics:'Analytics ölçümüne izin ver',policy:'Yalnızca tercihiniz bu cihazda en fazla 180 gün saklanır. İzin verirseniz Google Analytics ziyaretleri ve sayfa görüntülemelerini ölçmek için birinci taraf çerezler kullanır. Reklam etiketi etkin değildir. Footer’daki Çerez Tercihleri ile onayınızı geri çekebilirsiniz. Geri çekme sayfayı yeniler ve erişilebilen Analytics çerezlerini temizler.'
   };
   function showPreferences(event) {
     opener = event?.currentTarget || document.activeElement;
@@ -81,6 +81,14 @@
     notice.innerHTML=`<h2 id="consent-notice-title">${copy.title}</h2><p>${copy.text}</p><div class="consent-actions"><button type="button" data-consent-accept>${copy.accept}</button><button type="button" data-consent-reject>${copy.reject}</button><button type="button" data-consent-manage>${copy.manage}</button></div>`;
     notice.hidden=!!read();
     document.body.prepend(notice);
+    // Keep the last page controls scrollable above the floating panel at any text size.
+    if(typeof ResizeObserver==='function'){
+      const measure=new ResizeObserver(()=>{
+        const gap=parseFloat(getComputedStyle(notice).bottom)||16;
+        document.documentElement.style.setProperty('--consent-clearance',Math.ceil(notice.getBoundingClientRect().height+gap+16)+'px');
+      });
+      measure.observe(notice);
+    }
     dialog=document.createElement('dialog');dialog.className='consent-dialog';dialog.dataset.consentUi='';
     dialog.setAttribute('aria-labelledby','consent-dialog-title');dialog.setAttribute('aria-describedby','consent-policy');
     dialog.innerHTML=`<h2 id="consent-dialog-title">${copy.title}</h2><p id="consent-policy">${copy.policy}</p><p>${copy.essential}</p><label><input type="checkbox" id="consent-analytics">${copy.analytics}</label><div class="consent-actions"><button type="button" data-consent-save>${copy.save}</button><button type="button" data-consent-reject>${copy.reject}</button><button type="button" data-consent-close>${copy.close}</button></div>`;
