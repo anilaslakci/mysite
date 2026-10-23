@@ -1,0 +1,3341 @@
+{
+  "auto": [
+    {
+      "now": 787.8000000715256,
+      "log": [
+        {
+          "at": 220.80000007152557,
+          "since": 63.60000002384186,
+          "state": "open",
+          "hidden": false,
+          "locked": true
+        }
+      ],
+      "state": "open",
+      "active": "intro-swipe",
+      "locked": true,
+      "inert": true,
+      "heroTop": 0
+    },
+    {
+      "now": 22031.600000023842,
+      "log": [
+        {
+          "at": 220.80000007152557,
+          "since": 63.60000002384186,
+          "state": "open",
+          "hidden": false,
+          "locked": true
+        },
+        {
+          "at": 10230.5,
+          "since": 63.60000002384186,
+          "state": "closing",
+          "hidden": false,
+          "locked": true
+        },
+        {
+          "at": 10866.400000095367,
+          "since": 63.60000002384186,
+          "state": "closed",
+          "hidden": false,
+          "locked": false
+        }
+      ],
+      "state": "closed",
+      "active": "hero",
+      "locked": false,
+      "inert": false,
+      "heroTop": 0
+    }
+  ],
+  "inputs": [
+    {
+      "case": "short-touch",
+      "data": {
+        "now": 838.8999999761581,
+        "log": [
+          {
+            "at": 116.19999992847443,
+            "since": 68.69999992847443,
+            "state": "open",
+            "hidden": false,
+            "locked": true
+          }
+        ],
+        "state": "open",
+        "active": "qa-short",
+        "locked": true,
+        "inert": true,
+        "heroTop": 0
+      }
+    },
+    {
+      "case": "simulated-touch-up",
+      "focus": "hero",
+      "heroTop": 0,
+      "locked": false,
+      "position": "static",
+      "state": "closed"
+    },
+    {
+      "case": "simulated-wheel",
+      "focus": "hero",
+      "heroTop": 0,
+      "locked": false,
+      "position": "static",
+      "state": "closed"
+    },
+    {
+      "case": "simulated-trackpad",
+      "focus": "hero",
+      "heroTop": 0,
+      "locked": false,
+      "position": "static",
+      "state": "closed"
+    },
+    {
+      "case": "simulated-horizontal",
+      "focus": "qa-horizontal",
+      "heroTop": 0,
+      "locked": true,
+      "position": "fixed",
+      "state": "open"
+    },
+    {
+      "case": "keyboard-ArrowUp",
+      "focus": "hero",
+      "heroTop": 0,
+      "inert": false,
+      "locked": false,
+      "position": "static",
+      "state": "closed"
+    },
+    {
+      "case": "keyboard-ArrowDown",
+      "focus": "hero",
+      "heroTop": 0,
+      "inert": false,
+      "locked": false,
+      "position": "static",
+      "state": "closed"
+    },
+    {
+      "case": "keyboard-PageDown",
+      "focus": "hero",
+      "heroTop": 0,
+      "inert": false,
+      "locked": false,
+      "position": "static",
+      "state": "closed"
+    },
+    {
+      "case": "keyboard-Space",
+      "focus": "hero",
+      "heroTop": 0,
+      "inert": false,
+      "locked": false,
+      "position": "static",
+      "state": "closed"
+    },
+    {
+      "case": "keyboard-Enter",
+      "focus": "hero",
+      "heroTop": 0,
+      "inert": false,
+      "locked": false,
+      "position": "static",
+      "state": "closed"
+    },
+    {
+      "case": "cue-click",
+      "focus": "hero",
+      "heroTop": 0,
+      "inert": false,
+      "locked": false,
+      "position": "static",
+      "state": "closed"
+    }
+  ],
+  "layouts": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 125,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 678.484375,
+          "height": 44,
+          "text": "Blog",
+          "y": 656.484375
+        },
+        {
+          "center": 678.484375,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 656.484375
+        }
+      ],
+      "overflow": false,
+      "route": "/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 125,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 678.125,
+          "height": 44,
+          "text": "Blog",
+          "y": 656.125
+        },
+        {
+          "center": 678.125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 656.125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "13px",
+      "footerHeight": 101,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 721.921875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 699.921875
+        }
+      ],
+      "overflow": false,
+      "route": "/portfolyo/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "13px",
+      "footerHeight": 101,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 722.5625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 700.5625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/portfolio/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.890625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692.890625
+        }
+      ],
+      "overflow": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.84375,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.84375
+        }
+      ],
+      "overflow": false,
+      "route": "/en/marketplace-management/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.078125,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692.078125
+        }
+      ],
+      "overflow": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.390625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.390625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/erp-integration/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.34375,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692.34375
+        }
+      ],
+      "overflow": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.65625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.65625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.890625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692.890625
+        }
+      ],
+      "overflow": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.4375,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.4375
+        }
+      ],
+      "overflow": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.34375,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692.34375
+        }
+      ],
+      "overflow": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.140625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.140625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.1875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692.1875
+        }
+      ],
+      "overflow": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.546875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.546875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/operations-automation/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "12.8px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 621.328125,
+          "height": 44,
+          "text": "RSS ile takip et",
+          "y": 599.328125
+        },
+        {
+          "center": 621.328125,
+          "height": 44,
+          "text": "Ana siteye dön",
+          "y": 599.328125
+        },
+        {
+          "center": 621.328125,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 599.328125
+        }
+      ],
+      "overflow": false,
+      "route": "/blog/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "12.8px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 621.125,
+          "height": 44,
+          "text": "Subscribe via RSS",
+          "y": 599.125
+        },
+        {
+          "center": 621.125,
+          "height": 44,
+          "text": "Back to Main Site",
+          "y": 599.125
+        },
+        {
+          "center": 621.125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 599.125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/blog/",
+      "width": 1440
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 125,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 678.515625,
+          "height": 44,
+          "text": "Blog",
+          "y": 656.515625
+        },
+        {
+          "center": 678.515625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 656.515625
+        }
+      ],
+      "overflow": false,
+      "route": "/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 125,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 677.640625,
+          "height": 44,
+          "text": "Blog",
+          "y": 655.640625
+        },
+        {
+          "center": 677.640625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 655.640625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "13px",
+      "footerHeight": 101,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 722.71875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 700.71875
+        }
+      ],
+      "overflow": false,
+      "route": "/portfolyo/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "13px",
+      "footerHeight": 101,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 722.21875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 700.21875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/portfolio/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.546875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692.546875
+        }
+      ],
+      "overflow": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.5,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.5
+        }
+      ],
+      "overflow": false,
+      "route": "/en/marketplace-management/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.734375,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692.734375
+        }
+      ],
+      "overflow": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.046875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.046875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/erp-integration/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692
+        }
+      ],
+      "overflow": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.3125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.3125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.546875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692.546875
+        }
+      ],
+      "overflow": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.09375,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.09375
+        }
+      ],
+      "overflow": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692
+        }
+      ],
+      "overflow": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.765625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.765625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.890625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 692.890625
+        }
+      ],
+      "overflow": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 714.1875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 692.1875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/operations-automation/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "12.8px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 621.328125,
+          "height": 44,
+          "text": "RSS ile takip et",
+          "y": 599.328125
+        },
+        {
+          "center": 621.328125,
+          "height": 44,
+          "text": "Ana siteye dön",
+          "y": 599.328125
+        },
+        {
+          "center": 621.328125,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 599.328125
+        }
+      ],
+      "overflow": false,
+      "route": "/blog/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "12.8px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 621.125,
+          "height": 44,
+          "text": "Subscribe via RSS",
+          "y": 599.125
+        },
+        {
+          "center": 621.125,
+          "height": 44,
+          "text": "Back to Main Site",
+          "y": 599.125
+        },
+        {
+          "center": 621.125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 599.125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/blog/",
+      "width": 1280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 159.9375,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 617.65625,
+          "height": 44,
+          "text": "Blog",
+          "y": 595.65625
+        },
+        {
+          "center": 617.65625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 595.65625
+        }
+      ],
+      "overflow": false,
+      "route": "/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 159.9375,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 617.375,
+          "height": 44,
+          "text": "Blog",
+          "y": 595.375
+        },
+        {
+          "center": 617.375,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 595.375
+        }
+      ],
+      "overflow": false,
+      "route": "/en/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "13px",
+      "footerHeight": 101,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 700.796875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 678.796875
+        }
+      ],
+      "overflow": false,
+      "route": "/portfolyo/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "13px",
+      "footerHeight": 101,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 701.265625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 679.265625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/portfolio/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 691.9375,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 669.9375
+        }
+      ],
+      "overflow": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 691.484375,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 669.484375
+        }
+      ],
+      "overflow": false,
+      "route": "/en/marketplace-management/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 691.9375,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 669.9375
+        }
+      ],
+      "overflow": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 691.3125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 669.3125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/erp-integration/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 691.65625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 669.65625
+        }
+      ],
+      "overflow": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 692.125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 670.125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 691.8125,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 669.8125
+        }
+      ],
+      "overflow": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 691.296875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 669.296875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 691.75,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 669.75
+        }
+      ],
+      "overflow": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 691.96875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 669.96875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 691.25,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 669.25
+        }
+      ],
+      "overflow": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 691.921875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 669.921875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/operations-automation/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "12.8px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 593.875,
+          "height": 44,
+          "text": "RSS ile takip et",
+          "y": 571.875
+        },
+        {
+          "center": 593.875,
+          "height": 44,
+          "text": "Ana siteye dön",
+          "y": 571.875
+        },
+        {
+          "center": 593.875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 571.875
+        }
+      ],
+      "overflow": false,
+      "route": "/blog/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "focus": true,
+      "font": "12.8px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 594.21875,
+          "height": 44,
+          "text": "Subscribe via RSS",
+          "y": 572.21875
+        },
+        {
+          "center": 594.21875,
+          "height": 44,
+          "text": "Back to Main Site",
+          "y": 572.21875
+        },
+        {
+          "center": 594.21875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 572.21875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/blog/",
+      "width": 1024
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 182.328125,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 543.859375,
+          "height": 44,
+          "text": "Blog",
+          "y": 521.859375
+        },
+        {
+          "center": 543.859375,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 521.859375
+        }
+      ],
+      "overflow": false,
+      "route": "/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 182.328125,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 543.859375,
+          "height": 44,
+          "text": "Blog",
+          "y": 521.859375
+        },
+        {
+          "center": 543.859375,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 521.859375
+        }
+      ],
+      "overflow": false,
+      "route": "/en/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "13px",
+      "footerHeight": 101,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 602.515625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 580.515625
+        }
+      ],
+      "overflow": false,
+      "route": "/portfolyo/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "13px",
+      "footerHeight": 101,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 602.5,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 580.5
+        }
+      ],
+      "overflow": false,
+      "route": "/en/portfolio/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 590.15625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 568.15625
+        }
+      ],
+      "overflow": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 590.6875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 568.6875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/marketplace-management/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 590.15625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 568.15625
+        }
+      ],
+      "overflow": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 590.140625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 568.140625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/erp-integration/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 590.0625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 568.0625
+        }
+      ],
+      "overflow": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 589.921875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 567.921875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 590.0625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 568.0625
+        }
+      ],
+      "overflow": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 590.28125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 568.28125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 589.96875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 567.96875
+        }
+      ],
+      "overflow": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 590,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 568
+        }
+      ],
+      "overflow": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 590.078125,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 568.078125
+        }
+      ],
+      "overflow": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 590.734375,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 568.734375
+        }
+      ],
+      "overflow": false,
+      "route": "/en/operations-automation/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "12.8px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 510.46875,
+          "height": 44,
+          "text": "RSS ile takip et",
+          "y": 488.46875
+        },
+        {
+          "center": 510.46875,
+          "height": 44,
+          "text": "Ana siteye dön",
+          "y": 488.46875
+        },
+        {
+          "center": 510.46875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 488.46875
+        }
+      ],
+      "overflow": false,
+      "route": "/blog/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "12.8px",
+      "footerHeight": 105,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 510.46875,
+          "height": 44,
+          "text": "Subscribe via RSS",
+          "y": 488.46875
+        },
+        {
+          "center": 510.46875,
+          "height": 44,
+          "text": "Back to Main Site",
+          "y": 488.46875
+        },
+        {
+          "center": 510.46875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 488.46875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/blog/",
+      "width": 768
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 158.328125,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 476.46875,
+          "height": 44,
+          "text": "Blog",
+          "y": 454.46875
+        },
+        {
+          "center": 476.46875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 454.46875
+        }
+      ],
+      "overflow": false,
+      "route": "/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 158.328125,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 476.40625,
+          "height": 44,
+          "text": "Blog",
+          "y": 454.40625
+        },
+        {
+          "center": 476.40625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 454.40625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "13px",
+      "footerHeight": 147.875,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 516,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 494
+        }
+      ],
+      "overflow": false,
+      "route": "/portfolyo/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "13px",
+      "footerHeight": 147.875,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 516.046875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 494.046875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/portfolio/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.203125,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 477.203125
+        }
+      ],
+      "overflow": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.109375,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 477.109375
+        }
+      ],
+      "overflow": false,
+      "route": "/en/marketplace-management/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.640625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 477.640625
+        }
+      ],
+      "overflow": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 498.875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 476.875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/erp-integration/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 498.84375,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 476.84375
+        }
+      ],
+      "overflow": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.1875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 477.1875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 498.75,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 476.75
+        }
+      ],
+      "overflow": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.71875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 477.71875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.25,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 477.25
+        }
+      ],
+      "overflow": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 498.875,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 476.875
+        }
+      ],
+      "overflow": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.421875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 477.421875
+        }
+      ],
+      "overflow": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 477.125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/operations-automation/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "12.8px",
+      "footerHeight": 132.75,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 422.296875,
+          "height": 44,
+          "text": "RSS ile takip et",
+          "y": 400.296875
+        },
+        {
+          "center": 422.296875,
+          "height": 44,
+          "text": "Ana siteye dön",
+          "y": 400.296875
+        },
+        {
+          "center": 422.296875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 400.296875
+        }
+      ],
+      "overflow": false,
+      "route": "/blog/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "12.8px",
+      "footerHeight": 176.75,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 377.75,
+          "height": 44,
+          "text": "Subscribe via RSS",
+          "y": 355.75
+        },
+        {
+          "center": 377.75,
+          "height": 44,
+          "text": "Back to Main Site",
+          "y": 355.75
+        },
+        {
+          "center": 421.75,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 399.75
+        }
+      ],
+      "overflow": false,
+      "route": "/en/blog/",
+      "width": 390
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 158.328125,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 425.5625,
+          "height": 44,
+          "text": "Blog",
+          "y": 403.5625
+        },
+        {
+          "center": 425.5625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 403.5625
+        }
+      ],
+      "overflow": false,
+      "route": "/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 158.328125,
+      "intro": "closed",
+      "lineHeight": "18.944px",
+      "links": [
+        {
+          "center": 425.03125,
+          "height": 44,
+          "text": "Blog",
+          "y": 403.03125
+        },
+        {
+          "center": 425.03125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 403.03125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "13px",
+      "footerHeight": 147.875,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 516.125,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 494.125
+        }
+      ],
+      "overflow": false,
+      "route": "/portfolyo/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "13px",
+      "footerHeight": 169.3125,
+      "intro": null,
+      "lineHeight": "21.45px",
+      "links": [
+        {
+          "center": 516.5,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 494.5
+        }
+      ],
+      "overflow": false,
+      "route": "/en/portfolio/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 498.90625,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 476.90625
+        }
+      ],
+      "overflow": false,
+      "route": "/pazaryeri-yonetimi/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.28125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 477.28125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/marketplace-management/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.59375,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 477.59375
+        }
+      ],
+      "overflow": false,
+      "route": "/erp-entegrasyonu/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.03125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 477.03125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/erp-integration/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.203125,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 477.203125
+        }
+      ],
+      "overflow": false,
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.125,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 477.125
+        }
+      ],
+      "overflow": false,
+      "route": "/en/advertising-campaign-management/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.421875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 477.421875
+        }
+      ],
+      "overflow": false,
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.234375,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 477.234375
+        }
+      ],
+      "overflow": false,
+      "route": "/en/ecommerce-website-management/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.6875,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 477.6875
+        }
+      ],
+      "overflow": false,
+      "route": "/veri-analizi-raporlama/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.140625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 477.140625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/data-analysis-reporting/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.234375,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 477.234375
+        }
+      ],
+      "overflow": false,
+      "route": "/operasyon-otomasyon/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "11.84px",
+      "footerHeight": 129.71875,
+      "intro": null,
+      "lineHeight": "20.72px",
+      "links": [
+        {
+          "center": 499.5625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 477.5625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/operations-automation/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "12.8px",
+      "footerHeight": 132.75,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 421.75,
+          "height": 44,
+          "text": "RSS ile takip et",
+          "y": 399.75
+        },
+        {
+          "center": 421.75,
+          "height": 44,
+          "text": "Ana siteye dön",
+          "y": 399.75
+        },
+        {
+          "center": 421.75,
+          "height": 44,
+          "text": "Çerez Tercihleri",
+          "y": 399.75
+        }
+      ],
+      "overflow": false,
+      "route": "/blog/",
+      "width": 360
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "font": "12.8px",
+      "footerHeight": 176.75,
+      "intro": null,
+      "lineHeight": "21.76px",
+      "links": [
+        {
+          "center": 377.90625,
+          "height": 44,
+          "text": "Subscribe via RSS",
+          "y": 355.90625
+        },
+        {
+          "center": 377.90625,
+          "height": 44,
+          "text": "Back to Main Site",
+          "y": 355.90625
+        },
+        {
+          "center": 421.90625,
+          "height": 44,
+          "text": "Cookie Preferences",
+          "y": 399.90625
+        }
+      ],
+      "overflow": false,
+      "route": "/en/blog/",
+      "width": 360
+    }
+  ],
+  "footers": [
+    {
+      "route": "/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/blog/",
+      "width": 1440,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/blog/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/blog/",
+      "width": 1280,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/blog/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/blog/",
+      "width": 1024,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/blog/",
+      "width": 768,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/blog/",
+      "width": 390,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolyo/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/portfolio/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/pazaryeri-yonetimi/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/marketplace-management/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/erp-entegrasyonu/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/erp-integration/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/reklam-kampanya-yonetimi/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/advertising-campaign-management/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/e-ticaret-sitesi-yonetimi/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/ecommerce-website-management/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/veri-analizi-raporlama/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/data-analysis-reporting/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/operasyon-otomasyon/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/operations-automation/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/blog/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    },
+    {
+      "route": "/en/blog/",
+      "width": 360,
+      "opened": true,
+      "focus": true
+    }
+  ],
+  "language": [
+    {
+      "case": "fresh-tr",
+      "focus": "intro",
+      "state": "open"
+    },
+    {
+      "case": "tr-en",
+      "display": "none",
+      "state": "closed"
+    },
+    {
+      "case": "en-tr-history-refresh",
+      "locked": false,
+      "state": "closed"
+    }
+  ],
+  "noScript": {
+    "cursor": "auto",
+    "intro": "none",
+    "locked": false,
+    "reveals": true,
+    "scripts": 0,
+    "site": "1"
+  },
+  "initial": {
+    "cue": "Yukarı Kaydır",
+    "locked": true,
+    "siteInert": true,
+    "state": "open"
+  },
+  "autoFinalStart": {
+    "now": 436,
+    "log": [
+      {
+        "at": 108.20000004768372,
+        "since": 73,
+        "state": "open",
+        "hidden": false,
+        "locked": true
+      }
+    ],
+    "state": "open",
+    "active": "intro",
+    "locked": true,
+    "inert": true,
+    "heroTop": 0
+  },
+  "autoFinal": {
+    "now": 22243.100000023842,
+    "log": [
+      {
+        "at": 108.20000004768372,
+        "since": 73,
+        "state": "open",
+        "hidden": false,
+        "locked": true
+      },
+      {
+        "at": 10119.600000023842,
+        "since": 73,
+        "state": "closing",
+        "hidden": false,
+        "locked": true
+      },
+      {
+        "at": 10751.399999976158,
+        "since": 73,
+        "state": "closed",
+        "hidden": false,
+        "locked": false
+      }
+    ],
+    "state": "closed",
+    "active": "hero",
+    "locked": false,
+    "inert": false,
+    "heroTop": 0
+  },
+  "selectorCorrection": {
+    "old": "#consent-dialog",
+    "correct": "dialog.consent-dialog",
+    "reason": "The existing dialog uses a class, not an id; repeated all open-state checks with the correct selector."
+  },
+  "consent": [
+    {
+      "case": "no-consent",
+      "data": {
+        "cls": 0,
+        "network": [],
+        "cookieNames": [],
+        "choice": null,
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "case": "accepted-again",
+      "data": {
+        "cls": 0,
+        "network": [
+          {
+            "url": "https://www.googletagmanager.com/gtag/js",
+            "event": null,
+            "kind": "script"
+          },
+          {
+            "url": "https://www.google-analytics.com/g/collect",
+            "event": "page_view",
+            "kind": "fetch"
+          }
+        ],
+        "cookieNames": [
+          "_ga",
+          "_ga_NFEHG270L2"
+        ],
+        "choice": "{\"version\":1,\"analytics\":true,\"at\":1792756784135}",
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 1,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "consent",
+            "update",
+            {
+              "analytics_storage": "granted",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ],
+          [
+            "js",
+            "2026-10-23T11:59:43.313Z"
+          ],
+          [
+            "config",
+            "G-NFEHG270L2",
+            {
+              "allow_google_signals": false,
+              "allow_ad_personalization_signals": false
+            }
+          ],
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    {
+      "case": "withdrawn",
+      "data": {
+        "cls": 0,
+        "network": [],
+        "cookieNames": [],
+        "choice": "{\"version\":1,\"analytics\":false,\"at\":1792756784934}",
+        "sessionTransition": null,
+        "homeVisited": "1",
+        "scripts": 0,
+        "queue": [
+          [
+            "consent",
+            "default",
+            {
+              "analytics_storage": "denied",
+              "ad_storage": "denied",
+              "ad_user_data": "denied",
+              "ad_personalization": "denied"
+            }
+          ]
+        ]
+      }
+    }
+  ],
+  "console": [],
+  "limits": {
+    "physicalTouchDevice": false,
+    "physicalTrackpad": false,
+    "Safari": false,
+    "touchAndWheelBrowserEvents": "synthetic diagnostic inputs",
+    "noScript": "all application scripts blocked in local browser preview",
+    "reducedMotion": "controller and CSS checked; OS setting not toggled",
+    "GA4DebugView": false
+  }
+}

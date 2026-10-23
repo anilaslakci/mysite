@@ -3,7 +3,7 @@
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const directEntry=document.documentElement.dataset.entry==='direct';
 const lowMotion=directEntry||reducedMotion||matchMedia('(pointer: coarse)').matches;
-if(!directEntry)document.getElementById('site').inert=true;
+
 const menuToggle=document.querySelector('.menu-toggle'),menuLinks=document.getElementById('navigation-links');
 menuToggle?.addEventListener('click',()=>{const open=menuToggle.getAttribute('aria-expanded')!=='true';menuToggle.setAttribute('aria-expanded',String(open));menuLinks.dataset.open=String(open);});
 menuLinks?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menuLinks.dataset.open='false';menuToggle.setAttribute('aria-expanded','false');}));
@@ -26,98 +26,12 @@ function mkSparkles(id,n){
     c.appendChild(s);
   }
 }
-mkSparkles('intro-sparkles',16);
+
 mkSparkles('hero-sparkles',10);
-
-// INTRO PARTICLES
-const ipc=document.getElementById('ipc');
-for(let i=0;i<(lowMotion?0:45);i++){const p=document.createElement('div');p.className='i-p';p.style.cssText=`left:${Math.random()*100}%;top:${Math.random()*100}%;width:${1+Math.random()*3}px;height:${1+Math.random()*3}px;animation-duration:${4+Math.random()*8}s;animation-delay:${Math.random()*6}s;`;ipc.appendChild(p);}
-
-// GLOW
-const ig=document.getElementById('iglow');
-document.addEventListener('mousemove',e=>{ig.style.left=e.clientX+'px';ig.style.top=e.clientY+'px';});
 
 // HERO PARTICLES
 const hpc=document.getElementById('hpc');
 for(let i=0;i<(lowMotion?0:20);i++){const p=document.createElement('div');p.className='h-p';p.style.cssText=`left:${Math.random()*100}%;bottom:0;width:${1+Math.random()*2}px;height:${1+Math.random()*2}px;animation-duration:${6+Math.random()*10}s;animation-delay:${Math.random()*8}s;`;hpc.appendChild(p);}
-
-// CLOSE INTRO — curtain wipe effect
-function closeIntro(){
-  const intro=document.getElementById('intro');
-  const curtain=document.getElementById('curtain');
-  const site=document.getElementById('site');
-  site.inert=false;
-  try{sessionStorage.setItem('mysite-home-visited','1');}catch{}
-
-  if(intro.dataset.closing==='1') return;
-  intro.dataset.closing='1';
-
-  // Kullanıcı intro açıkken kaydırmaya çalışmış olsa bile site her zaman en baştan açılır.
-  window.scrollTo(0,0);
-  document.documentElement.scrollTop=0;
-  document.body.scrollTop=0;
-
-  intro.style.transition='opacity 0.5s ease';
-  intro.style.opacity='0';
-  intro.style.pointerEvents='none';
-
-  setTimeout(()=>{
-    intro.style.display='none';
-    site.classList.add('visible');
-
-    document.documentElement.classList.remove('intro-locked');
-    document.body.classList.remove('intro-locked');
-    document.body.style.position='';
-    document.body.style.inset='';
-    document.body.style.width='';
-    document.body.style.touchAction='';
-    window.scrollTo(0,0);
-
-    setTimeout(()=>{
-      curtain.style.transition='transform 1.1s cubic-bezier(0.77,0,0.175,1)';
-      curtain.style.transform='translateX(100%)';
-    },80);
-  },500);
-}
-
-// Portfolyodaki “Ana Siteye Dön” bağlantısı ?skipIntro=1 parametresi gönderir.
-// Bu durumda açılış ekranı gösterilmeden ana sayfa doğrudan açılır.
-const skipIntro = directEntry;
-
-if(skipIntro){
-  document.getElementById('site').inert=false;
-  try{sessionStorage.setItem('mysite-home-visited','1');}catch{}
-  document.getElementById('intro').style.display='none';
-  document.getElementById('curtain').style.display='none';
-  document.getElementById('site').classList.add('visible');
-  document.documentElement.classList.remove('intro-locked');
-  document.body.classList.remove('intro-locked');
-  document.body.style.position='';
-  document.body.style.inset='';
-  document.body.style.width='';
-  document.body.style.touchAction='';
-  window.history.replaceState({}, document.title, window.location.pathname + window.location.hash);
-  window.scrollTo(0,0);
-}else{
-  // Intro açıkken kaydırma, dokunmatik sürükleme ve klavye ile sayfa hareketini engelle.
-  document.documentElement.classList.add('intro-locked');
-  const blockIntroScroll=e=>{
-    if(!document.body.classList.contains('intro-locked')) return;
-    e.preventDefault();
-  };
-  window.addEventListener('wheel',blockIntroScroll,{passive:false});
-  window.addEventListener('touchmove',blockIntroScroll,{passive:false});
-  window.addEventListener('keydown',e=>{
-    if(document.body.classList.contains('intro-locked') && ['ArrowDown','ArrowUp','PageDown','PageUp','Home','End',' '].includes(e.key)){
-      e.preventDefault();
-    }
-  });
-
-  // Kullanıcı Keşfet butonuna basmazsa açılış 15 saniye görünür ve ardından site otomatik açılır.
-  window.setTimeout(()=>{
-    if(document.body.classList.contains('intro-locked')) closeIntro();
-  }, 15000);
-}
 
 // NAV
 window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('sc',scrollY>60));
@@ -146,3 +60,5 @@ function countUp(el){
 const so=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){countUp(x.target);so.unobserve(x.target);}});});
 document.querySelectorAll('[data-count]').forEach(el=>so.observe(el));
 document.getElementById('year').textContent=new Date().getFullYear();
+
+document.documentElement.classList.add('home-ready');
