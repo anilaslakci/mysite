@@ -9,9 +9,28 @@ menuToggle?.addEventListener('click',()=>{const open=menuToggle.getAttribute('ar
 menuLinks?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menuLinks.dataset.open='false';menuToggle.setAttribute('aria-expanded','false');}));
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menuToggle?.getAttribute('aria-expanded')==='true'){menuLinks.dataset.open='false';menuToggle.setAttribute('aria-expanded','false');menuToggle.focus();}});
 const cur=document.getElementById('cur'),ring=document.getElementById('cur-ring');
-let mx=0,my=0,rx=0,ry=0;
-document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cur.style.left=mx+'px';cur.style.top=my+'px';});
-if(!lowMotion)(function a(){rx+=(mx-rx)*.12;ry+=(my-ry)*.12;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(a);})();
+// Pointer tracking is independent of the intro/decorative-animation preference.
+let mx=0,my=0,rx=0,ry=0,cursorFrame=null,cursorSeen=false;
+const cursorEnabled=()=>!reducedMotion&&matchMedia('(hover: hover) and (pointer: fine)').matches;
+function followCursor(){
+  cursorFrame=null;if(!cursorSeen||document.hidden||!cursorEnabled())return;
+  rx+=(mx-rx)*.12;ry+=(my-ry)*.12;
+  ring.style.left=rx+'px';ring.style.top=ry+'px';
+  if(Math.abs(mx-rx)+Math.abs(my-ry)>.1)cursorFrame=requestAnimationFrame(followCursor);
+}
+cur.style.visibility=ring.style.visibility='hidden';
+document.addEventListener('pointermove',e=>{
+  if(e.pointerType!=='mouse'||!cursorEnabled())return;
+  mx=e.clientX;my=e.clientY;
+  if(!cursorSeen){rx=mx;ry=my;cursorSeen=true;}
+  cur.style.left=mx+'px';cur.style.top=my+'px';
+  cur.style.visibility=ring.style.visibility='visible';
+  if(cursorFrame===null)followCursor();
+},{passive:true});
+document.addEventListener('visibilitychange',()=>{
+  if(document.hidden){if(cursorFrame!==null)cancelAnimationFrame(cursorFrame);cursorFrame=null;}
+  else if(cursorSeen)followCursor();
+});
 
 // SPARKLES
 function mkSparkles(id,n){
