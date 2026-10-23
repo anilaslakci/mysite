@@ -1,0 +1,24 @@
+{
+  "passed": 18,
+  "failed": 0,
+  "checks": [
+    "first visit is optional dialog; focus is on the dialog and main is inert",
+    "idle opens at exactly 10 visible seconds, then releases scroll/focus",
+    "manual click cancels automatic timer; repeated inputs cannot start another transition",
+    "held mouse/touch pointers follow 100 and 120 px BEFORE release, then snap back",
+    "36 percent of actual height dismisses only on release; horizontal/short gestures do not",
+    "capture loss, cancellation, second contact and hidden drag safely return curtain",
+    "mouse wheel and accumulated trackpad deltas honor threshold and time window",
+    "zoom retains native behavior and wheel cannot steal a held drag",
+    "all requested keys open the site, but language links retain native Enter",
+    "Tab wraps inside the visible intro without reaching inert main",
+    "interaction cancels idle opening permanently rather than surprising the user later",
+    "hidden tab pauses visible countdown; closing in a hidden tab finishes without animation",
+    "initially hidden document does not start idle countdown",
+    "returning session, anchor URL and reduced motion skip overlay; late clean visit still opens",
+    "late initialization does not consume a clean first visit",
+    "storage denial and initialization failure always leave a working exit",
+    "pagehide/bfcache completion leaves no stale timer, lock or hidden main",
+    "no-script defaults keep real HTML content visible; footer controls remain localized"
+  ]
+}
