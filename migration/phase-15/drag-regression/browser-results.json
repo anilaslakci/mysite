@@ -1,0 +1,132 @@
+{
+  "base": "http://127.0.0.1:4174",
+  "browser": "Chrome headless, native automation input (isTrusted), isolated contexts",
+  "physicalDevice": false,
+  "results": [
+    {
+      "locale": "tr",
+      "short": {
+        "state": "dragging",
+        "y": -100,
+        "locked": true,
+        "inert": true
+      },
+      "long": {
+        "state": "dragging",
+        "y": -400,
+        "locked": true,
+        "inert": true
+      },
+      "cursor": [
+        {
+          "x": 220,
+          "y": 240,
+          "ringX": 220.078125,
+          "ringY": 240.015625
+        },
+        {
+          "x": 1050,
+          "y": 650,
+          "ringX": 1049.921875,
+          "ringY": 649.953125
+        },
+        {
+          "x": 680,
+          "y": 350,
+          "ringX": 680.046875,
+          "ringY": 350.03125
+        }
+      ],
+      "trustedPointer": true
+    },
+    {
+      "name": "tr clean-session drag, cursor and language transition",
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "short": {
+        "state": "dragging",
+        "y": -100,
+        "locked": true,
+        "inert": true
+      },
+      "long": {
+        "state": "dragging",
+        "y": -400,
+        "locked": true,
+        "inert": true
+      },
+      "cursor": [
+        {
+          "x": 220,
+          "y": 240,
+          "ringX": 220.078125,
+          "ringY": 240.015625
+        },
+        {
+          "x": 1050,
+          "y": 650,
+          "ringX": 1049.921875,
+          "ringY": 649.953125
+        },
+        {
+          "x": 680,
+          "y": 350,
+          "ringX": 680.046875,
+          "ringY": 350.03125
+        }
+      ],
+      "trustedPointer": true
+    },
+    {
+      "name": "en clean-session drag, cursor and language transition",
+      "passed": true
+    },
+    {
+      "name": "cue click and immediate wheel exit remain responsive during entrance",
+      "passed": true
+    },
+    {
+      "idleMilliseconds": 9604
+    },
+    {
+      "name": "10-second real idle countdown",
+      "passed": true
+    },
+    {
+      "name": "responsive 1440",
+      "passed": true
+    },
+    {
+      "name": "responsive 1280",
+      "passed": true
+    },
+    {
+      "name": "responsive 768",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "touchShortY": -100,
+      "touchInput": "Chrome DevTools trusted touch emulation; not physical phone"
+    },
+    {
+      "name": "responsive 390",
+      "passed": true
+    },
+    {
+      "width": 360,
+      "touchShortY": -100,
+      "touchInput": "Chrome DevTools trusted touch emulation; not physical phone"
+    },
+    {
+      "name": "responsive 360",
+      "passed": true
+    },
+    {
+      "name": "keyboard, reduced motion, no-JS and no pre-consent Google request",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "base": "http://127.0.0.1:4174",
+  "results": [
+    {
+      "locale": "mobile",
+      "width": 390,
+      "observedSeconds": 26.25,
+      "layers": [
+        {
+          "layer": "intro",
+          "minVisible": 4,
+          "maxVisible": 5,
+          "respawned": 6,
+          "nodeCount": 6
+        },
+        {
+          "layer": "hero",
+          "minVisible": 3,
+          "maxVisible": 6,
+          "respawned": 6,
+          "nodeCount": 8
+        }
+      ],
+      "revisitSparkles": true,
+      "reducedMotion": true,
+      "consoleErrors": []
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "observedSeconds": 26.25,
+      "layers": [
+        {
+          "layer": "intro",
+          "minVisible": 4,
+          "maxVisible": 5,
+          "respawned": 6,
+          "nodeCount": 6
+        },
+        {
+          "layer": "hero",
+          "minVisible": 5,
+          "maxVisible": 6,
+          "respawned": 8,
+          "nodeCount": 8
+        }
+      ],
+      "revisitSparkles": true,
+      "reducedMotion": true,
+      "consoleErrors": []
+    },
+    {
+      "locale": "tr",
+      "width": 1440,
+      "observedSeconds": 26.25,
+      "layers": [
+        {
+          "layer": "intro",
+          "minVisible": 4,
+          "maxVisible": 5,
+          "respawned": 6,
+          "nodeCount": 6
+        },
+        {
+          "layer": "hero",
+          "minVisible": 5,
+          "maxVisible": 6,
+          "respawned": 8,
+          "nodeCount": 8
+        }
+      ],
+      "revisitSparkles": true,
+      "reducedMotion": true,
+      "consoleErrors": []
+    }
+  ]
+}
