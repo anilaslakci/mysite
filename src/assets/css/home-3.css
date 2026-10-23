@@ -58,7 +58,6 @@
   .i-line{margin-bottom:1.7rem;}
   .i-name{font-size:clamp(1.9rem,10vw,2.55rem);letter-spacing:.08em;line-height:1.15;white-space:normal;}
   .i-title{font-size:.6rem;letter-spacing:.18em;line-height:1.7;text-align:center;padding:0 .75rem;max-width:92vw;}
-  .i-hint-btn{width:min(76vw,280px);padding:.8rem 1rem;}
   .hero{padding-top:7.5rem;}
   .h-eyebrow span{font-size:.6rem;letter-spacing:.16em;}
   .h-actions{flex-direction:column;align-items:stretch;}

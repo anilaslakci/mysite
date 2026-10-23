@@ -3,6 +3,7 @@
 <html lang="{{ pageLocale | default('tr') }}" data-page-key="home">
 <head>
 <!-- Google tag (gtag.js) -->
+<link rel="preload" href="/assets/js/intro.js" as="script">
 {% include "shared/consent-head.njk" %}
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -128,30 +129,22 @@
 </script>
 <noscript><style>#intro,#curtain,#cur,#cur-ring{display:none!important}#site,.reveal{opacity:1!important;transform:none!important}html,body{overflow:auto!important;height:auto!important;position:static!important}</style></noscript>
 </head>
-<body class="intro-locked">
+<body>
 <!-- CURTAIN — slides away on intro close -->
 <div id="curtain"></div>
 <div id="cur"></div>
 <div id="cur-ring"></div>
-<!-- INTRO -->
-<div id="intro">
+<!-- Progressive enhancement: main content is usable if the intro controller cannot load. -->
+<div id="intro" role="dialog" aria-modal="true" aria-label="Giriş ekranı" aria-describedby="intro-help" tabindex="-1">
 <div class="intro-languages">{{ {tr:'/', en:'/en/'} | languageHTML(pageLocale | default('tr')) | safe }}</div>
-<div class="i-particles" id="ipc"></div>
-<div class="sparkle-wrap" id="intro-sparkles"></div>
-<div class="i-glow" id="iglow"></div>
-<div class="i-logo">
-<div class="i-line"></div>
-<div class="i-name">M. Anıl Aşlakcı</div>
-<div class="i-title">E-Ticaret Uzmanı · Dijital Operasyon &amp; Otomasyon</div>
-</div>
-<div class="i-hint">
-<button aria-label="Site içeriğini aç" class="i-hint-btn" onclick="closeIntro()" type="button">Keşfet</button>
-</div>
+<div class="i-logo"><div class="i-line"></div><div class="i-name">M. Anıl Aşlakcı</div><div class="i-title">E-Ticaret Uzmanı · Dijital Operasyon &amp; Otomasyon</div></div>
+<p class="intro-help" id="intro-help">Siteyi açmak için yukarı kaydırın, kaydırma tekerleğini kullanın veya Enter tuşuna basın.</p>
+<button class="intro-swipe" type="button" aria-label="Ana içeriğe geç"><svg aria-hidden="true" width="24" height="40" viewBox="0 0 24 40" fill="none"><path d="M12 34V6M4 14l8-8 8 8" stroke="currentColor" stroke-width="1.2"/></svg><span>Yukarı Kaydır</span></button>
 </div>
 <!-- SITE -->
 <div id="site">
 {% set headerHome = true %}{% include "shared/header.njk" %}
-<section aria-labelledby="ana-baslik" class="hero" id="hero">
+<section aria-labelledby="ana-baslik" class="hero" id="hero" tabindex="-1">
 <div class="h-bg"></div>
 <div class="h-grid"></div>
 <div class="hero-particles" id="hpc"></div>
@@ -306,11 +299,13 @@
 </a>
 </div>
 </section>
-<footer>
+<footer class="site-footer">
 <div class="f-logo">Mustafa Anıl <span>Aşlakcı</span></div>
-<p>© <span id="year"></span> — E-Ticaret Uzmanı · Ankara <a data-blog-entry href="/blog/" style="color:var(--gold);text-decoration:none">· Blog</a></p>
+<p>© <span id="year">2026</span> — E-Ticaret Uzmanı · Ankara</p>
+<div class="footer-links"><a data-blog-entry href="/blog/">Blog</a><!--cookie-link--></div>
 </footer>
 <link rel="stylesheet" href="/assets/css/home-3.css">
+<script src="/assets/js/intro.js"></script>
 <script src="/assets/js/home-1.js"></script>
 </div></body>
 </html>

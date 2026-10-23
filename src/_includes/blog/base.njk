@@ -10,4 +10,4 @@
 <link rel="icon" href="/favicon.ico"><link rel="alternate" type="application/rss+xml" title="Mustafa Anıl Aşlakcı Blog RSS" href="{{ view.feed | default('/feed.xml') }}">
 <link rel="stylesheet" href="/assets/css/blog.css">{% if post %}{{ post.variants | alternateHTML | safe }}{% endif %}{% block head %}{% endblock %}</head>
 <body><a class="skip" href="#main">İçeriğe geç</a>{% if not is404 %}{% set headerSection = 'blog' %}{% endif %}{% include "shared/header.njk" %}
-<main id="main">{% block content %}{% endblock %}</main><footer class="blog-footer"><span>Mustafa Anıl Aşlakcı</span><a href="{{ view.feed | default('/feed.xml') }}">RSS ile takip et</a><a href="/?skipIntro=1">Ana siteye dön</a></footer>{% block scripts %}{% endblock %}</body></html>
+<main id="main">{% block content %}{% endblock %}</main><footer class="blog-footer"><span>Mustafa Anıl Aşlakcı</span><div class="footer-links"><a href="{{ view.feed | default('/feed.xml') }}">RSS ile takip et</a><a href="/?skipIntro=1">Ana siteye dön</a><!--cookie-link--></div></footer>{% block scripts %}{% endblock %}</body></html>

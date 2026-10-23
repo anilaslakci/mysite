@@ -19,3 +19,10 @@ html[data-entry="direct"] .hero .h-eyebrow,html[data-entry="direct"] .hero h1,ht
 @media(max-width:420px){.site-brand{font-size:1.1rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{scroll-behavior:auto!important}}
 .skip:focus{z-index:1100}
+
+/* Quiet, aligned footer controls; consent permissions are unchanged. */
+.footer-links{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:0 20px}.footer-links a{display:inline-flex;align-items:center;min-height:44px;color:inherit;font:inherit;line-height:inherit;text-decoration:none}.footer-links a:hover{color:var(--site-gold)}.footer-links a:focus-visible{outline:2px solid var(--site-gold-light);outline-offset:3px}
+footer.site-footer{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:16px;align-items:center}.site-footer .footer-links{justify-self:end}.site-footer p{margin:0;font-size:.74rem;color:rgba(247,242,232,.5)}.site-footer .footer-links{font-size:.74rem;color:rgba(247,242,232,.65)}
+.blog-footer{align-items:center}.blog-footer .footer-links{margin-left:auto}.footer:has(>.footer-links){display:flex;align-items:center;justify-content:space-between;gap:16px}.footer>.footer-links{flex-shrink:0}
+@media(max-width:1100px){footer.site-footer{display:flex;flex-wrap:wrap;justify-content:space-between}.site-footer p{flex-basis:100%;order:3;text-align:center}}
+@media(max-width:650px){footer.site-footer{flex-direction:column;gap:4px}.site-footer .footer-links,.footer-links{justify-content:center}.blog-footer .footer-links{margin-left:0}.footer:has(>.footer-links){flex-direction:column;gap:4px}.site-footer p{order:0}}

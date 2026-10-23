@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "layouts": 108,
+  "footerDialogs": 108,
+  "idleDelayMs": 10011.399999976158,
+  "transitionMs": 631.7999999523163,
+  "footerMaxVerticalCenterDifference": 0,
+  "consoleErrors": 0,
+  "limits": {
+    "physicalTouchDevice": false,
+    "physicalTrackpad": false,
+    "Safari": false,
+    "touchAndWheelBrowserEvents": "synthetic diagnostic inputs",
+    "noScript": "all application scripts blocked in local browser preview",
+    "reducedMotion": "controller and CSS checked; OS setting not toggled",
+    "GA4DebugView": false
+  }
+}
