@@ -5,7 +5,7 @@ const yaml=createRequire(import.meta.url)('js-yaml');
 const files=fs.readdirSync('.github/workflows').sort();assert(files.every(file=>['validate.yml','publish.yml'].includes(file)));assert(files.includes('validate.yml'));
 const active=yaml.load(fs.readFileSync('.github/workflows/validate.yml','utf8'));
 assert.deepEqual(active.permissions,{contents:'read'});assert(!active.on.schedule);
-assert.deepEqual(active.on.push.branches,['refactor/eleventy-cms-migration']);
+assert.deepEqual(active.on.push.branches,['refactor/eleventy-cms-migration','codex/site-ux-cohesion']);
 assert.deepEqual(Object.keys(active.jobs),['validate']);
 const pins=JSON.parse(fs.readFileSync('ops/github-actions/action-pins.json'));
 for(const step of active.jobs.validate.steps){
