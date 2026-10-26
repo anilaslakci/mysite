@@ -14,7 +14,7 @@ for(const step of active.jobs.validate.steps){
 }
 assert.equal(active.jobs.validate.steps[0].with['persist-credentials'],false);
 const disabled=yaml.load(fs.readFileSync('ops/github-actions/publish.yml.example','utf8'));
-assert.equal(disabled.on.schedule[0].cron,'0 6 * * *');assert.deepEqual(disabled.on.push.branches,['main']);
+assert.deepEqual(disabled.on.schedule.map(s=>s.cron),['0 6 * * *','0 7 * * *','17,37 7 * * 1']);assert.deepEqual(disabled.on.push.branches,['main']);
 assert.deepEqual(disabled.permissions,{contents:'read'});
 assert.deepEqual(disabled.jobs.deploy.permissions,{pages:'write','id-token':'write'});
 assert.equal(disabled.jobs.deploy.needs,'build');assert.equal(disabled.jobs.deploy.environment.name,'github-pages');

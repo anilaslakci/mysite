@@ -1,5 +1,6 @@
 # INACTIVE outside .github/workflows. Copy/enable only with separate approval.
-# 06:00 UTC = 09:00 Europe/Istanbul under current UTC+03 rules.
+# UTC+03: daily 09:00 retained; daily 10:00 target; Monday 10:17/10:37 retries.
+# GitHub cron is best-effort: no exact-minute publication guarantee.
 name: Production Pages publishing
 'on':
   push:
@@ -7,6 +8,8 @@ name: Production Pages publishing
       - main
   schedule:
     - cron: 0 6 * * *
+    - cron: 0 7 * * *
+    - cron: 17,37 7 * * 1
   workflow_dispatch: {}
 permissions:
   contents: read
