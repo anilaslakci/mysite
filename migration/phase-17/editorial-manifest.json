@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-26",
+  "wordCountMethod": "Rendered article body text; headings and table values included; HTML tags, URLs and alt attributes excluded. Unicode letter/number words, internal apostrophes/hyphens retained.",
+  "posts": [
+    {
+      "uid": "483a95eb-e7b2-4bf6-bd5b-c7dcc50281eb",
+      "source": "src\\content\\posts\\483a95eb-e7b2-4bf6-bd5b-c7dcc50281eb.md",
+      "title": "ROAS Nedir? 3, 5 veya 10 ROAS Gerçekten Kârlı mı?",
+      "slug": "roas-nedir-karli-mi",
+      "wordCount": 1978,
+      "status": "published",
+      "publishAt": "2026-10-26T09:00:00+03:00",
+      "category": "reklam-performans",
+      "images": [
+        "/assets/blog/roas-rehber-kapak.png",
+        "/assets/blog/roas-katki-akisi.png"
+      ],
+      "serviceLinks": [
+        "/veri-analizi-raporlama/",
+        "/reklam-kampanya-yonetimi/",
+        "/#iletisim"
+      ],
+      "articleLinks": [
+        "/blog/meta-reklamlari-nasil-calisir/",
+        "/blog/trendyolda-satis-yapmak-karli-mi/"
+      ],
+      "sourceSHA256": "30f0ee894ab32060c260ac4eeee9167966aab0254c14cb42a61aec66d5f56114"
+    },
+    {
+      "uid": "b7789192-bac7-40c2-8157-7e82eba88259",
+      "source": "src\\content\\posts\\b7789192-bac7-40c2-8157-7e82eba88259.md",
+      "title": "Trendyol’da Satış Yapmak Kârlı mı? Komisyon, Kargo ve Reklam Maliyetleri",
+      "slug": "trendyolda-satis-yapmak-karli-mi",
+      "wordCount": 2043,
+      "status": "published",
+      "publishAt": "2026-10-26T09:00:00+03:00",
+      "category": "pazaryeri-yonetimi",
+      "images": [
+        "/assets/blog/trendyol-rehber-kapak.png",
+        "/assets/blog/trendyol-maliyet-kirilimi.png"
+      ],
+      "serviceLinks": [
+        "/erp-entegrasyonu/",
+        "/veri-analizi-raporlama/",
+        "/pazaryeri-yonetimi/",
+        "/#iletisim"
+      ],
+      "articleLinks": [
+        "/blog/roas-nedir-karli-mi/",
+        "/blog/dropshipping-nedir-2026/"
+      ],
+      "sourceSHA256": "b8fcda92ab6ae509ee43620ebfbd49dcd8d7948d47604eaab44dd5b295749472"
+    },
+    {
+      "uid": "96571f9a-6859-4b97-af6d-308dcfee73de",
+      "source": "src\\content\\posts\\96571f9a-6859-4b97-af6d-308dcfee73de.md",
+      "title": "Meta Reklamları Nasıl Çalışır? Instagram ve Facebook Reklamlarına Başlangıç",
+      "slug": "meta-reklamlari-nasil-calisir",
+      "wordCount": 2145,
+      "status": "published",
+      "publishAt": "2026-10-26T09:00:00+03:00",
+      "category": "reklam-performans",
+      "images": [
+        "/assets/blog/meta-rehber-kapak.png",
+        "/assets/blog/meta-kampanya-yapisi.png"
+      ],
+      "serviceLinks": [
+        "/e-ticaret-sitesi-yonetimi/",
+        "/veri-analizi-raporlama/",
+        "/reklam-kampanya-yonetimi/",
+        "/#iletisim"
+      ],
+      "articleLinks": [
+        "/blog/roas-nedir-karli-mi/",
+        "/blog/trendyolda-satis-yapmak-karli-mi/",
+        "/blog/dropshipping-nedir-2026/"
+      ],
+      "sourceSHA256": "ac4c0c68267f49260da0e57b83778a43fae38c4c4c34ea420a9584078c06044c"
+    },
+    {
+      "uid": "12078af9-1e96-43b8-9a6d-8bf10582101a",
+      "source": "src\\content\\posts\\12078af9-1e96-43b8-9a6d-8bf10582101a.md",
+      "title": "Dropshipping Nedir? 2026’da Hâlâ Para Kazandırır mı?",
+      "slug": "dropshipping-nedir-2026",
+      "wordCount": 2017,
+      "status": "published",
+      "publishAt": "2026-10-26T09:00:00+03:00",
+      "category": "e-ticaret",
+      "images": [
+        "/assets/blog/dropshipping-rehber-kapak.png",
+        "/assets/blog/dropshipping-is-akisi.png"
+      ],
+      "serviceLinks": [
+        "/erp-entegrasyonu/",
+        "/operasyon-otomasyon/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/#iletisim"
+      ],
+      "articleLinks": [
+        "/blog/roas-nedir-karli-mi/",
+        "/blog/meta-reklamlari-nasil-calisir/",
+        "/blog/trendyolda-satis-yapmak-karli-mi/"
+      ],
+      "sourceSHA256": "8e7d771eb661719edf4b8f43a891df9ce606b43baec0cbfccc5e67013ea22fa5"
+    }
+  ]
+}
