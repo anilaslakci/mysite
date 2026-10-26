@@ -1,0 +1,104 @@
+{
+  "physicalDevice": false,
+  "browser": "Chrome headless",
+  "currentTimeOutputArticles": 4,
+  "futureSimulatedOutputArticles": 8,
+  "rows": [
+    {
+      "width": 390,
+      "slug": "trendyol-mu-kendi-e-ticaret-sitesi-mi",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    },
+    {
+      "width": 390,
+      "slug": "google-ads-mi-meta-ads-mi",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    },
+    {
+      "width": 390,
+      "slug": "al-sat-yaparak-para-kazanmak",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    },
+    {
+      "width": 390,
+      "slug": "yurt-disina-e-ticaret-nasil-yapilir",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    },
+    {
+      "width": 768,
+      "slug": "trendyol-mu-kendi-e-ticaret-sitesi-mi",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    },
+    {
+      "width": 768,
+      "slug": "google-ads-mi-meta-ads-mi",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    },
+    {
+      "width": 768,
+      "slug": "al-sat-yaparak-para-kazanmak",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    },
+    {
+      "width": 768,
+      "slug": "yurt-disina-e-ticaret-nasil-yapilir",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    },
+    {
+      "width": 1440,
+      "slug": "trendyol-mu-kendi-e-ticaret-sitesi-mi",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    },
+    {
+      "width": 1440,
+      "slug": "google-ads-mi-meta-ads-mi",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    },
+    {
+      "width": 1440,
+      "slug": "al-sat-yaparak-para-kazanmak",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    },
+    {
+      "width": 1440,
+      "slug": "yurt-disina-e-ticaret-nasil-yapilir",
+      "imageLoaded": true,
+      "noOverflow": true,
+      "related": 3,
+      "seo": true
+    }
+  ]
+}
