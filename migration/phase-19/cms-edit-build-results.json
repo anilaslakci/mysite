@@ -1,0 +1,16 @@
+{
+  "hostedCMS": false,
+  "fixtureOnly": true,
+  "rows": [
+    {
+      "time": "2026-11-02T11:14:59+03:00",
+      "editedArticlePresent": false,
+      "fullOutputSeoLinksFeeds": "passed"
+    },
+    {
+      "time": "2026-11-02T11:15:00+03:00",
+      "editedArticlePresent": true,
+      "fullOutputSeoLinksFeeds": "passed"
+    }
+  ]
+}

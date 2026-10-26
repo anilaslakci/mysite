@@ -21,11 +21,12 @@
     "test:flexibility": "node scripts/test-portfolio-flexibility.mjs",
     "test:flexibility-browser-evidence": "node scripts/test-portfolio-browser-evidence.mjs",
     "test:completion": "node scripts/test-portfolio-completion.mjs",
-    "test:blog": "node scripts/test-blog.mjs",
+    "test:blog": "node scripts/test-blog.mjs && node scripts/test-cms-publication-dates.mjs",
     "test:workflow": "node scripts/test-workflow-safety.mjs",
     "test:i18n": "node scripts/test-i18n.mjs && node scripts/test-blog-translations.mjs",
     "test:translations": "node scripts/test-blog-translations.mjs",
-    "test:november": "node scripts/test-november-publishing.mjs"
+    "test:november": "node scripts/test-november-publishing.mjs",
+    "test:cms-dates": "node scripts/test-cms-publication-dates.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.7",
