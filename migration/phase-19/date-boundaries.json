@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "time": "2026-11-02T09:00:00+03:00",
+      "newArticles": 0,
+      "totalArticles": 4,
+      "htmlSitemapRssRelated": "passed"
+    },
+    {
+      "time": "2026-11-02T09:59:00+03:00",
+      "newArticles": 0,
+      "totalArticles": 4,
+      "htmlSitemapRssRelated": "passed"
+    },
+    {
+      "time": "2026-11-02T09:59:59+03:00",
+      "newArticles": 0,
+      "totalArticles": 4,
+      "htmlSitemapRssRelated": "passed"
+    },
+    {
+      "time": "2026-11-02T10:00:00+03:00",
+      "newArticles": 1,
+      "totalArticles": 5,
+      "htmlSitemapRssRelated": "passed"
+    },
+    {
+      "time": "2026-11-02T10:17:00+03:00",
+      "newArticles": 1,
+      "totalArticles": 5,
+      "htmlSitemapRssRelated": "passed"
+    },
+    {
+      "time": "2026-11-09T09:59:00+03:00",
+      "newArticles": 1,
+      "totalArticles": 5,
+      "htmlSitemapRssRelated": "passed"
+    },
+    {
+      "time": "2026-11-09T10:00:00+03:00",
+      "newArticles": 2,
+      "totalArticles": 6,
+      "htmlSitemapRssRelated": "passed"
+    },
+    {
+      "time": "2026-11-16T10:00:00+03:00",
+      "newArticles": 3,
+      "totalArticles": 7,
+      "htmlSitemapRssRelated": "passed"
+    },
+    {
+      "time": "2026-11-23T10:00:00+03:00",
+      "newArticles": 4,
+      "totalArticles": 8,
+      "htmlSitemapRssRelated": "passed"
+    }
+  ],
+  "draftAfterDue": "passed",
+  "earlyCmsEdit": "passed",
+  "oldFilesUnchanged": 109
+}

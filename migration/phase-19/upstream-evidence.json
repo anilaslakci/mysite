@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-26",
+  "repository": "https://github.com/pages-cms/pages-cms",
+  "fieldSource": "fields/core/date/index.ts",
+  "dateFns": "3.6.0",
+  "sourceHashes": {
+    "index.ts": "1260e5f849ade01df66d9e35c8eb482f310f2da993c00e6ba51a02c5209d708a",
+    "view-component.tsx": "73f52cb9c645b5eb005770fd9b01ace4ff6a868a2f852a7acd9c1be2a4901bc6",
+    "edit-component.tsx": "8f542b9cbc907d57b32622d8c9dbfc759765e6a59bc87dd35c04557af5448e30",
+    "date-fns.tgz": "a8fe07bb86cfe3c75fbc6d4718816b0e5eb1ce6ba43930b961e9dbec73e68300"
+  },
+  "zones": [
+    "Europe/Istanbul",
+    "UTC",
+    "America/New_York",
+    "Asia/Tokyo"
+  ],
+  "perZone": {
+    "oldFormatRejected": 8,
+    "newFormatRoundTrips": 8,
+    "editedSavedValue": "2026-11-02T11:15:00+03:00",
+    "originalPostFilesChanged": 0
+  },
+  "hostedCMS": false
+}
