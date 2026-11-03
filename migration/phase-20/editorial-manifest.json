@@ -1,0 +1,425 @@
+{
+  "created": "2026-11-03",
+  "timeZone": "Europe/Istanbul",
+  "wordCountMethod": "Rendered body including headings and tables; HTML, URLs, and alt attributes excluded",
+  "posts": [
+    {
+      "topic": "conversion",
+      "uid": "6b4e7f80-9ad4-4a91-9d2a-05e7bcbeb668",
+      "source": "src\\content\\posts\\6b4e7f80-9ad4-4a91-9d2a-05e7bcbeb668.md",
+      "locale": "tr",
+      "title": "E-Ticaret Siteme Ziyaretçi Geliyor Ama Satış Yok: Nereden Başlamalıyım?",
+      "slug": "e-ticaret-ziyaretci-var-satis-yok",
+      "seoTitle": "E-Ticarette Ziyaretçi Var Ama Satış Yok: Teşhis Rehberi",
+      "description": "Ziyaretçi var ama sipariş yoksa ölçüm, trafik, ürün, sepet ve ödeme akışını sırayla inceleyin. Örnek huni ve kontrol matrisiyle doğru işe başlayın.",
+      "publishAt": "2026-11-30T10:00:00+03:00",
+      "translationOf": null,
+      "wordCount": 1272,
+      "sourceSHA256": "481be1d7ab2bfaa35799561c4bcca928a2334db09469e6fb52184608be7c6223",
+      "images": [
+        {
+          "src": "/assets/blog/winter-conversion-cover.png",
+          "bytes": 31802,
+          "svgBytes": 1649
+        },
+        {
+          "src": "/assets/blog/winter-conversion-diagram-tr.png",
+          "bytes": 22283,
+          "svgBytes": 2817
+        }
+      ],
+      "serviceLinks": [
+        "/reklam-kampanya-yonetimi/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/#iletisim"
+      ],
+      "sources": [
+        "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "https://baymard.com/blog/reduce-cart-abandonment"
+      ]
+    },
+    {
+      "topic": "conversion",
+      "uid": "06906dbd-0fc7-4e6e-91c3-0f2ea33dc567",
+      "source": "src\\content\\posts\\06906dbd-0fc7-4e6e-91c3-0f2ea33dc567.md",
+      "locale": "en",
+      "title": "Ecommerce Traffic but No Sales: What Should You Check First?",
+      "slug": "ecommerce-traffic-but-no-sales",
+      "seoTitle": "Ecommerce Traffic but No Sales: A Practical Diagnosis",
+      "description": "Find out whether low sales come from measurement, traffic fit, product information, or checkout friction. Use a practical funnel and audit matrix.",
+      "publishAt": "2026-11-30T10:00:00+03:00",
+      "translationOf": "6b4e7f80-9ad4-4a91-9d2a-05e7bcbeb668",
+      "wordCount": 1597,
+      "sourceSHA256": "8d0f805880291514854ea859d407e7fd9b4589439317943f25ce9742729da1ff",
+      "images": [
+        {
+          "src": "/assets/blog/winter-conversion-cover.png",
+          "bytes": 31802,
+          "svgBytes": 1649
+        },
+        {
+          "src": "/assets/blog/winter-conversion-diagram-en.png",
+          "bytes": 23590,
+          "svgBytes": 2825
+        }
+      ],
+      "serviceLinks": [
+        "/en/advertising-campaign-management/",
+        "/en/ecommerce-website-management/",
+        "/en/#iletisim"
+      ],
+      "sources": [
+        "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "https://baymard.com/blog/reduce-cart-abandonment"
+      ]
+    },
+    {
+      "topic": "pricing",
+      "uid": "d1c4babd-e830-417c-8f28-3b9373531d7f",
+      "source": "src\\content\\posts\\d1c4babd-e830-417c-8f28-3b9373531d7f.md",
+      "locale": "tr",
+      "title": "E-Ticarette Ürün Fiyatlandırması Nasıl Yapılır? İndirim Yaparken Kârı Korumak",
+      "slug": "e-ticaret-urun-fiyatlandirma-indirim",
+      "seoTitle": "E-Ticarette Fiyatlandırma: İndirim ve Katkı Hesabı",
+      "description": "Marj ile maliyet üzerine eklenen oranı ayırın. Örnek maliyet tablosuyla indirim, kupon ve ücretsiz kargonun sipariş katkısına etkisini hesaplayın.",
+      "publishAt": "2026-12-07T10:00:00+03:00",
+      "translationOf": null,
+      "wordCount": 1235,
+      "sourceSHA256": "64048f14a986a981638c1ddad3b27236ea3a7c1b28593b845606230b4e29e97b",
+      "images": [
+        {
+          "src": "/assets/blog/winter-pricing-cover.png",
+          "bytes": 39113,
+          "svgBytes": 1263
+        },
+        {
+          "src": "/assets/blog/winter-pricing-diagram-tr.png",
+          "bytes": 31758,
+          "svgBytes": 2072
+        }
+      ],
+      "serviceLinks": [
+        "/veri-analizi-raporlama/",
+        "/e-ticaret-sitesi-yonetimi/",
+        "/#iletisim"
+      ],
+      "sources": [
+        "https://help.shopify.com/en/manual/products/details/product-pricing/determine-pricing"
+      ]
+    },
+    {
+      "topic": "pricing",
+      "uid": "89e08486-e610-4423-b988-c1f83c2df111",
+      "source": "src\\content\\posts\\89e08486-e610-4423-b988-c1f83c2df111.md",
+      "locale": "en",
+      "title": "Ecommerce Product Pricing: Protecting Contribution When You Discount",
+      "slug": "ecommerce-product-pricing-discounts",
+      "seoTitle": "Ecommerce Pricing: Discounts, Margin, and Contribution",
+      "description": "Separate margin from markup and calculate how discounts affect order contribution. Explore pricing floors, coupons, shipping, and controlled tests.",
+      "publishAt": "2026-12-07T10:00:00+03:00",
+      "translationOf": "d1c4babd-e830-417c-8f28-3b9373531d7f",
+      "wordCount": 1566,
+      "sourceSHA256": "37c3be0098e94992c6bcb35939ae40e422b81021a7fd20f1127408cc59b79734",
+      "images": [
+        {
+          "src": "/assets/blog/winter-pricing-cover.png",
+          "bytes": 39113,
+          "svgBytes": 1263
+        },
+        {
+          "src": "/assets/blog/winter-pricing-diagram-en.png",
+          "bytes": 32370,
+          "svgBytes": 2067
+        }
+      ],
+      "serviceLinks": [
+        "/en/data-analysis-reporting/",
+        "/en/ecommerce-website-management/",
+        "/en/#iletisim"
+      ],
+      "sources": [
+        "https://help.shopify.com/en/manual/products/details/product-pricing/determine-pricing"
+      ]
+    },
+    {
+      "topic": "merchant",
+      "uid": "9d2fdb73-bbc6-4eda-bd3e-a55e4688ead6",
+      "source": "src\\content\\posts\\9d2fdb73-bbc6-4eda-bd3e-a55e4688ead6.md",
+      "locale": "tr",
+      "title": "Google Merchant Center Nedir? Ürün Reddedilme Sorunları Nasıl Çözülür?",
+      "slug": "google-merchant-center-urun-reddi",
+      "seoTitle": "Google Merchant Center: Ürün Reddi ve Veri Kontrolü",
+      "description": "Merchant Center ürün sorunlarını fiyat, stok, varyant, görsel ve bağlantı kanıtlarıyla inceleyin. Güncel API yaklaşımı ve kontrol listesiyle ilerleyin.",
+      "publishAt": "2026-12-14T10:00:00+03:00",
+      "translationOf": null,
+      "wordCount": 1231,
+      "sourceSHA256": "1c0d22e4cd8f5bd1e222bdbabd4f6fff5410c5a041c294177304fa06bf632bef",
+      "images": [
+        {
+          "src": "/assets/blog/winter-merchant-cover.png",
+          "bytes": 29229,
+          "svgBytes": 1830
+        },
+        {
+          "src": "/assets/blog/winter-merchant-diagram-tr.png",
+          "bytes": 23057,
+          "svgBytes": 2835
+        }
+      ],
+      "serviceLinks": [
+        "/erp-entegrasyonu/",
+        "/reklam-kampanya-yonetimi/",
+        "/#iletisim"
+      ],
+      "sources": [
+        "https://support.google.com/merchants/answer/7052112?hl=tr",
+        "https://support.google.com/merchants/answer/9773429?hl=tr",
+        "https://developers.google.com/merchant/api/latest-updates"
+      ]
+    },
+    {
+      "topic": "merchant",
+      "uid": "e94f4931-2856-4a99-9f3b-03d746621e4c",
+      "source": "src\\content\\posts\\e94f4931-2856-4a99-9f3b-03d746621e4c.md",
+      "locale": "en",
+      "title": "Google Merchant Center: How to Investigate Product Disapprovals",
+      "slug": "google-merchant-center-product-disapprovals",
+      "seoTitle": "Google Merchant Center Product Disapprovals: A Guide",
+      "description": "Investigate Merchant Center issues using product data, price, availability, variants, and URLs. Follow a controlled audit with current API guidance.",
+      "publishAt": "2026-12-14T10:00:00+03:00",
+      "translationOf": "9d2fdb73-bbc6-4eda-bd3e-a55e4688ead6",
+      "wordCount": 1498,
+      "sourceSHA256": "cdfc8808725b3d0e543e4b48bab3f363172ba59297f077e5b6f694de8b818019",
+      "images": [
+        {
+          "src": "/assets/blog/winter-merchant-cover.png",
+          "bytes": 29229,
+          "svgBytes": 1830
+        },
+        {
+          "src": "/assets/blog/winter-merchant-diagram-en.png",
+          "bytes": 22855,
+          "svgBytes": 2813
+        }
+      ],
+      "serviceLinks": [
+        "/en/erp-integration/",
+        "/en/advertising-campaign-management/",
+        "/en/#iletisim"
+      ],
+      "sources": [
+        "https://support.google.com/merchants/answer/7052112?hl=en",
+        "https://support.google.com/merchants/answer/9773429?hl=en",
+        "https://developers.google.com/merchant/api/latest-updates"
+      ]
+    },
+    {
+      "topic": "inventory",
+      "uid": "ac7bf8a6-2d9b-439c-b40c-2d36870ddfd1",
+      "source": "src\\content\\posts\\ac7bf8a6-2d9b-439c-b40c-2d36870ddfd1.md",
+      "locale": "tr",
+      "title": "Pazaryeri ve E-Ticaret Sitesinde Stok Nasıl Senkronize Edilir?",
+      "slug": "pazaryeri-e-ticaret-stok-senkronizasyonu",
+      "seoTitle": "Pazaryeri ve Site Stok Senkronizasyonu: Kontrol Rehberi",
+      "description": "Satılabilir stok, SKU eşleşmesi, rezervasyon, iptal ve iadeleri birlikte yönetin. Örnek olay tablosuyla fazla satış riskini ve kontrol adımlarını inceleyin.",
+      "publishAt": "2026-12-21T10:00:00+03:00",
+      "translationOf": null,
+      "wordCount": 1197,
+      "sourceSHA256": "b6f7304ae22453dc966e59b9919345d5664c2d20cbc373a0fb26fe95dafdeaf9",
+      "images": [
+        {
+          "src": "/assets/blog/winter-inventory-cover.png",
+          "bytes": 36893,
+          "svgBytes": 1814
+        },
+        {
+          "src": "/assets/blog/winter-inventory-diagram-tr.png",
+          "bytes": 24815,
+          "svgBytes": 2881
+        }
+      ],
+      "serviceLinks": [
+        "/erp-entegrasyonu/",
+        "/pazaryeri-yonetimi/",
+        "/erp-entegrasyonu/",
+        "/#iletisim"
+      ],
+      "sources": [
+        "https://help.shopify.com/en/manual/inventory-and-locations/fundamentals/inventory-states"
+      ]
+    },
+    {
+      "topic": "inventory",
+      "uid": "ee063e9e-8a53-4d75-baf8-2a6634ed02bc",
+      "source": "src\\content\\posts\\ee063e9e-8a53-4d75-baf8-2a6634ed02bc.md",
+      "locale": "en",
+      "title": "How to Synchronize Inventory Across Marketplaces and Your Store",
+      "slug": "marketplace-store-inventory-sync",
+      "seoTitle": "Marketplace and Store Inventory Sync: A Control Guide",
+      "description": "Define available stock, map SKUs, and manage reservations, cancellations, and returns. Review overselling risks with a worked inventory lifecycle.",
+      "publishAt": "2026-12-21T10:00:00+03:00",
+      "translationOf": "ac7bf8a6-2d9b-439c-b40c-2d36870ddfd1",
+      "wordCount": 1422,
+      "sourceSHA256": "8b2334173a6b8e41f2217b86f799d48b983120bcfe158bd0b10c7a1f65cde7b5",
+      "images": [
+        {
+          "src": "/assets/blog/winter-inventory-cover.png",
+          "bytes": 36893,
+          "svgBytes": 1814
+        },
+        {
+          "src": "/assets/blog/winter-inventory-diagram-en.png",
+          "bytes": 24427,
+          "svgBytes": 2853
+        }
+      ],
+      "serviceLinks": [
+        "/en/erp-integration/",
+        "/en/marketplace-management/",
+        "/en/erp-integration/",
+        "/en/#iletisim"
+      ],
+      "sources": [
+        "https://help.shopify.com/en/manual/inventory-and-locations/fundamentals/inventory-states"
+      ]
+    },
+    {
+      "topic": "kpi",
+      "uid": "de1bfe5b-8045-41aa-a4b2-37a589a9382f",
+      "source": "src\\content\\posts\\de1bfe5b-8045-41aa-a4b2-37a589a9382f.md",
+      "locale": "tr",
+      "title": "E-Ticarette Hangi KPI’lar Takip Edilmeli? Cirodan Kârlılığa Yönetim Paneli",
+      "slug": "e-ticaret-kpi-yonetim-paneli",
+      "seoTitle": "E-Ticaret KPI’ları: Ciro, Katkı ve Operasyon Paneli",
+      "description": "Ciroyu katkı, iade, teslimat ve stokla birlikte değerlendirin. Örnek KPI paneli, açık formüller ve metrik sözlüğüyle raporu karara dönüştürün.",
+      "publishAt": "2026-12-28T10:00:00+03:00",
+      "translationOf": null,
+      "wordCount": 1268,
+      "sourceSHA256": "853a071906158647eef126874e56fc00be26af5d885c288d78234cc3cdcb9d79",
+      "images": [
+        {
+          "src": "/assets/blog/winter-kpi-cover.png",
+          "bytes": 21888,
+          "svgBytes": 1699
+        },
+        {
+          "src": "/assets/blog/winter-kpi-diagram-tr.png",
+          "bytes": 23896,
+          "svgBytes": 2310
+        }
+      ],
+      "serviceLinks": [
+        "/veri-analizi-raporlama/",
+        "/#iletisim"
+      ],
+      "sources": [
+        "https://support.google.com/analytics/answer/13428834?hl=en",
+        "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce"
+      ]
+    },
+    {
+      "topic": "kpi",
+      "uid": "33c6ddba-878a-41e9-8144-111cbca2cc00",
+      "source": "src\\content\\posts\\33c6ddba-878a-41e9-8144-111cbca2cc00.md",
+      "locale": "en",
+      "title": "Which Ecommerce KPIs Should You Track? A Dashboard Beyond Revenue",
+      "slug": "ecommerce-kpi-management-dashboard",
+      "seoTitle": "Ecommerce KPIs: Revenue, Contribution, and Operations",
+      "description": "Build a decision-focused ecommerce dashboard with clear definitions for revenue, contribution, refunds, delivery, and inventory. Includes worked examples.",
+      "publishAt": "2026-12-28T10:00:00+03:00",
+      "translationOf": "de1bfe5b-8045-41aa-a4b2-37a589a9382f",
+      "wordCount": 1516,
+      "sourceSHA256": "9a979f2ac1a6501040b42b416be7e91d784525a9c27c5134e8a5cc0f3bb05166",
+      "images": [
+        {
+          "src": "/assets/blog/winter-kpi-cover.png",
+          "bytes": 21888,
+          "svgBytes": 1699
+        },
+        {
+          "src": "/assets/blog/winter-kpi-diagram-en.png",
+          "bytes": 24192,
+          "svgBytes": 2305
+        }
+      ],
+      "serviceLinks": [
+        "/en/data-analysis-reporting/",
+        "/en/#iletisim"
+      ],
+      "sources": [
+        "https://support.google.com/analytics/answer/13428834?hl=en",
+        "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce"
+      ]
+    },
+    {
+      "topic": "automation",
+      "uid": "20069689-3662-4bd4-9221-7608ba70ad9f",
+      "source": "src\\content\\posts\\20069689-3662-4bd4-9221-7608ba70ad9f.md",
+      "locale": "tr",
+      "title": "E-Ticarette Neler Otomatikleştirilmeli? Excel, Python ve ERP İçin Karar Rehberi",
+      "slug": "e-ticaret-otomasyon-excel-python-erp",
+      "seoTitle": "E-Ticaret Otomasyonu: Excel, Python ve ERP Seçimi",
+      "description": "İlk otomasyon işini tekrar, risk ve bakım yüküyle seçin. Excel, Python ve ERP için karar matrisi, süre hesabı ve güvenli pilot kontrol listesi.",
+      "publishAt": "2027-01-04T10:00:00+03:00",
+      "translationOf": null,
+      "wordCount": 1337,
+      "sourceSHA256": "fdd9aaf9787f3bfa62a59af500665770d8d83c8c76e443a3bf488297419b6dc8",
+      "images": [
+        {
+          "src": "/assets/blog/winter-automation-cover.png",
+          "bytes": 35382,
+          "svgBytes": 1527
+        },
+        {
+          "src": "/assets/blog/winter-automation-diagram-tr.png",
+          "bytes": 23056,
+          "svgBytes": 2823
+        }
+      ],
+      "serviceLinks": [
+        "/operasyon-otomasyon/",
+        "/erp-entegrasyonu/",
+        "/#iletisim"
+      ],
+      "sources": [
+        "https://docs.python.org/3/library/csv.html",
+        "https://community.owasp.org/attacks/CSV_Injection"
+      ]
+    },
+    {
+      "topic": "automation",
+      "uid": "4a59c099-8a64-4621-b6d3-259b61398e80",
+      "source": "src\\content\\posts\\4a59c099-8a64-4621-b6d3-259b61398e80.md",
+      "locale": "en",
+      "title": "What Should You Automate in Ecommerce? Choosing Excel, Python, or ERP",
+      "slug": "ecommerce-automation-excel-python-erp",
+      "seoTitle": "Ecommerce Automation: Excel, Python, and ERP Decisions",
+      "description": "Choose an automation pilot by rule clarity, risk, and maintenance. Compare spreadsheets, Python, and ERP with a worked time-saving model and checklist.",
+      "publishAt": "2027-01-04T10:00:00+03:00",
+      "translationOf": "20069689-3662-4bd4-9221-7608ba70ad9f",
+      "wordCount": 1596,
+      "sourceSHA256": "6681c7fb076752fc05891b66c6010de896091befd0b9b7f84b47f48acba5f1a6",
+      "images": [
+        {
+          "src": "/assets/blog/winter-automation-cover.png",
+          "bytes": 35382,
+          "svgBytes": 1527
+        },
+        {
+          "src": "/assets/blog/winter-automation-diagram-en.png",
+          "bytes": 23770,
+          "svgBytes": 2825
+        }
+      ],
+      "serviceLinks": [
+        "/en/operations-automation/",
+        "/en/erp-integration/",
+        "/en/#iletisim"
+      ],
+      "sources": [
+        "https://docs.python.org/3/library/csv.html",
+        "https://community.owasp.org/attacks/CSV_Injection"
+      ]
+    }
+  ]
+}
