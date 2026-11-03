@@ -26,7 +26,8 @@
     "test:i18n": "node scripts/test-i18n.mjs && node scripts/test-blog-translations.mjs",
     "test:translations": "node scripts/test-blog-translations.mjs",
     "test:november": "node scripts/test-november-publishing.mjs",
-    "test:cms-dates": "node scripts/test-cms-publication-dates.mjs"
+    "test:cms-dates": "node scripts/test-cms-publication-dates.mjs",
+    "test:winter": "node scripts/test-winter-editorial.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.7",

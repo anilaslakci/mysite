@@ -1,0 +1,367 @@
+{
+  "physicalDevice": false,
+  "browser": "Chrome headless",
+  "previewTime": "2027-01-04T10:00:00+03:00",
+  "results": [
+    {
+      "width": 390,
+      "uid": "6b4e7f80-9ad4-4a91-9d2a-05e7bcbeb668",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "uid": "06906dbd-0fc7-4e6e-91c3-0f2ea33dc567",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "uid": "d1c4babd-e830-417c-8f28-3b9373531d7f",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "uid": "89e08486-e610-4423-b988-c1f83c2df111",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "uid": "9d2fdb73-bbc6-4eda-bd3e-a55e4688ead6",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "uid": "e94f4931-2856-4a99-9f3b-03d746621e4c",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "uid": "ac7bf8a6-2d9b-439c-b40c-2d36870ddfd1",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "uid": "ee063e9e-8a53-4d75-baf8-2a6634ed02bc",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "uid": "de1bfe5b-8045-41aa-a4b2-37a589a9382f",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "uid": "33c6ddba-878a-41e9-8144-111cbca2cc00",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "uid": "20069689-3662-4bd4-9221-7608ba70ad9f",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "uid": "4a59c099-8a64-4621-b6d3-259b61398e80",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "6b4e7f80-9ad4-4a91-9d2a-05e7bcbeb668",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "06906dbd-0fc7-4e6e-91c3-0f2ea33dc567",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "d1c4babd-e830-417c-8f28-3b9373531d7f",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "89e08486-e610-4423-b988-c1f83c2df111",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "9d2fdb73-bbc6-4eda-bd3e-a55e4688ead6",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "e94f4931-2856-4a99-9f3b-03d746621e4c",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "ac7bf8a6-2d9b-439c-b40c-2d36870ddfd1",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "ee063e9e-8a53-4d75-baf8-2a6634ed02bc",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "de1bfe5b-8045-41aa-a4b2-37a589a9382f",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "33c6ddba-878a-41e9-8144-111cbca2cc00",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "20069689-3662-4bd4-9221-7608ba70ad9f",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "uid": "4a59c099-8a64-4621-b6d3-259b61398e80",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "6b4e7f80-9ad4-4a91-9d2a-05e7bcbeb668",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "06906dbd-0fc7-4e6e-91c3-0f2ea33dc567",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "d1c4babd-e830-417c-8f28-3b9373531d7f",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "89e08486-e610-4423-b988-c1f83c2df111",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "9d2fdb73-bbc6-4eda-bd3e-a55e4688ead6",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "e94f4931-2856-4a99-9f3b-03d746621e4c",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "ac7bf8a6-2d9b-439c-b40c-2d36870ddfd1",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "ee063e9e-8a53-4d75-baf8-2a6634ed02bc",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "de1bfe5b-8045-41aa-a4b2-37a589a9382f",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "33c6ddba-878a-41e9-8144-111cbca2cc00",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "20069689-3662-4bd4-9221-7608ba70ad9f",
+      "locale": "tr",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "uid": "4a59c099-8a64-4621-b6d3-259b61398e80",
+      "locale": "en",
+      "canonical": true,
+      "hreflang": true,
+      "peerClick": true,
+      "imagesLoaded": 2,
+      "horizontalOverflow": false
+    }
+  ]
+}
