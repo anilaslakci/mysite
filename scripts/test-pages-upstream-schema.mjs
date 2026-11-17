@@ -15,7 +15,7 @@ const types = [...registry.matchAll(/registerField\("([^"]+)"/g)].map(m=>m[1]);
 assert(types.includes('image') && types.includes('text'));
 const adapted = source.replace('import { fieldTypes } from "@/fields/registry";', `const fieldTypes = new Set(${JSON.stringify(types)});`);
 assert.notEqual(adapted,source,'Upstream registry import changed');
-fs.writeFileSync(`${dir}/config-runtime.mjs`,stripTypeScriptTypes(adapted,{mode:'transform'}));
+fs.writeFileSync(`${dir}/config-runtime.mjs`,stripTypeScriptTypes(adapted,{mode:'strip'}));
 const { ConfigSchema } = await import(pathToFileURL(path.resolve(`${dir}/config-runtime.mjs`)));
 const config = yaml.load(fs.readFileSync('.pages.yml','utf8'));
 const parsed=ConfigSchema.safeParse(config);

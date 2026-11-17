@@ -1,0 +1,85 @@
+{
+  "physicalDevice": false,
+  "results": [
+    {
+      "width": 360,
+      "lang": "tr",
+      "modalsOpened": 24,
+      "filterCategories": 7,
+      "projects": 24,
+      "zoom": true,
+      "focusRestored": true,
+      "noOverflow": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "modalsOpened": 24,
+      "filterCategories": 7,
+      "projects": 24,
+      "zoom": true,
+      "focusRestored": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "lang": "tr",
+      "modalsOpened": 24,
+      "filterCategories": 7,
+      "projects": 24,
+      "zoom": true,
+      "focusRestored": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "modalsOpened": 24,
+      "filterCategories": 7,
+      "projects": 24,
+      "zoom": true,
+      "focusRestored": true,
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "lang": "tr",
+      "modalsOpened": 24,
+      "filterCategories": 7,
+      "projects": 24,
+      "zoom": true,
+      "focusRestored": true,
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "modalsOpened": 24,
+      "filterCategories": 7,
+      "projects": 24,
+      "zoom": true,
+      "focusRestored": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "lang": "tr",
+      "modalsOpened": 24,
+      "filterCategories": 7,
+      "projects": 24,
+      "zoom": true,
+      "focusRestored": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "modalsOpened": 24,
+      "filterCategories": 7,
+      "projects": 24,
+      "zoom": true,
+      "focusRestored": true,
+      "noOverflow": true
+    }
+  ]
+}

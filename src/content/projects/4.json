@@ -1,7 +1,7 @@
 {
   "id": 4,
   "order": 4,
-  "category": "data-analysis",
+  "category": "process-improvement",
   "tr": {
     "title": "T-Soft Anlık Ürün Verisi Çekme Aracı",
     "summary": "T-Soft API üzerinden ürün kodu, stok ve fiyat bilgilerini saniyeler içinde Excel'e aktaran veri çekme aracı.",

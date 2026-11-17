@@ -1,0 +1,69 @@
+{
+  "uid": "8b5de845-91b0-4fc4-946a-f835f1ebd8ac",
+  "order": 22,
+  "category": "other",
+  "archived": false,
+  "tr": {
+    "title": "RC700 Heating Monitor",
+    "summary": "RC700 oda termostatının ısıtma talebini, sıcaklık geçmişini ve erişilebilir çalışma kayıtlarını analiz eden Windows masaüstü uygulaması.",
+    "intro": "Evdeki kombiyi yöneten termostatın gün ve ay boyunca ne kadar süre ısıtma istediğini görmek; bu geçmişi fatura ve kullanım alışkanlıklarıyla birlikte değerlendirebilmek için geliştirdiğim kişisel izleme aracı.",
+    "problem": "Smart Life üzerinden kontrol edilen termostatın standart arayüzü, ısıtma talebi sürelerini ve sıcaklık değişimlerini istediğim ayrıntıda incelemeye yetmiyordu. Günlük hareketlerden anlamlı bir kullanım geçmişi oluşturmak ve kayıtları yerel olarak korumak istiyordum.",
+    "solution": "Python uygulaması, Tuya Cloud API üzerinden RC700 durumunu ve erişilebilir geçmiş olaylarını sorguluyor; kayıtları SQLite veritabanında saklıyor. Oda/hedef sıcaklık grafikleri, ısıtma-bekleme zaman çizelgesi, döngü sayısı ve seçilen dönemin çalışma oranı birlikte gösteriliyor.<br><br>Manuel senkronizasyon, tarih aralığı seçimi, CSV dışa aktarma ve yerel veritabanı yedekleme mevcut. Uygulama sürekli açık kalmadan erişilebilir bulut geçmişini sonradan alabiliyor; daha önce yerelde saklanan kayıtlar korunuyor. Bulutun erişilebilir geçmişi dışında kalan veya eksik olay çiftlerine dayanan süreler kesin çalışma süresi gibi sunulmuyor. Geliştirme, hata ayıklama ve paketleme aşamalarında OpenAI Codex desteği kullanıldı.",
+    "impact": "Termostatın ısıtma talebi ve sıcaklık geçmişi tek bir masaüstü araçta incelenebilir hale geldi. Ölçülen değer termostatın ısıtma talebidir; doğrudan brülör yanma süresi, doğal gaz tüketimi veya kesin fatura hesabı değildir. Kapsamlı aylık geçmiş, erişilebilir kayıtların düzenli senkronize edilip yerelde birikmesine bağlıdır.",
+    "technologies": [
+      "Python",
+      "Tuya Cloud API",
+      "SQLite",
+      "Windows EXE"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Tuya Cloud API",
+      "Tuya IoT Developer Platform",
+      "SQLite",
+      "Web UI",
+      "Windows EXE",
+      "OpenAI Codex"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz."
+  },
+  "en": {
+    "title": "RC700 Heating Monitor",
+    "summary": "Windows desktop application for analyzing an RC700 room thermostat’s heating requests, temperature history, and available operating records.",
+    "intro": "A personal monitoring tool built to understand how long my home thermostat requests heating and to review that history alongside bills and usage habits.",
+    "problem": "The thermostat’s standard Smart Life interface did not provide the level of heating-duration and temperature analysis I wanted. I needed a readable usage history and a local record that I could retain and review.",
+    "solution": "The Python application queries RC700 status and accessible historical events through the Tuya Cloud API, then stores the records in SQLite. Room and target temperatures, heating/standby timelines, cycle counts, and the selected period’s operating ratio are presented together.<br><br>Manual synchronization, date-range selection, CSV export, and local database backup are available. The application can retrieve accessible cloud history when opened rather than running continuously; previously stored local records remain available. Missing events or unavailable cloud history are not presented as verified operating time. OpenAI Codex supported development, debugging, and packaging.",
+    "impact": "Heating-request and temperature history can be reviewed in one desktop tool. The measured state is the thermostat’s heating request, not direct burner runtime, gas consumption, or an exact bill calculation. A comprehensive monthly history depends on regularly synchronizing accessible records into the local database.",
+    "technologies": [
+      "Python",
+      "Tuya Cloud API",
+      "SQLite",
+      "Windows EXE"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "Tuya Cloud API",
+      "Tuya IoT Developer Platform",
+      "SQLite",
+      "Web UI",
+      "Windows EXE",
+      "OpenAI Codex"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it."
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/rc700-heating-overview.png",
+      "altTR": "RC700 ısıtma talebi zaman çizelgesi ve sıcaklık geçmişi",
+      "altEN": "RC700 heating-request timeline and temperature history"
+    },
+    {
+      "file": "/assets/portfolio/rc700-local-records.png",
+      "altTR": "RC700 yerel kayıt, senkronizasyon kapsamı ve dışa aktarma ekranı",
+      "altEN": "RC700 local records, synchronization scope, and export controls"
+    }
+  ],
+  "links": []
+}
