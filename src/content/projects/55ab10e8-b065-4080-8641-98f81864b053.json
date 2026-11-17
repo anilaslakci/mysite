@@ -7,8 +7,8 @@
     "title": "MacroLift",
     "summary": "Beslenme, antrenman ve vücut gelişimini tek yerde takip etmek için kişisel ihtiyaçlarıma göre geliştirdiğim Android uygulaması.",
     "intro": "Hazır uygulamaların akışına uyum sağlamak yerine, beslenme ve spor takibinde ihtiyaç duyduğum özellikleri geliştirebildiğim kişisel bir mobil uygulama.",
-    "problem": "Günlük öğünleri ve makroları kaydetmek, tariflerin değişen gramajlarını takip etmek ve geçmiş verileri anlamlı raporlara dönüştürmek ayrı araçlar gerektiriyordu. Antrenman, kilo ve ölçüm geçmişini aynı kayıt düzeni içinde görmek istiyordum.",
-    "solution": "Flutter ile geliştirilen uygulamada ürün, tarif ve tencere yemekleri oluşturulabiliyor; öğünler geçmiş veya ileri tarihlere kaydedilebiliyor. Kalori ve makrolar günlük hesaplanıyor; antrenman, kilo ve vücut ölçümleri takip ediliyor. Seçilen dönemler PDF rapor olarak dışa aktarılabiliyor.<br><br>Gemini API ile fotoğraf, besin etiketi veya metinden besin tahmini ve dönemsel beslenme yorumu alınabiliyor. AI sonuçları kaydedilmeden önce kullanıcı tarafından düzenlenebiliyor. Yerel kayıtlar SharedPreferences ile korunuyor; uygulamada yedekleme ve geri yükleme seçenekleri bulunuyor.",
+    "problem": "Öğün, tarif, antrenman ve vücut ölçümlerini ayrı araçlarda takip etmek, geçmiş kayıtları birlikte değerlendirmeyi zorlaştırıyordu.",
+    "solution": "Beslenme ve gelişim takibini tek Android uygulamasında birleştirdim. Günlük makro hesapları, düzenlenebilir Gemini tahminleri ve PDF raporları ekledim; geçmiş öğünlerin besin değerlerini korudum.",
     "impact": "Kişisel beslenme ve gelişim kayıtları tek uygulamada toplandı. Ürün veya tarifler sonradan düzenlense de geçmiş öğünlerin kaydedildiği tarihteki besin değerleri korunuyor. AI çıktıları kullanıcı kontrolüne açık tahmin ve yorumlardır; doğrulanmış besin ölçümü veya tıbbi değerlendirme olarak sunulmaz.",
     "technologies": [
       "Flutter",
@@ -32,8 +32,8 @@
     "title": "MacroLift",
     "summary": "An Android application built around my own needs to track nutrition, workouts, and body progress in one place.",
     "intro": "A personal mobile application whose nutrition and training workflows I can adapt and extend, rather than fitting my routine into an existing app.",
-    "problem": "Recording meals and macros, handling changing recipe quantities, and turning historical data into useful reports required separate tools. I wanted workouts, weight, and body measurements within the same record-keeping workflow.",
-    "solution": "Built with Flutter, MacroLift supports food products, recipes, and batch-cooked dishes, with meals recorded for past or future dates. Daily calories and macros are calculated alongside workout, weight, and body-measurement tracking. Selected periods can be exported as PDF reports.<br><br>Gemini API provides editable food estimates from photos, nutrition labels, or text, as well as period-based nutrition commentary. Users can review and change AI results before saving. Records are stored locally with SharedPreferences, with backup and restore options in the application.",
+    "problem": "Separate tools for meals, recipes, workouts, and body measurements made it difficult to review progress together.",
+    "solution": "I combined nutrition and progress tracking in one Android app, with daily macro calculations, editable Gemini estimates, and PDF reports. Historical meals retain their original nutrient values.",
     "impact": "Personal nutrition and progress records are consolidated in one application. Historical meals retain their recorded nutrient values even when a product or recipe is edited later. AI outputs remain user-reviewable estimates and commentary, rather than verified nutritional measurements or medical assessments.",
     "technologies": [
       "Flutter",
