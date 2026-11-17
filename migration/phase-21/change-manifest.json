@@ -1,0 +1,113 @@
+{
+  "base": "7ca2fd58b26cf675f53faa385b28cbe6a4b9635d",
+  "addedProjects": [
+    {
+      "key": "rc700",
+      "uid": "8b5de845-91b0-4fc4-946a-f835f1ebd8ac",
+      "order": 22,
+      "category": "other",
+      "titleTR": "RC700 Heating Monitor",
+      "titleEN": "RC700 Heating Monitor"
+    },
+    {
+      "key": "macrolift",
+      "uid": "55ab10e8-b065-4080-8641-98f81864b053",
+      "order": 23,
+      "category": "mobile",
+      "titleTR": "MacroLift",
+      "titleEN": "MacroLift"
+    },
+    {
+      "key": "invoice-review",
+      "uid": "981b3044-7ab2-4b79-ba79-e7ad9059fd71",
+      "order": 24,
+      "category": "operations",
+      "titleTR": "Fatura Kontrol ve Paraflama",
+      "titleEN": "Invoice Review and Initialing"
+    },
+    {
+      "key": "furniture-configurator",
+      "uid": "55ec5984-3bf2-4ac1-b295-e991fa595630",
+      "order": 25,
+      "category": "process-improvement",
+      "titleTR": "Kişiselleştirilebilir Mobilya Takımı Oluşturucu",
+      "titleEN": "Customizable Furniture Set Builder"
+    }
+  ],
+  "moved": [
+    {
+      "id": 10,
+      "from": "finance",
+      "to": "other"
+    },
+    {
+      "id": 19,
+      "from": "data-analysis",
+      "to": "process-improvement"
+    },
+    {
+      "id": 4,
+      "from": "data-analysis",
+      "to": "process-improvement"
+    }
+  ],
+  "archivedProject": 9,
+  "archivedCategory": "finance",
+  "newCategory": "process-improvement",
+  "addedMedia": [
+    {
+      "file": "assets/portfolio/rc700-heating-overview.png",
+      "sha256": "8dd25c44c8ff54ac3e12bd857b58486a2b282c1567c32fc69c6f8b9199924ce0",
+      "source": "codex-clipboard-60a614da-49aa-417f-85a0-79aa5128fbca.png",
+      "project": "rc700"
+    },
+    {
+      "file": "assets/portfolio/rc700-local-records.png",
+      "sha256": "909b82835c47ed006a5b3318a74a08d313c06f78cb5ff644c3c438caa8b31fa3",
+      "source": "codex-clipboard-f673e398-9b5d-42e1-bbfc-6ede6509b279.png",
+      "project": "rc700"
+    },
+    {
+      "file": "assets/portfolio/macrolift-daily-meals.jpg",
+      "sha256": "ec83cd29f5b288419052aaa5780fe61171ddee298af520f84b707f8c408e7ab6",
+      "source": "Screenshot_20261117_112836.jpg",
+      "project": "macrolift"
+    },
+    {
+      "file": "assets/portfolio/macrolift-food-library.jpg",
+      "sha256": "501dea7830845a2484b72565ae66c4cfb89b5cc8b57d4893072bac6242972233",
+      "source": "Screenshot_20261117_112851.jpg",
+      "project": "macrolift"
+    },
+    {
+      "file": "assets/portfolio/macrolift-monthly-report.jpg",
+      "sha256": "699bc82021af85149db5a7f87e4fc29c577fd2730a8265fee26ae37f14598393",
+      "source": "Screenshot_20261117_112905.jpg",
+      "project": "macrolift"
+    },
+    {
+      "file": "assets/portfolio/macrolift-ai-history.jpg",
+      "sha256": "44492d316dcd950aa4cd889bf41b36ab8d3c42e995864401e2c3fd013719a527",
+      "source": "Screenshot_20261117_112915.jpg",
+      "project": "macrolift"
+    },
+    {
+      "file": "assets/portfolio/invoice-review-empty-analysis.png",
+      "sha256": "687f32abae14c3850d5c447622e85de19ee1761814d5212de8ff1d7918e92a38",
+      "source": "codex-clipboard-150d28ce-fb4f-4428-a93b-ce86483b5838.png",
+      "project": "invoice-review"
+    },
+    {
+      "file": "assets/portfolio/invoice-review-empty-classification.png",
+      "sha256": "58acd4f2cbb28bfe2917562606a9f74567af4bfa9f5c4bf0805951df7317bbae",
+      "source": "codex-clipboard-987126a3-a2c2-4049-8b03-044c27cd0a64.png",
+      "project": "invoice-review"
+    }
+  ],
+  "privacy": {
+    "invoiceOnlyEmptyScreens": true,
+    "invoiceFinancialScreensExcluded": true,
+    "signaturePreviewExcluded": true,
+    "invoiceImagesModified": false
+  }
+}

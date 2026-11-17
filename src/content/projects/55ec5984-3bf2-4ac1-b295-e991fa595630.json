@@ -1,0 +1,62 @@
+{
+  "uid": "55ec5984-3bf2-4ac1-b295-e991fa595630",
+  "order": 25,
+  "category": "process-improvement",
+  "archived": false,
+  "tr": {
+    "title": "Kişiselleştirilebilir Mobilya Takımı Oluşturucu",
+    "summary": "T-Soft üzerinde ürün seçimi, adet, dinamik fiyat ve montaj hizmetini mevcut sepete bağlayan özel mobilya takımı oluşturma arayüzü.",
+    "intro": "Kullanılan hazır e-ticaret kurulumunun standart akışında sunulamayan takım kişiselleştirme ihtiyacı için, mevcut ürün ve sepet sistemiyle entegre çalışan özel bir arayüz geliştirdim.",
+    "problem": "Sabit mobilya takımları ve bağımsız ürün sayfaları; takım içeriğini değiştirme, adet belirleme ve seçilen ürünlere uygun montaj hizmetini aynı satın alma akışında sunmayı zorlaştırıyordu. Fiyat, kampanya ve ödeme avantajlarını birlikte gösteren özel bir takım oluşturma deneyimi gerekiyordu.",
+    "solution": "HTML, CSS ve Vanilla JavaScript ile geliştirilen arayüz, Fetch API ve DOMParser kullanarak mevcut ürün sayfalarından ad, görsel ve fiyat verilerini tek bir seçim ekranına topluyor. Bağımsız adet seçimlerine göre toplam, indirimli fiyat, taksit ve havale avantajları dinamik hesaplanıyor.<br><br>Hizmet verilen il/ilçe seçimleriyle montaj talebi alınabiliyor; ürün kimlikleri uygun montaj hizmeti varyantlarıyla eşleştiriliyor. Mobilyalar ve montaj kalemleri T-Soft’un mevcut sepet servisine aktarılıyor. Stok hatası, başarısız istek ve kısmi ekleme durumları için kontrol ve geri alma mekanizmaları uygulanmış durumda. Masaüstü ve mobil sipariş özeti, seçim paneli ve işlem geri bildirimleri aynı akışın parçası.",
+    "impact": "Farklı ürün sayfaları, fiyatlandırma ve montaj seçimi tek bir kişiselleştirilebilir takım deneyiminde birleştirildi. Hazır altyapının temel işleyişi değiştirilmeden yeni bir ticari fonksiyon eklendi; kullanıcıların ürünler arasında gidip gelme ve toplamları elle hesaplama ihtiyacı azaltıldı.",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "T-Soft"
+    ],
+    "detailTechnologies": [
+      "HTML5",
+      "CSS3",
+      "Vanilla JavaScript",
+      "Fetch API",
+      "DOMParser",
+      "T-Soft Cart Service",
+      "Responsive Design",
+      "Dynamic Pricing",
+      "Product/Variant Mapping"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz."
+  },
+  "en": {
+    "title": "Customizable Furniture Set Builder",
+    "summary": "A custom T-Soft interface connecting furniture selection, quantities, dynamic pricing, and assembly services to the existing cart.",
+    "intro": "I built a dedicated interface integrated with the existing product and cart systems to provide a set-customization workflow beyond the standard flow of the ecommerce installation in use.",
+    "problem": "Fixed furniture sets and separate product pages made it difficult to change set contents, adjust quantities, and select suitable assembly services in one purchase journey. A custom experience was needed to bring pricing, promotions, and payment benefits together.",
+    "solution": "Built with HTML, CSS, and Vanilla JavaScript, the interface uses Fetch API and DOMParser to collect product names, images, and prices from existing product pages. Independent quantities drive dynamic totals, discounted amounts, installment information, and bank-transfer benefits.<br><br>Customers can request assembly and select a supported province and district. Product IDs are mapped to suitable assembly-service variants, and both furniture and service items are transferred to the existing T-Soft cart service. Stock errors, failed requests, and partial additions have checks and rollback mechanisms. Desktop and mobile order summaries, selection controls, and transaction feedback complete the flow.",
+    "impact": "Separate product pages, pricing, and assembly selection are brought into one customizable set-building experience. A commercial feature was added without changing the platform’s core operation, reducing page switching and manual price calculations.",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "T-Soft"
+    ],
+    "detailTechnologies": [
+      "HTML5",
+      "CSS3",
+      "Vanilla JavaScript",
+      "Fetch API",
+      "DOMParser",
+      "T-Soft Cart Service",
+      "Responsive Design",
+      "Dynamic Pricing",
+      "Product/Variant Mapping"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it."
+  },
+  "gallery": [],
+  "links": []
+}

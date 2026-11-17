@@ -1,7 +1,7 @@
 {
   "id": 19,
   "order": 19,
-  "category": "data-analysis",
+  "category": "process-improvement",
   "tr": {
     "title": "Google Yorum Takip Sistemi",
     "summary": "Google Business işletme bağlantıları üzerinden 32 mağazanın yıldız puanı ve yorum sayılarını tek ekrandan takip eden masaüstü analiz uygulaması.",

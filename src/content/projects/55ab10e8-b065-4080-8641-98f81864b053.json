@@ -1,0 +1,79 @@
+{
+  "uid": "55ab10e8-b065-4080-8641-98f81864b053",
+  "order": 23,
+  "category": "mobile",
+  "archived": false,
+  "tr": {
+    "title": "MacroLift",
+    "summary": "Beslenme, antrenman ve vücut gelişimini tek yerde takip etmek için kişisel ihtiyaçlarıma göre geliştirdiğim Android uygulaması.",
+    "intro": "Hazır uygulamaların akışına uyum sağlamak yerine, beslenme ve spor takibinde ihtiyaç duyduğum özellikleri geliştirebildiğim kişisel bir mobil uygulama.",
+    "problem": "Günlük öğünleri ve makroları kaydetmek, tariflerin değişen gramajlarını takip etmek ve geçmiş verileri anlamlı raporlara dönüştürmek ayrı araçlar gerektiriyordu. Antrenman, kilo ve ölçüm geçmişini aynı kayıt düzeni içinde görmek istiyordum.",
+    "solution": "Flutter ile geliştirilen uygulamada ürün, tarif ve tencere yemekleri oluşturulabiliyor; öğünler geçmiş veya ileri tarihlere kaydedilebiliyor. Kalori ve makrolar günlük hesaplanıyor; antrenman, kilo ve vücut ölçümleri takip ediliyor. Seçilen dönemler PDF rapor olarak dışa aktarılabiliyor.<br><br>Gemini API ile fotoğraf, besin etiketi veya metinden besin tahmini ve dönemsel beslenme yorumu alınabiliyor. AI sonuçları kaydedilmeden önce kullanıcı tarafından düzenlenebiliyor. Yerel kayıtlar SharedPreferences ile korunuyor; uygulamada yedekleme ve geri yükleme seçenekleri bulunuyor.",
+    "impact": "Kişisel beslenme ve gelişim kayıtları tek uygulamada toplandı. Ürün veya tarifler sonradan düzenlense de geçmiş öğünlerin kaydedildiği tarihteki besin değerleri korunuyor. AI çıktıları kullanıcı kontrolüne açık tahmin ve yorumlardır; doğrulanmış besin ölçümü veya tıbbi değerlendirme olarak sunulmaz.",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Gemini API",
+      "Android"
+    ],
+    "detailTechnologies": [
+      "Flutter",
+      "Dart",
+      "Android APK",
+      "Gemini API",
+      "SharedPreferences",
+      "Camera & barcode scanning",
+      "PDF generation"
+    ],
+    "galleryTitle": "Uygulama İçi Görseller",
+    "galleryIntro": "Görsellere tıklayarak büyütebilirsiniz."
+  },
+  "en": {
+    "title": "MacroLift",
+    "summary": "An Android application built around my own needs to track nutrition, workouts, and body progress in one place.",
+    "intro": "A personal mobile application whose nutrition and training workflows I can adapt and extend, rather than fitting my routine into an existing app.",
+    "problem": "Recording meals and macros, handling changing recipe quantities, and turning historical data into useful reports required separate tools. I wanted workouts, weight, and body measurements within the same record-keeping workflow.",
+    "solution": "Built with Flutter, MacroLift supports food products, recipes, and batch-cooked dishes, with meals recorded for past or future dates. Daily calories and macros are calculated alongside workout, weight, and body-measurement tracking. Selected periods can be exported as PDF reports.<br><br>Gemini API provides editable food estimates from photos, nutrition labels, or text, as well as period-based nutrition commentary. Users can review and change AI results before saving. Records are stored locally with SharedPreferences, with backup and restore options in the application.",
+    "impact": "Personal nutrition and progress records are consolidated in one application. Historical meals retain their recorded nutrient values even when a product or recipe is edited later. AI outputs remain user-reviewable estimates and commentary, rather than verified nutritional measurements or medical assessments.",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Gemini API",
+      "Android"
+    ],
+    "detailTechnologies": [
+      "Flutter",
+      "Dart",
+      "Android APK",
+      "Gemini API",
+      "SharedPreferences",
+      "Camera & barcode scanning",
+      "PDF generation"
+    ],
+    "galleryTitle": "In-App Screenshots",
+    "galleryIntro": "Click any image to enlarge it."
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/macrolift-daily-meals.jpg",
+      "altTR": "MacroLift günlük kalori, makro ve öğün kayıtları",
+      "altEN": "MacroLift daily calories, macros, and meal records"
+    },
+    {
+      "file": "/assets/portfolio/macrolift-food-library.jpg",
+      "altTR": "MacroLift ürün, tarif ve tencere yemekleri kütüphanesi",
+      "altEN": "MacroLift food, recipe, and batch-cooking library"
+    },
+    {
+      "file": "/assets/portfolio/macrolift-monthly-report.jpg",
+      "altTR": "MacroLift dönem özeti, PDF dışa aktarma ve AI değerlendirmesi",
+      "altEN": "MacroLift period summary, PDF export, and AI review"
+    },
+    {
+      "file": "/assets/portfolio/macrolift-ai-history.jpg",
+      "altTR": "MacroLift haftalık ve aylık AI değerlendirme geçmişi",
+      "altEN": "MacroLift weekly and monthly AI review history"
+    }
+  ],
+  "links": []
+}

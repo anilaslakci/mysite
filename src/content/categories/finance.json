@@ -3,5 +3,6 @@
   "tr": "Finans",
   "en": "Finance",
   "color": "#FF6B6B",
-  "order": 4
+  "order": 4,
+  "archived": true
 }
