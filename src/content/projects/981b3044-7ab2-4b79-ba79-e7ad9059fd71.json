@@ -7,8 +7,8 @@
     "title": "Fatura Kontrol ve Paraflama",
     "summary": "Pazaryeri faturalarının kontrolünü, sınıflandırılmasını ve toplu paraf/filigran çıktısını tek Windows uygulamasında birleştiren araç.",
     "intro": "Muhasebeden e-ticaret ekibine gelen PDF faturaları, kontrol edilebilir bir listeye ve pazaryeri bazında gider özetine dönüştüren; manuel kararın ardından ayrı çıktı belgeleri hazırlayan masaüstü uygulaması.",
-    "problem": "Onlarca fatura tek tek açılarak inceleniyor; komisyon, kargo, platform hizmeti ve tedarik edememe gibi giderlerin pazaryeri bazında ayrılması zaman alıyordu. Ardından her belge için e-ticaret uygunluğu kararı verilmesi, paraf veya açıklama eklenmesi gerekiyordu.",
-    "solution": "Fatura analiz paneli seçilen klasördeki PDF’lerden pazaryeri, numara, tarih, açıklama ve tutar bilgilerini derliyor; gider türlerini platform bazında özetleyip kontrol gerektirebilecek belgeleri işaretliyor. Filtreleme, sıralama ve asıl PDF’yi açma desteğiyle nihai e-ticaret kararı kullanıcıya bırakılıyor.<br><br>Paraflama paneli bu kararları devralıyor. İlgili belgelerin her sayfasının sağ altına seçilen görsel paraf; diğer belgelerin tüm sayfalarına kullanıcının yazdığı açıklama kırmızı filigran olarak uygulanıyor. Orijinaller korunup ayrı çıktı PDF’leri oluşturuluyor. Paraf seçimi hatırlanıyor; sınıflandırma listeleri JSON ile saklanabiliyor.",
+    "problem": "Pazaryeri faturalarını tek tek kontrol etmek, giderleri ayırmak ve her belgeye paraf veya açıklama eklemek tekrarlayan bir iş yükü oluşturuyordu.",
+    "solution": "PDF’leri pazaryeri ve gider türüne göre özetleyen iki panelli bir araç geliştirdim. Kullanıcının kontrolünden sonra ilgili faturalara görsel paraf, diğerlerine açıklama filigranı ekleniyor; orijinaller korunuyor.",
     "impact": "Belge inceleme, manuel sınıflandırma ve toplu çıktı oluşturma aynı uygulamada birleştirildi. Otomatik analiz PDF üzerindeki bilgileri sınıflandırır; pazaryeri sözleşmesi veya hesap mutabakatı yapmaz. Eklenen paraf görseldir, elektronik imza değildir.",
     "technologies": [
       "C#",
@@ -34,8 +34,8 @@
     "title": "Invoice Review and Initialing",
     "summary": "A Windows tool combining marketplace invoice review, classification, and batch generation of initialed or watermarked PDFs.",
     "intro": "A desktop application that turns PDF invoices received by the ecommerce team into a reviewable list and marketplace expense summaries, then creates separate output documents after a manual decision.",
-    "problem": "Dozens of invoices were opened individually to identify commission, delivery, platform-service, and non-fulfillment charges by marketplace. Each document then required a manual relevance decision followed by an initial or explanatory note.",
-    "solution": "The analysis panel extracts marketplace, invoice number, date, description, and amount from PDFs in a selected folder. It summarizes expense types by platform and flags documents that may need attention. Filtering, sorting, and opening the original PDF support the user’s final ecommerce-relevance decision.<br><br>The processing panel applies the selected visual initial to the lower-right corner of every page of relevant invoices. Other documents receive the user’s explanatory text as a red watermark on all pages. Original files remain intact and processed PDFs are saved separately. The initial-image selection is remembered, and classification lists can be stored as JSON.",
+    "problem": "Reviewing marketplace invoices individually, separating expenses, and adding initials or notes created repetitive work.",
+    "solution": "I built a two-panel tool that summarizes PDFs by marketplace and expense type. After user review, it applies visual initials or explanatory watermarks in bulk while preserving the originals.",
     "impact": "Document review, manual classification, and batch output are combined in one application. Automated analysis classifies information in the PDFs; it does not reconcile marketplace contracts or accounts. The applied initial is an image, not an electronic signature.",
     "technologies": [
       "C#",

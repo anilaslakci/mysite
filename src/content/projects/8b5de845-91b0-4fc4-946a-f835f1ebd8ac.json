@@ -7,8 +7,8 @@
     "title": "RC700 Heating Monitor",
     "summary": "RC700 oda termostatının ısıtma talebini, sıcaklık geçmişini ve erişilebilir çalışma kayıtlarını analiz eden Windows masaüstü uygulaması.",
     "intro": "Evdeki kombiyi yöneten termostatın gün ve ay boyunca ne kadar süre ısıtma istediğini görmek; bu geçmişi fatura ve kullanım alışkanlıklarıyla birlikte değerlendirebilmek için geliştirdiğim kişisel izleme aracı.",
-    "problem": "Smart Life üzerinden kontrol edilen termostatın standart arayüzü, ısıtma talebi sürelerini ve sıcaklık değişimlerini istediğim ayrıntıda incelemeye yetmiyordu. Günlük hareketlerden anlamlı bir kullanım geçmişi oluşturmak ve kayıtları yerel olarak korumak istiyordum.",
-    "solution": "Python uygulaması, Tuya Cloud API üzerinden RC700 durumunu ve erişilebilir geçmiş olaylarını sorguluyor; kayıtları SQLite veritabanında saklıyor. Oda/hedef sıcaklık grafikleri, ısıtma-bekleme zaman çizelgesi, döngü sayısı ve seçilen dönemin çalışma oranı birlikte gösteriliyor.<br><br>Manuel senkronizasyon, tarih aralığı seçimi, CSV dışa aktarma ve yerel veritabanı yedekleme mevcut. Uygulama sürekli açık kalmadan erişilebilir bulut geçmişini sonradan alabiliyor; daha önce yerelde saklanan kayıtlar korunuyor. Bulutun erişilebilir geçmişi dışında kalan veya eksik olay çiftlerine dayanan süreler kesin çalışma süresi gibi sunulmuyor. Geliştirme, hata ayıklama ve paketleme aşamalarında OpenAI Codex desteği kullanıldı.",
+    "problem": "Smart Life arayüzü, termostatın ısıtma talebi sürelerini ve sıcaklık geçmişini ayrıntılı incelemek ve yerel olarak saklamak için yeterli değildi.",
+    "solution": "Tuya Cloud kayıtlarını SQLite’ta saklayan bir Windows uygulaması geliştirdim. Isıtma talebi ve sıcaklık geçmişini grafiklerle gösterip tarih filtresi, CSV dışa aktarma ve yedekleme ekledim; eksik süreleri bilinmeyen olarak bıraktım.",
     "impact": "Termostatın ısıtma talebi ve sıcaklık geçmişi tek bir masaüstü araçta incelenebilir hale geldi. Ölçülen değer termostatın ısıtma talebidir; doğrudan brülör yanma süresi, doğal gaz tüketimi veya kesin fatura hesabı değildir. Kapsamlı aylık geçmiş, erişilebilir kayıtların düzenli senkronize edilip yerelde birikmesine bağlıdır.",
     "technologies": [
       "Python",
@@ -32,8 +32,8 @@
     "title": "RC700 Heating Monitor",
     "summary": "Windows desktop application for analyzing an RC700 room thermostat’s heating requests, temperature history, and available operating records.",
     "intro": "A personal monitoring tool built to understand how long my home thermostat requests heating and to review that history alongside bills and usage habits.",
-    "problem": "The thermostat’s standard Smart Life interface did not provide the level of heating-duration and temperature analysis I wanted. I needed a readable usage history and a local record that I could retain and review.",
-    "solution": "The Python application queries RC700 status and accessible historical events through the Tuya Cloud API, then stores the records in SQLite. Room and target temperatures, heating/standby timelines, cycle counts, and the selected period’s operating ratio are presented together.<br><br>Manual synchronization, date-range selection, CSV export, and local database backup are available. The application can retrieve accessible cloud history when opened rather than running continuously; previously stored local records remain available. Missing events or unavailable cloud history are not presented as verified operating time. OpenAI Codex supported development, debugging, and packaging.",
+    "problem": "Smart Life did not provide the detailed heating-request analysis or local history I needed.",
+    "solution": "I built a Windows app that stores Tuya Cloud records in SQLite and charts heating requests and temperatures. Date filters, CSV export, and backups support review; gaps remain unknown rather than estimated.",
     "impact": "Heating-request and temperature history can be reviewed in one desktop tool. The measured state is the thermostat’s heating request, not direct burner runtime, gas consumption, or an exact bill calculation. A comprehensive monthly history depends on regularly synchronizing accessible records into the local database.",
     "technologies": [
       "Python",
