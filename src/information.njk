@@ -40,10 +40,9 @@ permalink: "{{ info.url }}index.html"
     </header>
     <div class="prose">
       {% if info.key == "contact" %}
-      {% set formLocale = info.locale %}
       <p>{{ info.description | escape }}</p>
-      {% include "shared/contact-form.njk" %}
-      <p class="contact-channels"><a href="mailto:{{ siteContact.email }}">{{ "Send an email" if formLocale == "en" else "E-posta gönder" }}</a> · <a href="{{ siteContact.linkedin }}">LinkedIn</a></p>
+      <p class="contact-channels"><a href="mailto:{{ siteContact.email }}">{{ siteContact.email }}</a> · <a href="{{ siteContact.linkedin }}">LinkedIn</a></p>
+      <p><a href="{{ '/en/kvkk-disclosure/' if info.locale == 'en' else '/kvkk-aydinlatma-metni/' }}">{{ "KVKK disclosure" if info.locale == "en" else "KVKK aydınlatma metni" }}</a></p>
       {% else %}
       {% include "information/" + info.key + ".njk" %}
       {% endif %}

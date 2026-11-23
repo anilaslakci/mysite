@@ -17,9 +17,9 @@
 {% if english %}
 <h2>Change your preferences</h2>
 <p>Open Cookie Preferences in the footer to withdraw consent. The page reloads if Analytics was loaded and clears accessible Analytics cookies. You can also remove site storage in your browser. See <a href="https://support.google.com/analytics/answer/11397207">Google’s GA4 cookie documentation</a> for details.</p>
-<p>Controller: Mustafa Anıl Aşlakcı. Postal address: {{ siteFeatures['site-contact'].controllerAddress | escape }}. Requests: {{ siteFeatures['site-contact'].applicationEmail | escape }}. See the <a href="/en/kvkk-disclosure/">KVKK disclosure</a> for rights and legal grounds.</p>
+<p>Controller: Mustafa Anıl Aşlakcı. Email: <a href="mailto:{{ siteFeatures['site-contact'].controllerAddress | escape }}">{{ siteFeatures['site-contact'].controllerAddress | escape }}</a>. See the <a href="/en/kvkk-disclosure/">KVKK disclosure</a> for rights and legal grounds.</p>
 {% else %}
 <h2>Tercihinizi değiştirme</h2>
 <p>Onayı geri çekmek için alt menüdeki Çerez Tercihleri’ni açın. Analytics yüklendiyse sayfa yenilenir ve erişilebilen analiz çerezleri silinir. Tarayıcıdan site depolamasını da temizleyebilirsiniz. Ayrıntılar için <a href="https://support.google.com/analytics/answer/11397207">Google’ın GA4 çerez belgelerine</a> bakın.</p>
-<p>Veri sorumlusu: Mustafa Anıl Aşlakcı. Posta adresi: {{ siteFeatures['site-contact'].controllerAddress | escape }}. Başvuru: {{ siteFeatures['site-contact'].applicationEmail | escape }}. Haklar ve işleme sebepleri <a href="/kvkk-aydinlatma-metni/">KVKK aydınlatma metninde</a> açıklanır.</p>
+<p>Veri sorumlusu: Mustafa Anıl Aşlakcı. E-posta: <a href="mailto:{{ siteFeatures['site-contact'].controllerAddress | escape }}">{{ siteFeatures['site-contact'].controllerAddress | escape }}</a>. Haklar ve işleme sebepleri <a href="/kvkk-aydinlatma-metni/">KVKK aydınlatma metninde</a> açıklanır.</p>
 {% endif %}

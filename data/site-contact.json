@@ -1,6 +1,4 @@
 {
-  "CONTACT_ENDPOINT": "https://formspree.io/f/REPLACE_WITH_FORM_ID",
-  "controllerAddress": "[VERİ SORUMLUSU POSTA ADRESİ / DATA CONTROLLER POSTAL ADDRESS]",
-  "applicationEmail": "[KVKK BAŞVURU KANALI / DATA RIGHTS CONTACT]",
-  "twitterSite": "@anilaslakci"
+  "controllerAddress": "m.anilaslakci@gmail.com",
+  "applicationEmail": "m.anilaslakci@gmail.com"
 }

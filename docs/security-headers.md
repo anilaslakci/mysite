@@ -15,8 +15,7 @@ Modify Response Header** altında aşağıdaki filtreyle bir kural oluşturun.
 
 `Access-Control-Allow-Origin` için **Remove** seçin. Aynı kaynakta çalışan
 site dosyaları bu başlığa ihtiyaç duymaz. Harici RSS istemcileri veya tarayıcı
-entegrasyonları varsa etkisini ayrıca kontrol edin. Formspree kendi yanıtının
-CORS başlıklarını yönetir.
+entegrasyonları varsa etkisini ayrıca kontrol edin.
 
 Diğer başlıklar için **Set static** kullanın.
 
@@ -34,17 +33,16 @@ doğrulayın. `preload` isteğe bağlıdır ve ancak bu doğrulamadan sonra değ
 ## CSP gözlem kuralı
 
 Başlangıçta başlığı **Content-Security-Policy-Report-Only** adıyla ekleyin.
-`report-uri` satırındaki örnek yolu yalnızca çalışır bir rapor alıcısı ayarladıktan
-sonra ekleyin. Alıcı yoksa konsoldan ihlalleri inceleyin ve son direktifi çıkarın.
+İhlalleri tarayıcı konsolundan inceleyin.
 
 ```text
-default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://formspree.io; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://*.google-analytics.com; connect-src 'self' https://formspree.io https://www.google-analytics.com https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://www.googletagmanager.com; report-uri /REPLACE_WITH_CSP_REPORT_RECEIVER
+default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'none'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://*.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://www.googletagmanager.com
 ```
 
 Mevcut inline olay işleyicileri, intro önyükleme kodu, JSON-LD ve dinamik
 stiller nedeniyle örnek başlangıçta gevşektir. Google Fonts izinleri, başlığı
 korunan `/en/blog/` için gereklidir. Bu istisna kalktığında font kaynaklarını
-daraltın. Raporları inceleyip onaylı GA4, form, menü, intro, portfolyo ve
+daraltın. Raporları inceleyip onaylı GA4, menü, intro, portfolyo ve
 lightbox akışlarını test etmeden zorlayıcı CSP'ye geçmeyin. Son durumda
 `curl -I https://anilaslakci.com.tr/` ile başlıkları kontrol edin.
 
