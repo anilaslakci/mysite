@@ -1,9 +1,11 @@
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
+import { informationPairs } from '../lib/information.mjs';
 const root = process.cwd();
 const pages = JSON.parse(fs.readFileSync('migration/phase-2/extraction-manifest.json')).pages;
-const types = { '.html': 'text/html; charset=utf-8', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.ico': 'image/x-icon', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.xml': 'application/xml', '.txt': 'text/plain' };
+for (const pair of informationPairs) pages.push(pair.tr.slice(1) + 'index.html', pair.en.slice(1) + 'index.html');
+const types = { '.html': 'text/html; charset=utf-8', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.woff2': 'font/woff2', '.ico': 'image/x-icon', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.xml': 'application/xml', '.txt': 'text/plain' };
 http.createServer((req, res) => {
   try {
     const requestUrl = new URL(req.url, 'http://localhost');
