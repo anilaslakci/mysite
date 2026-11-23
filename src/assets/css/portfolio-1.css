@@ -55,11 +55,20 @@ a{color:inherit}
 .shot img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain;background:transparent}
 .shot::after{content:attr(data-zoom-label);position:absolute;right:10px;bottom:10px;background:rgba(7,16,42,.85);color:var(--cream);border:1px solid rgba(201,168,76,.3);border-radius:4px;padding:5px 10px;font-size:10.5px;font-weight:700;letter-spacing:.04em;opacity:0;transition:.2s}
 .shot:hover::after{opacity:1}
-.zoom{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(2,4,10,.92);padding:24px;cursor:zoom-out}
-.zoom.open{display:flex}
+.zoom{position:fixed;inset:0;z-index:200;display:none;grid-template-rows:minmax(0,1fr) auto;gap:12px;background:rgba(2,4,10,.92);padding:56px clamp(12px,3vw,36px) max(12px,env(safe-area-inset-bottom));cursor:zoom-out}
+.zoom.open{display:grid}
+.zoom-stage{display:grid;grid-template:minmax(0,1fr) / minmax(0,1fr);place-items:center;min-width:0;min-height:0;overflow:hidden}
+.zoom .close{position:absolute;top:8px;right:clamp(12px,3vw,36px);width:44px;height:44px}
 .zoom img[hidden]{display:none}
-.zoom img{max-width:96vw;max-height:92vh;object-fit:contain;background:#fff;border-radius:10px;box-shadow:0 30px 100px rgba(0,0,0,.6)}
-.zoom .zoom-note{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);color:#fff;background:rgba(0,0,0,.5);border:1px solid rgba(255,255,255,.18);border-radius:4px;padding:8px 14px;font-size:12.5px}
+.zoom img{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain;background:#fff;border-radius:10px;box-shadow:0 30px 100px rgba(0,0,0,.6)}
+.zoom-footer{text-align:center;color:var(--cream)}
+.zoom-navigation{display:flex;justify-content:center;align-items:center;gap:14px;margin-bottom:8px;cursor:default}
+.zoom-navigation[hidden]{display:none}
+.zoom-arrow{min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:50%;background:var(--panel2);color:var(--cream);font-size:22px;cursor:pointer}
+.zoom-arrow:hover{border-color:var(--gold);color:var(--gold-light)}
+.zoom-arrow:focus-visible{outline:3px solid var(--gold-light);outline-offset:3px}
+.zoom-note,#zoom-position{font-size:12.5px}
+.zoom-status{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 .footer{border-top:1px solid var(--line-soft);padding:28px 22px;color:var(--muted);text-align:center;font-size:13px}
 @media(max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){

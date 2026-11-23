@@ -13,8 +13,15 @@
 {% if t.detailTechnologies.length %}<div class="chips" style="margin-bottom:24px">{% for tech in t.detailTechnologies %}<span class="chip">{{ tech | escape }}</span>{% endfor %}</div>{% endif %}
 {% if project.gallery.length %}{% if t.galleryTitle or t.galleryIntro %}<div class="gallery-head">{% if t.galleryTitle %}<h3>{{ t.galleryTitle | escape }}</h3>{% endif %}{% if t.galleryIntro %}<p>{{ t.galleryIntro | escape }}</p>{% endif %}</div>{% endif %}
 <div class="gallery">{% for image in project.gallery %}<figure class="shot" data-zoom-label="{{ portfolio.words[lang].zoom }}" onclick="zoomImage(this.querySelector('img'))"><img alt="{% if lang == 'tr' %}{{ image.altTR | escape }}{% else %}{{ image.altEN | escape }}{% endif %}" loading="lazy" src="{{ image.file | portfolioImage }}"/></figure>{% endfor %}</div>{% endif %}
-{% if project.links.length %}<div class="chips">{% for link in project.links %}<a class="chip" href="{{ link.url | escape }}">{% if lang == 'tr' %}{{ link.labelTR | escape }}{% else %}{{ link.labelEN | escape }}{% endif %}</a>{% endfor %}</div>{% endif %}
-<p class="project-more"><a href="{% if lang == 'en' %}/en/{% else %}/{% endif %}?skipIntro=1#deneyim">{{ "Current experience and channel figures" if lang == "en" else "Güncel deneyim ve kanal rakamları" }}</a> · <a href="#projects" data-close-project>{{ "All projects" if lang == "en" else "Tüm projeler" }}</a></p>
+{% if project.links.length %}
+<div class="chips">
+{% for link in project.links %}
+  {% set external = link.url.startsWith("https://") and link.url != blog.site.url and not link.url.startsWith(blog.site.url + "/") %}
+  <a class="chip" href="{{ link.url | escape }}"{% if external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ (link.labelEN if lang == "en" else link.labelTR) | escape }}</a>
+{% endfor %}
+</div>
+{% endif %}
+<p class="project-more"><a href="{{ '/en/' if lang == 'en' else '/' }}?skipIntro=1">{{ "Home" if lang == "en" else "Anasayfa" }}</a> · <a href="#projects" data-close-project>{{ "All projects" if lang == "en" else "Tüm projeler" }}</a></p>
 </div>
 </div>
 {{ t.legacyModalTail | default('') | safe }}

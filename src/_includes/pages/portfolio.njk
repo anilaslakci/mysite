@@ -24,7 +24,7 @@
 {"@context":"https://schema.org","@type":"CollectionPage","url":"https://anilaslakci.com.tr/portfolyo/","name":{{ ("Mustafa Anıl Aşlakcı Project Portfolio" if pageLocale == "en" else "Mustafa Anıl Aşlakcı Proje Portfolyosu") | jsonScript | safe }},"mainEntity":{"@type":"ItemList","itemListElement":[{% for project in portfolio.projects %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ project[pageLocale | default('tr')].title | jsonScript | safe }}}{% if not loop.last %},{% endif %}{% endfor %}]}}
 </script>
 <link href="/assets/portfolio/6bf4bbc5a1b9331a6934f3b19f640fbd230c82bc975b1e4bad412a9d80a9f2ef.png" rel="icon" type="image/png"/>
-<link rel="stylesheet" href="/assets/css/portfolio-1.css">
+<link rel="stylesheet" href="/assets/css/portfolio-1.css?v=gallery-nav">
 </head>
 <body>
 {% include "shared/portfolio-header.njk" %}
@@ -46,12 +46,20 @@
 <div class="filters" id="filters-{{ lang }}"><button class="filter-btn active" data-lang="{{ lang }}" onclick="filterProjects('all', this)">{{ portfolio.words[lang].all }}</button>{% for category in portfolio.categories %}<button class="filter-btn" data-lang="{{ lang }}" onclick="filterProjects('{{ category.key }}', this)">{{ category[lang] | escape }}</button>{% endfor %}</div>
 <div class="grid" id="grid-{{ lang }}">{% for project in portfolio.projects %}{% set t = project[lang] %}{% set category = project.categoryInfo %}{% include "portfolio/card.njk" %}{% endfor %}</div>
 </main><div id="modals-{{ lang }}">{% for project in portfolio.projects %}{% set t = project[lang] %}{% set category = project.categoryInfo %}{% include "portfolio/modal.njk" %}{% endfor %}</div>
-<div class="zoom" id="zoom" role="dialog" aria-modal="true" aria-hidden="true" aria-label="{% if pageLocale == 'en' %}Image preview{% else %}Görsel önizleme{% endif %}" onclick="closeZoom()">
-<button id="zoom-close" class="close" aria-label="{% if pageLocale == 'en' %}Close image{% else %}Görseli kapat{% endif %}" onclick="event.stopPropagation();closeZoom()">×</button>
-<img alt="" id="zoom-img" hidden width="1" height="1"/>
-<div class="zoom-note" id="zoom-note">Kapatmak için görsele ya da boş alana tıkla • ESC</div>
+<div class="zoom" id="zoom" role="dialog" aria-modal="true" aria-hidden="true" aria-label="{{ 'Image preview' if lang == 'en' else 'Görsel önizleme' }}">
+<button id="zoom-close" class="close" type="button" aria-label="{{ 'Close image' if lang == 'en' else 'Görseli kapat' }}">×</button>
+<div class="zoom-stage"><img alt="" id="zoom-img" hidden width="1" height="1"/></div>
+<div class="zoom-footer">
+  <div class="zoom-navigation" id="zoom-navigation" hidden>
+    <button class="zoom-arrow" type="button" data-zoom-step="-1" aria-label="{{ 'Previous image' if lang == 'en' else 'Önceki görsel' }}">←</button>
+    <span id="zoom-position" aria-hidden="true"></span>
+    <button class="zoom-arrow" type="button" data-zoom-step="1" aria-label="{{ 'Next image' if lang == 'en' else 'Sonraki görsel' }}">→</button>
+  </div>
+  <span class="zoom-status" id="zoom-status" role="status" aria-atomic="true"></span>
+  <div class="zoom-note" id="zoom-note">Kapatmak için görsele ya da boş alana tıkla • ESC</div>
+</div>
 </div>
 <footer class="footer" id="footer-text"><span>Mustafa Anıl Aşlakcı — Proje Portfolyosu. Görseller uygulama içi ekran görüntülerinden oluşur.</span><div class="footer-links"><!--cookie-link--></div></footer>
-<script src="/assets/js/portfolio-1.js"></script>
+<script src="/assets/js/portfolio-1.js?v=gallery-nav"></script>
 </body>
 </html>
