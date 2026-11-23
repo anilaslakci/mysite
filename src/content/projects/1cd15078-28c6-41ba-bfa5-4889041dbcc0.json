@@ -1,0 +1,105 @@
+{
+  "uid": "1cd15078-28c6-41ba-bfa5-4889041dbcc0",
+  "order": 26,
+  "category": "other",
+  "archived": false,
+  "tr": {
+    "title": "BIST100 Borsa Analiz ve Simülasyon Platformu",
+    "summary": "BIST 100 hisselerini teknik göstergeler, şirket verileri ve haberlerle analiz eden, AL/SAT/BEKLE sinyalleri, geçmişe dönük işlem simülasyonu ve portföy takibi sunan web uygulaması.",
+    "intro": "BIST 100 araştırması, strateji simülasyonu ve portföy takibi için geliştirdiğim web uygulaması. Platform analiz ve simülasyon amaçlıdır. Yatırım tavsiyesi değildir.",
+    "problem": "Bir hisseyi incelerken teknik göstergeleri, finansal verileri, haberleri ve KAP bildirimlerini farklı kaynaklardan takip etmek gerekiyordu. Stratejileri işlem maliyetleriyle birlikte geçmiş verilerde karşılaştırmak da zaman alıyordu.",
+    "solution": "FastAPI ile teknik göstergeleri, şirket verilerini ve haber duyarlılığını ağırlıklı puanlamada birleştirdim. Platform BIST 100’ü topluca tarıyor, model sinyallerini, hedef ve stop seviyeleriyle risk/getiri oranını gösteriyor. Simülasyon modülü, komisyon, BSMV ve kazanç vergisi varsayımlarıyla bileşik getiriyi hesaplıyor ve işlemleri mum grafiğinde işaretliyor.",
+    "impact": "Hisse taraması, portföy takibi ve yazdırılabilir raporlar tek çalışma alanında toplandı. Stratejiler geçmiş veriler ve seçilen maliyet varsayımları üzerinden karşılaştırılabiliyor.",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "JavaScript",
+      "yfinance"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "FastAPI",
+      "JavaScript",
+      "HTML/CSS",
+      "yfinance",
+      "REST API",
+      "Render"
+    ],
+    "galleryTitle": "Analiz ve Simülasyon Ekranları",
+    "galleryIntro": "Ekran görüntülerini büyütmek için seçin."
+  },
+  "en": {
+    "title": "BIST 100 Stock Analysis and Simulation Platform",
+    "summary": "A web application that analyzes BIST 100 stocks using technical indicators, company data, and news, with buy, sell, and hold signals, historical simulations, and portfolio tracking.",
+    "intro": "I built this web application for BIST 100 research, strategy simulation, and portfolio tracking. It is intended for analysis and simulation. It does not provide investment advice.",
+    "problem": "Researching a stock meant consulting separate sources for technical indicators, company financials, news, and disclosures. Comparing strategies on historical data while accounting for trading costs also took time.",
+    "solution": "I built a FastAPI application that brings technical indicators, company data, and news sentiment into a weighted scoring model. It screens the BIST 100 and shows model signals, targets, stop levels, and risk–reward ratios. The simulator calculates compounded returns using assumptions for commission, transaction tax (BSMV), and gains tax and plots trades on candlestick charts.",
+    "impact": "Stock screening, portfolio tracking, and printable reports are available in one workspace. Strategies can be compared on historical data under the selected cost assumptions.",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "JavaScript",
+      "yfinance"
+    ],
+    "detailTechnologies": [
+      "Python",
+      "FastAPI",
+      "JavaScript",
+      "HTML/CSS",
+      "yfinance",
+      "REST API",
+      "Render"
+    ],
+    "galleryTitle": "Analysis and Simulation Screens",
+    "galleryIntro": "Select a screenshot to enlarge it."
+  },
+  "gallery": [
+    {
+      "file": "/assets/portfolio/bist100-analysis-overview.png",
+      "altTR": "Teknik analiz özeti, mum grafiği ve teknik göstergeler",
+      "altEN": "Technical analysis summary, candlestick chart, and indicators"
+    },
+    {
+      "file": "/assets/portfolio/bist100-signals-and-levels.png",
+      "altTR": "Teknik analiz raporu, model sinyalleri, hedef ve stop seviyeleri",
+      "altEN": "Technical analysis report, model signals, target prices, and stop levels"
+    },
+    {
+      "file": "/assets/portfolio/bist100-score-breakdown.png",
+      "altTR": "Ağırlıklı puanlama bileşenleri, haber duyarlılığı ve gösterge istatistikleri",
+      "altEN": "Weighted scoring components, news sentiment, and indicator statistics"
+    },
+    {
+      "file": "/assets/portfolio/bist100-news-and-disclosures.png",
+      "altTR": "Hisseye ilişkin haber akışı ve KAP bildirimleri",
+      "altEN": "Stock news and Turkish Public Disclosure Platform announcements"
+    },
+    {
+      "file": "/assets/portfolio/bist100-indicator-glossary.png",
+      "altTR": "Teknik göstergeler ve rapor terimleri sözlüğü",
+      "altEN": "Glossary of technical indicators and reporting terms"
+    },
+    {
+      "file": "/assets/portfolio/bist100-simulation-summary.png",
+      "altTR": "Geçmiş dönem simülasyon özeti, işlem maliyetleri ve getiri hesapları",
+      "altEN": "Historical simulation summary, trading costs, and return calculations"
+    },
+    {
+      "file": "/assets/portfolio/bist100-simulation-timeline.png",
+      "altTR": "Simülasyonun gün gün seyri ve varsayımsal işlem geçmişi",
+      "altEN": "Day-by-day simulation timeline and hypothetical trades"
+    },
+    {
+      "file": "/assets/portfolio/bist100-simulation-trades.png",
+      "altTR": "Simülasyondaki alış ve satış noktalarının mum grafiğinde gösterimi",
+      "altEN": "Candlestick chart showing simulated buy and sell points"
+    }
+  ],
+  "links": [
+    {
+      "url": "https://borsa-analiz-5k8i.onrender.com/",
+      "labelTR": "Uygulamayı Aç (Giriş Gerekli)",
+      "labelEN": "Open Application (Sign-in Required)"
+    }
+  ]
+}

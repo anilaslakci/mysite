@@ -1270,5 +1270,101 @@
       "width": 400,
       "height": 400
     }
+  },
+  "/assets/portfolio/bist100-analysis-overview.png": {
+    "full": {
+      "url": "/assets/portfolio/bist100-analysis-overview-full.webp",
+      "width": 1600,
+      "height": 768
+    },
+    "preview": {
+      "url": "/assets/portfolio/bist100-analysis-overview-preview.webp",
+      "width": 680,
+      "height": 326
+    }
+  },
+  "/assets/portfolio/bist100-signals-and-levels.png": {
+    "full": {
+      "url": "/assets/portfolio/bist100-signals-and-levels-full.webp",
+      "width": 1600,
+      "height": 756
+    },
+    "preview": {
+      "url": "/assets/portfolio/bist100-signals-and-levels-preview.webp",
+      "width": 680,
+      "height": 321
+    }
+  },
+  "/assets/portfolio/bist100-score-breakdown.png": {
+    "full": {
+      "url": "/assets/portfolio/bist100-score-breakdown-full.webp",
+      "width": 1600,
+      "height": 672
+    },
+    "preview": {
+      "url": "/assets/portfolio/bist100-score-breakdown-preview.webp",
+      "width": 680,
+      "height": 286
+    }
+  },
+  "/assets/portfolio/bist100-news-and-disclosures.png": {
+    "full": {
+      "url": "/assets/portfolio/bist100-news-and-disclosures-full.webp",
+      "width": 1600,
+      "height": 765
+    },
+    "preview": {
+      "url": "/assets/portfolio/bist100-news-and-disclosures-preview.webp",
+      "width": 680,
+      "height": 325
+    }
+  },
+  "/assets/portfolio/bist100-indicator-glossary.png": {
+    "full": {
+      "url": "/assets/portfolio/bist100-indicator-glossary-full.webp",
+      "width": 1600,
+      "height": 764
+    },
+    "preview": {
+      "url": "/assets/portfolio/bist100-indicator-glossary-preview.webp",
+      "width": 680,
+      "height": 325
+    }
+  },
+  "/assets/portfolio/bist100-simulation-summary.png": {
+    "full": {
+      "url": "/assets/portfolio/bist100-simulation-summary-full.webp",
+      "width": 1600,
+      "height": 775
+    },
+    "preview": {
+      "url": "/assets/portfolio/bist100-simulation-summary-preview.webp",
+      "width": 680,
+      "height": 329
+    }
+  },
+  "/assets/portfolio/bist100-simulation-timeline.png": {
+    "full": {
+      "url": "/assets/portfolio/bist100-simulation-timeline-full.webp",
+      "width": 1600,
+      "height": 716
+    },
+    "preview": {
+      "url": "/assets/portfolio/bist100-simulation-timeline-preview.webp",
+      "width": 680,
+      "height": 304
+    }
+  },
+  "/assets/portfolio/bist100-simulation-trades.png": {
+    "full": {
+      "url": "/assets/portfolio/bist100-simulation-trades-full.webp",
+      "width": 1600,
+      "height": 595
+    },
+    "preview": {
+      "url": "/assets/portfolio/bist100-simulation-trades-preview.webp",
+      "width": 680,
+      "height": 253
+    }
   }
 }
