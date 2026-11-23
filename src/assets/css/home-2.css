@@ -1,9 +1,10 @@
 
     .about-wrap{display:grid;grid-template-columns:300px 1fr;gap:5rem;align-items:start;}
     .a-frame{position:relative;display:inline-block;width:100%;}
+    .a-frame > picture{display:block;width:100%;}
     .a-frame::before{content:'';position:absolute;inset:-10px;border:1px solid rgba(201,168,76,.35);pointer-events:none;z-index:3;}
     .a-frame::after{content:'';position:absolute;inset:-18px;border:1px solid rgba(201,168,76,.12);pointer-events:none;z-index:0;}
-    .a-photo{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center center;display:block;position:relative;z-index:2;filter:grayscale(0%) contrast(1.06) saturate(1.05);}
+    .a-photo{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;object-position:center center;display:block;position:relative;z-index:2;filter:grayscale(0%) contrast(1.06) saturate(1.05);}
     .a-badges{display:flex;flex-direction:column;gap:.6rem;margin-top:2rem;}
     .a-badge{display:flex;align-items:center;gap:.7rem;padding:.6rem .9rem;border:1px solid rgba(201,168,76,.15);font-size:.78rem;color:var(--muted);}
     .a-badge-dot{width:6px;height:6px;background:var(--gold);border-radius:50%;flex-shrink:0;}
