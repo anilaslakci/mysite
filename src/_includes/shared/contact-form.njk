@@ -1,0 +1,27 @@
+{% set english = formLocale == "en" %}
+<form class="contact-form" data-contact-form data-form-endpoint="{{ siteFeatures['site-contact'].CONTACT_ENDPOINT | escape }}" method="post" novalidate>
+  <div class="contact-fields">
+    <div><label for="contact-name">{{ "Name" if english else "Ad" }}</label><input id="contact-name" name="name" autocomplete="name" maxlength="100" required><span class="field-error" id="contact-name-error"></span></div>
+    <div><label for="contact-email">{{ "Email" if english else "E-posta" }}</label><input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required><span class="field-error" id="contact-email-error"></span></div>
+  </div>
+  <div><label for="contact-subject">{{ "Subject" if english else "Konu" }}</label>
+    <select id="contact-subject" name="subject" autocomplete="off" required>
+      <option value="">{{ "Select a subject" if english else "Konu seçin" }}</option>
+      <option value="collaboration">{{ "Collaboration" if english else "İş birliği" }}</option>
+      <option value="freelance">Freelance</option>
+      <option value="career">{{ "Career" if english else "Kariyer" }}</option>
+      <option value="other">{{ "Other" if english else "Diğer" }}</option>
+    </select><span class="field-error" id="contact-subject-error"></span>
+  </div>
+  <div><label for="contact-message">{{ "Message" if english else "Mesaj" }}</label><textarea id="contact-message" name="message" rows="5" autocomplete="off" maxlength="5000" required></textarea><span class="field-error" id="contact-message-error"></span></div>
+  <div hidden><label for="contact-website">Website</label><input id="contact-website" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+  <div><label class="contact-check"><input id="contact-disclosure" type="checkbox" autocomplete="off" required><span>{{ "I have read the KVKK disclosure." if english else "KVKK aydınlatma metnini okudum." }}</span></label>
+    <a href="{{ '/en/kvkk-disclosure/' if english else '/kvkk-aydinlatma-metni/' }}">{{ "Read the disclosure" if english else "Aydınlatma metnini oku" }}</a>
+    <span class="field-error" id="contact-disclosure-error"></span>
+  </div>
+  <button type="submit" disabled>{{ "Send message" if english else "Mesaj gönder" }}</button>
+  <p class="contact-status" role="status" aria-live="polite"></p>
+  <a class="contact-fallback" href="mailto:{{ siteContact.email }}" hidden>{{ "Send an email instead" if english else "E-posta ile gönder" }}</a>
+  <noscript><p><a href="mailto:{{ siteContact.email }}">{{ "Send an email instead" if english else "E-posta ile gönder" }}</a></p></noscript>
+</form>
+<script src="/assets/js/contact.js" defer></script>

@@ -5,11 +5,17 @@
   const id = 'G-NFEHG270L2', key = 'mysite-consent-v1', lifetime = 180 * 86400000;
   let allowed = false, loaded = false, configured = false, dialog, notice, checkbox, opener;
   const denied = {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'};
+  const pendingEvents = [];
   window.dataLayer = window.dataLayer || [];
   const queue = function () { window.dataLayer.push(arguments); };
   window['ga-disable-' + id] = true;
   // An external caller cannot send config/events before consent or after withdrawal.
-  window.gtag = function () { if (allowed) queue.apply(null, arguments); };
+  window.gtag = function (...args) {
+    if (!allowed) return;
+    if (args[0] === 'event' && !configured) {
+      if (pendingEvents.length < 32) pendingEvents.push(args);
+    } else queue(...args);
+  };
   queue('consent', 'default', {...denied});
   function read() {
     try {
@@ -46,12 +52,14 @@
       if (!allowed || configured) return;
       configured = true;
       queue('config',id,{allow_google_signals:false,allow_ad_personalization_signals:false});
+      for (const event of pendingEvents.splice(0)) queue(...event);
     };
     document.head.append(script);
   }
   function disable() {
     allowed = false;
     window['ga-disable-' + id] = true;
+    pendingEvents.length = 0;
     clearCookies();
     // A loaded tag can issue consent-only pings. Do not deliver it a denied update:
     // discard its runtime by reloading; the next document establishes denied defaults.
@@ -69,6 +77,10 @@
   } : {
     title:'Çerez Tercihleri',text:'Sitemizin kullanımını analiz etmek için isteğe bağlı Google Analytics çerezleri kullanıyoruz. Kabul etmediğinde analiz çerezleri çalışmaz.',accept:'Tümünü Kabul Et',reject:'Reddet',manage:'Tercihleri Yönet',save:'Tercihleri Kaydet',close:'Kapat',essential:'Zorunlu tercih kaydı (her zaman etkin)',analytics:'Analytics ölçümüne izin ver',policy:'Yalnızca tercihiniz bu cihazda en fazla 180 gün saklanır. İzin verirseniz Google Analytics ziyaretleri ve sayfa görüntülemelerini ölçmek için birinci taraf çerezler kullanır. Reklam etiketi etkin değildir. Footer’daki Çerez Tercihleri ile onayınızı geri çekebilirsiniz. Geri çekme sayfayı yeniler ve erişilebilen Analytics çerezlerini temizler.'
   };
+  const legacyBlog = /^\/en\/blog\/(?:index\.html)?$/.test(location.pathname);
+  const policyLink = legacyBlog ? '' : en
+    ? ' <a href="/en/cookie-policy/">Cookie Policy</a>'
+    : ' <a href="/cerez-politikasi/">Çerez politikası</a>';
   function showPreferences(event) {
     opener = event?.currentTarget || document.activeElement;
     checkbox.checked = allowed;
@@ -78,9 +90,9 @@
     notice = document.createElement('section');
     notice.className='consent-notice'; notice.dataset.consentUi='';
     notice.setAttribute('aria-labelledby','consent-notice-title');
-    notice.innerHTML=`<h2 id="consent-notice-title">${copy.title}</h2><p>${copy.text}</p><div class="consent-actions"><button type="button" data-consent-accept>${copy.accept}</button><button type="button" data-consent-reject>${copy.reject}</button><button type="button" data-consent-manage>${copy.manage}</button></div>`;
+    notice.innerHTML=`<h2 id="consent-notice-title">${copy.title}</h2><p>${copy.text}${policyLink}</p><div class="consent-actions"><button type="button" data-consent-accept>${copy.accept}</button><button type="button" data-consent-reject>${copy.reject}</button><button type="button" data-consent-manage>${copy.manage}</button></div>`;
     notice.hidden=!!read();
-    document.body.prepend(notice);
+    document.body.append(notice);
     // Keep the last page controls scrollable above the floating panel at any text size.
     if(typeof ResizeObserver==='function'){
       const measure=new ResizeObserver(()=>{
@@ -91,7 +103,7 @@
     }
     dialog=document.createElement('dialog');dialog.className='consent-dialog';dialog.dataset.consentUi='';
     dialog.setAttribute('aria-labelledby','consent-dialog-title');dialog.setAttribute('aria-describedby','consent-policy');
-    dialog.innerHTML=`<h2 id="consent-dialog-title">${copy.title}</h2><p id="consent-policy">${copy.policy}</p><p>${copy.essential}</p><label><input type="checkbox" id="consent-analytics">${copy.analytics}</label><div class="consent-actions"><button type="button" data-consent-save>${copy.save}</button><button type="button" data-consent-reject>${copy.reject}</button><button type="button" data-consent-close>${copy.close}</button></div>`;
+    dialog.innerHTML=`<h2 id="consent-dialog-title">${copy.title}</h2><p id="consent-policy">${copy.policy}${policyLink}</p><p>${copy.essential}</p><label><input type="checkbox" id="consent-analytics">${copy.analytics}</label><div class="consent-actions"><button type="button" data-consent-save>${copy.save}</button><button type="button" data-consent-reject>${copy.reject}</button><button type="button" data-consent-close>${copy.close}</button></div>`;
     document.body.append(dialog); checkbox=dialog.querySelector('input');
     notice.querySelector('[data-consent-accept]').addEventListener('click',()=>save(true));
     notice.querySelector('[data-consent-manage]').addEventListener('click',showPreferences);
@@ -101,7 +113,7 @@
     dialog.querySelector('[data-consent-close]').addEventListener('click',()=>dialog.close());
     dialog.addEventListener('keydown',event=>{
       if(event.key!=='Tab')return;
-      const controls=[...dialog.querySelectorAll('input,button')];
+      const controls=[...dialog.querySelectorAll('a[href],input,button')];
       const first=controls[0],last=controls[controls.length-1];
       if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}
       else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}

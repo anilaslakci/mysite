@@ -78,6 +78,7 @@ function showTab(btn, id){
 function countUp(el){
   const t=parseInt(el.dataset.count),sx=el.dataset.suffix||'';
   if(directEntry||reducedMotion){el.textContent=t.toLocaleString(document.documentElement.lang==='en'?'en-US':'tr-TR')+sx;return;}
+  el.textContent='0';
   let c=0;const st=t/40;
   const tm=setInterval(()=>{c=Math.min(c+st,t);el.textContent=Math.floor(c).toLocaleString(document.documentElement.lang==='en'?'en-US':'tr-TR')+(c>=t?sx:'');if(c>=t)clearInterval(tm);},40);
 }
@@ -86,3 +87,7 @@ document.querySelectorAll('[data-count]').forEach(el=>so.observe(el));
 document.getElementById('year').textContent=new Date().getFullYear();
 
 document.documentElement.classList.add('home-ready');
+
+document.querySelectorAll('.h-actions a').forEach(link=>link.addEventListener('click',()=>{
+  window.gtag?.('event', 'hero_cta_click', {destination:link.hash});
+}));

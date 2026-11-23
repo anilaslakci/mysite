@@ -36,10 +36,8 @@
 <meta content="E-ticaret, pazaryeri, ERP, dijital reklam, veri analizi ve Python otomasyonu uzmanlığı." name="twitter:description"/>
 <meta content="https://anilaslakci.com.tr/assets/mustafa-anil-aslakci-og.jpg" name="twitter:image"/>
 <meta content="Mustafa Anıl Aşlakcı, E-Ticaret Uzmanı" name="twitter:image:alt"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="/assets/css/home-1.css">
+<link rel="stylesheet" href="/assets/css/information.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -159,10 +157,10 @@
 <a class="btn-outline" href="#iletisim">İletişime geç →</a>
 </div>
 </div>
-<div class="h-stats">
-<div class="stat"><div class="stat-num" data-count="5" data-suffix="+">0</div><div class="stat-lbl">Yıl Deneyim</div></div>
-<div class="stat"><div class="stat-num" data-count="3000" data-suffix="+">0</div><div class="stat-lbl">SKU Yönetimi</div></div>
-<div class="stat"><div class="stat-num" data-count="10" data-suffix="+">0</div><div class="stat-lbl">Satış Kanalı</div></div>
+<div class="h-stats" id="deneyim">
+<div class="stat"><div class="stat-num" data-count="5" data-suffix="+">5+</div><div class="stat-lbl">Yıl Deneyim</div></div>
+<div class="stat"><div class="stat-num" data-count="3000" data-suffix="+">{{ "3,000+" if pageLocale == "en" else "3.000+" }}</div><div class="stat-lbl">SKU Yönetimi</div></div>
+<div class="stat"><div class="stat-num" data-count="10" data-suffix="+">10+</div><div class="stat-lbl">Satış Kanalı</div></div>
 </div>
 <div class="scroll-ind"><span>Kaydır</span><div class="scroll-line"></div></div>
 </section>
@@ -191,10 +189,10 @@
 <h2 class="s-title reveal">Basit, şeffaf,<br/><em>sonuç odaklı.</em></h2>
 <p class="s-sub reveal">Karmaşık süreçleri ölçülebilir, uygulanabilir ve takip edilebilir adımlara dönüştürüyorum.</p>
 <div class="p-steps reveal">
-<div class="p-step"><div class="p-dot">01</div><h4>İhtiyacı Anlıyorum</h4><p>Mevcut durumu, hedefleri ve operasyonel sorunları netleştiriyorum.</p></div>
-<div class="p-step"><div class="p-dot">02</div><h4>Yol Haritası Oluşturuyorum</h4><p>Öncelikleri, kapsamı ve uygulanabilir adımları belirliyorum.</p></div>
-<div class="p-step"><div class="p-dot">03</div><h4>Uyguluyorum</h4><p>Gerekli operasyon, entegrasyon ve geliştirme çalışmalarını hayata geçiriyorum.</p></div>
-<div class="p-step"><div class="p-dot">04</div><h4>Ölçüyor ve İyileştiriyorum</h4><p>Sonuçları izliyor, raporluyor ve veriye göre geliştirmeye devam ediyorum.</p></div>
+<div class="p-step"><div class="p-dot">01</div><h3>İhtiyacı Anlıyorum</h3><p>Mevcut durumu, hedefleri ve operasyonel sorunları netleştiriyorum.</p></div>
+<div class="p-step"><div class="p-dot">02</div><h3>Yol Haritası Oluşturuyorum</h3><p>Öncelikleri, kapsamı ve uygulanabilir adımları belirliyorum.</p></div>
+<div class="p-step"><div class="p-dot">03</div><h3>Uyguluyorum</h3><p>Gerekli operasyon, entegrasyon ve geliştirme çalışmalarını hayata geçiriyorum.</p></div>
+<div class="p-step"><div class="p-dot">04</div><h3>Ölçüyor ve İyileştiriyorum</h3><p>Sonuçları izliyor, raporluyor ve veriye göre geliştirmeye devam ediyorum.</p></div>
 </div>
 </section>
 <div class="gd"></div>
@@ -232,11 +230,11 @@
           Dijital satış kanallarında kullanıcı deneyimi, dönüşüm ve süreç verimliliği odaklı çalışmalar yürütüyor; Python, API ve veri analizi yetkinliklerimi operasyonel iş yükünü azaltmak için kullanıyorum. Tam zamanlı kariyerimin yanında uygun projelerde freelance destek de sunuyorum.
         </p>
 <div class="a-tabs">
-<button class="a-tab act" onclick="showTab(this,'exp')">Tecrübe</button>
-<button class="a-tab" onclick="showTab(this,'edu')">Eğitim</button>
-<button class="a-tab" onclick="showTab(this,'skills')">Yetkinlikler</button>
-<button class="a-tab" onclick="showTab(this,'tech')">Teknik Araçlar</button>
-<button class="a-tab" onclick="showTab(this,'hobby')">Hobiler</button>
+<button type="button" class="a-tab act" onclick="showTab(this,'exp')">Tecrübe</button>
+<button type="button" class="a-tab" onclick="showTab(this,'edu')">Eğitim</button>
+<button type="button" class="a-tab" onclick="showTab(this,'skills')">Yetkinlikler</button>
+<button type="button" class="a-tab" onclick="showTab(this,'tech')">Teknik Araçlar</button>
+<button type="button" class="a-tab" onclick="showTab(this,'hobby')">Hobiler</button>
 </div>
 <div class="a-panel act" id="tab-exp">
 <div class="timeline">
@@ -285,6 +283,7 @@
 </div>
 </section>
 <div class="gd"></div>
+<!--native-copy-->{% include "shared/results.njk" %}<!--/native-copy-->
 <section class="contact" id="iletisim">
 <div class="contact-simple reveal">
 <div class="s-tag"><div class="s-tag-line"></div><span>İletişim</span></div>
@@ -298,6 +297,7 @@
 <span class="mail-icon"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24"><path d="M6.94 8.5V18M6.94 5.25v.01M11.25 18v-5.25a3 3 0 016 0V18M11.25 8.5V18M3.75 3.75h16.5v16.5H3.75z"></path></svg></span>
 <span><small>LinkedIn</small><strong>M. Anıl Aşlakcı</strong></span>
 </a>
+<!--native-copy-->{% set formLocale = pageLocale | default("tr") %}{% include "shared/contact-form.njk" %}<p class="contact-channels"><a href="{{ '/en/contact/' if formLocale == 'en' else '/iletisim/' }}">{{ "Contact page" if formLocale == "en" else "İletişim sayfası" }}</a></p><!--/native-copy-->
 </div>
 </section>
 <footer class="site-footer">
@@ -306,7 +306,7 @@
 <div class="footer-links"><a data-blog-entry href="/blog/">Blog</a><!--cookie-link--></div>
 </footer>
 <link rel="stylesheet" href="/assets/css/home-3.css">
-<script src="/assets/js/intro.js"></script>
-<script src="/assets/js/home-1.js"></script>
+<script src="/assets/js/intro.js" defer></script>
+<script src="/assets/js/home-1.js" defer></script>
 </div></body>
 </html>

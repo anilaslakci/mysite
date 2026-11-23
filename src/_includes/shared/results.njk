@@ -1,0 +1,13 @@
+{% set english = pageLocale == "en" %}
+{% if siteFeatures.results.length %}
+<section class="info-evidence">
+  <h2>{{ "Results" if english else "Sonuçlar" }}</h2>
+  <ul>{% for result in siteFeatures.results %}<li>{{ result[pageLocale | default('tr')].label | escape }}: <strong>{{ result.value | escape }}</strong>{% if result.source %} <a href="{{ result.source | escape }}">{{ "Source" if english else "Kaynak" }}</a>{% endif %}</li>{% endfor %}</ul>
+</section>
+{% endif %}
+{% if siteFeatures.testimonials.length %}
+<section class="info-evidence">
+  <h2>{{ "Testimonials" if english else "Referanslar" }}</h2>
+  {% for testimonial in siteFeatures.testimonials %}<blockquote><p>{{ testimonial[pageLocale | default('tr')].quote | escape }}</p><cite>{{ testimonial.name | escape }}</cite></blockquote>{% endfor %}
+</section>
+{% endif %}

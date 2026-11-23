@@ -18,8 +18,9 @@
     site.inert=false;site.classList.add('visible');remember();
     if(focus)document.getElementById('hero')?.focus({preventScroll:true});
   }
-  function close(){
+  function close(method){
     if(!['open','dragging','snapping'].includes(state))return;
+    window.gtag?.('event', 'intro_dismiss', {method});
     interact();release();clearTimeout(endTimer);state='closing';intro.dataset.state='closing';remember();
     if(reduced||document.hidden){finish();return;}
     // A timeout also releases focus/scroll if transitionend never arrives.
@@ -27,16 +28,16 @@
   }
   function arm(){
     if(state!=='open'||!untouched||document.hidden)return;
-    if(remaining<=0){close();return;}
-    started=Date.now();autoTimer=setTimeout(()=>{autoTimer=null;remaining=0;if(!document.hidden&&untouched)close();},remaining);
+    if(remaining<=0){close('auto');return;}
+    started=Date.now();autoTimer=setTimeout(()=>{autoTimer=null;remaining=0;if(!document.hidden&&untouched)close('auto');},remaining);
   }
   try {
     // Slow initialization is not evidence of a completed visit.
     if(root.dataset.entry==='direct'||location.hash||reduced){finish(false);return;}
     let suppressClick=false,cuePressed=false;
-    on(cue,'click',event=>{if(suppressClick){event.preventDefault();suppressClick=false;return;}close();});
+    on(cue,'click',event=>{if(suppressClick){event.preventDefault();suppressClick=false;return;}close('click');});
     // Pointer capture can retarget a no-drag button click to the curtain itself.
-    on(intro,'click',event=>{if(event.target!==intro||!cuePressed)return;cuePressed=false;if(suppressClick){suppressClick=false;return;}close();});
+    on(intro,'click',event=>{if(event.target!==intro||!cuePressed)return;cuePressed=false;if(suppressClick){suppressClick=false;return;}close('click');});
     function reset(){
       release();state='snapping';intro.dataset.state='snapping';offset(0);
       clearTimeout(endTimer);endTimer=setTimeout(()=>{if(state==='snapping'){state='open';intro.dataset.state='open';}},350);
@@ -58,7 +59,7 @@
     on(intro,'pointerup',event=>{
       if(!drag||drag.id!==event.pointerId)return;
       const complete=drag.axis==='vertical'&&drag.distance/height()>=.36;
-      if(complete)close();else if(state==='dragging')reset();else release();
+      if(complete)close('swipe');else if(state==='dragging')reset();else release();
     });
     on(intro,'pointercancel',event=>{if(drag?.id===event.pointerId)reset();});
     on(intro,'lostpointercapture',event=>{if(drag?.id===event.pointerId)reset();});
@@ -69,7 +70,7 @@
       if(event.cancelable)event.preventDefault();
       const now=Date.now();if(now-lastWheel>200)wheel=0;lastWheel=now;
       wheel=Math.max(0,wheel+event.deltaY*(event.deltaMode===1?16:event.deltaMode===2?innerHeight:1));
-      if(wheel>=48)close();
+      if(wheel>=48)close('swipe');
     },{passive:false});
     on(window,'keydown',event=>{
       if(!['open','dragging','snapping'].includes(state))return;interact();if(event.ctrlKey||event.metaKey||event.altKey)return;
@@ -81,7 +82,7 @@
         return;
       }
       if(event.target.closest?.('a,input,select,textarea'))return;
-      if(['ArrowUp','ArrowDown','PageDown',' ','Enter','Escape'].includes(event.key)){event.preventDefault();close();}
+      if(['ArrowUp','ArrowDown','PageDown',' ','Enter','Escape'].includes(event.key)){event.preventDefault();close('key');}
     });
     on(intro,'transitionend',event=>{if(state==='closing'&&event.target===intro&&event.propertyName==='transform')finish();});
     on(document,'visibilitychange',()=>{intro.dataset.paused=String(document.hidden);if(document.hidden){pause();if(drag)reset();if(state==='closing')finish(false);}else arm();});
@@ -90,5 +91,6 @@
     state='open';intro.hidden=false;intro.dataset.state='open';intro.dataset.paused=String(document.hidden);site.inert=true;
     root.classList.add('intro-locked');document.body.classList.add('intro-locked');
     intro.focus({preventScroll:true});arm();
+    window.gtag?.('event', 'intro_open');
   } catch { finish(false); }
 })();

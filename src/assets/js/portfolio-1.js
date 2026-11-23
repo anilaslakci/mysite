@@ -18,6 +18,7 @@ function openProject(id) {
   document.querySelector('main')?.setAttribute('inert','');
   document.querySelector('header')?.setAttribute('inert','');
   modal.querySelector('.close').focus();
+  window.gtag?.('event', 'portfolio_modal_open', {project_id: id});
   document.body.style.overflow = 'hidden';
 }
 function closeModal() {
@@ -27,17 +28,22 @@ function closeModal() {
   document.body.style.overflow = '';
   if(wasOpen&&returnFocus?.isConnected)returnFocus.focus();
 }
+document.querySelectorAll('[data-close-project]').forEach(link => link.addEventListener('click', closeModal));
 document.querySelectorAll('.modal').forEach(m => m.addEventListener('click', e => { if(e.target===m) closeModal(); }));
 document.querySelectorAll('.project-card').forEach(c => c.addEventListener('keydown', e => { if(e.key==='Enter'||e.key===' '){e.preventDefault();c.click();} }));
 function zoomImage(img) {
   zoomReturnFocus=document.activeElement;
-  document.getElementById('zoom-img').src = img.src;
-  document.getElementById('zoom-img').alt = img.alt;
+  const full = document.getElementById('zoom-img');
+  full.width = Number(img.getAttribute('width')) || img.naturalWidth;
+  full.height = Number(img.getAttribute('height')) || img.naturalHeight;
+  full.alt = img.alt;
+  full.src = img.dataset.full || img.src;
+  full.hidden = false;
   document.getElementById('zoom').classList.add('open');
   document.getElementById('zoom').setAttribute('aria-hidden','false');
   document.getElementById('zoom-close').focus();
 }
-function closeZoom() {const z=document.getElementById('zoom'),opened=z.classList.contains('open');z.classList.remove('open');z.setAttribute('aria-hidden','true');if(opened&&zoomReturnFocus?.isConnected)zoomReturnFocus.focus();}
+function closeZoom() {const z=document.getElementById('zoom'),opened=z.classList.contains('open');z.classList.remove('open');document.getElementById('zoom-img').hidden=true;z.setAttribute('aria-hidden','true');if(opened&&zoomReturnFocus?.isConnected)zoomReturnFocus.focus();}
 document.querySelectorAll('.shot').forEach(el=>{el.tabIndex=0;el.setAttribute('role','button');el.setAttribute('aria-label',(currentLang==='en'?'Enlarge: ':'Büyüt: ')+el.querySelector('img').alt);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();el.click();}});});
 document.addEventListener('keydown',e=>{
  const zoom=document.getElementById('zoom'),active=zoom.classList.contains('open')?zoom:document.querySelector('.modal.open');

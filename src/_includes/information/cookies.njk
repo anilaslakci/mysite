@@ -1,0 +1,25 @@
+{% set english = info.locale == 'en' %}
+{% if english %}
+<p>Optional Google Analytics starts after you accept it. Rejecting it keeps measurement off. Advertising storage and personalization are disabled. The necessary preference record remembers your choice so you do not have to make it on every visit.</p>
+{% else %}
+<p>İsteğe bağlı Google Analytics, onayınızdan sonra çalışır. Reddettiğinizde ölçüm kapalı kalır. Reklam depolaması ve kişiselleştirme kapalıdır. Zorunlu tercih kaydı, seçiminizi her ziyarette yeniden yapmamanızı sağlar.</p>
+{% endif %}
+<h2>{{ 'Storage used on this site' if english else 'Sitede kullanılan kayıtlar' }}</h2>
+<table>
+  <caption>{{ 'Preference storage and analytics cookies' if english else 'Tercih kaydı ve analiz çerezleri' }}</caption>
+  <thead><tr><th scope="col">{{ 'Name' if english else 'Ad' }}</th><th scope="col">{{ 'Purpose' if english else 'Amaç' }}</th><th scope="col">{{ 'Duration' if english else 'Süre' }}</th></tr></thead>
+  <tbody>
+    <tr><th scope="row"><code>mysite-consent-v1</code></th><td>{{ 'Necessary local storage for your choice' if english else 'Seçiminiz için zorunlu yerel depolama' }}</td><td>{{ 'Valid for 180 days' if english else '180 gün geçerli' }}</td></tr>
+    <tr><th scope="row"><code>_ga</code>, <code>_ga_*</code></th><td>{{ 'GA4 browser and session measurement, with consent' if english else 'Onayla çalışan GA4 tarayıcı ve oturum ölçümü' }}</td><td>{{ 'Google documents a two-year default, subject to browser and property settings.' if english else 'Google’ın varsayılan süresi iki yıldır. Tarayıcı ve mülk ayarlarına göre değişebilir.' }}</td></tr>
+    <tr><th scope="row"><code>_gid</code></th><td>{{ 'Legacy Analytics cookie. The current GA4 tag does not require it. Withdrawal clears it if accessible.' if english else 'Eski Analytics çerezi. Mevcut GA4 etiketi bunu gerektirmez. Onay geri çekilince erişilebiliyorsa silinir.' }}</td><td>{{ 'Not set by this implementation' if english else 'Mevcut kurulumda oluşturulmaz' }}</td></tr>
+  </tbody>
+</table>
+{% if english %}
+<h2>Change your preferences</h2>
+<p>Open Cookie Preferences in the footer to withdraw consent. The page reloads if Analytics was loaded and clears accessible Analytics cookies. You can also remove site storage in your browser. See <a href="https://support.google.com/analytics/answer/11397207">Google’s GA4 cookie documentation</a> for details.</p>
+<p>Controller: Mustafa Anıl Aşlakcı. Postal address: {{ siteFeatures['site-contact'].controllerAddress | escape }}. Requests: {{ siteFeatures['site-contact'].applicationEmail | escape }}. See the <a href="/en/kvkk-disclosure/">KVKK disclosure</a> for rights and legal grounds.</p>
+{% else %}
+<h2>Tercihinizi değiştirme</h2>
+<p>Onayı geri çekmek için alt menüdeki Çerez Tercihleri’ni açın. Analytics yüklendiyse sayfa yenilenir ve erişilebilen analiz çerezleri silinir. Tarayıcıdan site depolamasını da temizleyebilirsiniz. Ayrıntılar için <a href="https://support.google.com/analytics/answer/11397207">Google’ın GA4 çerez belgelerine</a> bakın.</p>
+<p>Veri sorumlusu: Mustafa Anıl Aşlakcı. Posta adresi: {{ siteFeatures['site-contact'].controllerAddress | escape }}. Başvuru: {{ siteFeatures['site-contact'].applicationEmail | escape }}. Haklar ve işleme sebepleri <a href="/kvkk-aydinlatma-metni/">KVKK aydınlatma metninde</a> açıklanır.</p>
+{% endif %}

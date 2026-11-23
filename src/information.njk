@@ -1,0 +1,54 @@
+---
+pagination:
+  data: informationPages
+  size: 1
+  alias: info
+permalink: "{{ info.url }}index.html"
+---
+<!DOCTYPE html>
+<html lang="{{ info.locale }}" data-page-key="{{ info.key }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ info.title | escape }} | Mustafa Anıl Aşlakcı</title>
+  <meta name="description" content="{{ info.description | escape }}">
+  <link rel="canonical" href="https://anilaslakci.com.tr{{ info.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{ 'en_US' if info.locale == 'en' else 'tr_TR' }}">
+  <meta property="og:title" content="{{ info.title | escape }}">
+  <meta property="og:description" content="{{ info.description | escape }}">
+  <meta property="og:url" content="https://anilaslakci.com.tr{{ info.url }}">
+  <meta property="og:image" content="https://anilaslakci.com.tr/favicon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ info.title | escape }}">
+  <meta name="twitter:description" content="{{ info.description | escape }}">
+  <meta name="twitter:image" content="https://anilaslakci.com.tr/favicon.png">
+  <link rel="icon" href="/favicon.ico">
+  {% include "shared/consent-head.njk" %}
+  <link rel="stylesheet" href="/assets/css/blog.css">
+  <link rel="stylesheet" href="/assets/css/information.css">
+</head>
+<body>
+  <a class="skip" href="#main">İçeriğe geç</a>
+  {% include "shared/header.njk" %}
+  <main id="main" class="post">
+    <header class="post-header">
+      <h1>{{ info.title | escape }}</h1>
+      {% if info.key != "contact" %}
+      <p class="post-meta">{{ "Last updated" if info.locale == "en" else "Son güncelleme" }} · <time datetime="2026-11-23">{{ "November 23, 2026" if info.locale == "en" else "23 Kasım 2026" }}</time></p>
+      {% endif %}
+    </header>
+    <div class="prose">
+      {% if info.key == "contact" %}
+      {% set formLocale = info.locale %}
+      <p>{{ info.description | escape }}</p>
+      {% include "shared/contact-form.njk" %}
+      <p class="contact-channels"><a href="mailto:{{ siteContact.email }}">{{ "Send an email" if formLocale == "en" else "E-posta gönder" }}</a> · <a href="{{ siteContact.linkedin }}">LinkedIn</a></p>
+      {% else %}
+      {% include "information/" + info.key + ".njk" %}
+      {% endif %}
+    </div>
+  </main>
+  <footer class="blog-footer"><span>Mustafa Anıl Aşlakcı</span><div class="footer-links"><!--cookie-link--></div></footer>
+</body>
+</html>

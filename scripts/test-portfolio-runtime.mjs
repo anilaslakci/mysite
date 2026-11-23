@@ -18,7 +18,16 @@ for (const lang of ['tr','en']) {
 }
 for (const file of pages) {
   const source=fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n'), output=fs.readFileSync(`${outputDir}/${file}`,'utf8').replace(/\r\n/g,'\n');
-  for(const re of [/<title\b[^>]*>[\s\S]*?<\/title>/g,/<meta[^>]*name="description"[^>]*>/g,/<link[^>]*rel="canonical"[^>]*>/g,/<script type="application\/ld\+json">[\s\S]*?<\/script>/g]) assert.deepEqual(output.match(re),source.match(re),`${file}: SEO`);
+  for(const re of [/<title\b[^>]*>[\s\S]*?<\/title>/g,/<meta[^>]*name="description"[^>]*>/g,/<link[^>]*rel="canonical"[^>]*>/g]) assert.deepEqual(output.match(re),source.match(re),`${file}: SEO`);
+  const schema = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g;
+  if (file === 'portfolyo/index.html') {
+    const collection = JSON.parse([...output.matchAll(schema)][0][1]);
+    assert.equal(collection['@type'], 'CollectionPage');
+    assert.equal(collection.mainEntity['@type'], 'ItemList');
+    assert.deepEqual(collection.mainEntity.itemListElement, projects.map((project, i) => ({
+      '@type': 'ListItem', position: i + 1, name: project.tr.title
+    })));
+  } else assert.deepEqual(output.match(schema),source.match(schema),`${file}: JSON-LD`);
   assert(!output.includes('https://anilaslakci.com.tr/mysite/'));
   for(const [,ref] of output.matchAll(/(?:src|href)="([^"]*)"/g)) {
     if(!ref || /^(?:https?:|mailto:|tel:|data:|#|\/\/)/.test(ref)) continue;

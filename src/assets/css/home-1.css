@@ -114,7 +114,7 @@ section{padding:7rem 5%;}
 .p-step{padding:0 1.5rem;text-align:center;}
 .p-dot{width:56px;height:56px;border:1px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1.8rem;font-family:var(--site-heading);font-size:1.1rem;color:var(--gold);background:var(--navy);position:relative;z-index:1;transition:all .3s;}
 .p-step:hover .p-dot{background:var(--gold);color:var(--navy);}
-.p-step h4{font-family:var(--site-heading);font-size:1.1rem;font-weight:400;color:var(--cream);margin-bottom:.6rem;}
+.p-step h3{font-family:var(--site-heading);font-size:1.1rem;font-weight:400;color:var(--cream);margin-bottom:.6rem;}
 .p-step p{font-size:.88rem;color:var(--muted);line-height:1.75;}
 
 /* CTA — no box, just content like a section */
